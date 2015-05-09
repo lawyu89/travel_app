@@ -1,1 +1,7 @@
 <%= @city.name %>
+<% @attractions.each do |attraction| %>
+  <div>
+    <div><img src="<%= attraction.photo_url %>"></div>
+    <div><%= attraction.name %></div>
+  </div>
+<% end %>
