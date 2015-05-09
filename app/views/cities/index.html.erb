@@ -1,1 +1,10 @@
 <h1>Hi there, <%= @user %></h1>
+<div class="cities-container">
+  <% @cities.each do |city| %>
+  <div>
+    <p><%= city.name %></p>
+    <a href="/cities/<%= city.id %>/attractions"><img class="resize" src="<%= city.photo_url %>"></a>
+  </div>
+  <% end %>
+</div>
+
