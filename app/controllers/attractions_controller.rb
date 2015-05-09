@@ -15,4 +15,13 @@ class AttractionsController < ApplicationController
     end
   end
 
+  def my_attractions_show
+    if current_user
+      @user = @current_user
+      @attraction = Attraction.where(id: params[:id]).first
+    else
+      redirect_to cities_path
+    end
+  end
+
 end
