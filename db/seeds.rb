@@ -22,11 +22,13 @@ json = File.read('kimono_attraction.json')
 parsed = JSON.parse(json)
 parsed['results']['collection1'].each_with_index do |attraction,index|
   next if attraction['Description'].nil?
-  result = BingSearch.image(attraction['Name'], filters: [:square]).first.media_url
-  a = Attraction.create(name: attraction['Name'], address: attraction['Address'], description: attraction['Description'], photo_url: result )
   if index < 20
+    result = BingSearch.image(attraction['Name']+' paris', filters: [:square]).first.media_url
+    a = Attraction.create(name: attraction['Name'], address: attraction['Address'], description: attraction['Description'], photo_url: result )
     paris.attractions << a
   else
+    result = BingSearch.image(attraction['Name']+' san francisco', filters: [:square]).first.media_url
+    a = Attraction.create(name: attraction['Name'], address: attraction['Address'], description: attraction['Description'], photo_url: result )
     sf.attractions << a
   end
 end
