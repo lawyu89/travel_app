@@ -1,4 +1,7 @@
-<h1>Hi there, <%= @user %></h1>
+<% if current_user %>
+  <h1>Hi there, <%= @user.email %>!</h1>
+<% end %>
+
 <div class="cities-container">
   <% @cities.each do |city| %>
   <div>
@@ -7,4 +10,3 @@
   </div>
   <% end %>
 </div>
-
