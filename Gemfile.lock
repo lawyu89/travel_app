@@ -60,6 +60,7 @@ GEM
     execjs (2.5.2)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
+    hammerjs-rails (0.3.0)
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -155,6 +156,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   dotenv-rails
+  hammerjs-rails
   httparty
   jbuilder (~> 2.0)
   jquery-rails
