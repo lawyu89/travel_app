@@ -1,9 +1,9 @@
 
 <div class="attractions-container">
   <% @attractions.each do |attraction| %>
-  <div>
-    <p><%= attraction.name %></p>
-    <a href="/cities/<%= attraction.id %>/attractions"><img class="resize" src="<%= attraction.photo_url %>"></a>
-  </div>
+    <div class="attraction">
+      <p><%= attraction.name %></p>
+      <a href="/cities/<%= attraction.id %>/attractions"><img class="resize" src="<%= attraction.photo_url %>"></a>
+    </div>
   <% end %>
 </div>
