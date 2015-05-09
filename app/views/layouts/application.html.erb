@@ -16,7 +16,10 @@
   <a href='/login'>Login</a>
   <a href='/users/new'>Signup</a>
 <% end %>
-
+<audio id="woof" src="sounds/kevin_woof_woof.mp3"></audio>
+<div class='sightsee_logo'>
+  <button onclick="document.getElementById('woof').play()">SightSee Image Here</button>
+</div>
 <%= yield %>
 
 </body>
