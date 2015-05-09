@@ -1,6 +1,7 @@
 <div>
   <h1><%= @attraction.name %></h1>
-  <div><img src="<%= @attraction.photo_url %>"></div>
+  <div><img id="swipe" src="<%= @attraction.photo_url %>"></div>
+  <p id="swipe_status"></p>
   <div><%= @attraction.description %></div>
   <div><%= @attraction.address %></div>
 </div>
