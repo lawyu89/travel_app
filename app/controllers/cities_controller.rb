@@ -5,4 +5,9 @@ class CitiesController < ApplicationController
     @user = current_user
   end
 
+  def my_cities_index
+    @user = current_user
+    @cities = @user.cities
+  end
+
 end
