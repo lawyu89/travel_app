@@ -14,5 +14,4 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-var hammer = new Hammer($('body'))
+//= require hammer

@@ -1,7 +1,7 @@
 
 <div class="attractions-container">
-  <% @attractions.each do |attraction| %>
-    <div class="attraction">
+  <% @attractions.each_with_index do |attraction,index| %>
+    <div id="attraction<%= index %>">
       <p><%= attraction.name %></p>
       <a href="/cities/<%= attraction.id %>/attractions"><img class="resize" src="<%= attraction.photo_url %>"></a>
     </div>
