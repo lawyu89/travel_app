@@ -12,7 +12,7 @@ class CitiesController < ApplicationController
 
   def test
     @user = current_user
-    @cities = @user.cities
-  end 
+    # @cities = @user.cities
+  end
 
 end
