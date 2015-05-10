@@ -4,35 +4,42 @@ $( document ).ready(function() {
   })
   if ($('.hidden').length > 0){
     var current = $('.hidden').first()
-    current.attr('class', "front")
     current.css("display", "inline")
     current.attr("id", "swipe")
     $("#swipe").on("swipeleft", swipeLeft);
     $("#swipe").on("swiperight", swipeRight);
-    $("#swipe").on("tap", findDescription);
-
-    function findDescription(event) {
+    //$("#swipe").on("tap", findDescription);
+    $("#swipe").on("tap", function(event){
       event.preventDefault()
-      var url = $(this).find('a').attr('href')
-      var current = $(this)
-      $.ajax({
-        url: url,
-        type: 'get',
-        dataType: 'json',
-      }).done(function(data){
-        displayDescription(data, current)
-      })
+      showDescription(current)
+    });
+
+    function showDescription(current){
+      current.parent().toggleClass('flip')
     }
 
-    function displayDescription(response, current){
-      var template = $("#desc-template");
-      var a_html = Mustache.to_html(template.html(), response);
-      $(".attractions-container").append(a_html);
-      current.flip({
-        direction:'tb',
-        content: 'test'
-      })
-    }
+
+
+
+    // function findDescription(event) {
+    //   event.preventDefault()
+    //   var url = $(this).find('a').attr('href')
+    //   var current = $(this)
+    //   $.ajax({
+    //     url: url,
+    //     type: 'get',
+    //     dataType: 'json',
+    //   }).done(function(data){
+    //     displayDescription(data, current)
+    //   })
+    // }
+
+    // function displayDescription(response, current){
+    //   var template = $("#desc-template");
+    //   var a_html = Mustache.to_html(template.html(), response);
+    //   current.parent()
+    //   current.parent().append(a_html);
+    // }
 
   // Callback function references the event target and adds the 'swipe' class to it
     function swipeLeft(event){

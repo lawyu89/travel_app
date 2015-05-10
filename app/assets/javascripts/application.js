@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require mustache
-//= require jquery.flip.min
 //= require jquery_mobile
 //= require jquery.turbolinks
 //= require_tree .
