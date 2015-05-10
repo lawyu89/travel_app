@@ -25,7 +25,12 @@ get 'test' => 'cities#test'
   #   resources :products
 
   resources :cities do
-    resources :attractions
+    resources :attractions do
+      member do
+        post 'like'
+        post 'dislike'
+      end
+    end
   end
 
   resources :users do
