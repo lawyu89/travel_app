@@ -1,9 +1,9 @@
 
 <div class="attractions-container">
   <% @attractions.each_with_index do |attraction,index| %>
-    <div id="attraction<%= index %>">
+    <div id="attraction<%= index %>" class="hidden">
       <p><%= attraction.name %></p>
-      <a href="/cities/<%= attraction.id %>/attractions"><img class="resize" src="<%= attraction.photo_url %>"></a>
+      <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
     </div>
   <% end %>
 </div>
