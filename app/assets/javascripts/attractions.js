@@ -21,6 +21,7 @@ $( document ).ready(function() {
       next_item.attr("id", "swipe")
       debugger
       $("#swipe").on( "swipeleft", swipeLeft );
+
       // var response = $.ajax({
       //   type: 'POST',
       //   url: $(this).attr('href'),
@@ -39,7 +40,29 @@ $( document ).ready(function() {
     }
 
     function swipeRight(event){
+      event.preventDefault();
+      $(this).css("display", "none")
+      $(this).attr("id", "")
+      var next_item = $(this).next()
+      next_item.css("display", "inline")
+      next_item.attr("id", "swipe")
+      $("#swipe").on("swiperight", swipeRight );
 
+      // var response = $.ajax({
+      //   type: 'POST',
+      //   url: $(this).attr('href'),
+      //   dataType: 'json'
+      // })
+      //
+      // response.done(function(data){
+      //   console.log('AJAX SUCCEEDED')
+      //   console.log(data)
+      // })
+      //
+      // response.fail(function(data){
+      //   console.log('AJAX FAILED FUCK')
+      //   console.log(data)
+      // })
     }
   }
 });
