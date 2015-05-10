@@ -1,5 +1,7 @@
 .debug { border: 1px solid red;}
 
+/* Width */
+.w-half {width: 50%;}
 /* Background */
 
 /* Fonts */
@@ -8,17 +10,26 @@
 
 .bdr-blk {border: 1px solid;}
 .bdr-r-m {border-radius: 16px;}
-/* Positioning */
-.t-center {text-align: center;}
 
+/* Positioning */
+
+.t-center {text-align: center;}
+.center {margin: 0 auto;}
+
+.v-top {vertical-align: top}
+
+.d-inb {display: inline-block;}
 /* Margin */
 
 /* Padding */
+
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
 
 
 /* Images */
+
+/* SwipeSee */
 
 .logo {
   width: 90px;
@@ -28,6 +39,7 @@
   margin-right: auto;
 }
 
+/* main city pics page */
 .city_pic{
   /*width: 120px;
   height: auto;*/
@@ -36,4 +48,16 @@
   margin-right: auto;
 }
 
+/* Use the two classes below to resize images to be perfect squares */
 
+.square_city {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+img.my-city-image {
+  width: 100%;
+  max-width: 400px;
+}
+/* Unsure why i have to be so specific with my image targeting...*/

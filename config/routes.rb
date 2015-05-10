@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'cities#index'
 
-get 'test' => 'cities#test'
+  get 'test' => 'cities#test'
+  get 'test_my_cities_index' => 'cities#test_my_cities_index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get 'login' => 'sessions#new'
