@@ -1,8 +1,8 @@
 class AttractionsController < ApplicationController
 
   def index
-    city = City.where(id: params[:city_id]).first
-    @attractions = city.attractions
+    @city = City.where(id: params[:city_id]).first
+    @attractions = @city.attractions.sort_by{|attra| attra.rank}
   end
 
   def my_attractions_index
