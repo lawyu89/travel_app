@@ -1,13 +1,13 @@
 
 <div class="attractions-container">
   <% @attractions.each_with_index do |attraction,index| %>
-    <div class="attraction panel">
-      <div id="attraction<%= index %>" class="hidden front  panel">
+    <div class="attraction panel hidden">
+      <div id="attraction<%= index %>" class="front panel">
         <p><%= attraction.name %></p>
         <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
       </div>
-      <div class="back .hidden">
-        <h1>THIS BETTER WORK!!!</h2>
+      <div class="panel back">
+        <h1><%= attraction.description %></h2>
       </div>
     </div>
   <% end %>
