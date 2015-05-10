@@ -1,15 +1,31 @@
 .debug { border: 1px solid red;}
 
+/* Background */
+
+/* Fonts */
+
+/* Borders */
+
+.bdr-blk {border: 1px solid;}
+.bdr-r-m {border-radius: 16px;}
+/* Positioning */
+.t-center {text-align: center;}
+
+/* Margin */
+
+/* Padding */
+.p-sm {padding: 0.4em;}
+.p-m {padding: 1em;}
+
+
+/* Images */
+
 .logo {
   width: 90px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.logo_div {
-  padding: 1em;
 }
 
 .city_pic{
@@ -20,15 +36,4 @@
   margin-right: auto;
 }
 
-.search_input{
-  text-align: center;
-  border-width: 1px;
-  border: solid;
-  padding: 0.4em;
-  border-radius: 16px;
-}
 
-.search_box{
-  text-align: center;
-  padding: 0.4em;
-}
