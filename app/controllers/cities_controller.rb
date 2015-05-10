@@ -10,4 +10,9 @@ class CitiesController < ApplicationController
     @cities = @user.cities
   end
 
+  def test
+    @user = current_user
+    @cities = @user.cities
+  end 
+
 end
