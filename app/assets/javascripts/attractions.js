@@ -21,7 +21,7 @@ $( document ).ready(function() {
       next_item.attr("id", "swipe")
       debugger
       $("#swipe").on( "swipeleft", swipeLeft );
-
+      $("#swipe").on("swiperight", swipeRight );
       // var response = $.ajax({
       //   type: 'POST',
       //   url: $(this).attr('href'),
@@ -47,7 +47,7 @@ $( document ).ready(function() {
       next_item.css("display", "inline")
       next_item.attr("id", "swipe")
       $("#swipe").on("swiperight", swipeRight );
-
+      $("#swipe").on( "swipeleft", swipeLeft );
       // var response = $.ajax({
       //   type: 'POST',
       //   url: $(this).attr('href'),
