@@ -1,4 +1,9 @@
 <%= @city.name %>
+<div class="debug col span-12-t t-center p-sm">
+  <form id="search-form" class="debug">
+    <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+  </form>
+</div>
 <% @attractions.each do |attraction| %>
   <div>
     <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>"></div>
