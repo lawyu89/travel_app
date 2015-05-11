@@ -3,7 +3,6 @@ class CreateAttractions < ActiveRecord::Migration
     create_table :attractions do |t|
       t.string :name
       t.string :description
-      t.string :address
       t.string :photo_url
       t.integer :rank #trip advisor rank
       t.string :query_slug

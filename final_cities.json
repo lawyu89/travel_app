@@ -1,0 +1,88 @@
+{
+  "rows" : [
+    {
+      "name" : "Florence",
+      "country" : "Italy",
+      "photo_url" : "florence_img.jpg",
+      "description" : "Florence is a perennial Readers' Choice winner\u2014a beauty in its art, architecture, history, and cuisine. Contributing editor Matt Hranek says he never goes hungry in this city\u2014bistecca alla fiorentina at Trattoria Le Mossacce and a panino al lampredotto (stewed tripe sandwich) at the San Lorenzo Market are always on the menu. He usually avoids the Pitti Palace (along with much of the mediocre leather goods that proliferate throughout the city), but never misses the David reproduction in the Palazzo Vecchio. For some of the best paper products in the world, head to Pineider. Be sure to check out the Gucci Museum\u2014home to the complete archive of iconic Gucci products, from loafers to luggage."
+    },
+    {
+      "name" : "Bangkok",
+      "country" : "Thailand",
+      "photo_url" : "bangkok_img.jpg",
+      "description" : "Bangkok resembles the type of futuristic city so often depicted in sci-fi films like Blade Runner or Minority Report\u2014soaring, glass-paneled buildings house the world\u2019s economic elite (try a cocktail at the Sky Bar at the Sirocco) while at street level rickshaws and mopeds weave through snarls of traffic. This dichotomy is illustrated at the famous farang (foreigner) backpacker street Khao San Road\u2014long the enclave of tourists toting massive packs, it has now evolved into a bustling mixture of commerce, tourism, and nightlife and has some of the best people-watching anywhere in the world."
+    },
+    {
+      "name" : "Beirut",
+      "country" : "Lebanon",
+      "photo_url" : "beirut_img.jpg",
+      "description" : "Though the Middle East's current political climate is volatile (and, admittedly, has been for much of the last three millennia), Beirut remains a popular port of call for seasoned and in-the-know travelers. As editor David Jefferys says, \u201cit\u2019s simply a city that won\u2019t die.\u201d This immortality is buttressed by a thriving dining and shopping scene\u2014try Tawlet, the \u2018farmers\u2019 kitchen\u2019 of Souk el Tayeb (every day, a different regional Lebanese chef is showcased) and Artisan du Liban et d\u2019Orient for traditional local garments and crafts. Adding to Beirut\u2019s appeal as a top world city is the presence of numerous fabulous hotels: Four Seasons Hotel Beirut, Le Gray, and Hotel Albergo come to mind.\u200b"
+    },
+    {
+      "name" : "Vienna",
+      "country" : "Austria",
+      "photo_url" : "viena_img.jpg",
+      "description" : "\"Music as we know it would be unrecognizable without the existence of Austria\u2019s capital, which nurtured the talents of Haydn, Mozart, Beethoven, Brahms, and Mahler, plus local boys Schubert and Strauss,\" writes Jenna Scherer, ranking Vienna one of the world's best cities for arts and culture. While there, stay at the Sacher Hotel (ask for a room overlooking the Opera House) and be sure to order their famous Sacher Torte\u2014don\u2019t forget to request mit shlaag (with cream). Also, make sure to see Gustav Klimt's The Kiss at the Belvedere."
+    },
+    {
+      "name" : "Cape Town",
+      "country" : "South Africa",
+      "photo_url" : "cape_town_img.jpg",
+      "description" : "Cape Town is the best city in the world for blending urban culture with the great outdoors: They're literally a five-minute drive from each other. There's an exploding food scene, with vegetables, wine, and cheese coming from the gorgeous Cape Winelands; and then there's the top of Table Mountain which, on the right day, can feel as pristine and empty as when the Dutch first pitched up in the early 17th century. Eat at Luke Dale-Roberts' The Test Kitchen; go to sunbathe and people-gawk at Clifton 2nd Beach; surf, if you dare, atMuizenberg (sharks!), and climb Lion's Head for crazy 360-degree views of the city"
+    },
+    {
+      "name" : "Sydney",
+      "country" : "Australia",
+      "photo_url" : "sydney_img.jpg",
+      "description" : "Despite being sun-soaked, lined with beaches, and full of beautiful people, Sydney remains a \"real\" city like New York or London. Its laid-back, outdoorsy vibe is exemplified nowhere better than the iconic Bondi Beach. Visit the Icebergs swimming club next to the beach (established in 1929) and its eponymous dining room for a bite and a spectacular view. For a real Oz original, grab a flat white coffee at Single Origin Roasters in Surry Hills."
+    },
+    {
+      "name" : "San Francisco",
+      "country" : "California",
+      "photo_url" : "san_francisco_img.jpg",
+      "description" : "San Francisco is a curious mix of cultures: Tech money seems to be overtaking the city completely, but you can still find some of what's known as \"hippie stuff\" around Haight-Ashbury. To see where the city is going, visit the Outer Sunset\u2014it's foggy all the time and far removed from the city center, but it's close to Golden Gate Park and near Ocean Beach, a huge, dramatic stretch of sand within city limits and packed with surfers. Before leaving town, try a savory muffin called The Rebel Within from Craftsman and Wolves in the Mission."
+    },
+    {
+      "name" : "Paris",
+      "country" : "France ",
+      "photo_url" : "paris_img.jpg",
+      "description" : "It's nearly impossible to resist the inimitable charms of Paris. A deep sense of history permeates every corner of the city, with beautiful old buildings lining cobblestoned streets, and iconic landmarks\u2014the Cathedral Church of Notre Dame, the Sacre Coeur, the Eiffel Tower\u2014drawing massive crowds every year. But this isn't a city that's stuck in the past: New restaurants and bars are popping up on both the Left and Right Banks, along with innovative concept shops that only burnish Paris's reputation as one of the world's chicest cities."
+    },
+    {
+      "name" : "Rio de Janeiro",
+      "country" : "Brazil",
+      "photo_url" : "rio_img.jpg",
+      "description" : "Just after the World Cup (and thanks in part to it), Rio de Janeiro is in the grip of a remarkable transformation."
+    },
+    {
+      "name" : "Kyoto",
+      "country" : "Japan",
+      "photo_url" : "kyoto_img.jpg",
+      "description" : "There are two ways to think about Japan: as the very futuristic, or as the very ancient. In Kyoto, which served as Japan\u2019s capital for a millennia and is still its capital of art and design, you find both. The city is home to the country\u2019s greatest (and greatest number of) national treasures, from pieces of individual artwork to 10th-century temples, and also to some of its most exquisite food, tea, and crafts. But even better than the seafood laid out like jewels at its Nishiki Market, or the smell of incense at Sanjusangendo temple, or the thrill of watching young geishas clop by on their geta sandals, is the sense of politesse and refinement one finds here, from every vendor, at every shop or shrine: it\u2019s a dream of Japan that still exists, waiting for you to discover it."
+    },
+    {
+      "name" : "Budapest",
+      "country" : "Hungary",
+      "photo_url" : "budapest_img.jpg",
+      "description" : "When in Hungary\u2019s capital, we love to sneak away from the tourist attractions for some cafe and spa culture. Legendary cafes like the New York Kávéház and the Gerbeaud are must-visits, as are the spas built in the 16th and 17th century by Ottoman occupiers Rudas and Király. These places (where you can still bathe) are full of wonderful touches like roaring granite lion heads spewing out warm mineral water. \u201cIf you can muscle out the Hungarian grandma from her prized spot (because you know it\u2019s the prized spot), then you\u2019ve found nirvana, \u201d says contributing editor Matt Hranek."
+    },
+    {
+      "name" : "Istanbul",
+      "country" : "Turkey",
+      "photo_url" : "istanbul_img.jpg",
+      "description" : "It\u2019s the city that redefined decadence: by fusing Eastern and Western influences over hundreds of years, Istanbul has grown into a city full of magical energy, opulence, and grandeur."
+    },
+    {
+      "name" : "Detroit",
+      "country" : "Michigan",
+      "photo_url" : "detroit_img.jpg",
+      "description" : "What isn\u2019t dumped is stolen. Factories and homes have largely been stripped of anything of value, so thieves now target cars\u2019 catalytic converters. Illiteracy runs at around 47%; half the adults in some areas are unemployed. In many neighbourhoods, the only sign of activity is a slow trudge to the liquor store."
+    },
+    {
+      "name" : "Krakow",
+      "country" : "Poland",
+      "photo_url" : "krakow_img.jpg",
+      "description" : "UNESCO named Kraków the City of Literature in 2013, a well-earned designation. Poland\u2019s second-largest metropolis was home to three Nobel-winning writers\u2014Czeslaw Milosz, Wislawa Szymborska, and Ivo Andric\u2014and the city still hosts around 30 book festivals every year. Here you\u2019ll also find Jagiellonian University, one of the oldest colleges in the world, and a wealth of museums\u2014including the Czartoryski, where you can see Leonardo da Vinci\u2019s iconic Lady with an Ermine."
+    }
+  ]
+}
