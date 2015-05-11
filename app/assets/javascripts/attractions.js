@@ -80,14 +80,16 @@ $( document).ready(function() {
       next_item.attr("id", "swipe")
       next_item.removeClass("hidden")
       next_item.addClass('current-button')
-      $("#swipe").on("swipeleft", function(e){
-        swipeLeft(e,next_item)
-        runDislike(next_item.find('.button-left'))
-      });
-      $("#swipe").on("swiperight", function(e){
-        swipeRight(e,next_item)
-        runLike(next_item.find('.button-right'))
-      });
+      if (next_item.attr('class').indexOf('swipsee-end') === -1) {
+        $("#swipe").on("swipeleft", function(e){
+          swipeLeft(e,next_item)
+          runDislike(next_item.find('.button-left'))
+        });
+        $("#swipe").on("swiperight", function(e){
+          swipeRight(e,next_item)
+          runLike(next_item.find('.button-right'))
+        });
+      }
     }
 
     function swipeRight(event, parent){
@@ -99,14 +101,16 @@ $( document).ready(function() {
       next_item.removeClass("hidden")
       next_item.attr("id", "swipe")
       next_item.addClass('current-button')
-      $("#swipe").on("swiperight", function(e){
-        swipeRight(e,next_item)
-        runDislike(next_item.find('.button-left'))
-      });
-      $("#swipe").on("swipeleft", function(e){
-        swipeLeft(e,next_item)
-        runLike(next_item.find('.button-right'))
-      });
+      if (next_item.attr('class').indexOf('swipsee-end') === -1) {
+        $("#swipe").on("swiperight", function(e){
+          swipeRight(e,next_item)
+          runDislike(next_item.find('.button-left'))
+        });
+        $("#swipe").on("swipeleft", function(e){
+          swipeLeft(e,next_item)
+          runLike(next_item.find('.button-right'))
+        });
+      }
     }
   }
 });
