@@ -10,7 +10,6 @@ $( document).ready(function() {
     });
     $("#swipe").on("swiperight", function(e){
       swipeRight(e, current)
-      debugger
       runLike($(this).find('.button-right'))
     });
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
