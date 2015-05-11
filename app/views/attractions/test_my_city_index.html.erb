@@ -5,9 +5,10 @@
       <%= image_tag('swipesee.png', :class => "logo")%>
     </div>
     <div class="debug col span-6-t p-m">
-      <h1 class="t-center">My Cities</h1>
+      <h1 class="t-center"><%= @city.name %>, unleashed!</h1>
     </div>
     <div class="debug col span-3-t ">
+      <a href='#'>My Cities</a>
       <a href='/logout'>Logout</a>
     </div>
     </div>
@@ -19,11 +20,11 @@
   </header>
 
   <div class="city-pics-container t-center center debug">
-    <% @cities.each do |city| %>
+    <% @attractions.each do |attraction| %>
       <div class="span-5-t t-center d-inb v-top debug">
-        <p><%= city.name %></p>
+        <p><%= attraction.name %></p>
         <div class="center square_city debug">
-          <a href="/mycities/<%= city.id %>/attractions"><img src="<%= city.photo_url %>" class="my-city-image"></a>
+         <img src="<%= attraction.photo_url %>" class="my-city-image">
         </div>
       </div>
     <% end %>

@@ -51,4 +51,14 @@ class AttractionsController < ApplicationController
     end
   end
 
+  def test_my_city_index
+    if current_user
+      @user = @current_user
+      @city = City.where(id: 1).first
+      find_my_attractions(@city)
+    else
+      redirect_to cities_path
+    end
+  end
+
 end
