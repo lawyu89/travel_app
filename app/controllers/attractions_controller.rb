@@ -11,9 +11,11 @@ class AttractionsController < ApplicationController
       end
       @attractions
       @attractions.sort_by{|attra| attra.rank}
+      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
     else
       @city = City.where(id: params[:city_id]).first
       @attractions = @city.attractions.sort_by{|attra| attra.rank}
+      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
     end
   end
 

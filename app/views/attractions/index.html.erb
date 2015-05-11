@@ -44,6 +44,11 @@
         <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
       </div> -->
     <% end %>
+      <div class="swipsee-end panel hidden">
+        <h2><%= @quote %></h2>
+        <h3>Check out your city selections <a href="/mycities/<%= @city.id %>/attractions">here</a></h3>
+        <%= image_tag('swipesee.png')%>
+      </div>
   </div>
   <!-- End Original Page content for Jquery -->
 </div>
