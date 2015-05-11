@@ -31,8 +31,11 @@ RSpec.configure do |config|
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
+
+  # Changed this to false for capybara
   config.use_transactional_fixtures = false
-  # My additions for testing:
+
+  # Additions for testing:
 
   config.before(:suite) do
     DatabaseCleaner.clean_with(:truncation)
