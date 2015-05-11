@@ -31,23 +31,25 @@ class AttractionsController < ApplicationController
 
   def like
     if current_user
-      current_attraction = Attraction.where(id: params[:id]).first
-      current_user.attractions << current_attraction
-      current_user.attractions.where(id: params[:id]).first.preference = true
-      current_user.attractions.where(id: params[:id]).first.city_id = params[:city_id]
-      current_user.cities << City.where(id: params[:city_id]).first
-      current_user.save
+      attraction = UserAttraction.create(
+        user_id: current_user.id,
+        attraction_id: params[:id],
+        city_id: params[:city_id], 
+        preference: true
+        )
+      render json: attraction.to_json
     end
   end
 
   def dislike
     if current_user
-      current_attraction = Attraction.where(id: params[:id]).first
-      current_user.attractions << current_attraction
-      current_user.attractions.where(id: params[:id]).first.preference = false
-      current_user.attractions.where(id: params[:id]).first.city_id = params[:city_id]
-      current_user.cities << City.where(id: params[:city_id]).first
-      current_user.save
+      attraction = UserAttraction.create(
+        user_id: current_user.id,
+        attraction_id: params[:id],
+        city_id: params[:city_id],
+        preference: false
+        )
+      render json: attraction.to_json
     end
   end
 

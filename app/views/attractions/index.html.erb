@@ -5,10 +5,20 @@
       <div id="attraction<%= index %>" class="front panel">
         <p><%= attraction.name %></p>
         <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
+        <div class="button_test hidden_button">
+          <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
+          <button type='button' class='button-info' id='midb'>Info</button>
+          <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+        </div>
       </div>
       <div class="panel back">
         <h1><%= attraction.description %></h2>
       </div>
     </div>
+    <!-- <div class="button_test hidden_button">
+      <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
+      <button type='button' class='button-info' id='midb'>Info</button>
+      <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+    </div> -->
   <% end %>
 </div>
