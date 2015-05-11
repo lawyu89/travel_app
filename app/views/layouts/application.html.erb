@@ -2,16 +2,17 @@
 <html>
 <head>
   <title>Travel</title>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="bgc-grey">
 
-<audio id="woof" src="sounds/kevin_woof_woof.mp3"></audio>
+<!-- <audio id="woof" src="sounds/kevin_woof_woof.mp3"></audio>
 <div class='sightsee_logo'>
   <button onclick="document.getElementById('woof').play()">SightSee Image Here</button>
-</div>
+</div> -->
 
 <%= yield %>
 
