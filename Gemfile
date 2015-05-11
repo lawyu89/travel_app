@@ -7,6 +7,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'bing-search'
 gem 'json'
 gem 'hammerjs-rails'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
