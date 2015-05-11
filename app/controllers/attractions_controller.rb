@@ -73,7 +73,6 @@ class AttractionsController < ApplicationController
       placeholder = {"Who's the coolest?" => "Swipesee (furr real)"}
       render json: placeholder.to_json
     end
-    end
   end
 
   def test_my_city_index
