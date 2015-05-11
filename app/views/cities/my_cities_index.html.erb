@@ -28,7 +28,7 @@
   </header>
   <div class="city-pics-container t-center center debug">
     <% @cities.each do |city| %>
-      <div class="span-5-t t-center d-inb v-top debug">
+      <div class="span-5-t t-center d-inb v-top my-city debug">
         <p><%= city.name %></p>
         <div class="center square_city debug">
           <a href="/mycities/<%= city.id %>/attractions"><img src="<%= city.photo_url %>" class="my-city-image"></a>
