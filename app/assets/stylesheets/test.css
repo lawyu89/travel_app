@@ -1,18 +1,29 @@
 /*.debug { border: 1px solid red;}*/
 
 /* Width */
+
 .w-half {width: 50%;}
+.w-90 {width: 90%;}
+.w-full {width: 100%;}
+
+/* Height */
+
 /* Background */
+
 .bgc-black {background-color: black}
 .bgc-grey {background-color: #555555}
 
 /* color */
+
 .c-white {color: white;}
+
 /* Fonts */
+
 .f-oswald {font-family: 'Oswald', sans-serif;}
 
 .fz-m {font-size: 3em;}
 .fz-l {font-size: 4em;}
+
 /* Borders */
 
 .bdr-blk {border: 1px solid;}
@@ -76,6 +87,10 @@ a {text-decoration: none}
  height: 90px;
 }
 
+.log {
+  height: 90px;
+}
+
 /* main city pics page */
 .city_pic{
   /*width: 120px;
@@ -83,6 +98,7 @@ a {text-decoration: none}
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 /* Use the two classes below to resize images to be perfect squares */
