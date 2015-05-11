@@ -50,7 +50,7 @@ class AttractionsController < ApplicationController
         preference: true
         )
 
-      city = City.where(id: params[:city_id].first)
+      city = City.where(id: params[:city_id]).first
       current_user.cities << city if !current_user.cities.include?(city)
 
       render json: attraction.to_json
