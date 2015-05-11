@@ -4,11 +4,12 @@
     <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
   </form>
 </div>
+
 <div class="cities-container">
   <% @cities.each do |city| %>
-  <div>
+  <div class="my-city">
     <p><%= city.name %></p>
-    <a href="/mycities/<%= city.id %>/attractions"><img class="resize" src="<%= city.photo_url %>"></a>
+    <a href="/mycities/<%= city.id %>/attractions"><img class="resize" src="<%= city.photo_url %>" id="<%=city.name %>"></a>
   </div>
   <% end %>
 </div>

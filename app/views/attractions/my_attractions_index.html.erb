@@ -5,8 +5,8 @@
   </form>
 </div>
 <% @attractions.each do |attraction| %>
-  <div>
-    <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>"></div>
+  <div class="my-attractions">
+    <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
     <div><%= attraction.name %></div>
   </div>
 <% end %>
