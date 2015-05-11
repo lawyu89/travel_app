@@ -1,8 +1,20 @@
 class AttractionsController < ApplicationController
 
   def index
-    @city = City.where(id: params[:city_id]).first
-    @attractions = @city.attractions.sort_by{|attra| attra.rank}
+    if current_user
+      @city = City.where(id: params[:city_id]).first
+      @attractions = []
+      @city.attractions.each do |attraction|
+        if attraction.user_attractions.where(user_id: current_user.id).first == nil
+          @attractions << attraction
+        end
+      end
+      @attractions
+      @attractions.sort_by{|attra| attra.rank}
+    else
+      @city = City.where(id: params[:city_id]).first
+      @attractions = @city.attractions.sort_by{|attra| attra.rank}
+    end
   end
 
   def show
@@ -34,7 +46,7 @@ class AttractionsController < ApplicationController
       attraction = UserAttraction.create(
         user_id: current_user.id,
         attraction_id: params[:id],
-        city_id: params[:city_id], 
+        city_id: params[:city_id],
         preference: true
         )
       render json: attraction.to_json
