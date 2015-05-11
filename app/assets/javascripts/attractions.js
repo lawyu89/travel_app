@@ -3,28 +3,33 @@ $( document).ready(function() {
     var current = $('.hidden').first()
     current.attr("id", "swipe")
     current.removeClass("hidden")
-    $("#swipe").on("swipeleft", swipeLeft);
-    $("#swipe").on("swiperight", swipeRight);
-    // $("#swipe").on("tap", findDescription);
+    current.addClass('current-button')
+    $("#swipe").on("swipeleft", function(e){
+      swipeLeft(e, current)
+    });
+    $("#swipe").on("swiperight", function(e){
+      swipeRight(e, current)
+    });
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
       event.preventDefault()
       $(this).closest('.attraction').toggleClass('flip')
     });
 
-    var currentButton = $('.hidden_button').first()
-    currentButton.css('display', 'inline')
-    $(currentButton).on('tap', '#leftb', function(e){
+
+    $('.attractions-container').on('tap', '.current-button #leftb', function(e){
       var button = this
       e.preventDefault();
       runDislike(button);
+      swipeLeft(e, $(this).closest('.attraction'))
 
     })
-    $(currentButton).on('tap', '#rightb', function(e){
+    $('.attractions-container').on('tap', '.current-button #rightb', function(e){
       var button = this
       e.preventDefault();
       runLike(button);
+      swipeRight(e, $(this).closest('.attraction'))
     })
-    $(currentButton).on('tap', '#midb', function(e){
+    $('.attractions-container').on('tap', '.current-button #midb', function(e){
       var button = this
       e.preventDefault();
       var arr = $('.attraction')
@@ -63,26 +68,39 @@ $( document).ready(function() {
     }
 
   // Callback function references the event target and adds the 'swipe' class to it
-    function swipeLeft(event){
+    function swipeLeft(event, parent){
+      console.log(parent)
       event.preventDefault();
-      $(this).attr("id", "")
-      $(this).addClass("hidden")
-      var next_item = $(this).next()
+      parent.attr("id", "")
+      parent.addClass("hidden")
+      parent.removeClass('current-button')
+      var next_item = parent.next()
       next_item.attr("id", "swipe")
       next_item.removeClass("hidden")
-      $("#swipe").on("swipeleft", swipeLeft);
-      $("#swipe").on("swiperight", swipeRight);
+      next_item.addClass('current-button')
+      $("#swipe").on("swipeleft", function(e){
+        swipeLeft(e,next_item)
+      });
+      $("#swipe").on("swiperight", function(e){
+        swipeRight(e,next_item)
+      });
     }
 
-    function swipeRight(event){
+    function swipeRight(event, parent){
       event.preventDefault();
-      $(this).attr("id", "")
-      $(this).addClass('hidden')
-      var next_item = $(this).next()
+      parent.attr("id", "")
+      parent.addClass('hidden')
+      parent.removeClass('current-button')
+      var next_item = parent.next()
       next_item.removeClass("hidden")
       next_item.attr("id", "swipe")
-      $("#swipe").on("swiperight", swipeRight);
-      $("#swipe").on("swipeleft", swipeLeft);
+      next_item.addClass('current-button')
+      $("#swipe").on("swiperight", function(e){
+        swipeRight(e,next_item)
+      });
+      $("#swipe").on("swipeleft", function(e){
+        swipeLeft(e,next_item)
+      });
     }
   }
 });
