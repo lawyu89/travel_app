@@ -6,9 +6,12 @@ $( document).ready(function() {
     current.addClass('current-button')
     $("#swipe").on("swipeleft", function(e){
       swipeLeft(e, current)
+      runDislike($(this).find('.button-left'))
     });
     $("#swipe").on("swiperight", function(e){
       swipeRight(e, current)
+      debugger
+      runLike($(this).find('.button-right'))
     });
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
       event.preventDefault()
@@ -43,6 +46,7 @@ $( document).ready(function() {
 
     function runDislike(button){
       var url = $(button).attr('href')
+      // debugger
       $.ajax({
         dataType: 'json',
         url: url,
@@ -69,7 +73,6 @@ $( document).ready(function() {
 
   // Callback function references the event target and adds the 'swipe' class to it
     function swipeLeft(event, parent){
-      console.log(parent)
       event.preventDefault();
       parent.attr("id", "")
       parent.addClass("hidden")
@@ -80,9 +83,11 @@ $( document).ready(function() {
       next_item.addClass('current-button')
       $("#swipe").on("swipeleft", function(e){
         swipeLeft(e,next_item)
+        runDislike(next_item.find('.button-left'))
       });
       $("#swipe").on("swiperight", function(e){
         swipeRight(e,next_item)
+        runLike(next_item.find('.button-right'))
       });
     }
 
@@ -97,9 +102,11 @@ $( document).ready(function() {
       next_item.addClass('current-button')
       $("#swipe").on("swiperight", function(e){
         swipeRight(e,next_item)
+        runDislike(next_item.find('.button-left'))
       });
       $("#swipe").on("swipeleft", function(e){
         swipeLeft(e,next_item)
+        runLike(next_item.find('.button-right'))
       });
     }
   }
