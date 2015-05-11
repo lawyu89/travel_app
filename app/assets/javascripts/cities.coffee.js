@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   // console.log("i am ready");
+$(".se-pre-con").fadeOut("slow");;
 $('#search-form input').on('keyup', runSearch);
 });
 
@@ -32,8 +33,8 @@ var runSearch = function() {
         return !reg.test(searchText);
     }).hide();
   };
-    
-  
+
+
 
 
 
