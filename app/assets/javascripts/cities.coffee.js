@@ -14,14 +14,14 @@ var runSearch = function() {
     // For HomePage:
     $('.city-detail').show();
     $('.city-detail').filter(function() {
-        searchText = $(this).children().attr('id').replace(/\s+/g, ' ');
+        searchText = $(this).children().children().attr('id').replace(/\s+/g, ' ');
         return !reg.test(searchText);
     }).hide();
 
     //For myCities:
     $('.my-city').show();
     $('.my-city').filter(function() {
-        searchText = $(this).children().children().attr('id').replace(/\s+/g, ' ');
+        searchText = $(this).text().replace(/\s+/g, ' ');
         return !reg.test(searchText);
     }).hide();
 
