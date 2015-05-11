@@ -16,15 +16,18 @@ RSpec.describe CitiesController, type: :controller do
   end #end of Get index tests 
 
   describe "GET #my_cities_index" do
-    before(:each) do
-      get :my_cities_index
-    end
 
     it "redirects to cities_path if no user logged in" do 
+       get :my_cities_index
       expect(response).to have_http_status(302)
     end 
 
     it "show my cities if user is logged in" do 
+      city = City.create(name:"test city")
+      user = User.create(email:"test@test.com", password:"test")
+      city_user = CityUser.create(user_id: user.id, city_id: city.id)
+      get :my_cities_index, current_user: user, cities: user.cities
+      expect(response).to have_http_status(:success)
     end 
 
   end #end of GET my cities tests
