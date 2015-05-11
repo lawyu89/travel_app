@@ -1,11 +1,18 @@
-.debug { border: 1px solid red;}
+/*.debug { border: 1px solid red;}*/
 
 /* Width */
 .w-half {width: 50%;}
 /* Background */
+.bgc-black {background-color: black}
+.bgc-grey {background-color: #555555}
 
+/* color */
+.c-white {color: white;}
 /* Fonts */
+.f-oswald {font-family: 'Oswald', sans-serif;}
 
+.fz-m {font-size: 3em;}
+.fz-l {font-size: 4em;}
 /* Borders */
 
 .bdr-blk {border: 1px solid;}
@@ -14,6 +21,7 @@
 /* Positioning */
 
 .t-center {text-align: center;}
+.t-right {text-align: right;}
 .center {margin: 0 auto;}
 
 .v-top {vertical-align: top}
@@ -21,22 +29,51 @@
 .d-inb {display: inline-block;}
 /* Margin */
 
+.m-t-m {margin-top: .5em;}
+
 /* Padding */
 
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
 
+/* Normalize */
+
+h1 {margin: 0;}
+p {margin: 0;}
+
+/* Links */
+
+a:link {
+    color: #222222;
+}
+
+/* visited link */
+a:visited {
+    color: #222222;
+}
+
+/* mouse over link */
+a:hover {
+    color: #222222;
+}
+
+a {text-decoration: none}
 
 /* Images */
 
 /* SwipeSee */
 
 .logo {
-  width: 90px;
+  width: 130px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -20px;
+}
+
+.heart {
+ height: 90px;
 }
 
 /* main city pics page */
