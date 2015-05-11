@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 20150508173850) do
   create_table "attractions", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
-    t.string   "address"
     t.string   "photo_url"
     t.integer  "rank"
     t.string   "query_slug"
@@ -36,11 +35,13 @@ ActiveRecord::Schema.define(version: 20150508173850) do
   create_table "cities", force: :cascade do |t|
     t.string   "name"
     t.string   "photo_url"
-    t.decimal  "popularity", default: 0.0
+    t.string   "country"
+    t.string   "description"
+    t.decimal  "popularity",  default: 0.0
     t.string   "lat"
     t.string   "long"
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
   create_table "city_users", force: :cascade do |t|
