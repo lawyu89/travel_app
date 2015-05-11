@@ -1,24 +1,50 @@
-
-<div class="attractions-container">
-  <% @attractions.each_with_index do |attraction,index| %>
-    <div class="attraction panel hidden">
-      <div id="attraction<%= index %>" class="front panel">
-        <p><%= attraction.name %></p>
-        <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
-        <div class="button_test hidden_button">
-          <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
-          <button type='button' class='button-info' id='midb'>Info</button>
-          <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+<div class="total-page-container">
+  <header class="debug">
+    <div class="debug row">
+    <div class="debug col span-3-t t-right">
+      <% if current_user %>
+        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+        <% else %>
+        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+      <% end %>
+    </div>
+    <a href="/cities"><div class="debug col span-6-t t-center">
+      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
+      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
+    </div></a>
+    <div class="debug col span-3-t">
+      <% if current_user %>
+        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
+        <% else %>
+        <a href='/users/new'>Signup</a>
+      <% end %>
+    </div>
+    </div>
+  </header>
+  <!-- Original Page content for Jquery -->
+  <div class="attractions-container">
+    <% @attractions.each_with_index do |attraction,index| %>
+      <div class="attraction panel hidden">
+        <div id="attraction<%= index %>" class="front panel">
+          <p><%= attraction.name %></p>
+          <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
+          <div class="button_test hidden_button">
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
+            <button type='button' class='button-info' id='midb'>Info</button>
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+          </div>
+        </div>
+        <div class="panel back">
+          <h1><%= attraction.description %></h2>
         </div>
       </div>
-      <div class="panel back">
-        <h1><%= attraction.description %></h2>
-      </div>
-    </div>
-    <!-- <div class="button_test hidden_button">
-      <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
-      <button type='button' class='button-info' id='midb'>Info</button>
-      <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
-    </div> -->
-  <% end %>
+      <!-- <div class="button_test hidden_button">
+        <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
+        <button type='button' class='button-info' id='midb'>Info</button>
+        <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+      </div> -->
+    <% end %>
+  </div>
+  <!-- End Original Page content for Jquery -->
 </div>
+

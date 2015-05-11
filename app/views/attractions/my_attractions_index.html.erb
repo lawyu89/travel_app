@@ -1,12 +1,39 @@
-<%= @city.name %>
-<div class="debug col span-12-t t-center p-sm">
-  <form id="search-form" class="debug">
-    <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
-  </form>
+<div class="total-page-container">
+  <header class="debug">
+    <div class="debug row">
+    <div class="debug col span-3-t t-right">
+      <% if current_user %>
+        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+        <% else %>
+        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+      <% end %>
+    </div>
+    <a href="/cities"><div class="debug col span-6-t t-center">
+      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
+      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
+    </div></a>
+    <div class="debug col span-3-t">
+      <% if current_user %>
+        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
+        <% else %>
+        <a href='/users/new'>Signup</a>
+      <% end %>
+    </div>
+    </div>
+    <div class="debug col span-12-t t-center p-sm">
+      <form id="search-form" class="debug">
+        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+      </form>
+    </div>
+  </header>
+
+    <div>
+      <%= @city.name %>
+      <% @attractions.each do |attraction| %>
+        <div class="my-attractions">
+          <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
+          <div><%= attraction.name %></div>
+        </div>
+      <% end %>
+    </div>
 </div>
-<% @attractions.each do |attraction| %>
-  <div class="my-attractions">
-    <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
-    <div><%= attraction.name %></div>
-  </div>
-<% end %>

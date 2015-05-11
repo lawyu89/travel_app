@@ -1,7 +1,35 @@
-<div>
-  <h1><%= @attraction.name %></h1>
-  <div><img id="swipe" src="<%= @attraction.photo_url %>"></div>
-  <p id="swipe_status"></p>
-  <div><%= @attraction.description %></div>
-  <div><%= @attraction.address %></div>
+<div class="total-page-container">
+  <header class="debug">
+    <div class="debug row">
+    <div class="debug col span-3-t t-right">
+      <% if current_user %>
+        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+        <% else %>
+        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+      <% end %>
+    </div>
+    <a href="/cities"><div class="debug col span-6-t t-center">
+      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
+      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
+    </div></a>
+    <div class="debug col span-3-t">
+      <% if current_user %>
+        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
+        <% else %>
+        <a href='/users/new'>Signup</a>
+      <% end %>
+    </div>
+    </div>
+    <div class="debug col span-12-t t-center p-sm">
+      <form id="search-form" class="debug">
+        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+      </form>
+    </div>
+  </header>
+  <div>
+    <h1><%= @attraction.name %></h1>
+    <div><img id="swipe" src="<%= @attraction.photo_url %>"></div>
+    <p id="swipe_status"></p>
+    <div><%= @attraction.description %></div>
+  </div>
 </div>
