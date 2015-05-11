@@ -10,14 +10,15 @@ RSpec.describe User, type: :model do
   end
  
   context "validations" do
-    it "is valid without any tests right now" do
-      user = User.new(username: "test name")
-      expect(user).to be_valid
+  
+    it "is invalid with only username" do
+      @invalid_user = User.create(username: "test")
+      expect(@invalid_user).to_not be_valid
     end
 
-    xit "is invalid without xxx" do
-      user = User.new()
-      expect(user).to_not be_valid
+    it "is valid with full info" do
+      @valid_user = User.create(username: "test", email: "test@testy.com")
+      expect(@valid_user).to be_valid
     end
   end
 
