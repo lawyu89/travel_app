@@ -25,8 +25,19 @@ class User < ActiveRecord::Base
   def validate_password_length(password)
     if password.length == 0
       self.errors[:base] << "Password can't be blank"
-    elsif password.length <8
+    elsif password.length < 8
       self.errors[:base] << "Password needs to be at least 8 characters long"
+    end
+  end
+
+  def self.form_omniauth(auth)
+    where(auth.slice(:provider,:uid)).first_or_initialize.tap do |user|
+      user.provider = auth.provider
+      user.uid = auth.uid
+      user.username = auth.info.name
+      user.oauth_taken = auth.credentials.token
+      user.oauth_expires_at = Time.at(auth.credentials.expires_at)
+      user.save!
     end
   end
 end

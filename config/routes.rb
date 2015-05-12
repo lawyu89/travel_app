@@ -19,7 +19,8 @@ Rails.application.routes.draw do
   get 'mycities/:city_id' => 'cities#my_cities_show'
   get 'mycities/:city_id/attractions' => 'attractions#my_attractions_index'
   get 'mycities/:city_id/attractions/:id' => 'attractions#my_attractions_show'
-
+  match 'auth/:provider/callback', to: 'sessions#fb_create'
+  match 'auth/failure', to: redirect('/')
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
