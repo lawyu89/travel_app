@@ -31,10 +31,15 @@
 
   <div class="se-pre-con"></div>
 
-  <div>
-    <h1><%= @attraction.name %></h1>
-    <div><img id="swipe" src="<%= @attraction.photo_url %>"></div>
+  <div class="my-attraction-detail">
+    <h1 class="debug"><%= @attraction.name %></h1>
+    <div class="debug"><img id="swipe" src="<%= @attraction.photo_url %>"><div> 
+      <button href="" type='button' class="button-map" id='map'>
+      Map me!</button> 
+      <button href="" type='button' class="button-multi-map" id='bigmap'>Map me on big route!</button> </div>
+
+    </div>
     <p id="swipe_status"></p>
-    <div><%= @attraction.description %></div>
+    <div class="debug"><%= @attraction.description %></div>
   </div>
 </div>
