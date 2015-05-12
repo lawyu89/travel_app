@@ -5,11 +5,19 @@ $( document).ready(function() {
     current.removeClass("hidden")
     current.addClass('current-button')
     $("#swipe").on("swipeleft", function(e){
-      swipeLeft(e, current)
+      $('#swipe').animate({
+        right: '200px'
+      }).fadeOut('fast',function(){
+        swipeLeft(e, current)
+      })
       runDislike($(this).find('.button-left'))
     });
     $("#swipe").on("swiperight", function(e){
-      swipeRight(e, current)
+      $('#swipe').animate({
+        left: '200px'
+      }).fadeOut('fast',function(){
+        swipeRight(e, current)
+      })
       runLike($(this).find('.button-right'))
     });
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
@@ -82,11 +90,19 @@ $( document).ready(function() {
       next_item.addClass('current-button')
       if (next_item.attr('class').indexOf('swipsee-end') === -1) {
         $("#swipe").on("swipeleft", function(e){
+          $('#swipe').animate({
+          right: '200px'
+        }).fadeOut('fast',function(){
           swipeLeft(e,next_item)
+        })
           runDislike(next_item.find('.button-left'))
         });
         $("#swipe").on("swiperight", function(e){
-          swipeRight(e,next_item)
+          $('#swipe').animate({
+            left: '200px'
+          }).fadeOut('fast',function(){
+            swipeRight(e,next_item)
+          })
           runLike(next_item.find('.button-right'))
         });
       }
@@ -103,11 +119,19 @@ $( document).ready(function() {
       next_item.addClass('current-button')
       if (next_item.attr('class').indexOf('swipsee-end') === -1) {
         $("#swipe").on("swiperight", function(e){
-          swipeRight(e,next_item)
+          $('#swipe').animate({
+            left: '200px'
+          }).fadeOut('fast',function(){
+            swipeRight(e,next_item)
+          })
           runDislike(next_item.find('.button-left'))
         });
         $("#swipe").on("swipeleft", function(e){
-          swipeLeft(e,next_item)
+          $('#swipe').animate({
+            right: '200px'
+          }).fadeOut('fast',function(){
+            swipeLeft(e,next_item)
+          })
           runLike(next_item.find('.button-right'))
         });
       }
