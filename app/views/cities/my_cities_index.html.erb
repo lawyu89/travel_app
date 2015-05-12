@@ -22,6 +22,7 @@
     <div class="t-center m-t-neg">
       <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
+    <h1 class="f-oldstd t-center">MY CITIES</h1>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
         <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
@@ -34,9 +35,8 @@
   <div class="city-pics-container t-center center debug">
     <% @cities.each do |city| %>
       <div class="my-city span-5-t t-center d-inb v-top debug">
-        <p><%= city.name %></p>
         <div class="center square_city debug">
-          <a href="/mycities/<%= city.id %>/attractions"><img src="<%= city.photo_url %>" class="my-city-image"></a>
+          <a href="/mycities/<%= city.id %>/attractions"><%= image_tag(city.photo_url, :class => "my-city-image")%></a>
         </div>
       </div>
     <% end %>

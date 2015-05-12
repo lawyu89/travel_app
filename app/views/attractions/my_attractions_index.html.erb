@@ -34,7 +34,7 @@
       <%= @city.name %>
       <% @attractions.each do |attraction| %>
         <div class="my-attractions">
-          <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
+          <div class="square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></div>
           <div><%= attraction.name %></div>
         </div>
       <% end %>
