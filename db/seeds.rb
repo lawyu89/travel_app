@@ -48,178 +48,178 @@ end
 
 
 #Seed Attraction Data
-# attractions = JSON.parse(File.read('final_attractions_sorted.json'))['rows']
-# attractions.each_with_index do |attraction,index|
-#   next if attraction['description'].length <1
-#   a = Attraction.new(name: attraction['name'], rank: attraction['rank'].to_i, query_slug: attraction['query_slug'], description: attraction['description'], top_quote: attraction['top_quote'])
-#   result = attraction['photo_url']
-#   if index < 64
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Bangkok', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Bangkok').attractions << a
-#     a.save
-#   elsif index < 136
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Beirut', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Beirut').attractions << a
-#     a.save
-#   elsif index < 155
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Budapest', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Budapest').attractions << a
-#     a.save
-#   elsif index < 214
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Cape Town', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Cape Town').attractions << a
-#     a.save
-#   elsif index <285
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Detroit', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Detroit').attractions << a
-#     a.save
-#   elsif index <347
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Florence', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Florence').attractions << a
-#     a.save
-#   elsif index <412
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Istanbul', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Istanbul').attractions << a
-#     a.save
-#   elsif index <482
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Krakow', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Krakow').attractions << a
-#     a.save
-#   elsif index <556
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Kyoto', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Kyoto').attractions << a
-#     a.save
-#   elsif index <633
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Paris', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Paris').attractions << a
-#     a.save
-#   elsif index <699
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Rio de Janeiro', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Rio de Janeiro').attractions << a
-#     a.save
-#   elsif index <757
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' San Francisco', filters:  [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'San Francisco').attractions << a
-#     a.save
-#   elsif index <822
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Sydney').attractions << a
-#     a.save
-#   elsif index <897
-#     if result.nil?
-#       image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
-#       if image.nil?
-#         result = "ADD ME MOFO"
-#       else
-#         result = image.media_url
-#       end
-#     end
-#     a.photo_url = result
-#     City.find_by(name: 'Vienna').attractions << a
-#     a.save
-#   end
-# end
+attractions = JSON.parse(File.read('final_attractions_sorted.json'))['rows']
+attractions.each_with_index do |attraction,index|
+  next if attraction['description'].length <1
+  a = Attraction.new(name: attraction['name'], rank: attraction['rank'].to_i, query_slug: attraction['query_slug'], description: attraction['description'], top_quote: attraction['top_quote'])
+  result = attraction['photo_url']
+  if index < 64
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Bangkok', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Bangkok').attractions << a
+    a.save
+  elsif index < 136
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Beirut', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Beirut').attractions << a
+    a.save
+  elsif index < 155
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Budapest', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Budapest').attractions << a
+    a.save
+  elsif index < 214
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Cape Town', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Cape Town').attractions << a
+    a.save
+  elsif index <285
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Detroit', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Detroit').attractions << a
+    a.save
+  elsif index <347
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Florence', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Florence').attractions << a
+    a.save
+  elsif index <412
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Istanbul', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Istanbul').attractions << a
+    a.save
+  elsif index <482
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Krakow', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Krakow').attractions << a
+    a.save
+  elsif index <556
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Kyoto', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Kyoto').attractions << a
+    a.save
+  elsif index <633
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Paris', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Paris').attractions << a
+    a.save
+  elsif index <699
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Rio de Janeiro', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Rio de Janeiro').attractions << a
+    a.save
+  elsif index <757
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' San Francisco', filters:  [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'San Francisco').attractions << a
+    a.save
+  elsif index <822
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Sydney').attractions << a
+    a.save
+  elsif index <897
+    if result.nil?
+      image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
+      if image.nil?
+        result = "ADD ME MOFO"
+      else
+        result = image.media_url
+      end
+    end
+    a.photo_url = result
+    City.find_by(name: 'Vienna').attractions << a
+    a.save
+  end
+end
