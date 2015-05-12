@@ -1,7 +1,8 @@
 
 $(document).ready(function() {
-  // console.log("i am ready");
 $('#search-form input').on('keyup', runSearch);
+google.maps.event.addDomListener(window, 'load', initialize);
+ google.maps.event.addDomListener(window, 'load', codeAddress);
 });
 
 
@@ -33,7 +34,36 @@ var runSearch = function() {
     }).hide();
   };
     
-  
 
 
 
+var geocoder;
+var map;
+var initialize = function() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(40.708116, -73.957070);
+  var mapOptions = {
+    zoom: 15,
+    center: latlng
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+};
+
+var codeAddress=function() {
+  var address = $('#address').text();
+    var icon = $('#icon').children().attr('src');
+    console.log(icon);
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      map.setCenter(results[0].geometry.location);
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location,
+          title: address,
+          icon: icon
+      });
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+};
