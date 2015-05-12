@@ -179,3 +179,15 @@ img.my-city-image {
     font-size:15px;
     font-weight:bold;
 }
+
+#leftb:hover {
+  border: 1px solid red;
+}
+
+#midb:hover {
+  border: 1px solid black;
+}
+
+#rightb:hover {
+  border: 1px solid green;
+}

@@ -31,7 +31,6 @@ $( document).ready(function() {
       e.preventDefault();
       runDislike(button);
       swipeLeft(e, $(this).closest('.attraction'))
-
     })
     $('.attractions-container').on('tap', '.current-button #rightb', function(e){
       var button = this
@@ -82,7 +81,9 @@ $( document).ready(function() {
     function swipeLeft(event, parent){
       event.preventDefault();
       parent.attr("id", "")
-      parent.addClass("hidden")
+      parent.slideUp('fast', function(){
+        $(this).addClass('hidden')
+      })
       parent.removeClass('current-button')
       var next_item = parent.next()
       next_item.attr("id", "swipe")
@@ -111,7 +112,9 @@ $( document).ready(function() {
     function swipeRight(event, parent){
       event.preventDefault();
       parent.attr("id", "")
-      parent.addClass('hidden')
+      parent.slideUp('fast', function(){
+        $(this).addClass('hidden')
+      })
       parent.removeClass('current-button')
       var next_item = parent.next()
       next_item.removeClass("hidden")
