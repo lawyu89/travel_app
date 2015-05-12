@@ -50,9 +50,9 @@
       </div> -->
     <% end %>
       <div class="swipsee-end panel hidden">
-        <h2><%= @quote %></h2>
-        <h3>Check out your city selections <a href="/mycities/<%= @city.id %>/attractions">here</a></h3>
-        <%= image_tag('swipesee.png')%>
+        <a href="/mycities/<%= @city.id %>/attractions"><p class="p-sm fz-m t-center"><%= @quote %></p>
+        <p class="fz-ms p-sm t-center">Click to check out your city selections</p></a>
+        <%= image_tag('swipesee.png', :class => "swipesee-final") %>
       </div>
   </div>
   <!-- End Original Page content for Jquery -->
