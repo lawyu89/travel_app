@@ -65,13 +65,30 @@ $(document).ready(function() {
                     title: address,
                     icon: icon
                 });
+                console.log(results[0].geometry.location["A"]);
+                console.log(results[0].geometry.location["F"]);
             } else {
                 console.log('Geocode was not successful for the following reason: ' + status);
             }
         });
     };
 
+
     var multiSetUp = function() {
+
+      var geocoder;
+        geocoder = new google.maps.Geocoder();
+        geocoder.geocode({
+            'address': "Musee D'orsay, Paris"}, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                console.log(results[0].geometry.location["A"]);
+                console.log(results[0].geometry.location["F"]);
+            } else {
+                console.log('Geocode was not successful for the following reason: ' + status);
+            }
+        });
+
+
         var locations = [
             ['Bondi Beach', -33.890542, 151.274856, 4],
             ['Coogee Beach', -33.923036, 151.259052, 5],
@@ -79,11 +96,13 @@ $(document).ready(function() {
             ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
             ['Maroubra Beach', -33.950198, 151.259302, 1]
         ];
+        var startLat = locations[0][1];
+        var startLong = locations[0][2];
 
         var multiMapID = $('#multi-map')[0];
         var map2 = new google.maps.Map(multiMapID, {
             zoom: 10,
-            center: new google.maps.LatLng(-33.92, 151.25),
+            center: new google.maps.LatLng(startLat, startLong),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
@@ -108,11 +127,14 @@ $(document).ready(function() {
         };
     };
 
+   
+
+
     // Event Bindings:
     $('#search-form input').on('keyup', runSearch);
 
     if (GOOGLE_MAPS_LOADED) {
-      $('#map-canvas').length>0 ? initializeMap(): multiSetUp();
+        $('#map-canvas').length > 0 ? initializeMap() : multiSetUp();
     };
 
     $(".se-pre-con").fadeOut("slow");
