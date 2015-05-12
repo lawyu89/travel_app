@@ -3,7 +3,7 @@
     <div class="debug clearfix">
       <div class="debug fl-l p-l-sm">
         <% if current_user %>
-          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
           <% else %>
           <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
         <% end %>
@@ -33,9 +33,9 @@
 
   <div class="my-attraction-detail">
     <h1 class="debug"><%= @attraction.name %></h1>
-    <div class="debug"><img id="swipe" src="<%= @attraction.photo_url %>"><div class="debug"> 
+    <div class="debug"><img id="swipe" src="<%= @attraction.photo_url %>"><div class="debug">
       <a href="/mycities/<%=@city.id%>/attractions/<%=@attraction.id%>/maps" class="button-map" id='map' rel="external">
-      Map me!</a> 
+      Map me!</a>
     </div>
     <p id="swipe_status"></p>
     <div class="debug"><%= @attraction.description %></div>
