@@ -78,11 +78,12 @@
 /* Margin */
 
 .m-t-m {margin-top: .5em;}
+.m-t-l {margin-top: 1em;}
 .m-l-l {margin-left: 2.2em;}
-.m-t-neg {margin-top: -2.5em;}
+.m-t-neg {margin-top: -1.25em;}
 
 /* Padding */
-
+.p-xs {padding: 0.3em;}
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
 .p-r-sm {padding: 0.6em;}
@@ -133,7 +134,7 @@ input:focus {outline: none; }
 
 .log {
   /*height: 90px;*/
-  height: 60px;
+  height: 40px;
   /*display: inline;*/
 }
 

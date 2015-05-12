@@ -27,19 +27,19 @@
   <div class="attractions-container">
     <% @attractions.each_with_index do |attraction,index| %>
       <div class="attraction panel hidden">
-        <div id="attraction<%= index %>" class="debug front panel">
-          <p class="fz-ms"><%= attraction.name %></p>
+        <div id="attraction<%= index %>" class="debug front panel m-t-l">
+          <p class="fz-ms p-xs"><%= attraction.name %></p>
           <div class="square_city">
             <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="debug my-city-image" src="<%= attraction.photo_url %>"></a>
           </div>
-          <div class="button_test hidden_button">
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
-            <button type='button' class='button-info' id='midb'>Info</button>
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+          <div class="m-t-l center clear_fix button_test hidden_button">
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="fl-l button-left" id='leftb'>Left</button>
+            <button type='button' class='center button-info' id='midb'>Info</button>
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="fl-r button-right" id='rightb'>Right</button>
           </div>
         </div>
-        <div class="panel back">
-          <h1><%= attraction.description %></h2>
+        <div class="m-t-l panel back">
+          <h1 class="p-m"><%= attraction.description %></h1>
         </div>
       </div>
       <!-- <div class="button_test hidden_button">
