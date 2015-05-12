@@ -1,10 +1,26 @@
 /*.debug { border: 1px solid red;}*/
 
+/* Loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/world.gif) center no-repeat #fff;
+}
+
 /* Width */
 
 .w-half {width: 50%;}
 .w-90 {width: 90%;}
 .w-full {width: 100%;}
+.w-60 {width: 68px;}
+
+.h-68 {height: 60px;}
 
 /* Height */
 
@@ -21,6 +37,8 @@
 
 .f-oswald {font-family: 'Oswald', sans-serif;}
 
+.fz-sm {font-size: 1.5em;}
+.fz-ms {font-size: 2em;}
 .fz-m {font-size: 3em;}
 .fz-l {font-size: 4em;}
 
@@ -31,8 +49,26 @@
 
 /* Positioning */
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl-l {float: left;}
+.fl-r {float: right;}
+
 .t-center {text-align: center;}
 .t-right {text-align: right;}
+.t-left {text-align: left;}
 .center {margin: 0 auto;}
 
 .v-top {vertical-align: top}
@@ -41,11 +77,15 @@
 /* Margin */
 
 .m-t-m {margin-top: .5em;}
+.m-l-l {margin-left: 2.2em;}
+.m-t-neg {margin-top: -2.5em;}
 
 /* Padding */
 
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
+.p-r-sm {padding: 0.6em;}
+.p-l-sm {padding: 0.6em;}
 
 /* Normalize */
 
@@ -75,20 +115,24 @@ a {text-decoration: none}
 /* SwipeSee */
 
 .logo {
-  width: 130px;
+  width: 100%;
   height: auto;
-  display: block;
+  /*display: block;*/
+/*  text-align: center;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -20px;
+  margin-right: auto;*/
+  /*margin-bottom: -20px;*/
 }
 
-.heart {
- height: 200px;
+.w-logo {
+  /*width: 100px;*/
+  width: 60px;
 }
 
 .log {
-  height: 200px;
+  /*height: 90px;*/
+  height: 60px;
+  /*display: inline;*/
 }
 
 /* main city pics page */

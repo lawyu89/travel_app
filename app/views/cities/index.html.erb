@@ -1,31 +1,34 @@
 <div class="total-page-container">
   <header class="debug">
-    <div class="debug row">
-    <div class="debug col span-3-t t-right">
-      <% if current_user %>
-        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
-        <% else %>
-        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
-      <% end %>
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <% else %>
+          <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <a href='/users/new' class="t-left w-60 h-68">Signup</a>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <%= image_tag('swipesee_circle.png', :class => "logo")%>
+      </div>
     </div>
-    <div class="debug col span-6-t t-center">
-      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
-      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
-    </div>
-    <div class="debug col span-3-t">
-      <% if current_user %>
-        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
-        <% else %>
-        <a href='/users/new'>Signup</a>
-      <% end %>
-    </div>
+    <div class="t-center m-t-neg">
+      <h1 class="f-oswald fz-ms c-white">SwipeSee</h1>
     </div>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
+  <div class="se-pre-con"></div>
 
   <div class="debug">
 
