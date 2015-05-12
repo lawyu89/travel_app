@@ -3,6 +3,12 @@ $(document).ready(function() {
 $('#search-form input').on('keyup', runSearch);
 google.maps.event.addDomListener(window, 'load', initialize);
  google.maps.event.addDomListener(window, 'load', codeAddress);
+
+  // console.log("i am ready");
+$(".se-pre-con").fadeOut("slow");;
+$('#search-form input').on('keyup', runSearch);
+$('.total-page-container').on('taphold', '.city-detail', showCityDesc)
+
 });
 
 
@@ -33,7 +39,13 @@ var runSearch = function() {
         return !reg.test(searchText);
     }).hide();
   };
-    
+
+
+var showCityDesc = function(){
+    $(this).find('img').fadeTo('slow', 0.3)
+    $(this).find('.city-description').fadeIn('slow')
+}
+
 
 
 

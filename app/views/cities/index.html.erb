@@ -1,72 +1,87 @@
 <div class="total-page-container">
   <header class="debug">
-    <div class="debug row">
-    <div class="debug col span-3-t t-right">
-      <% if current_user %>
-        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
-        <% else %>
-        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
-      <% end %>
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <% else %>
+          <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <a href='/users/new' class="t-left w-60 h-68"><%= image_tag('plus.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <%= image_tag('swipesee_circle.png', :class => "logo")%>
+      </div>
     </div>
-    <div class="debug col span-6-t t-center">
-      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
-      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
-    </div>
-    <div class="debug col span-3-t">
-      <% if current_user %>
-        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
-        <% else %>
-        <a href='/users/new'>Signup</a>
-      <% end %>
-    </div>
+    <div class="t-center m-t-neg">
+      <h1 class="f-oswald fz-ms c-white">SwipeSee</h1>
     </div>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
+  <div class="se-pre-con"></div>
 
   <div class="debug">
 
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Bangkok").first.id %>/attractions"><%= image_tag('cropped_cities/bangkok_crop_img.jpg', :class => "city_pic", :id => "bangkok") %></a>
+      <a href="/cities/<%= City.where(name: "Bangkok").first.id %>/attractions"><%= image_tag('cropped_cities/bangkok_crop_img.jpg', :class => "city_pic", :id => "bangkok") %><div class="debug city-description"><p><%= City.where(name: "Bangkok").first.description %></p></div></a>
     </div>
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Beirut").first.id %>/attractions"><%= image_tag('cropped_cities/beirut_crop_img.jpg',:class => "city_pic", :id => "beirut") %></a>
+      <a href="/cities/<%= City.where(name: "Beirut").first.id %>/attractions"><%= image_tag('cropped_cities/beirut_crop_img.jpg',:class => "city_pic", :id => "beirut") %><div class="debug city-description"><p><%= City.where(name: "Beirut").first.description %></p>
+      </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Budapest").first.id %>/attractions"><%= image_tag('cropped_cities/budapest_crop_img.jpg', :class => "city_pic", :id => "budapest") %></a>
+     <a href="/cities/<%= City.where(name: "Budapest").first.id %>/attractions"><%= image_tag('cropped_cities/budapest_crop_img.jpg', :class => "city_pic", :id => "budapest") %><div class="debug city-description"><p><%= City.where(name: "Budapest").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Cape Town").first.id %>/attractions"><%= image_tag('cropped_cities/cape_town_crop_img.jpg', :class => "city_pic", :id => "cape town") %></a>
+     <a href="/cities/<%= City.where(name: "Cape Town").first.id %>/attractions"><%= image_tag('cropped_cities/cape_town_crop_img.jpg', :class => "city_pic", :id => "cape town") %><div class="debug city-description"><p><%= City.where(name: "Cape Town").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Detroit").first.id %>/attractions"><%= image_tag('cropped_cities/detroit_crop_img.jpg', :class => "city_pic", :id => "detroit") %></a>
+      <a href="/cities/<%= City.where(name: "Detroit").first.id %>/attractions"><%= image_tag('cropped_cities/detroit_crop_img.jpg', :class => "city_pic", :id => "detroit") %><div class="debug city-description"><p><%= City.where(name: "Detroit").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Florence").first.id %>/attractions"><%= image_tag('cropped_cities/florence_crop_img.jpg',:class => "city_pic", :id => "florence") %></a>
+      <a href="/cities/<%= City.where(name: "Florence").first.id %>/attractions"><%= image_tag('cropped_cities/florence_crop_img.jpg',:class => "city_pic", :id => "florence") %><div class="debug city-description"><p><%= City.where(name: "Florence").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Istanbul").first.id %>/attractions"><%= image_tag('cropped_cities/istanbul_crop_img.jpg', :class => "city_pic", :id => "istanbul") %></a>
+     <a href="/cities/<%= City.where(name: "Istanbul").first.id %>/attractions"><%= image_tag('cropped_cities/istanbul_crop_img.jpg', :class => "city_pic", :id => "istanbul") %><div class="debug city-description"><p><%= City.where(name: "Istanbul").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Kyoto").first.id %>/attractions"><%= image_tag('cropped_cities/kyoto_crop_img.jpg', :class => "city_pic", :id => "kyoto") %></a>
+      <a href="/cities/<%= City.where(name: "Kyoto").first.id %>/attractions"><%= image_tag('cropped_cities/kyoto_crop_img.jpg', :class => "city_pic", :id => "kyoto") %><div class="debug city-description"><p><%= City.where(name: "Kyoto").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Paris").first.id %>/attractions"><%= image_tag('cropped_cities/paris_crop_img.jpg',:class => "city_pic", :id => "paris") %></a>
+      <a href="/cities/<%= City.where(name: "Paris").first.id %>/attractions"><%= image_tag('cropped_cities/paris_crop_img.jpg',:class => "city_pic", :id => "paris") %><div class="debug city-description"><p><%= City.where(name: "Paris").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Rio de Janeiro").first.id %>/attractions"><%= image_tag('cropped_cities/rio_de_janeiro_crop_img.jpg', :class => "city_pic", :id => "rio de janeiro") %></a>
+     <a href="/cities/<%= City.where(name: "Rio de Janeiro").first.id %>/attractions"><%= image_tag('cropped_cities/rio_de_janeiro_crop_img.jpg', :class => "city_pic", :id => "rio de janeiro") %><div class="debug city-description"><p><%= City.where(name: "Rio de Janeiro").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "San Francisco").first.id %>/attractions"><%= image_tag('cropped_cities/san_francisco_crop_img.jpg', :class => "city_pic", :id => "san francisco") %></a>
+     <a href="/cities/<%= City.where(name: "San Francisco").first.id %>/attractions"><%= image_tag('cropped_cities/san_francisco_crop_img.jpg', :class => "city_pic", :id => "san francisco") %><div class="debug city-description"><p><%= City.where(name: "San Francisco").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Sydney").first.id %>/attractions"><%= image_tag('cropped_cities/sydney_crop_img.jpg', :class => "city_pic", :id => "sydney") %></a>
+     <a href="/cities/<%= City.where(name: "Sydney").first.id %>/attractions"><%= image_tag('cropped_cities/sydney_crop_img.jpg', :class => "city_pic", :id => "sydney") %><div class="debug city-description"><p><%= City.where(name: "Sydney").first.description %></p>
+    </div></a>
     </div>
     <div class="debug city-detail">
-     <a href="/cities/<%= City.where(name: "Vienna").first.id %>/attractions"><%= image_tag('cropped_cities/vienna_crop_img.jpg', :class => "city_pic", :id => "vienna") %></a>
+     <a href="/cities/<%= City.where(name: "Vienna").first.id %>/attractions"><%= image_tag('cropped_cities/vienna_crop_img.jpg', :class => "city_pic", :id => "vienna") %><div class="debug city-description"><p><%= City.where(name: "Vienna").first.description %></p>
+    </div></a>
     </div>
 
   </div>
