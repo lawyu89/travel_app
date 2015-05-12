@@ -12,7 +12,7 @@
         <% if current_user %>
           <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
           <% else %>
-          <a href='/users/new' class="t-left w-60 h-68">Signup</a>
+          <a href='/users/new' class="t-left w-60 h-68"><%= image_tag('plus.png', :class => "log")%></a>
         <% end %>
       </div>
       <div class="debug center w-logo">

@@ -110,6 +110,7 @@ a:hover {
 
 a {text-decoration: none}
 
+input:focus {outline: none; }
 /* Images */
 
 /* SwipeSee */
