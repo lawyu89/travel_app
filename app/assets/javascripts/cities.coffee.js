@@ -2,6 +2,7 @@
 $(document).ready(function() {
   // console.log("i am ready");
 $('#search-form input').on('keyup', runSearch);
+$('.total-page-container').on('taphold', '.city-detail', showCityDesc)
 });
 
 
@@ -32,8 +33,11 @@ var runSearch = function() {
         return !reg.test(searchText);
     }).hide();
   };
-    
-  
+
+var showCityDesc = function(){
+    $(this).find('img').fadeTo('slow', 0.3)
+    $(this).find('.city-description').fadeIn('slow')
+}
 
 
 
