@@ -1,9 +1,14 @@
 
 $(document).ready(function() {
+$('#search-form input').on('keyup', runSearch);
+google.maps.event.addDomListener(window, 'load', initialize);
+ google.maps.event.addDomListener(window, 'load', codeAddress);
+
   // console.log("i am ready");
 $(".se-pre-con").fadeOut("slow");;
 $('#search-form input').on('keyup', runSearch);
 $('.total-page-container').on('taphold', '.city-detail', showCityDesc)
+
 });
 
 
@@ -35,6 +40,7 @@ var runSearch = function() {
     }).hide();
   };
 
+
 var showCityDesc = function(){
     $(this).find('img').fadeTo('slow', 0.3)
     $(this).find('.city-description').fadeIn('slow')
@@ -43,3 +49,33 @@ var showCityDesc = function(){
 
 
 
+var geocoder;
+var map;
+var initialize = function() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(40.708116, -73.957070);
+  var mapOptions = {
+    zoom: 15,
+    center: latlng
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+};
+
+var codeAddress=function() {
+  var address = $('#address').text();
+    var icon = $('#icon').children().attr('src');
+    console.log(icon);
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      map.setCenter(results[0].geometry.location);
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location,
+          title: address,
+          icon: icon
+      });
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+};
