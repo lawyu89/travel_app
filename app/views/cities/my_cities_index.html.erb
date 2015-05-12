@@ -1,34 +1,39 @@
 <div class="total-page-container">
   <header class="debug">
-    <div class="debug row">
-    <div class="debug col span-3-t t-right">
-      <% if current_user %>
-        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
-        <% else %>
-        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
-      <% end %>
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <% else %>
+          <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <a href='/users/new' class="t-left w-60 h-68"><%= image_tag('plus.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <a href="/cities"><%= image_tag('swipesee_circle.png', :class => "logo")%></a>
+      </div>
     </div>
-    <a href="/cities"><div class="debug col span-6-t t-center">
-      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
-      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
-    </div></a>
-    <div class="debug col span-3-t">
-      <% if current_user %>
-        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
-        <% else %>
-        <a href='/users/new'>Signup</a>
-      <% end %>
-    </div>
+    <div class="t-center m-t-neg">
+      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-m">
+        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
+
+  <div class="se-pre-con"></div>
+
   <div class="city-pics-container t-center center debug">
     <% @cities.each do |city| %>
-      <div class="span-5-t t-center d-inb v-top my-city debug">
+      <div class="span-5-t t-center d-inb v-top debug">
         <p><%= city.name %></p>
         <div class="center square_city debug">
           <a href="/mycities/<%= city.id %>/attractions"><img src="<%= city.photo_url %>" class="my-city-image"></a>
@@ -36,4 +41,5 @@
       </div>
     <% end %>
   </div>
+
 </div>

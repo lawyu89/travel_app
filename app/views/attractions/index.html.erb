@@ -23,6 +23,7 @@
       <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
   </header>
+  <div class="se-pre-con"></div>
   <!-- Original Page content for Jquery -->
   <div class="attractions-container">
     <% @attractions.each_with_index do |attraction,index| %>
@@ -32,10 +33,10 @@
           <div class="square_city">
             <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="debug my-city-image" src="<%= attraction.photo_url %>"></a>
           </div>
-          <div class="m-t-l center clear_fix button_test hidden_button">
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="fl-l button-left" id='leftb'>Left</button>
-            <button type='button' class='center button-info' id='midb'>Info</button>
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="fl-r button-right" id='rightb'>Right</button>
+          <div class="m-t-l center button_test hidden_button">
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left round-button" id='leftb'><%= image_tag('thumbs_down.png', :class => "log")%></button>
+            <button type='button' class='button-info round-button v-top' id='midb'>INFO</button>
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="round-button button-right" id='rightb'><%= image_tag('thumbs_up.png', :class => "log")%></button>
           </div>
         </div>
         <div class="m-t-l panel back">
