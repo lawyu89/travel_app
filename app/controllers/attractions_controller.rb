@@ -98,4 +98,8 @@ class AttractionsController < ApplicationController
     @attraction = Attraction.where(id: params[:id]).first
   end 
 
+  def my_selected_map
+    @city = City.where(id:params[:city_id]).first
+  end 
+
 end

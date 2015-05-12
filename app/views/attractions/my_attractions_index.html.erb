@@ -33,7 +33,7 @@
     <div>
       <%= @city.name %>
       <% @attractions.each do |attraction| %>
-        <div class="my-attractions">
+        <div class="my-attractions debug">
           <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
           <div><%= attraction.name %></div>
         </div>

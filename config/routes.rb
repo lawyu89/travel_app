@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'mycities/:city_id/attractions' => 'attractions#my_attractions_index'
   get 'mycities/:city_id/attractions/:id/maps' => 'attractions#my_attractions_maps'
   get 'mycities/:city_id/attractions/:id' => 'attractions#my_attractions_show'
+  get 'mycities/:city_id/selected_map' => 'attractions#my_selected_map'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
