@@ -34,8 +34,8 @@
   <div class="my-attraction-detail">
     <h1 class="debug"><%= @attraction.name %></h1>
     <div class="debug"><img id="swipe" src="<%= @attraction.photo_url %>"><div> 
-      <button href="" type='button' class="button-map" id='map'>
-      Map me!</button> 
+      <a href="/mycities/<%=@city.id%>/attractions/<%=@attraction.id%>/maps" class="button-map" id='map' rel="external">
+      Map me!</a> 
       <button href="" type='button' class="button-multi-map" id='bigmap'>Map me on big route!</button> </div>
 
     </div>

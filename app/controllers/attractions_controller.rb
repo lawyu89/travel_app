@@ -38,6 +38,7 @@ class AttractionsController < ApplicationController
     if current_user
       @user = @current_user
       @attraction = Attraction.where(id: params[:id]).first
+      @city= City.where(id: params[:city_id]).first
     else
       redirect_to cities_path
     end
