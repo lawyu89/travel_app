@@ -45,6 +45,7 @@
 /* Borders */
 
 .bdr-blk {border: 1px solid;}
+.bdr-white {border: 2px solid white;}
 .bdr-r-m {border-radius: 16px;}
 
 /* Positioning */
@@ -149,13 +150,14 @@ input:focus {outline: none; }
 /* Use the two classes below to resize images to be perfect squares */
 
 .square_city {
-  width: 400px;
-  height: 400px;
+  width: 275px;
+  height: 275px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 img.my-city-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 275px;
 }
 /* Unsure why i have to be so specific with my image targeting...*/

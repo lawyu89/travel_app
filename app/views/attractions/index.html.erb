@@ -27,9 +27,11 @@
   <div class="attractions-container">
     <% @attractions.each_with_index do |attraction,index| %>
       <div class="attraction panel hidden">
-        <div id="attraction<%= index %>" class="front panel">
-          <p><%= attraction.name %></p>
-          <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
+        <div id="attraction<%= index %>" class="debug front panel">
+          <p class="fz-ms"><%= attraction.name %></p>
+          <div class="square_city">
+            <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="debug my-city-image" src="<%= attraction.photo_url %>"></a>
+          </div>
           <div class="button_test hidden_button">
             <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
             <button type='button' class='button-info' id='midb'>Info</button>

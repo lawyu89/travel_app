@@ -32,14 +32,15 @@ width: 50%;
 
 .panel {
     margin: 0 auto;
-    width: 100%;
-    height: auto;
+    width: 310px;
+    height: 360px;
     position: relative;
     font-size: .8em;
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
 }
 .panel .front {
+    background-image: url(/imgs/polaroid_repeat.png);
     position: absolute;
     top: 0;
     z-index: 900;
@@ -65,6 +66,7 @@ width: 50%;
     -moz-transform: rotateY(180deg);
 }
 .panel .back {
+    background-color: #ECEFF4;
     position: absolute;
     top: 0;
     z-index: 800;
