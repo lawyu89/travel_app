@@ -1,9 +1,8 @@
 
 $(document).ready(function() {
-  // console.log("i am ready");
 $('#search-form input').on('keyup', runSearch);
-window.onload = loadScript; 
- // google.maps.event.addDomListener(window, 'load', initialize); 
+google.maps.event.addDomListener(window, 'load', initialize);
+ google.maps.event.addDomListener(window, 'load', codeAddress);
 });
 
 
@@ -35,39 +34,33 @@ var runSearch = function() {
     }).hide();
   };
     
-// //Maps test1: 
 
-var initialize = function(){
-  var mapProp = {
-    center: new google.maps.LatLng(48.858255, 2.294669),
-    zoom:7,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+
+
+var geocoder;
+var map;
+var initialize = function() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(40.708116, -73.957070);
+  var mapOptions = {
+    zoom: 15,
+    center: latlng
   };
-  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 };
 
-var loadScript = function()
-{
-  var script = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
-  // src="http://maps.googleapis.com/maps/api/js?key=YOUR_KEY"
-  document.body.appendChild(script);
+var codeAddress=function() {
+  var address = $('#address').text();
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      map.setCenter(results[0].geometry.location);
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location,
+          title: address
+      });
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
 };
-
-// Maps 2
-// var initialize = function() {
-//   var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-//   var mapOptions = {
-//     zoom: 4,
-//     center: myLatlng
-//   };
-//   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-//   var marker = new google.maps.Marker({
-//       position: myLatlng,
-//       map: map,
-//       title: 'Hello World!'
-//   });
-// };
-
