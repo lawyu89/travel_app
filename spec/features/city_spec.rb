@@ -130,6 +130,12 @@ describe "routes", js: true do
       @current_user = User.last
     end
 
+    # scenario "existing user can sign in" do 
+    #   visit root_path
+    #   click_link 'log'
+
+    # end
+
     scenario "current user clicking RHS to like attraction and view to next attraction" do
       session[:user_id] = @current_user.id
       visit city_attractions_path(@bangkok)
