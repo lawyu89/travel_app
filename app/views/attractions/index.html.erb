@@ -1,41 +1,46 @@
 <div class="total-page-container">
   <header class="debug">
-    <div class="debug row">
-    <div class="debug col span-3-t t-right">
-      <% if current_user %>
-        <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
-        <% else %>
-        <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
-      <% end %>
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <% else %>
+          <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <a href='/users/new' class="t-left w-60 h-68"><%= image_tag('plus.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <a href="/cities"><%= image_tag('swipesee_circle.png', :class => "logo")%></a>
+      </div>
     </div>
-    <a href="/cities"><div class="debug col span-6-t t-center">
-      <div id="logo"><%= image_tag('swipesee_circle.png', :class => "logo")%></div>
-      <h1 class="f-oswald fz-l c-white">SwipeSee</h1>
-    </div></a>
-    <div class="debug col span-3-t">
-      <% if current_user %>
-        <a href='/mycities'><%= image_tag('heart.png', :class => "heart")%></a>
-        <% else %>
-        <a href='/users/new'>Signup</a>
-      <% end %>
-    </div>
+    <div class="t-center m-t-neg">
+      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
   </header>
+  <div class="se-pre-con"></div>
   <!-- Original Page content for Jquery -->
   <div class="attractions-container">
     <% @attractions.each_with_index do |attraction,index| %>
       <div class="attraction panel hidden">
-        <div id="attraction<%= index %>" class="front panel">
-          <p><%= attraction.name %></p>
-          <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="resize" src="<%= attraction.photo_url %>"></a>
-          <div class="button_test hidden_button">
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left" id='leftb'>Left</button>
-            <button type='button' class='button-info' id='midb'>Info</button>
-            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="button-right" id='rightb'>Right</button>
+        <div id="attraction<%= index %>" class="debug front panel m-t-l">
+          <p class="fz-ms p-xs"><%= attraction.name %></p>
+          <div class="square_city">
+            <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="debug my-city-image" src="<%= attraction.photo_url %>"></a>
+          </div>
+          <div class="m-t-l center button_test hidden_button">
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/dislike" type='button' class="button-left round-button" id='leftb'><%= image_tag('thumbs_down.png', :class => "log")%></button>
+            <button type='button' class='button-info round-button v-top' id='midb'>INFO</button>
+            <button href="/cities/<%= @city.id %>/attractions/<%= attraction.id%>/like" type='button' class="round-button button-right" id='rightb'><%= image_tag('thumbs_up.png', :class => "log")%></button>
           </div>
         </div>
-        <div class="panel back">
-          <h1><%= attraction.description %></h2>
+        <div class="m-t-l panel back">
+          <h1 class="p-m"><%= attraction.description %></h1>
         </div>
       </div>
       <!-- <div class="button_test hidden_button">

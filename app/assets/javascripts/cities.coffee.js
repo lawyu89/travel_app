@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   // console.log("i am ready");
+$(".se-pre-con").fadeOut("slow");;
 $('#search-form input').on('keyup', runSearch);
 $('.total-page-container').on('taphold', '.city-detail', showCityDesc)
 });
@@ -38,6 +39,7 @@ var showCityDesc = function(){
     $(this).find('img').fadeTo('slow', 0.3)
     $(this).find('.city-description').fadeIn('slow')
 }
+
 
 
 
