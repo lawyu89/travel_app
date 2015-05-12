@@ -36,6 +36,7 @@ var runSearch = function() {
 
 var showCityDesc = function(){
     $(this).find('img').fadeTo('slow', 0.3)
+    $(this).find('.city-description').fadeIn('slow')
 }
 
 
