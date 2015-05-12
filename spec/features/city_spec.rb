@@ -37,10 +37,18 @@ describe "the home page/ city index route", :js => true do
     save_and_open_page 
   end
 
-  scenario "clicking RHS button moves to the second attraction " do
+  scenario "clicking LHS button moves to the second attraction " do
     visit city_attractions_path(@bangkok)
     save_and_open_page 
     find_by_id('leftb').click
+    expect(page).to have_content('test2')
+    save_and_open_page 
+  end
+
+  scenario "clicking RHS button moves to the second attraction " do
+    visit city_attractions_path(@bangkok)
+    save_and_open_page 
+    find_by_id('rightb').click
     expect(page).to have_content('test2')
     save_and_open_page 
   end
