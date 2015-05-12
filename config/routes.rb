@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'test' => 'cities#test'
   get 'test_my_cities_index' => 'cities#test_my_cities_index'
   get 'test_my_city_index' => 'attractions#test_my_city_index'
+  get 'test_my_attraction_map' => 'attractions#test_my_attraction_map'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get 'login' => 'sessions#new'

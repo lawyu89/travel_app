@@ -2,6 +2,8 @@
 $(document).ready(function() {
   // console.log("i am ready");
 $('#search-form input').on('keyup', runSearch);
+window.onload = loadScript; 
+ // google.maps.event.addDomListener(window, 'load', initialize); 
 });
 
 
@@ -33,7 +35,39 @@ var runSearch = function() {
     }).hide();
   };
     
-  
+// //Maps test1: 
 
+var initialize = function(){
+  var mapProp = {
+    center: new google.maps.LatLng(48.858255, 2.294669),
+    zoom:7,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+};
 
+var loadScript = function()
+{
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
+  // src="http://maps.googleapis.com/maps/api/js?key=YOUR_KEY"
+  document.body.appendChild(script);
+};
+
+// Maps 2
+// var initialize = function() {
+//   var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+//   var mapOptions = {
+//     zoom: 4,
+//     center: myLatlng
+//   };
+//   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+//   var marker = new google.maps.Marker({
+//       position: myLatlng,
+//       map: map,
+//       title: 'Hello World!'
+//   });
+// };
 

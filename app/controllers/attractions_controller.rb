@@ -87,4 +87,9 @@ class AttractionsController < ApplicationController
     end
   end
 
+  def test_my_attraction_map
+    @city = City.where(id:2).first
+    @attraction = Attraction.where(id:1).first
+  end 
+
 end
