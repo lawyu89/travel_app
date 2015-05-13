@@ -210,3 +210,8 @@ img.my-city-image {
 #rightb:hover {
   border: 1px solid green;
 }
+
+.search-input {
+  background: white url('/imgs/search.png') no-repeat 8px 6px;
+  background-size: 1.25em;
+}
