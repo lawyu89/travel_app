@@ -80,6 +80,7 @@
 .v-top {vertical-align: top}
 
 .d-inb {display: inline-block;}
+.d-b {display: block;}
 /* Margin */
 
 .m-sm {margin: .75em;}
@@ -144,6 +145,11 @@ input:focus {outline: none; }
   /*height: 90px;*/
   height: 40px;
   /*display: inline;*/
+}
+
+.invis-log {
+  height: 40px;
+  width: 43px;
 }
 
 /* main city pics page */
