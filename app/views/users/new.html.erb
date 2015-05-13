@@ -1,24 +1,47 @@
-<div>
-  <h1>Sign Up</h1>
-  <%= form_for @user do |f| %>
-    <div>
-      <p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %>
+<div class="total-page-container">
+  <header class="debug">
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+        <% else %>
+          <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <div class='invis-log'></div>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <a href="/cities"><%= image_tag('swipesee_circle.png', :class => "logo")%></a>
+      </div>
     </div>
-    <div>
-      <h2><%= f.label :username %></h2>
-      <%= f.text_field :username, required: true, title: "Please Enter Your Username" %>
+    <div class="t-center m-t-neg">
+      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
-    <div>
-      <h2><%= f.label :email %></h2>
-      <%= f.text_field :email, required: true, pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}', title: "E.g john123@gmail.com" %>
-      <%=  %>
+  </header>
+  <div class="se-pre-con"></div>
+
+  <div>
+    <h1 class='t-center f-oldstd'>SIGN UP</h1>
+    <%= form_for @user do |f| %>
+    <div class="w-90 center">
+      <div><p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :username %></h2></div>
+      <div><%= f.text_field :username, required: true, title: "Please Enter Your Username", :class => 'w-full' %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :email %></h2></div>
+      <div>
+        <%= f.text_field :email, required: true, pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}', title: "E.g john123@gmail.com", :class => 'w-full' %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :password %></h2></div>
+      <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'w-full' %></div>
     </div>
-    <div>
-      <h2><%= f.label :password %></h2>
-      <%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum" %>
-    </div>
-    <div>
-      <%= f.submit "Sign Up" %>
-    </div>
-  <% end %>
+      <div class='p-sm ta-c'><%= f.submit "Sign Up" %></div>
+    <% end %>
+  </div>
 </div>

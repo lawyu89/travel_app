@@ -197,6 +197,10 @@ img.my-city-image {
     font-weight:bold;
 }
 
+.ta-c {
+  text-align:center;
+}
+
 .sm-rect-button {
     border-radius: 10px;
     border: 1px solid #f5f5f5;
@@ -217,7 +221,12 @@ img.my-city-image {
   border: 1px solid green;
 }
 
+.f-weight {
+  font-weight: normal;
+}
+
 .search-input {
   background: white url('/imgs/search.png') no-repeat 8px 6px;
   background-size: 1.25em;
 }
+
