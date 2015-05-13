@@ -3,7 +3,7 @@
     <div class="debug clearfix">
       <div class="debug fl-l p-l-sm">
         <% if current_user %>
-          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
           <% else %>
           <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
         <% end %>
@@ -22,24 +22,24 @@
     <div class="t-center m-t-neg">
       <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
-    <h1 class="f-oldstd t-center">MY CITIES</h1>
-    <div class="debug col span-12-t t-center p-sm">
-      <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
-      </form>
-    </div>
   </header>
 
   <div class="se-pre-con"></div>
+  <a href='/mycities/<%= @city.id %>/attractions/<%= @attraction.id %>'><p class="p-l-xs c-white">BACK</p></a>
+  <h1 class="f-oldstd t-center debug fz-sm"><%=@attraction.name %></h1>
 
-  <div class="city-pics-container t-center center debug">
-    <% @cities.each do |city| %>
-      <div class="my-city span-5-t t-center d-inb v-top debug">
-        <div class="center square_city debug">
-          <a href="/mycities/<%= city.id %>/attractions"><%= image_tag(city.photo_url, :class => "my-city-image")%></a>
-        </div>
-      </div>
-    <% end %>
-  </div>
+  <div id="map-canvas" class="m-t-m center" style="width:300px;height:250px;"></div>
+
+  <div class="address" id="address" ><%=@attraction.name %>,<%=@city.name %></div>
+
+  <div class="address" id="icon" ><%= image_tag('swipesee_small_red.png', :id => "icon2")%></div>
+
+
+  <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
 
 </div>
+
+
+
+
+

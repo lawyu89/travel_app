@@ -38,6 +38,7 @@ class AttractionsController < ApplicationController
     if current_user
       @user = @current_user
       @attraction = Attraction.where(id: params[:id]).first
+      @city= City.where(id: params[:city_id]).first
     else
       redirect_to cities_path
     end
@@ -92,5 +93,19 @@ class AttractionsController < ApplicationController
       redirect_to cities_path
     end
   end
+
+  def test_my_attraction_map
+    @city = City.where(id:2).first
+    @attraction = Attraction.where(id:2).first
+  end 
+
+  def my_attractions_maps
+    @city = City.where(id: params[:city_id]).first
+    @attraction = Attraction.where(id: params[:id]).first
+  end 
+
+  def my_selected_map
+    @city = City.where(id:params[:city_id]).first
+  end 
 
 end

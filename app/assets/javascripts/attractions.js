@@ -4,22 +4,24 @@ $( document).ready(function() {
     current.attr("id", "swipe")
     current.removeClass("hidden")
     current.addClass('current-button')
-    $("#swipe").on("swipeleft", function(e){
-      $('#swipe').animate({
-        right: '200px'
-      }).fadeOut('fast',function(){
-        swipeLeft(e, current)
-      })
-      runDislike($(this).find('.button-left'))
-    });
-    $("#swipe").on("swiperight", function(e){
-      $('#swipe').animate({
-        left: '200px'
-      }).fadeOut('fast',function(){
-        swipeRight(e, current)
-      })
-      runLike($(this).find('.button-right'))
-    });
+    if (current.attr('class').indexOf('swipsee-end') === -1) {
+      $("#swipe").on("swipeleft", function(e){
+        $('#swipe').animate({
+          right: '200px'
+        }).fadeOut('fast',function(){
+          swipeLeft(e, current)
+        })
+        runDislike($(this).find('.button-left'))
+      });
+      $("#swipe").on("swiperight", function(e){
+        $('#swipe').animate({
+          left: '200px'
+        }).fadeOut('fast',function(){
+          swipeRight(e, current)
+        })
+        runLike($(this).find('.button-right'))
+      });
+    }
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
       event.preventDefault()
       $(this).closest('.attraction').toggleClass('flip')
@@ -31,7 +33,6 @@ $( document).ready(function() {
       e.preventDefault();
       runDislike(button);
       swipeLeft(e, $(this).closest('.attraction'))
-
     })
     $('.attractions-container').on('tap', '.current-button #rightb', function(e){
       var button = this
@@ -82,7 +83,9 @@ $( document).ready(function() {
     function swipeLeft(event, parent){
       event.preventDefault();
       parent.attr("id", "")
-      parent.addClass("hidden")
+      parent.slideUp('fast', function(){
+        $(this).addClass('hidden')
+      })
       parent.removeClass('current-button')
       var next_item = parent.next()
       next_item.attr("id", "swipe")
@@ -111,7 +114,9 @@ $( document).ready(function() {
     function swipeRight(event, parent){
       event.preventDefault();
       parent.attr("id", "")
-      parent.addClass('hidden')
+      parent.slideUp('fast', function(){
+        $(this).addClass('hidden')
+      })
       parent.removeClass('current-button')
       var next_item = parent.next()
       next_item.removeClass("hidden")

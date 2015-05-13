@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'test' => 'cities#test'
   get 'test_my_cities_index' => 'cities#test_my_cities_index'
   get 'test_my_city_index' => 'attractions#test_my_city_index'
+  get 'test_my_attraction_map' => 'attractions#test_my_attraction_map'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get 'login' => 'sessions#new'
@@ -18,8 +19,11 @@ Rails.application.routes.draw do
   get 'mycities' => 'cities#my_cities_index'
   get 'mycities/:city_id' => 'cities#my_cities_show'
   get 'mycities/:city_id/attractions' => 'attractions#my_attractions_index'
+  get 'mycities/:city_id/attractions/:id/maps' => 'attractions#my_attractions_maps'
   get 'mycities/:city_id/attractions/:id' => 'attractions#my_attractions_show'
-
+  get 'mycities/:city_id/selected_map' => 'attractions#my_selected_map'
+  get 'auth/:provider/callback' => 'sessions#fbcreate'
+  get 'auth/failure', to: redirect('/')
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
