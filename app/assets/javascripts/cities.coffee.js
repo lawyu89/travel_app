@@ -81,8 +81,13 @@ $(document).ready(function() {
         geocoder.geocode({
             'address': "Musee D'orsay, Paris"}, function(results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
+
+        test = $('#attraction_id_tag').attr("data");
+        var json = JSON.parse(test);
                 console.log(results[0].geometry.location["A"]);
                 console.log(results[0].geometry.location["F"]);
+                console.log(json);
+                console.log(json[0]);
             } else {
                 console.log('Geocode was not successful for the following reason: ' + status);
             }
@@ -96,6 +101,11 @@ $(document).ready(function() {
             ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
             ['Maroubra Beach', -33.950198, 151.259302, 1]
         ];
+
+        
+ 
+
+
         var startLat = locations[0][1];
         var startLong = locations[0][2];
 
@@ -116,7 +126,8 @@ $(document).ready(function() {
                 map: map2
             });
         };
-        multiMap(marker2, i, map2);
+
+
     };
 
 
@@ -125,7 +136,9 @@ $(document).ready(function() {
             infowindow.setContent(locations[i][0]);
             infowindow.open(map2, marker2);
         };
-    };
+        multiMap(marker2, i, map2);
+      };
+
 
    
 
@@ -140,6 +153,5 @@ $(document).ready(function() {
     $(".se-pre-con").fadeOut("slow");
     $('#search-form input').on('keyup', runSearch);
     $('.total-page-container').on('taphold', '.city-detail', showCityDesc);
-  
 
 });

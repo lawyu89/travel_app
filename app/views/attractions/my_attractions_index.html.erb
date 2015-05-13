@@ -36,7 +36,7 @@
         <div class="my-attractions">
           <div class="square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></a></div>
           <div><%= attraction.name %></div>
-          <%=check_box_tag("attractions[]", attraction.id )  %>
+          <%=check_box_tag("attractions[]", "#{attraction.name}, #{attraction.city.name}" )  %>
           <%=label_tag("add me to map" )  %>
         </div>
       <% end %>
@@ -44,6 +44,8 @@
 </div>
 <%=submit_tag("map all these attractions")  %>
 <% end %>
+
+<script id="attraction_id_tag" data-locations="<%= @attraction_ids %>"> </script>
 
 
 
