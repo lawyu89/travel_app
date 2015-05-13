@@ -30,7 +30,7 @@
     </div>
   </header>
   <div class="se-pre-con"></div>
-
+<%= form_tag("/mycities/#{@city.id}/selected_map", method: "get") do  %>
     <div>
       <% @attractions.each do |attraction| %>
         <div class="my-attractions">
@@ -39,8 +39,15 @@
           <div class="c-white t-center f-oldstd"><%= attraction.name %></div>
           <button class='unlike' href='/users/<%= @user.id%>/cities/<%=@city.id%>/attractions/<%=attraction.id%>'>Unlike</button>
           <div class="bdr-m-blk f-oldstd square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></div>
+           <%=check_box_tag("attractions[]", "#{attraction.name}, #{attraction.lat}, #{attraction.long}" )  %>
+          <%=label_tag("add me to map" )  %>
+          <% end %>
+          <%=submit_tag("map all these attractions")  %>
+          <% end %>
+
 
         </div>
-      <% end %>
+      
     </div>
 </div>
+

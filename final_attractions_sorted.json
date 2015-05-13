@@ -6086,7 +6086,7 @@
       "name" : "Chinatown"
     },
     {
-      "top_quote" : null,
+      "top_quote" : "amazing scenery and walk! ",
       "query_slug" : "Bondi+to+Coogee+Beach+Coastal+Walk+Sydney",
       "description" : "",
       "city" : "Sydney",
@@ -6102,12 +6102,12 @@
       "name" : "Sydney Harbour"
     },
     {
-      "top_quote" : null,
+      "top_quote" : "Stunning",
       "query_slug" : "The+Opera+House+to+the+Botanic+Gardens+Walk+Sydney",
-      "description" : "",
+      "description" : "Stunning views and walk - can walk all the way round to the Opera House",
       "city" : "Sydney",
       "rank" : "3 ",
-      "name" : "The Opera House to the Botanic Gardens Walk"
+      "name" : "Royal Botanic Gardens"
     },
     {
       "top_quote" : "Panoramic Views from this Iconic S...",
@@ -6128,10 +6128,10 @@
     {
       "top_quote" : null,
       "query_slug" : "Sydney+Ferries+Sydney",
-      "description" : "",
+      "description" : "Great way to experience the city from the water by catching Sydney Ferries",
       "city" : "Sydney",
       "rank" : "7 ",
-      "name" : "Sydney Ferries"
+      "name" : "Circular Quay (wharf 6)"
     },
     {
       "top_quote" : "The flowers, the birds, the harbor...",
@@ -6142,17 +6142,17 @@
       "name" : "Royal Botanic Gardens"
     },
     {
-      "top_quote" : "A great scenic cruise across Sydne...",
+      "top_quote" : "A great scenic cruise across Sydney from the center to Manly",
       "query_slug" : "Manly+Ferry+Sydney",
-      "description" : "",
+      "description" : "A great scenic cruise across Sydney from the center to Manly",
       "city" : "Sydney",
       "rank" : "11 ",
-      "name" : "Manly Ferry"
+      "name" : "Manly Fast Ferry (Circular Quay)"
     },
     {
       "top_quote" : "The Trendiest\" Part of Sydney\"",
       "query_slug" : "The+Rocks+Sydney",
-      "description" : "The Rocks is an urban locality, tourist precinct and historic area of Sydney's city centre, in the state of New South Wales, Australia.",
+      "description" : "",
       "city" : "Sydney",
       "rank" : "12 ",
       "name" : "The Rocks"
@@ -6166,12 +6166,12 @@
       "name" : "Manly Beach"
     },
     {
-      "top_quote" : "Aida in Sydney - the rain came dow...",
+      "top_quote" : "Aida in Sydney - the rain came down...",
       "query_slug" : "Opera+Australia+Sydney",
       "description" : "Opera Australia is the principal opera company in Australia. Based in Sydney, its performance season at the Sydney Opera House accompanied by the Australian Opera and Ballet Orchestra runs for approximately ...",
       "city" : "Sydney",
       "rank" : "14 ",
-      "name" : "Opera Australia"
+      "name" : "Opera Australia (Opera House) "
     },
     {
       "top_quote" : "Beautiful beach and views",
@@ -6280,7 +6280,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Hayden+Orpheum+Picture+Palace+Sydney",
-      "description" : "",
+      "description" : "Old-timey art deco cinema with a piano bar, live Wurlitzer organ concerts and themed movie nights",
       "city" : "Sydney",
       "rank" : "34 ",
       "name" : "Hayden Orpheum Picture Palace"
@@ -6307,7 +6307,7 @@
       "description" : "Palm Beach is a northern beachside suburb of Sydney, in the state of New South Wales, Australia. Palm Beach is located 41 kilometres north of the Sydney central business district, in the local government ...",
       "city" : "Sydney",
       "rank" : "38 ",
-      "name" : "Palm Beach"
+      "name" : "Palm Beach (Barrenjoey Lighthouse)"
     },
     {
       "top_quote" : "Well worth a visit",
@@ -6327,30 +6327,30 @@
     },
     {
       "top_quote" : "Beautiful beach",
-      "query_slug" : "Bondi+Beach+Sydney",
+      "query_slug" : "Bondi+Beach+Pavillion+Sydney",
       "description" : "Bondi Beach or Bondi Bay is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia.",
       "city" : "Sydney",
       "rank" : "41 ",
-      "name" : "Bondi Beach"
+      "name" : "Bondi Beach (Surf Pavillion)"
     },
     {
-      "top_quote" : null,
+      "top_quote" :  "I spend most weekends there, but it's not usually on the travellers radar.",
       "query_slug" : "Centennial+Park+Sydney",
       "description" : "Centennial Park is a large public, urban park that occupies 189 hectares in the Eastern Suburbs of Sydney in the state of New South Wales, Australia.",
       "city" : "Sydney",
       "rank" : "45 ",
-      "name" : "Centennial Park"
+      "name" : "Centennial Park (Brazillian Fields)"
     },
     {
-      "top_quote" : "Congee Beach",
+      "top_quote" : "Never did the walk, but great little beach to visit whilst in Sydney, easily a match for Bondi !",
       "query_slug" : "Coogee+Beach+Sydney",
       "description" : "Coogee is a beachside suburb of local government area City of Randwick 8 kilometres south-east of the Sydney central business district, in the state of New South Wales, Australia. It is also a part of the Eastern Suburbs of Sydney.",
       "city" : "Sydney",
       "rank" : "44 ",
-      "name" : "Coogee Beach"
+      "name" : "Coogee Beach (Surf Club) "
     },
     {
-      "top_quote" : null,
+      "top_quote" : "Hidden gem, with an incredibly raw collection of contemporary Chinese art.",
       "query_slug" : "White+Rabbit+Gallery+Sydney",
       "description" : "The White Rabbit Gallery is an art museum in Sydney, Australia, which exhibits selections from the White Rabbit Collection of 21st-century Chinese contemporary art.",
       "city" : "Sydney",
@@ -6363,10 +6363,10 @@
       "description" : "",
       "city" : "Sydney",
       "rank" : "46 ",
-      "name" : "James Craig Tall Ship"
+      "name" : "James Craig Tall Ship (Wharf 7, Pyrmont)"
     },
     {
-      "top_quote" : "Interesting insite to the history...",
+      "top_quote" : "Interesting insight to the history of Sydney",
       "query_slug" : "Susannah+Place+Museum+Sydney",
       "description" : "Susannah Place Museum is a historic house museum situated in The Rocks, Sydney. It is a block of four terrace houses that was built in 1844 and had domestic occupants until 1990.",
       "city" : "Sydney",
@@ -6398,7 +6398,7 @@
       "name" : "Mrs Macquarie's Chair"
     },
     {
-      "top_quote" : null,
+      "top_quote" : "The music is always entertaining with a colourful mix of performers.",
       "query_slug" : "The+Camelot+Lounge+Sydney",
       "description" : "",
       "city" : "Sydney",
@@ -6422,7 +6422,7 @@
       "name" : "West Head Look out"
     },
     {
-      "top_quote" : null,
+      "top_quote" : "We came here to watch a matinee performance of Dirty Dancing.",
       "query_slug" : "The+Rocks+Discovery+Museum+Sydney",
       "description" : "",
       "city" : "Sydney",
@@ -6440,21 +6440,21 @@
     {
       "top_quote" : "Lovely place for a relax and swim",
       "query_slug" : "Nielsen+Park+Sydney",
-      "description" : "Nielsen Park is a part of Sydney Harbour National Park at the suburb of Vaucluse in the eastern suburbs of Sydney, Australia. It is a popular recreation area and beach on Port Jackson. The kiosk is dated from 1914.",
+      "description" : "Nielsen Park (also Shark Beach) is a part of Sydney Harbour National Park at the suburb of Vaucluse in the eastern suburbs of Sydney, Australia. It is a popular recreation area and beach on Port Jackson. The kiosk is dated from 1914.",
       "city" : "Sydney",
       "rank" : "61 ",
-      "name" : "Nielsen Park"
+      "name" : "Shark Beach"
     },
     {
       "top_quote" : "A lot of fun",
       "query_slug" : "Madame+Tussauds+Sydney+Sydney",
-      "description" : "",
+      "description" : "Wax museum featuring notable Americans!",
       "city" : "Sydney",
       "rank" : "63 ",
       "name" : "Madame Tussauds Sydney"
     },
     {
-      "top_quote" : null,
+      "top_quote" : "Beautiful art deco building that has fabulous acoustics.",
       "query_slug" : "State+Theatre+Sydney",
       "description" : "The State Theatre is a heritage-listed theatre, located in Market Street, in the city centre of Sydney, Australia.",
       "city" : "Sydney",
@@ -6472,7 +6472,7 @@
     {
       "top_quote" : "Worth going and walking around",
       "query_slug" : "Newtown+Sydney",
-      "description" : "Newtown, a suburb of Sydney's inner west is located approximately four kilometres south-west of the Sydney central business district, straddling the local government areas of the City of Sydney and ...",
+      "description" : "",
       "city" : "Sydney",
       "rank" : "68 ",
       "name" : "Newtown"
@@ -6504,7 +6504,7 @@
     {
       "top_quote" : "On the other side\"\"",
       "query_slug" : "Milsons+Point+Sydney",
-      "description" : "Milsons Point is a suburb on the lower North Shore of Sydney, in the state of New South Wales, Australia. North Sydney is located 3 kilometres north of the Sydney central business district in the local government area of North Sydney Council.",
+      "description" : "",
       "city" : "Sydney",
       "rank" : "72 ",
       "name" : "Milsons Point"
@@ -6515,7 +6515,7 @@
       "description" : "Clovelly is a small beach-side suburb in Sydney's eastern suburbs, in the state of New South Wales, Australia.",
       "city" : "Sydney",
       "rank" : "77 ",
-      "name" : "Clovelly"
+      "name" : "Clovelly Beach (surf club)"
     },
     {
       "top_quote" : "Great escape",

@@ -51,7 +51,7 @@ class AttractionsController < ApplicationController
         attraction_id: params[:id],
         city_id: params[:city_id],
         preference: true
-        )
+      )
 
       city = City.where(id: params[:city_id]).first
       current_user.cities << city if !current_user.cities.include?(city)
@@ -70,7 +70,7 @@ class AttractionsController < ApplicationController
         attraction_id: params[:id],
         city_id: params[:city_id],
         preference: false
-        )
+      )
       render json: attraction.to_json
     else
       placeholder = {"Who's the coolest?" => "Swipesee (furr real)"}
@@ -105,6 +105,8 @@ class AttractionsController < ApplicationController
   end
 
   def my_selected_map
+    @attraction_ids = (params[:attractions])
+    # @attraction_ids = JSON.parse(@attraction_ids).split(",").each_slice(3).to_json
     @city = City.where(id:params[:city_id]).first
   end
 
