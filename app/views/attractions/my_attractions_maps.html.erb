@@ -8,9 +8,10 @@
 <div id="map-canvas" style="width:600px;height:600px;"></div>
 
 
-<div class="address" id="address" ><%=@attraction.name %>,<%=@city.name %></div>
+<div class="address" id="mylat" ><%=@attraction.lat %></div>
+<div class="address" id="mylong" ><%=@attraction.long %></div>
 
-<div class="address" id="icon" ><%= image_tag('swipesee_small_red.png', :id => "icon2")%></div>
+<div class="address" id="icon" ><%= image_tag('swipesee_arrow.png', :id => "icon2")%></div>
 
 <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
 
