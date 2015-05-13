@@ -29,14 +29,21 @@
     </div>
   </header>
   <div class="se-pre-con"></div>
-
+<%= form_tag("/mycities/#{@city.id}/selected_map", method: "get") do  %>
     <div>
       <%= @city.name %>
       <% @attractions.each do |attraction| %>
         <div class="my-attractions">
-          <div class="square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></div>
+          <div class="square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></a></div>
           <div><%= attraction.name %></div>
+          <%=check_box_tag("attractions[]", attraction.id )  %>
+          <%=label_tag("add me to map" )  %>
         </div>
       <% end %>
     </div>
 </div>
+<%=submit_tag("map all these attractions")  %>
+<% end %>
+
+
+

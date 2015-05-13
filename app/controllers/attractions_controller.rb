@@ -99,7 +99,15 @@ class AttractionsController < ApplicationController
   end 
 
   def my_selected_map
+    p params
+    @attraction_ids = params[:attractions]
     @city = City.where(id:params[:city_id]).first
+    my_array = []
+    # @attraction_ids.each do |id|
+    #   attraction = Attraction.find(id)
+    #   my_array << attraction
+    # end 
+    # @my_array = my_array
   end 
 
 end
