@@ -2,7 +2,6 @@ require File.expand_path('../boot', __FILE__)
 require "rails"
 require 'bcrypt'
 require 'httparty'
-require 'dotenv-rails'
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
@@ -16,7 +15,7 @@ require "sprockets/railtie"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-#Dotenv::Railtie.load
+
 module Travel
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
