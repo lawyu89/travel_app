@@ -9,6 +9,7 @@ class CitiesController < ApplicationController
     if current_user
       @user = current_user
       @cities = @user.cities
+      @emptyquote = ["You haven't liked any attractions yet!"].sample
     else
       redirect_to cities_path
     end
