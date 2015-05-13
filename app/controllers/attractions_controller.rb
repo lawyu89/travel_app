@@ -78,6 +78,12 @@ class AttractionsController < ApplicationController
     end
   end
 
+  def destroy
+    attraction = Attraction.find(params[:id])
+    current_user.user_attractions.where(attraction_id: attraction.id).first.destroy
+    render json: attraction
+  end
+
   def test_my_city_index
     if current_user
       @user = @current_user
