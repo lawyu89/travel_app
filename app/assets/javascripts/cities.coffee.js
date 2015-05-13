@@ -76,38 +76,40 @@ $(document).ready(function() {
 
 
     var multiSetUp = function() {
-        var locations2 = [];
-        var geocoder = new google.maps.Geocoder();
-        var attraction_data = JSON.parse($('#attraction_id_tag').attr("data"));
-        console.log(attraction_data.length);
+        // var locations2 = [];
+        // var geocoder = new google.maps.Geocoder();
+        // var attraction_data = JSON.parse($('#attraction_id_tag').attr("data"));
+        // console.log(attraction_data.length);
 
-        for (var i = 0; i < attraction_data.length; i++) {
-            var name = attraction_data[i];
-            var results = [];
-              geocoder.geocode({
-                'address': attraction_data[i]
-            }, function(results, status) {
-                if (status == google.maps.GeocoderStatus.OK) {
-                    var lat = results[0].geometry.location["A"];
-                    var lng = results[0].geometry.location["F"];
-                    console.log(lat,lng);
-                    results.push([lat, lng]);
-                }
-            }); // end geocode function & no ability to access the array - callback?
-        };
+        // for (var i = 0; i < attraction_data.length; i++) {
+        //     var name = attraction_data[i];
+        //     var results = [];
+        //       geocoder.geocode({
+        //         'address': attraction_data[i]
+        //     }, function(results, status) {
+        //         if (status == google.maps.GeocoderStatus.OK) {
+        //             var lat = results[0].geometry.location["A"];
+        //             var lng = results[0].geometry.location["F"];
+        //             console.log(lat,lng);
+        //             results.push([lat, lng]);
+        //         }
+        //     }); // end geocode function & no ability to access the array - callback?
+        
 // How do I use a callback to get the results out and into my array below!????
+   var locations = JSON.parse($('#attraction_id_tag').attr("data"));
+   locations = locations.map(function(location){return location.split(",")});
+   // needs to be nested array per below:
+    // var locations =
+    //     [
+    //         ['Coogee Beach', -33.923036, 151.259052, 5],
+    //         ['Cronulla Beach', -34.028249, 151.157507, 3],
+    //         ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
+    //         ['Maroubra Beach', -33.950198, 151.259302, 1]
+    //     ];
 
-    var locations =
-        [
-            ['Coogee Beach', -33.923036, 151.259052, 5],
-            ['Cronulla Beach', -34.028249, 151.157507, 3],
-            ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-            ['Maroubra Beach', -33.950198, 151.259302, 1]
-        ];
 
-
-    var startLat = locations[0][1];
-    var startLong = locations[0][2];
+    var startLat = parseInt(locations[0][1]);
+    var startLong = parseInt(locations[0][2]);
 
     var multiMapID = $('#multi-map')[0];
     var map2 = new google.maps.Map(multiMapID, {
@@ -136,8 +138,6 @@ $(document).ready(function() {
         };
         multiMap(marker2, i, map2);
     };
-
-
 
 
 

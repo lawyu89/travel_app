@@ -99,23 +99,8 @@ class AttractionsController < ApplicationController
   end
 
   def my_selected_map
-    p "params", params
-    @attraction_ids = params[:attractions]
+    @attraction_ids = (params[:attractions])
+    # @attraction_ids = JSON.parse(@attraction_ids).split(",").each_slice(3).to_json
     @city = City.where(id:params[:city_id]).first
-    # BELOW IS WORKING SERVER SIDE API CALL - whichever we want to go with, but parsing not working
-    maps_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    @new_array = []
-    @attraction_ids.each do |attraction|
-      begin
-        response = HTTParty.get(maps_url, 
-          :query => {key: ENV["MAP_KEY"],
-        address: "#{attraction}"})
-        stuff = (response).to_json
-        @new_array << stuff
-        # p @new_array
-      end
-    end
-    p @new_array
   end
-
 end

@@ -9,6 +9,26 @@ City.destroy_all
 Attraction.destroy_all
 BingSearch.account_key = ENV['API_KEY']
 
+# Getting geocoding data for d'b:
+def map_hell(attraction_name, city_name, attraction_object)
+  maps_url = "https://maps.googleapis.com/maps/api/geocode/json"
+  response = HTTParty.get(maps_url, 
+        :query => {key: ENV["MAP_KEY"],
+      address: "#{attraction_name}, #{city_name}"})
+  location = response.to_json.scan(/\"location":\{"lat":\-?\d+.?\d+,\"lng":\-?\d+\.?\d+\}/)
+  if location[0]
+    lat = location[0].scan(/(\-?\d+\.?\d+)/)[0][0]
+    lng = location[0].scan(/(\-?\d+\.?\d+)/)[1][0]
+    attraction_object.lat = lat
+    attraction_object.long =lng
+  else 
+    attraction_object.lat = nil
+    attraction_object.long = nil
+  end
+  attraction_object.save
+  sleep 1.2
+end 
+
 
 #Seed City Data
 cities = JSON.parse(File.read('final_cities.json'))['rows']
@@ -226,7 +246,7 @@ attractions.each_with_index do |attraction,index|
     map_hell(attraction['name'], 'Sydney', a)
   elsif index <897
     if result.nil?
-      image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
+      image= BingSearch.image(attraction['name']+' Vienna', filters: [:square]).first
       if image.nil?
         result = "ADD ME MOFO"
       else
@@ -241,18 +261,5 @@ attractions.each_with_index do |attraction,index|
 end
 
 
-private 
 
-def map_hell(attraction_name, city_name, attraction_object)
-    maps_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    response = HTTParty.get(maps_url, 
-          :query => {key: ENV["MAP_KEY"],
-        address: "#{attraction_name} + #{city_name}"})
-        location = location_response.to_json.scan(/\"location":\{"lat":\-?\d+.?\d+,\"lng":\-?\d+\.?\d+\}/)
-        lat = location[0].scan(/(\-?\d+\.?\d+)/)[0][0]
-        lng = location[0].scan(/(\-?\d+\.?\d+)/)[1][0]
-        attraction_object.lat = lat
-        attraction_object.long =lng
-        attraction_object.save
-        sleep 0.2
-end 
+
