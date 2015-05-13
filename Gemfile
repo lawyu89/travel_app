@@ -8,6 +8,7 @@ gem 'bing-search'
 gem 'json'
 gem 'hammerjs-rails'
 gem 'omniauth-facebook'
+gem 'rails_12factor'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
