@@ -36,6 +36,7 @@
         <div class="my-attractions">
           <div><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>"></div>
           <div><%= attraction.name %></div>
+          <button class='unlike' href='/users/<%= @user.id%>/cities/<%=@city.id%>/attractions/<%=attraction.id%>'>Unlike</button>
         </div>
       <% end %>
     </div>

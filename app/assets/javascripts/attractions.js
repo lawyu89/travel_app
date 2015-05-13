@@ -137,4 +137,22 @@ $( document).ready(function() {
       }
     }
   }
+
+  $('.total-page-container').on('click', '.unlike', function(e){
+    e.preventDefault();
+    var url = $(this).attr('href')
+
+    $.ajax({
+      dataType: 'json',
+      url: url,
+      type: 'delete'
+    }).done(function(response){
+      var el = document.getElementById(response.name)
+      var upperDiv = el.parentElement.parentElement.parentElement
+      $(upperDiv).addClass('hidden')
+    }).fail(function(response){
+      console.log('AJAX FAILED')
+      console.log(response)
+    })
+  })
 });
