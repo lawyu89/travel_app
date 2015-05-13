@@ -1,9 +1,6 @@
-require 'JSON'
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
-
-require 'bing-search'
 
 City.destroy_all
 Attraction.destroy_all
@@ -39,7 +36,7 @@ cities.each do |city|
   elsif city['name'] == 'Beirut'
     setting_city.photo_url = 'cities/beirut_img.jpg'
   elsif city['name'] == 'Budapest'
-    setting_city.photo_url = 'cities/dudapest_img.jpg'
+    setting_city.photo_url = 'cities/budapest_img.jpg'
   elsif city['name'] == 'Cape Town'
     setting_city.photo_url = 'cities/cape_town_img.jpg'
   elsif city['name'] == 'Detroit'
@@ -51,7 +48,7 @@ cities.each do |city|
   elsif city['name'] == 'Krakow'
     setting_city.photo_url = 'cities/krakow_img.jpg'
   elsif city['name'] == 'Kyoto'
-    setting_city.photo_url = 'citie/kyoto_img.jpg'
+    setting_city.photo_url = 'cities/kyoto_img.jpg'
   elsif city['name'] == 'Paris'
     setting_city.photo_url = 'cities/paris_img.jpg'
   elsif city['name'] == 'Rio de Janeiro'

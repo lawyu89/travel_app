@@ -1,4 +1,4 @@
-.debug { border: 1px solid red;}
+/*.debug { border: 1px solid red;}*/
 
 /* Loader */
 .no-js #loader { display: none;  }
@@ -20,6 +20,7 @@
 .w-full {width: 100%;}
 .w-60 {width: 68px;}
 
+
 .h-68 {height: 60px;}
 
 /* Height */
@@ -28,7 +29,7 @@
 
 .bgc-black {background-color: black}
 .bgc-grey {background-color: #555555}
-
+.bgc-lgrey {background-color: #BEBEBE;}
 /* color */
 
 .c-white {color: white;}
@@ -38,6 +39,7 @@
 .f-oswald {font-family: 'Oswald', sans-serif;}
 .f-oldstd {font-family: 'Old Standard TT', serif;}
 
+.fz-xs {font-size: 1.15em;}
 .fz-sm {font-size: 1.5em;}
 .fz-ms {font-size: 2em;}
 .fz-m {font-size: 3em;}
@@ -46,8 +48,10 @@
 /* Borders */
 
 .bdr-blk {border: 1px solid;}
+.bdr-sm-blk {border: 1px solid black;}
 .bdr-white {border: 2px solid white;}
 .bdr-r-m {border-radius: 16px;}
+.bdr-m-blk {border: 3px solid black;}
 
 /* Positioning */
 
@@ -76,8 +80,10 @@
 .v-top {vertical-align: top}
 
 .d-inb {display: inline-block;}
+.d-b {display: block;}
 /* Margin */
 
+.m-sm {margin: .75em;}
 .m-t-m {margin-top: .5em;}
 .m-t-l {margin-top: 1em;}
 .m-l-l {margin-left: 2.2em;}
@@ -90,6 +96,7 @@
 .p-l {padding: 2em;}
 .p-r-sm {padding: 0.6em;}
 .p-l-sm {padding: 0.6em;}
+.p-l-xs {padding-left: 0.5em;}
 
 /* Normalize */
 
@@ -140,6 +147,11 @@ input:focus {outline: none; }
   /*display: inline;*/
 }
 
+.invis-log {
+  height: 40px;
+  width: 43px;
+}
+
 /* main city pics page */
 .city_pic{
   /*width: 120px;
@@ -150,6 +162,9 @@ input:focus {outline: none; }
   width: 100%;
 }
 
+.swipesee-final {
+  width: 275px;
+}
 /* Use the two classes below to resize images to be perfect squares */
 
 .square_city {
@@ -182,6 +197,18 @@ img.my-city-image {
     font-weight:bold;
 }
 
+.ta-c {
+  text-align:center;
+}
+
+.sm-rect-button {
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 0 3px gray;
+    background: #bebebe;
+    padding:5px;
+}
+
 #leftb:hover {
   border: 1px solid red;
 }
@@ -193,3 +220,13 @@ img.my-city-image {
 #rightb:hover {
   border: 1px solid green;
 }
+
+.f-weight {
+  font-weight: normal;
+}
+
+.search-input {
+  background: white url('/imgs/search.png') no-repeat 8px 6px;
+  background-size: 1.25em;
+}
+

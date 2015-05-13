@@ -1,13 +1,47 @@
-<h1>Log in</h1>
-<% if @error %>
-  <%= @error %>
-<% end %>
-<%= form_for(:session, url: login_path) do |f| %>
-  <%= f.label :email %>
-  <%= f.email_field :email %>
+<div class="total-page-container">
+  <header class="debug">
+    <div class="debug clearfix">
+      <div class="debug fl-l p-l-sm">
+        <% if current_user %>
+          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+        <% else %>
+          <div class='invis-log'></div>
+        <% end %>
+      </div>
+      <div class="debug fl-r p-r-sm">
+        <% if current_user %>
+          <a href='/mycities'><%= image_tag('heart.png', :class => "log")%></a>
+          <% else %>
+          <a href='/users/new' class="t-left w-60 h-68"><%= image_tag('plus.png', :class => "log")%></a>
+        <% end %>
+      </div>
+      <div class="debug center w-logo">
+        <a href="/cities"><%= image_tag('swipesee_circle.png', :class => "logo")%></a>
+      </div>
+    </div>
+    <div class="t-center m-t-neg">
+      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
+    </div>
+  </header>
+  <div class="se-pre-con"></div>
+<div>
+  <h1 class='t-center f-oldstd'>LOG IN</h1>
+  <% if @error %>
+    <%= @error %>
+  <% end %>
+  <%= form_for(:session, url: login_path) do |f| %>
+    <div class="w-90 center">
+      <div class='d-b p-sm'><%= f.label :email%></div>
+      <div class='d-b p-sm'><%= f.email_field :email, :class => 'w-full' %></div>
 
-  <%= f.label :password %>
-  <%= f.password_field :password %>
+      <div class='d-b p-sm'><%= f.label :password %></div>
+      <div class='d-b p-sm'><%= f.password_field :password, :class => 'w-full' %></div>
+    <div class='p-sm ta-c'>
+    <%= f.submit "Log in" %>
+    </div>
+  <% end %>
 
-  <%= f.submit "Log in" %>
-<% end %>
+  <%= link_to "Log in with Facebook", "/auth/Facebook", id: "fb-log-in", :class => 'd-b ta-c' %>
+  </div>
+</div>
+</div>

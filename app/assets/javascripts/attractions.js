@@ -4,22 +4,24 @@ $( document).ready(function() {
     current.attr("id", "swipe")
     current.removeClass("hidden")
     current.addClass('current-button')
-    $("#swipe").on("swipeleft", function(e){
-      $('#swipe').animate({
-        right: '200px'
-      }).fadeOut('fast',function(){
-        swipeLeft(e, current)
-      })
-      runDislike($(this).find('.button-left'))
-    });
-    $("#swipe").on("swiperight", function(e){
-      $('#swipe').animate({
-        left: '200px'
-      }).fadeOut('fast',function(){
-        swipeRight(e, current)
-      })
-      runLike($(this).find('.button-right'))
-    });
+    if (current.attr('class').indexOf('swipsee-end') === -1) {
+      $("#swipe").on("swipeleft", function(e){
+        $('#swipe').animate({
+          right: '200px'
+        }).fadeOut('fast',function(){
+          swipeLeft(e, current)
+        })
+        runDislike($(this).find('.button-left'))
+      });
+      $("#swipe").on("swiperight", function(e){
+        $('#swipe').animate({
+          left: '200px'
+        }).fadeOut('fast',function(){
+          swipeRight(e, current)
+        })
+        runLike($(this).find('.button-right'))
+      });
+    }
     $(".attractions-container").on("tap", '#swipe img,h1',function(event){
       event.preventDefault()
       $(this).closest('.attraction').toggleClass('flip')
@@ -140,4 +142,22 @@ $( document).ready(function() {
       }
     }
   }
+
+  $('.total-page-container').on('click', '.unlike', function(e){
+    e.preventDefault();
+    var url = $(this).attr('href')
+
+    $.ajax({
+      dataType: 'json',
+      url: url,
+      type: 'delete'
+    }).done(function(response){
+      var el = document.getElementById(response.name)
+      var upperDiv = el.parentElement.parentElement.parentElement
+      $(upperDiv).addClass('hidden')
+    }).fail(function(response){
+      console.log('AJAX FAILED')
+      console.log(response)
+    })
+  })
 });

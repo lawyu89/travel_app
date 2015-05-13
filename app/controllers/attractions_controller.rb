@@ -11,11 +11,11 @@ class AttractionsController < ApplicationController
       end
       @attractions
       @attractions.sort_by{|attra| attra.rank}
-      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
+      @quote = ["GAME ROVER!", "We're bone dry!", "Round of Appaws!", "Doggonit, we're all out!"].sample
     else
       @city = City.where(id: params[:city_id]).first
       @attractions = @city.attractions.sort_by{|attra| attra.rank}
-      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
+      @quote = ["GAME ROVER!", "We're bone dry!", "Round of Appaws!", "Doggonit, we're all out!"].sample
     end
   end
 
@@ -78,6 +78,12 @@ class AttractionsController < ApplicationController
     end
   end
 
+  def destroy
+    attraction = Attraction.find(params[:id])
+    current_user.user_attractions.where(attraction_id: attraction.id).first.destroy
+    render json: attraction
+  end
+
   def test_my_city_index
     if current_user
       @user = @current_user
@@ -103,4 +109,5 @@ class AttractionsController < ApplicationController
     # @attraction_ids = JSON.parse(@attraction_ids).split(",").each_slice(3).to_json
     @city = City.where(id:params[:city_id]).first
   end
+
 end

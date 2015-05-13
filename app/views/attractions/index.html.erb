@@ -3,7 +3,7 @@
     <div class="debug clearfix">
       <div class="debug fl-l p-l-sm">
         <% if current_user %>
-          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
           <% else %>
           <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
         <% end %>
@@ -29,7 +29,13 @@
     <% @attractions.each_with_index do |attraction,index| %>
       <div class="attraction panel hidden">
         <div id="attraction<%= index %>" class="debug front panel m-t-l">
-          <p class="f-oldstd fz-ms p-xs"><%= attraction.name %></p>
+          <% if attraction.name.length < 25 %>
+            <p class="f-oldstd fz-ms p-xs"><%= attraction.name %></p>
+          <% elsif attraction.name.length < 40 %>
+            <p class="f-oldstd fz-sm p-xs"><%= attraction.name %></p>
+          <% else %>
+            <p class="f-oldstd fz-xs p-xs"><%= attraction.name %></p>
+          <% end %>
           <div class="square_city">
             <a href="/cities/<%= @city.id %>/attractions/<%= attraction.id %>"><img class="debug my-city-image" src="<%= attraction.photo_url %>"></a>
           </div>
@@ -40,7 +46,11 @@
           </div>
         </div>
         <div class="m-t-l panel back">
+          <% if attraction.description.length < 330 %>
           <h1 class="f-oldstd p-m"><%= attraction.description %></h1>
+          <% else %>
+          <h1 class="f-oldstd p-m fz-sm"><%= attraction.description %></h1>
+          <% end %>
         </div>
       </div>
       <!-- <div class="button_test hidden_button">
@@ -50,9 +60,9 @@
       </div> -->
     <% end %>
       <div class="swipsee-end panel hidden">
-        <h2><%= @quote %></h2>
-        <h3>Check out your city selections <a href="/mycities/<%= @city.id %>/attractions">here</a></h3>
-        <%= image_tag('swipesee.png')%>
+        <a href="/mycities/<%= @city.id %>/attractions"><p class="p-sm fz-m t-center"><%= @quote %></p>
+        <p class="fz-ms p-sm t-center">Click to check out your city selections</p></a>
+        <%= image_tag('swipesee.png', :class => "swipesee-final") %>
       </div>
   </div>
   <!-- End Original Page content for Jquery -->
