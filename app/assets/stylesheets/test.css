@@ -1,4 +1,4 @@
-.debug { border: 1px solid red;}
+/*.debug { border: 1px solid red;}*/
 
 /* Loader */
 .no-js #loader { display: none;  }
@@ -224,3 +224,9 @@ img.my-city-image {
 .f-weight {
   font-weight: normal;
 }
+
+.search-input {
+  background: white url('/imgs/search.png') no-repeat 8px 6px;
+  background-size: 1.25em;
+}
+

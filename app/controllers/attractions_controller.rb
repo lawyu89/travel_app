@@ -11,11 +11,11 @@ class AttractionsController < ApplicationController
       end
       @attractions
       @attractions.sort_by{|attra| attra.rank}
-      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
+      @quote = ["GAME ROVER!", "We're bone dry!", "Round of Appaws!", "Doggonit, we're all out!"].sample
     else
       @city = City.where(id: params[:city_id]).first
       @attractions = @city.attractions.sort_by{|attra| attra.rank}
-      @quote = ["GAME ROVER!", "We're bone dry", "Round of Appaws! You've seen all the attractions!"].sample
+      @quote = ["GAME ROVER!", "We're bone dry!", "Round of Appaws!", "Doggonit, we're all out!"].sample
     end
   end
 
@@ -97,15 +97,15 @@ class AttractionsController < ApplicationController
   def test_my_attraction_map
     @city = City.where(id:2).first
     @attraction = Attraction.where(id:2).first
-  end 
+  end
 
   def my_attractions_maps
     @city = City.where(id: params[:city_id]).first
     @attraction = Attraction.where(id: params[:id]).first
-  end 
+  end
 
   def my_selected_map
     @city = City.where(id:params[:city_id]).first
-  end 
+  end
 
 end

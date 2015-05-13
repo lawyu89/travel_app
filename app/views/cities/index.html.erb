@@ -24,7 +24,7 @@
     </div>
     <div class="col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
+        <input type="text" class="search-input debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
@@ -32,7 +32,6 @@
   <div class="se-pre-con"></div>
 
   <div class="debug city-container">
-
     <div class="debug city-detail">
       <a href="/cities/<%= City.where(name: "Bangkok").first.id %>/attractions"><%= image_tag('cropped_cities/bangkok_crop_img.jpg', :class => "city_pic", :id => "bangkok") %><div class="debug city-description"><p><%= City.where(name: "Bangkok").first.description %></p></div></a>
     </div>
