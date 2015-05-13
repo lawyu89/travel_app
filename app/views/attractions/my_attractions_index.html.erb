@@ -22,6 +22,7 @@
     <div class="t-center m-t-neg">
       <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
+    <h1 class="f-oldstd t-center">MY <%= @city.name.upcase %></h1>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
         <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
@@ -31,11 +32,10 @@
   <div class="se-pre-con"></div>
 
     <div>
-      <%= @city.name %>
       <% @attractions.each do |attraction| %>
         <div class="my-attractions">
-          <div class="square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></div>
-          <div><%= attraction.name %></div>
+          <div class="c-white t-center f-oldstd"><%= attraction.name %></div>
+          <div class="bdr-m-blk f-oldstd square_city"><a href="/mycities/<%= attraction.city_id %>/attractions/<%= attraction.id %>"><img src="<%= attraction.photo_url %>" id="<%=attraction.name %>" class="my-city-image"></div>
         </div>
       <% end %>
     </div>
