@@ -3,7 +3,7 @@
     <div class="debug clearfix">
       <div class="debug fl-l p-l-sm">
         <% if current_user %>
-          <a href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
+          <a id="sign_out" href='/logout'><%= image_tag('logout.png', :class => "log")%></a>
           <% else %>
           <a href='/login'><%= image_tag('login.png', :class => "log")%></a>
         <% end %>
@@ -22,15 +22,16 @@
     <div class="t-center m-t-neg">
       <h1 class="f-oswald fz-ms c-white">SwipeSee</h1>
     </div>
-    <div class="debug col span-12-t t-center p-sm">
+    <div class="col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
         <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
+
   <div class="se-pre-con"></div>
 
-  <div class="debug">
+  <div class="debug city-container">
 
     <div class="debug city-detail">
       <a href="/cities/<%= City.where(name: "Bangkok").first.id %>/attractions"><%= image_tag('cropped_cities/bangkok_crop_img.jpg', :class => "city_pic", :id => "bangkok") %><div class="debug city-description"><p><%= City.where(name: "Bangkok").first.description %></p></div></a>
