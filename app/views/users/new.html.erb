@@ -31,7 +31,7 @@
     <div class="w-90 center">
       <% if @error %>
         <%= @error %>
-      <% end %> 
+      <% end %>
       <div><p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %></div>
 
       <div class="p-t-sm"><%= f.label :username, class: "f-oswald fz-xs f-weight" %></div>
@@ -45,12 +45,12 @@
       <div class="p-t-sm"><%= f.label :password, class: "f-oswald fz-xs f-weight" %></div>
       <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'rounded w-full' %></div>
 
-      <div><h2 class='fz-xs f-weight'><%= f.label :password_confirmation %></h2></div>
-      <div><%= f.password_field :password_confirmation, :class => 'w-full' %></div>
+      <div class="p-t-sm"><%= f.label :password_confirmation, class: "f-oswald fz-xs f-weight" %></div>
+      <div><%= f.password_field :password_confirmation, :class => 'rounded w-full' %></div>
     </div>
       <div class='p-sm ta-c'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
-      
+
     <% end %>
-    <%= link_to "#{image_tag('facebook-login-button.png')}".html_safe, "/auth/Facebook", id: "fb-log-in", :class => 'd-b ta-c' %>
+    <%= link_to "#{image_tag('facebook-login-button.png', class: "w-220")}".html_safe, "/auth/Facebook", id: "fb-log-in", :class => 'p-t-m d-b t-center' %>
   </div>
 </div>
