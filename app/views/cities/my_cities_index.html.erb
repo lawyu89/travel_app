@@ -25,7 +25,7 @@
     <h1 class="f-oldstd t-center">MY CITIES</h1>
     <div class="debug col span-12-t t-center p-sm">
       <form id="search-form" class="debug">
-        <input type="text" class="debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
+        <input type="text" class="search-input debug bdr-blk t-center p-sm bdr-r-m w-90 fz-sm">
       </form>
     </div>
   </header>
@@ -33,13 +33,24 @@
   <div class="se-pre-con"></div>
 
   <div class="city-pics-container t-center center debug">
-    <% @cities.each do |city| %>
-      <div class="my-city span-5-t t-center d-inb v-top debug">
-        <div class="center square_city debug">
-          <a href="/mycities/<%= city.id %>/attractions"><%= image_tag(city.photo_url, :class => "my-city-image")%></a>
-        </div>
+    <% if @cities.length == 0 %>
+      <div class="swipsee-end panel">
+        <a href="/">
+          <p class="p-sm fz-m t-center"><%= @emptyquote %></p>
+          <p class="fz-ms p-sm t-center">Click to start finding attractions!</p>
+        </a>
+        <%= image_tag('swipesee.png', :class => "swipesee-final") %>
       </div>
+    <% else %>
+      <% @cities.each do |city| %>
+        <div class="my-city span-5-t t-center d-inb v-top debug">
+          <div class="center square_city debug">
+            <a href="/mycities/<%= city.id %>/attractions"><%= image_tag(city.photo_url, :class => "my-city-image")%></a>
+          </div>
+        </div>
+      <% end %>
     <% end %>
+
   </div>
 
 </div>
