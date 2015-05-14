@@ -54,45 +54,47 @@ $(document).ready(function() {
 	  });
 	}
 
-    var multiSetUp = function() {
 
-        var locations = JSON.parse($('#attraction_id_tag').attr("data"));
+    function multiSetUp() {
+    var locations = JSON.parse($('#attraction_id_tag').attr("data"));
         locations = locations.map(function(location) {
             return location.split(",");
         });
 
-        var startLat = parseInt(locations[0][1]);
-        var startLong = parseInt(locations[0][2]);
+    var icon = $('#iconsmall').children().attr('src');
 
-        var multiMapID = $('#multi-map')[0];
-        var map2 = new google.maps.Map(multiMapID, {
-            zoom: 10,
-            center: new google.maps.LatLng(startLat, startLong),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+    window.map = new google.maps.Map(document.getElementById('multi-map'), {
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var bounds = new google.maps.LatLngBounds();
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map,
+            icon: icon
         });
 
-        var infowindow = new google.maps.InfoWindow();
+        bounds.extend(marker.position);
 
-        var marker2, i;
-        var icon = $('#iconsmall').children().attr('src');
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
 
-        for (i = 0; i < locations.length; i++) {
-            marker2 = new google.maps.Marker({
-                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                map: map2,
-                icon: icon
-            });
-        };
-    };
+    map.fitBounds(bounds);
 
-
-    var multiMap = function(marker, i, map2) {
-        return function() {
-            infowindow.setContent(locations[i][0]);
-            infowindow.open(map2, marker2);
-        };
-        multiMap(marker2, i, map2);
-    };
+    var listener = google.maps.event.addListener(map, "idle", function () {
+        map.setZoom(10);
+        google.maps.event.removeListener(listener);
+    });
+}
 
 
 
