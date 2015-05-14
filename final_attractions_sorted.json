@@ -4276,7 +4276,7 @@
       "description" : "Myoshin-ji is a temple complex in Kyoto, Japan, and head temple of the associated branch of Rinzai Zen Buddhism. The Myoshin-ji school is by far the largest school in Rinzai Zen, approximately as big as the other thirteen branches combined.",
       "city" : "Kyoto",
       "rank" : "66 ",
-      "name" : "Myoshinji Temple", 
+      "name" : "Myoshinji Temple",
       "photo_url": "http://travelneu.com/o/Myoshin-ji-o41.jpg"
     },
     {
@@ -4469,7 +4469,7 @@
     {
       "top_quote" : "Favorite of Paris",
       "query_slug" : "Musee+d'Orsay+Paris",
-      "description" : "The MusÃ©e d'Orsay is a museum in Paris, France, on the left bank of the Seine. It is housed in the former Gare d'Orsay, a Beaux-Arts railway station built between 1898 and 1900.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "1 ",
       "name" : "Musee d'Orsay",
@@ -4478,7 +4478,7 @@
     {
       "top_quote" : "Third floor is a must",
       "query_slug" : "Eiffel+Tower+Paris",
-      "description" : "The Eiffel Tower is an iron lattice tower located on the Champ de Mars in Paris, France. It was named after the engineer Alexandre Gustave Eiffel, whose company designed and built the tower.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "2 ",
       "name" : "Eiffel Tower"
@@ -4486,7 +4486,7 @@
     {
       "top_quote" : "amazing",
       "query_slug" : "Musee+du+Louvre+Paris",
-      "description" : "The Louvre or the Louvre Museum is one of the world's largest museums and a historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the 1st arrondissement.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "4 ",
       "name" : "Musee du Louvre"
@@ -4494,7 +4494,7 @@
     {
       "top_quote" : "Beautiful and Historic.",
       "query_slug" : "Notre+Dame+Cathedral+Paris",
-      "description" : "Notre-Dame de Paris, also known as Notre-Dame Cathedral or simply Notre-Dame, is a historic Catholic cathedral on the eastern half of the Ã_le de la CitÃ© in the fourth arrondissement of Paris, France.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "5 ",
       "name" : "Notre Dame Cathedral"
@@ -4502,7 +4502,7 @@
     {
       "top_quote" : "The Chagall Ceiling",
       "query_slug" : "Palais+Garnier+-+Opera+National+de+Paris+Paris",
-      "description" : "The Palais Garnier is a 1,979-seat opera house, which was built from 1861 to 1875 for the Paris Opera.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "6 ",
       "name" : "Palais Garnier - Opera National de Paris"
@@ -4510,7 +4510,7 @@
     {
       "top_quote" : "A refuge from tourist Paris",
       "query_slug" : "Luxembourg+Gardens+Paris",
-      "description" : "The Jardin du Luxembourg, or the Luxembourg Garden, located in the 6th arrondissement of Paris, was created beginning in 1612 by Marie de' Medici, the widow of King Henry IV of France, for a new residence she constructed, the Luxembourg Palace.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "9 ",
       "name" : "Luxembourg Gardens",
@@ -4519,7 +4519,7 @@
     {
       "top_quote" : "Most beautiful bridge of Paris",
       "query_slug" : "Pont+Alexandre+III+Paris",
-      "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Ã\u2030lysÃ©es quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
+      "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Elysees quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
       "city" : "Paris",
       "rank" : "10 ",
       "name" : "Pont Alexandre III"
@@ -4527,7 +4527,7 @@
     {
       "top_quote" : "Loved it!",
       "query_slug" : "Musee+de+l'Orangerie+Paris",
-      "description" : "The MusÃ©e de l'Orangerie is an art gallery of impressionist and post-impressionist paintings located in the west corner of the Tuileries Gardens next to the Place de la Concorde in Paris.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "11 ",
       "name" : "Musee de l'Orangerie"
@@ -4535,7 +4535,7 @@
     {
       "top_quote" : "A good way to see the city",
       "query_slug" : "River+Seine+Paris",
-      "description" : "The Seine is a 776-kilometre long river and an important commercial waterway within the Paris Basin in the north of France.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "13 ",
       "name" : "River Seine"
@@ -4543,7 +4543,7 @@
     {
       "top_quote" : "St. Chappelle",
       "query_slug" : "Sainte-Chapelle+Paris",
-      "description" : "The Sainte-Chapelle is a royal medieval Gothic chapel, located near the Palais de la CitÃ©, on the Ã_le de la CitÃ© in the heart of Paris, France.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "14 ",
       "name" : "Sainte-Chapelle"
@@ -4551,7 +4551,7 @@
     {
       "top_quote" : "Fabulous day out!",
       "query_slug" : "Arc+de+Triomphe+Paris",
-      "description" : "The Arc de Triomphe de l'Ã\u2030toile is one of the most famous monuments in Paris. It stands in the centre of the Place Charles de Gaulle, at the western end of the Champs-Ã\u2030lysÃ©es.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "15 ",
       "name" : "Arc de Triomphe"
@@ -4559,7 +4559,7 @@
     {
       "top_quote" : "worth visit day and evening",
       "query_slug" : "Le+Marais+Paris",
-      "description" : "Le Marais is a historic district in Paris, France. Long the aristocratic district of Paris, it hosts many outstanding buildings of historic and architectural importance. It spreads across parts of the 3rd and 4th arrondissements in Paris.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "18 ",
       "name" : "Le Marais"
@@ -4567,7 +4567,7 @@
     {
       "top_quote" : "Enjoyable garden",
       "query_slug" : "Musee+Rodin+Paris",
-      "description" : "The MusÃ©e Rodin in Paris, France, is a museum that was opened in 1919, dedicated to the works of the French sculptor Auguste Rodin.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "19 ",
       "name" : "Musee Rodin"
@@ -4575,7 +4575,7 @@
     {
       "top_quote" : "Would pick it again!",
       "query_slug" : "Saint-Germain-des-Pres+Quarter+Paris",
-      "description" : "Saint-Germain-des-PrÃ©s is an area of the 6th arrondissement of Paris, France, located around the church of the former Abbey of Saint-Germain-des-PrÃ©s.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "20 ",
       "name" : "Saint-Germain-des-Pres Quarter"
@@ -4583,7 +4583,7 @@
     {
       "top_quote" : "St Chappelle",
       "query_slug" : "Ile+de+la+Cite+Paris",
-      "description" : "The Ã_le de la CitÃ© is one of two remaining natural islands in the Seine within the city of Paris. It is the centre of Paris and the location where the medieval city was refounded.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "22 ",
       "name" : "Ile de la Cite"
@@ -4591,7 +4591,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+Jacquemart-Andre+Paris",
-      "description" : "The MusÃ©e Jacquemart-AndrÃ© is a public museum located at 158 Boulevard Haussmann in the 8th arrondissement of Paris.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "28 ",
       "name" : "Musee Jacquemart-Andre"
@@ -4599,7 +4599,7 @@
     {
       "top_quote" : "walking Ile Saint Louis was wonder...",
       "query_slug" : "Ile+Saint-Louis+Paris",
-      "description" : "The Ã_le Saint-Louis is one of two natural islands in the Seine river, in Paris, France.\nThe Ã_le Saint-Louis is connected to the rest of Paris by four bridges to both banks of the river, and to the Ã_le de la CitÃ© by the Pont Saint-Louis.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "23 ",
       "name" : "Ile Saint-Louis"
@@ -4607,7 +4607,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+Marmottan+Paris",
-      "description" : "MusÃ©e Marmottan Monet is located at 2, rue Louis Boilly in the 16th arrondissement of Paris. It features a collection of over three hundred Impressionist and Post-Impressionist works by Claude Monet, ...",
+      "description" : "",
       "city" : "Paris",
       "rank" : "29 ",
       "name" : "Musee Marmottan"
@@ -4631,7 +4631,7 @@
     {
       "top_quote" : "Favorite of Paris",
       "query_slug" : "Musee+d'Orsay+Paris",
-      "description" : "The MusÃ©e d'Orsay is a museum in Paris, France, on the left bank of the Seine. It is housed in the former Gare d'Orsay, a Beaux-Arts railway station built between 1898 and 1900.",
+      "description" : "The Musee d'Orsay is a museum in Paris, France, on the left bank of the Seine. It is housed in the former Gare d'Orsay, a Beaux-Arts railway station built between 1898 and 1900.",
       "city" : "Paris",
       "rank" : "1 ",
       "name" : "Musee d'Orsay"
@@ -4647,7 +4647,7 @@
     {
       "top_quote" : "amazing",
       "query_slug" : "Musee+du+Louvre+Paris",
-      "description" : "The Louvre or the Louvre Museum is one of the world's largest museums and a historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the 1st arrondissement.",
+      "description" : "The Louvre Museum is one of the world's largest museums and a historic monument in Paris, France. Nearly 35,000 objects from prehistory to the 21st century are exhibited over an area of 60,600 square metres. The Louvre is the world's most visited museum.",
       "city" : "Paris",
       "rank" : "4 ",
       "name" : "Musee du Louvre"
@@ -4655,7 +4655,7 @@
     {
       "top_quote" : "Beautiful and Historic.",
       "query_slug" : "Notre+Dame+Cathedral+Paris",
-      "description" : "Notre-Dame de Paris, also known as Notre-Dame Cathedral or simply Notre-Dame, is a historic Catholic cathedral on the eastern half of the Ã_le de la CitÃ© in the fourth arrondissement of Paris, France.",
+      "description" : "Notre-Dame de Paris is a historic Catholic cathedral on the eastern half of the Ile de la Cite. The cathedral is widely considered to be one of the finest examples of French Gothic architecture, and it is among the largest and most well-known church buildings in the world. ",
       "city" : "Paris",
       "rank" : "5 ",
       "name" : "Notre Dame Cathedral"
@@ -4666,7 +4666,7 @@
       "description" : "The Palais Garnier is a 1,979-seat opera house, which was built from 1861 to 1875 for the Paris Opera.",
       "city" : "Paris",
       "rank" : "6 ",
-      "name" : "Palais Garnier - Opera National de Paris"
+      "name" : "Palais Garnier"
     },
     {
       "top_quote" : "A refuge from tourist Paris",
@@ -4679,7 +4679,7 @@
     {
       "top_quote" : "Most beautiful bridge of Paris",
       "query_slug" : "Pont+Alexandre+III+Paris",
-      "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Ã\u2030lysÃ©es quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
+      "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Elysees quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
       "city" : "Paris",
       "rank" : "10 ",
       "name" : "Pont Alexandre III"
@@ -4687,7 +4687,7 @@
     {
       "top_quote" : "Loved it!",
       "query_slug" : "Musee+de+l'Orangerie+Paris",
-      "description" : "The MusÃ©e de l'Orangerie is an art gallery of impressionist and post-impressionist paintings located in the west corner of the Tuileries Gardens next to the Place de la Concorde in Paris.",
+      "description" : "The Musee de l'Orangerie is an art gallery of impressionist and post-impressionist paintings located in the west corner of the Tuileries Gardens next to the Place de la Concorde in Paris.",
       "city" : "Paris",
       "rank" : "11 ",
       "name" : "Musee de l'Orangerie"
@@ -4695,7 +4695,7 @@
     {
       "top_quote" : "A good way to see the city",
       "query_slug" : "River+Seine+Paris",
-      "description" : "The Seine is a 776-kilometre long river and an important commercial waterway within the Paris Basin in the north of France.",
+      "description" : "The Seine is a 776-kilometre long river and an important commercial waterway within the Paris Basin.",
       "city" : "Paris",
       "rank" : "13 ",
       "name" : "River Seine",
@@ -4704,7 +4704,7 @@
     {
       "top_quote" : "St. Chappelle",
       "query_slug" : "Sainte-Chapelle+Paris",
-      "description" : "The Sainte-Chapelle is a royal medieval Gothic chapel, located near the Palais de la CitÃ©, on the Ã_le de la CitÃ© in the heart of Paris, France.",
+      "description" : "The Sainte-Chapelle is a royal medieval Gothic chapel, located near the Palais de la Cite, on the Ile de la Cite in the heart of Paris.",
       "city" : "Paris",
       "rank" : "14 ",
       "name" : "Sainte-Chapelle",
@@ -4713,7 +4713,7 @@
     {
       "top_quote" : "Fabulous day out!",
       "query_slug" : "Arc+de+Triomphe+Paris",
-      "description" : "The Arc de Triomphe de l'Ã\u2030toile is one of the most famous monuments in Paris. It stands in the centre of the Place Charles de Gaulle, at the western end of the Champs-Ã\u2030lysÃ©es.",
+      "description" : "The Arc de Triomphe de l'Etoile is one of the most famous monuments in Paris. It stands in the centre of the Place Charles de Gaulle, at the western end of the Champs-Elysees.",
       "city" : "Paris",
       "rank" : "15 ",
       "name" : "Arc de Triomphe"
@@ -4730,7 +4730,7 @@
     {
       "top_quote" : "Enjoyable garden",
       "query_slug" : "Musee+Rodin+Paris",
-      "description" : "The MusÃ©e Rodin in Paris, France, is a museum that was opened in 1919, dedicated to the works of the French sculptor Auguste Rodin.",
+      "description" : "The Musee Rodin in Paris, France, is a museum that was opened in 1919, dedicated to the works of the French sculptor Auguste Rodin.",
       "city" : "Paris",
       "rank" : "19 ",
       "name" : "Musee Rodin",
@@ -4739,7 +4739,7 @@
     {
       "top_quote" : "Would pick it again!",
       "query_slug" : "Saint-Germain-des-Pres+Quarter+Paris",
-      "description" : "Saint-Germain-des-PrÃ©s is an area of the 6th arrondissement of Paris, France, located around the church of the former Abbey of Saint-Germain-des-PrÃ©s.",
+      "description" : "Saint-Germain-des-Pres is an area of the 6th arrondissement of Paris, located around the church of the former Abbey of Saint-Germain-des-Pres. Home to a number of famous cafés, such as Les Deux Magots and Café de Flore, this area was the center of the existentialist movement.",
       "city" : "Paris",
       "rank" : "20 ",
       "name" : "Saint-Germain-des-Pres Quarter",
@@ -4748,7 +4748,7 @@
     {
       "top_quote" : "St Chappelle",
       "query_slug" : "Ile+de+la+Cite+Paris",
-      "description" : "The Ã_le de la CitÃ© is one of two remaining natural islands in the Seine within the city of Paris. It is the centre of Paris and the location where the medieval city was refounded.",
+      "description" : "The Ile de la Cite is one of two remaining natural islands in the Seine within the city of Paris. It is the centre of Paris and the location where the medieval city was refounded.",
       "city" : "Paris",
       "rank" : "22 ",
       "name" : "Ile de la Cite",
@@ -4757,7 +4757,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+Jacquemart-Andre+Paris",
-      "description" : "The MusÃ©e Jacquemart-AndrÃ© is a public museum located at 158 Boulevard Haussmann in the 8th arrondissement of Paris.",
+      "description" : "The Musee Jacquemart-Andre is a public museum created from the private home of Edouard Andre and Nelie Jacquemart to display the art they collected during their lives.",
       "city" : "Paris",
       "rank" : "28 ",
       "name" : "Musee Jacquemart-Andre",
@@ -4766,7 +4766,7 @@
     {
       "top_quote" : "walking Ile Saint Louis was wonder...",
       "query_slug" : "Ile+Saint-Louis+Paris",
-      "description" : "The Ã_le Saint-Louis is one of two natural islands in the Seine river, in Paris, France.\nThe Ã_le Saint-Louis is connected to the rest of Paris by four bridges to both banks of the river, and to the Ã_le de la CitÃ© by the Pont Saint-Louis.",
+      "description" : "The Ile Saint-Louis is one of two natural islands in the Seine river, in Paris, France. The Ile Saint-Louis is connected to the rest of Paris by four bridges to both banks of the river, and to the Ile de la Cite by the Pont Saint-Louis.",
       "city" : "Paris",
       "rank" : "23 ",
       "name" : "Ile Saint-Louis",
@@ -4775,7 +4775,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+Marmottan+Paris",
-      "description" : "MusÃ©e Marmottan Monet is located at 2, rue Louis Boilly in the 16th arrondissement of Paris. It features a collection of over three hundred Impressionist and Post-Impressionist works by Claude Monet, ...",
+      "description" : "Musee Marmottan Monet features a collection of over three hundred Impressionist and Post-Impressionist works by Claude Monet (with the largest collection of his works in the world), Edgar Degas, and Pierre-Auguste Renoir.",
       "city" : "Paris",
       "rank" : "29 ",
       "name" : "Musee Marmottan",
@@ -4808,7 +4808,7 @@
     {
       "top_quote" : "Bohemian vibe!",
       "query_slug" : "Montmartre+Paris",
-      "description" : "Montmartre is a large hill in Paris's 18th arrondissement. It is 130 metres high and gives its name to the surrounding district, part of the Right Bank in the northern section of the city.",
+      "description" : "Montmartre is a large hill in Paris's 18th arrondissement. Montmartre is primarily known for the white-domed Basilica of the Sacré Cœur on its summit and as a nightclub district.",
       "city" : "Paris",
       "rank" : "32 ",
       "name" : "Montmartre"
@@ -4825,7 +4825,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Chapel+of+Our+Lady+of+the+Miraculous+Medal+Paris",
-      "description" : "The Chapel of Our Lady of the Miraculous Medal in Paris, France, is the chapel where the Blessed Virgin Mary appeared to Saint Catherine LabourÃ© in 1830 and requested the creation of the medal which came to be known as the Miraculous Medal.",
+      "description" : "The Chapel of Our Lady of the Miraculous Medal in Paris, France, is the chapel where the Blessed Virgin Mary appeared to Saint Catherine Laboure in 1830 and requested the creation of the medal which came to be known as the Miraculous Medal.",
       "city" : "Paris",
       "rank" : "37 ",
       "name" : "Chapel of Our Lady of the Miraculous Medal"
@@ -4853,7 +4853,7 @@
       "description" : "Vast tree-lined burial site with famous names including Oscar Wilde, Jim Morrison & Maria Callas.",
       "city" : "Paris",
       "rank" : "40 ",
-      "name" : "Pere-Lachaise Cemetery (Cimetiere du Pere-Lachaise)",
+      "name" : "Pere-Lachaise Cemetery",
       "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/d/db/P%C3%A8re-Lachaise_-_entr%C3%A9e_principale_01.jpg"
     },
     {
@@ -4875,7 +4875,7 @@
     {
       "top_quote" : "Exceptional views of the Eiffel To...",
       "query_slug" : "Trocadero+Paris",
-      "description" : "The TrocadÃ©ro, site of the Palais de Chaillot, is an area of Paris, France, in the 16th arrondissement, across the Seine from the Eiffel Tower. The hill of the TrocadÃ©ro is the hill of Chaillot, a former village.",
+      "description" : "The Trocadero, site of the Palais de Chaillot, is an area of Paris, France, in the 16th arrondissement, across the Seine from the Eiffel Tower. The hill of the Trocadero is the hill of Chaillot, a former village.",
       "city" : "Paris",
       "rank" : "45 ",
       "name" : "Trocadero",
@@ -4892,7 +4892,7 @@
     {
       "top_quote" : "Asia",
       "query_slug" : "Musee+National+des+Arts+Asiatiques+-+Guimet+Paris",
-      "description" : "The Guimet Museum is a museum of Asian art located at 6, place d'IÃ©na in the 16th arrondissement of Paris, France. It has one of the largest collections of Asian art outside Asia.",
+      "description" : "The Guimet Museum is a museum of Asian art. It has one of the largest collections of Asian art outside Asia.",
       "city" : "Paris",
       "rank" : "46 ",
       "name" : "Musee National des Arts Asiatiques - Guimet",
@@ -4918,7 +4918,7 @@
     {
       "top_quote" : "Favorite city get away",
       "query_slug" : "Parc+des+Buttes+Chaumont+Paris",
-      "description" : "The Parc des Buttes-Chaumont is a public park situated in northeast of Paris, in the 19th arrondissement.",
+      "description" : "The Parc des Buttes-Chaumont is a public park situated in northeast of Paris. It is the fifth-largest park in Paris. The most famous feature of the park is the Temple de la Sibylle, inspired by the Temple of Vesta in Tivoli, Italy, perched at the top of a cliff fifty metres above the waters of the artificial lake.",
       "city" : "Paris",
       "rank" : "50 ",
       "name" : "Parc des Buttes Chaumont",
@@ -4927,7 +4927,7 @@
     {
       "top_quote" : "Beautifully organized. Innovative...",
       "query_slug" : "Musee+du+quai+Branly+Paris",
-      "description" : "The MusÃ©e du quai Branly, in Paris, France, features the indigenous art and cultures of Africa, Asia, Oceania, and the Americas.",
+      "description" : "The Musee du quai Branly, in Paris, France, features the indigenous art and cultures of Africa, Asia, Oceania, and the Americas.",
       "city" : "Paris",
       "rank" : "55 ",
       "name" : "Musee du quai Branly",
@@ -4936,7 +4936,7 @@
     {
       "top_quote" : "A Great Way to Spend the Afternoon",
       "query_slug" : "Champs-Elysees+Paris",
-      "description" : "The Avenue des Champs-Ã\u2030lysÃ©es is a boulevard in the 8th arrondissement of Paris, 1.9 kilometres long and 70 metres wide, which runs between the Place de la Concorde and the Place Charles de Gaulle, where the Arc de Triomphe is located.",
+      "description" : "The Avenue des Champs-Elysees is a boulevard in the 8th arrondissement of Paris, where the Arc de Triomphe is located. It is famous for its theatres, cafes and luxury shops, and for the military parade that takes place each year on the avenue on 14 July to celebrate Bastille Day. The name is French for Elysian Fields, the paradise for dead heroes in Greek mythology.",
       "city" : "Paris",
       "rank" : "56 ",
       "name" : "Champs-Elysees",
@@ -4945,7 +4945,7 @@
     {
       "top_quote" : "Excellent Dining",
       "query_slug" : "Latin+Quarter+Paris",
-      "description" : "The Latin Quarter of Paris is an area in the 5th and the 6th arrondissements of Paris. It is situated on the left bank of the Seine, around the Sorbonne.",
+      "description" : "The Latin Quarter of Paris is an area in the 5th and the 6th arrondissements of Paris. It is situated on the left bank of the Seine, around the Sorbonne. Known for its student life, lively atmosphere and bistros, the Latin Quarter is the home to a number of higher education establishments.",
       "city" : "Paris",
       "rank" : "58 ",
       "name" : "Latin Quarter",
@@ -4954,7 +4954,7 @@
     {
       "top_quote" : "Amazing",
       "query_slug" : "Musee+des+Arts+et+Metiers+Paris",
-      "description" : "The MusÃ©e des Arts et MÃ©tiers is an industrial design museum in Paris that houses the collection of the Conservatoire National des Arts et MÃ©tiers, which was founded in 1794 as a repository for the ...",
+      "description" : "The Musee des Arts et Metiers is an industrial design museum in Paris that houses the collection of the Conservatoire National des Arts et Metiers, which was founded in 1794 as a repository for the preservation of scientific instruments and inventions.",
       "city" : "Paris",
       "rank" : "60 ",
       "name" : "Musee des Arts et Metiers",
@@ -4980,7 +4980,7 @@
     {
       "top_quote" : "Breathtaking experience",
       "query_slug" : "Montparnasse+Paris",
-      "description" : "Montparnasse is an area of Paris, France, on the left bank of the river Seine, centred at the crossroads of the Boulevard du Montparnasse and the Rue de Rennes, between the Rue de Rennes and boulevard Raspail.",
+      "description" : "Montparnasse is an area of Paris, France, on the left bank of the river Seine. Montparnasse became famous in the 1920s, referred to as les Annees Folles (the Crazy Years), and the 1930s as the heart of intellectual and artistic life in Paris.",
       "city" : "Paris",
       "rank" : "65 ",
       "name" : "Montparnasse",
@@ -4989,7 +4989,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+des+Arts+Forains+Paris",
-      "description" : "Prebooked guided tours of a collection of objects from fairgrounds, theaters & music halls.",
+      "description" : "A private museum of funfair objects located within the Pavillons de Bercy. The museum was created by Jean Paul Favand, an actor and antiques dealer, from his private collection.",
       "city" : "Paris",
       "rank" : "67 ",
       "name" : "Musee des Arts Forains",
@@ -4998,7 +4998,7 @@
     {
       "top_quote" : "For garden, a picnic and even keep...",
       "query_slug" : "Palais+du+Luxembourg+Paris",
-      "description" : "The Luxembourg Palace is located at 15 rue de Vaugirard in the 6th arrondissement of Paris. It was originally built to the designs of the French architect Salomon de Brosse to be the royal residence of ...",
+      "description" : "The Luxembourg Palace was originally built to the designs of the French architect Salomon de Brosse to be the royal residence of regent Marie de Medicis, mother of Louis XIII of France.",
       "city" : "Paris",
       "rank" : "68 ",
       "name" : "Palais du Luxembourg"
@@ -5006,7 +5006,7 @@
     {
       "top_quote" : null,
       "query_slug" : "St.+Etienne+du+Mont+Paris",
-      "description" : "Saint-Ã\u2030tienne-du-Mont is a church in Paris, France, located on the Montagne Sainte-GeneviÃ¨ve in the 5th arrondissement, near the PanthÃ©on. It contains the shrine of St. GeneviÃ¨ve, the patron saint of Paris.",
+      "description" : "Saint-Etienne-du-Mont is a church in Paris, France, located on the Montagne Sainte-Genevieve in the 5th arrondissement, near the Pantheon. It contains the shrine of St. Genevieve, the patron saint of Paris.",
       "city" : "Paris",
       "rank" : "69 ",
       "name" : "St. Etienne du Mont"
@@ -5023,7 +5023,7 @@
     {
       "top_quote" : null,
       "query_slug" : "La+Madeleine+Paris",
-      "description" : "L'Ã©glise de la Madeleine is a Roman Catholic church occupying a commanding position in the 8th arrondissement of Paris. The Madeleine Church was designed in its present form as a temple to the glory of Napoleon's army.",
+      "description" : "L'eglise de la Madeleine is a Roman Catholic church occupying a commanding position in the 8th arrondissement of Paris. The Madeleine Church was designed in its present form as a temple to the glory of Napoleon's army.",
       "city" : "Paris",
       "rank" : "73 ",
       "name" : "La Madeleine"
@@ -5031,7 +5031,7 @@
     {
       "top_quote" : "Magnum exhibition is fantastic - a...",
       "query_slug" : "Hotel+de+Ville+Paris",
-      "description" : "The HÃ´tel de Ville in Paris, France, is the building housing the city's local administration. Standing on the place de l'HÃ´tel-de-Ville in the 4th arrondissement, it has been the location of the municipality of Paris since 1357.",
+      "description" : "The Hotel de Ville in Paris, France, is the building housing the city's local administration. Standing on the place de l'Hotel-de-Ville in the 4th arrondissement, it has been the location of the municipality of Paris since 1357.",
       "city" : "Paris",
       "rank" : "74 ",
       "name" : "Hotel de Ville"
@@ -5072,7 +5072,7 @@
     {
       "top_quote" : "Overrated!",
       "query_slug" : "The+Catacombs+Paris",
-      "description" : "The Catacombs of Paris or Catacombes de Paris are underground ossuaries in Paris, France. Located south of the former city gate, the ossuaries hold the remains of about six million people and fill a ...",
+      "description" : "The Catacombs of Paris or Catacombes de Paris are underground ossuaries in Paris, France. Located south of the former city gate, the ossuaries hold the remains of about six million people.",
       "city" : "Paris",
       "rank" : "81 ",
       "name" : "The Catacombs"
@@ -5105,7 +5105,7 @@
     {
       "top_quote" : "A museum of music instruments, not...",
       "query_slug" : "Musee+de+la+Musique+Paris",
-      "description" : "The CitÃ© de la Musique is a group of institutions dedicated to music and situated in the La Villette quarter, 19th arrondissement, Paris, France. It was designed by the architect Christian de Portzamparc and opened in 1995.",
+      "description" : "The Cite de la Musique is a group of institutions dedicated to music and situated in the La Villette quarter, 19th arrondissement, Paris, France. It was designed by the architect Christian de Portzamparc and opened in 1995.",
       "city" : "Paris",
       "rank" : "90 ",
       "name" : "Musee de la Musique",
