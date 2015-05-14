@@ -3859,7 +3859,7 @@
     {
       "top_quote" : "Amazing place",
       "query_slug" : "Fushimi+Inari+Shrine+Kyoto",
-      "description" : "Fushimi Inari Taisha is the head shrine of Inari, located in Fushimi-ku, Kyoto, Japan. The shrine sits at the base of a mountain also named Inari which is 233 metres above sea level, and includes trails ...",
+      "description" : "Fushimi Inari Taisha is the head shrine of Inari, located in Fushimi-ku, Kyoto, Japan. The shrine sits at the base of a mountain also named Inari which is 233 metres above sea level, and includes trails up the mountain to many smaller shrines which span 4 kilometers and takes approximately 2 hours to walk up",
       "city" : "Kyoto",
       "rank" : "1 ",
       "name" : "Fushimi Inari Shrine"
@@ -3867,7 +3867,7 @@
     {
       "top_quote" : "Wonderful place to enjoy.",
       "query_slug" : "Kinkaku-ji+Temple+Kyoto",
-      "description" : "Kinkaku-ji, officially named Rokuon-ji, is a Zen Buddhist temple in Kyoto, Japan. The garden complex is an excellent example of Muromachi period garden design. The Muromachi period is considered to be a classical age of Japanese garden design.",
+      "description" : "Kinkaku-ji ('Temple of the Golden Pavilion', officially named Rokuon-ji, is a Zen Buddhist temple in Kyoto, Japan. The garden complex is an excellent example of Muromachi period garden design. The Muromachi period is considered to be a classical age of Japanese garden design.",
       "city" : "Kyoto",
       "rank" : "2 ",
       "name" : "Kinkaku-ji Temple"
@@ -3894,15 +3894,17 @@
       "description" : "Kiyomizu-dera, officially Otowa-san Kiyomizu-dera is an independent Buddhist temple in eastern Kyoto. The temple is part of the Historic Monuments of Ancient Kyoto UNESCO World Heritage site.",
       "city" : "Kyoto",
       "rank" : "6 ",
-      "name" : "Kiyomizu-dera Temple"
+      "name" : "Kiyomizu-dera Temple",
+      "photo_url": "http://paradiseintheworld.com/wp-content/uploads/2012/03/kiyomizu-dera-night.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Ginkaku-ji+Temple+Kyoto",
-      "description" : "Ginkaku-ji, officially named JishÅç-ji, is a Zen temple in the Sakyo ward of Kyoto, Japan. It is one of the constructions that represent the Higashiyama Culture of Muromachi period.",
+      "description" : "Ginkaku-ji (Temple of the silver Pavilion), officially named Jisho-ji (Temple of Shining Mercy), is a Zen temple in the Sakyo ward of Kyoto, Japan. It is one of the constructions that represent the Higashiyama Culture of Muromachi period.",
       "city" : "Kyoto",
       "rank" : "9 ",
-      "name" : "Ginkaku-ji Temple"
+      "name" : "Ginkaku-ji Temple",
+      "photo_url": "http://www.ryokan-yachiyo.com/ginkakuji-temple-koyo.jpg"
     },
     {
       "top_quote" : null,
@@ -3915,18 +3917,20 @@
     {
       "top_quote" : "magnificent complex",
       "query_slug" : "Nijo+Castle+Kyoto",
-      "description" : "NijÅç Castle is a flatland castle in Kyoto, Japan. The castle consists of two concentric rings of fortifications, the Ninomaru Palace, the ruins of the Honmaru Palace, various support buildings and several gardens.",
+      "description" : "Nijo Castle is a flatland castle in Kyoto, Japan. It is  designated by UNESCO as a World Heritage Site and also home to a famous 'nightingale floor'. Nightingale floors, or uguisubari were floors designed to make a chirping sound when walked upon. Dry boards naturally creak under pressure, but these floors were designed so that the flooring nails rubbed against a jacket or clamp, causing chirping noises.",
       "city" : "Kyoto",
       "rank" : "10 ",
-      "name" : "Nijo Castle"
+      "name" : "Nijo Castle",
+      "photo_url": "http://www.japan-guide.com/g3/3918_12.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Shugakuin+Imperial+Villa+Kyoto",
-      "description" : "The Shugaku-in Imperial Villa, or Shugaku-in Detached Palace, is a set of gardens and outbuildings in the hills of the eastern suburbs of Kyoto, Japan.",
+      "description" : "The Shugaku-in Imperial Villa, or Shugaku-in Detached Palace, is a set of gardens and outbuildings in the hills of the eastern suburbs of Kyoto, Japan. Shugakuin is only accessible to the public through guided tours.",
       "city" : "Kyoto",
       "rank" : "14 ",
-      "name" : "Shugakuin Imperial Villa"
+      "name" : "Shugakuin Imperial Villa",
+      "photo_url": "http://www.japan-guide.com/g7/3936_02.jpg"
     },
     {
       "top_quote" : "Experience traditional Japan",
@@ -3942,20 +3946,22 @@
       "description" : "Nanzen-ji, or Zuiryusan Nanzen-ji, formerly Zenrin-ji, is a Zen Buddhist temple in Kyoto, Japan. Emperor Kameyama established it in 1291 on the site of his previous detached palace. It is also the headquarters of the Nanzen-ji branch of Rinzai Zen.",
       "city" : "Kyoto",
       "rank" : "15 ",
-      "name" : "Nanzen-ji Temple"
+      "name" : "Nanzen-ji Temple",
+      "photo_url": "http://cdn.c.photoshelter.com/img-get/I0000qN9_23bpz5A/s/860/860/Tenjuan-Pavilion-Nanzenji-Temple-Kyoto.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Toji+Temple+Kyoto",
-      "description" : "TÅç-ji is a Buddhist temple of the Shingon sect in Kyoto, Japan. It once had a partner, Sai-ji and, together, they stood alongside the Rashomon, gate to the Heian capital.",
+      "description" : "To-ji is a Buddhist temple of the Shingon sect in Kyoto, Japan. It once had a partner, Sai-ji and, together, they stood alongside the Rashomon, gate to the Heian capital. It was formally known as Kyo-o-gokoku-ji (The Temple for the Defense of the Nation by Means of the King of Doctrines) which indicates that it previously functioned as a temple providing protection for the nation.",
       "city" : "Kyoto",
       "rank" : "18 ",
-      "name" : "Toji Temple"
+      "name" : "Toji Temple",
+      "photo_url": "http://www.japan-guide.com/g3/3919_12.jpg"
     },
     {
       "top_quote" : "Huge",
       "query_slug" : "Ninna-ji+Temple+Kyoto",
-      "description" : "Ninna-ji is the head temple of the Omuro school of the Shingon Sect of Buddhism. Located in western Kyoto, Japan, it was founded in AD 888 by the retired Emperor Uda.",
+      "description" : "Ninna-ji  is the head temple of the Omuro school of the Shingon Sect of Buddhism.[1] Located in western Kyoto, Japan, it was founded in AD 888 by the retired Emperor Uda. It is part of the 'Historic Monuments of Ancient Kyoto', a UNESCO World Heritage Site.",
       "city" : "Kyoto",
       "rank" : "19 ",
       "name" : "Ninna-ji Temple"
@@ -3963,7 +3969,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Kodai-ji+Temple+Kyoto",
-      "description" : "KÅçdai-ji, formally identified as Jubuzan KÅçdai-ji, is a temple of the Rinzai school of Zen Buddhism in Higashiyama-ku, Kyoto, Japanâ\u20ac\u201dthe largest subtemple of the Kennin-ji branch.",
+      "description" : "Kodai-ji, formally identified as Jubuzan Kodai-ji, is a temple of the Rinzai school of Zen Buddhism in Higashiyama-ku, Kyoto, Japan - the largest subtemple of the Kennin-ji branch. It was established in 1606 by Nene, the widow of Toyotomi Hideyoshi, to pray for her late husband. The principal image is a statue of Shaka",
       "city" : "Kyoto",
       "rank" : "22 ",
       "name" : "Kodai-ji Temple"
@@ -3971,7 +3977,7 @@
     {
       "top_quote" : "feeling of peace.",
       "query_slug" : "Tofukuji+Temple+Kyoto",
-      "description" : "TÅçfuku-ji is a Buddhist temple in Higashiyama-ku in Kyoto, Japan. TÅçfuku-ji takes its name from two temples in Nara, TÅçdai-ji and KÅçfuku-ji. It is one of the so-called Kyoto Gozan or five great Zen temples of Kyoto\".\"",
+      "description" : "Tofuku-ji is a Buddhist temple in Higashiyama-ku in Kyoto, Japan. Tofuku-ji takes its name from two temples in Nara, Todai-ji and Kofuku-ji. It is one of the so-called Kyoto Gozan or 'five great Zen temples of Kyoto'.",
       "city" : "Kyoto",
       "rank" : "20 ",
       "name" : "Tofukuji Temple"
@@ -3979,7 +3985,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Shoren-in+Temple+Kyoto",
-      "description" : "ShÅçren-in is a Buddhist temple in Kyoto, Japan. Also known as the Awata Palace, it was built in the late 13th century. Shinran Shonin, the founder of the Jodo Shinshu pure land sect, was ordained a monk at ShÅçren-in at the age of nine.",
+      "description" : "Shoren-in is a Buddhist temple in Kyoto, Japan. Also known as the Awata Palace, it was built in the late 13th century. Shinran Shonin, the founder of the Jodo Shinshu pure land sect, was ordained a monk at Shoren-in at the age of nine.",
       "city" : "Kyoto",
       "rank" : "24 ",
       "name" : "Shoren-in Temple"
@@ -3987,7 +3993,7 @@
     {
       "top_quote" : "Amazing!!",
       "query_slug" : "Nishiki+Market+Kyoto",
-      "description" : "Nishiki Market is a marketplace in downtown Kyoto, located on a road one block north and parallel to ShijÅç Street and west of Teramachi Street.",
+      "description" : "Nishiki Market (literally 'brocade market') is a marketplace in downtown Kyoto, located on a road one block north and parallel to Shijo Street and west of Teramachi Street. Rich with history and tradition, the market is renowned as the place to obtain many of Kyoto's famous foods and goods.",
       "city" : "Kyoto",
       "rank" : "23 ",
       "name" : "Nishiki Market"
@@ -3995,7 +4001,7 @@
     {
       "top_quote" : "Beautiful",
       "query_slug" : "Tenryuji+Temple+Kyoto",
-      "description" : "TenryÅ«-ji â\u20ac\u201dmore formally known as TenryÅ« Shiseizen-ji â\u20ac\u201dis the head temple of the TenryÅ« branch of Rinzai Zen Buddhism, located in Susukinobaba-chÅç, UkyÅç Ward, Kyoto, Japan.",
+      "description" : "Tenryu-ji - more formally known as Tenryu Shiseizen-ji -is the head temple of the Tenryu branch of Rinzai Zen Buddhism, located in Susukinobaba-chu, Ukyo Ward, Kyoto, Japan. In 1994, it was registered as a UNESCO World Heritage Site, as part of the Historic Monuments of Ancient Kyoto",
       "city" : "Kyoto",
       "rank" : "27 ",
       "name" : "Tenryuji Temple"
@@ -4003,7 +4009,7 @@
     {
       "top_quote" : "Beautiful Japanese gardens",
       "query_slug" : "Ryoanji+Temple+Kyoto",
-      "description" : "RyÅçan-ji is a Zen temple located in northwest Kyoto, Japan. It belongs to the MyÅçshin-ji school of the Rinzai branch of Zen Buddhism.",
+      "description" : "Ryoan-ji (The Temple of the Dragon at Peace) is a Zen temple located in northwest Kyoto, Japan. The Ryōan-ji garden is considered one of the (if not the) finest surviving examples of kare-sansui ('dry landscape'), a refined type of Japanese Zen temple garden design generally featuring distinctive larger rock formations arranged amidst a sweep of smooth pebbles raked into linear patterns that facilitate meditation",
       "city" : "Kyoto",
       "rank" : "28 ",
       "name" : "Ryoanji Temple"
@@ -4022,12 +4028,13 @@
       "description" : "The Philosopher's Walk is a pedestrian path that follows a cherry-tree-lined canal in Kyoto, between Ginkaku-ji and Nanzen-ji.",
       "city" : "Kyoto",
       "rank" : "31 ",
-      "name" : "Philosopher's Walk"
+      "name" : "Philosopher's Walk",
+      "photo_url": "http://www.qualia-manifesto.com/philwalk.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Okochisanso+Garden+Kyoto",
-      "description" : "ÅŒkÅçchi SansÅç is the former home and garden of the Japanese jidaigeki or period film actor DenjirÅç ÅŒkÅçchi and is located in Arashiyama, Kyoto.",
+      "description" : "Okochi Sanso 'Okochi Mountain Villa' is the former home and garden of the Japanese jidaigeki or period film actor Denjiro Okochi and is located in Arashiyama, Kyoto.",
       "city" : "Kyoto",
       "rank" : "32 ",
       "name" : "Okochisanso Garden"
@@ -4035,10 +4042,11 @@
     {
       "top_quote" : "Another World Cultural Heritage in...",
       "query_slug" : "Shimogamo+Jinja+Kyoto",
-      "description" : "Shimogamo Shrine in Japanese, is the common name of an important Shinto sanctuary in the Shimogamo district of Kyoto city's SakyÅç ward. Its formal name is Kamo-mioya-jinja.",
+      "description" : "Shimogamo Shrine in Japanese, is the common name of an important Shinto sanctuary in the Shimogamo district of Kyoto city's Sakyo ward. It is one of the oldest Shinto shrines in Japan and is one of the seventeen Historic Monuments of Ancient Kyoto which have been designated by UNESCO as a World Heritage Site.",
       "city" : "Kyoto",
       "rank" : "33 ",
-      "name" : "Shimogamo Jinja"
+      "name" : "Shimogamo Jinja",
+      "photo_url": "http://cdn.wa-pedia.com/images/content/shimogamo-1.jpg"
     },
     {
       "top_quote" : null,
@@ -4046,7 +4054,8 @@
       "description" : "This small, privately owned hill is filled with cherry blossoms, yellow kerria japonica and white spiraea",
       "city" : "Kyoto",
       "rank" : "36 ",
-      "name" : "Haratanien"
+      "name" : "Haratanien",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/04/11/23/25/caption.jpg"
     },
     {
       "top_quote" : null,
@@ -4059,10 +4068,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Daikaku-ji+Temple+Kyoto",
-      "description" : "Daikaku-ji is a Shingon Buddhist temple in UkyÅç-ku, a western ward in the city of Kyoto, Japan. The main images are of the Five Wisdom Kings, centered on FudÅç.",
+      "description" : "Daikaku-ji is a Shingon Buddhist temple in Ukyo-ku, a western ward in the city of Kyoto, Japan. The main images are of the Five Wisdom Kings, centered on Fudo.",
       "city" : "Kyoto",
       "rank" : "38 ",
-      "name" : "Daikaku-ji Temple"
+      "name" : "Daikaku-ji Temple",
+      "photo_url":"http://cdn.wa-pedia.com/images/content/daikakuji-2.jpg"
     },
     {
       "top_quote" : "Resplendent and Truly Imperial!",
@@ -4083,7 +4093,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Mt.+Kurama+Kyoto",
-      "description" : "Mount Kurama is a mountain to the north-west of the city of Kyoto. It is the birthplace of the Reiki practice, and is said to be the home of SÅçjÅçbÅç, King of the Tengu, who taught swordsmanship to Minamoto no Yoshitsune.",
+      "description" : "Mount Kurama is a mountain to the north-west of the city of Kyoto. It is the birthplace of the Reiki practice, and is said to be the home of Sojobo, King of the Tengu, who taught swordsmanship to Minamoto no Yoshitsune.",
       "city" : "Kyoto",
       "rank" : "42 ",
       "name" : "Mt. Kurama"
@@ -4091,7 +4101,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Umekoji+Steam+Locomotive+Museum+Kyoto",
-      "description" : "Umekoji Steam Locomotive Museum is a railway museum located in ShimogyÅç-ku, Kyoto, Japan. Opened in 1972, the locomotive depot houses 19 steam locomotives.",
+      "description" : "Umekoji Steam Locomotive Museum is a railway museum located in Shimogyo-ku, Kyoto, Japan. Opened in 1972, the locomotive depot houses 19 steam locomotives.",
       "city" : "Kyoto",
       "rank" : "44 ",
       "name" : "Umekoji Steam Locomotive Museum"
@@ -4099,7 +4109,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Otagi+Nenbutsuji+Temple+Kyoto",
-      "description" : "Otagi Nenbutsu-ji is a Buddhist temple in the Arashiyama neighborhood of Kyoto, Japan.\nOtagi Nenbutsu-ji was founded by Empress ShÅçtoku in the middle of the eighth century.",
+      "description" : "Otagi Nenbutsu-ji is a Buddhist temple in the Arashiyama neighborhood of Kyoto, Japan. Otagi Nenbutsu-ji was founded by Empress Shotoku in the middle of the eighth century.",
       "city" : "Kyoto",
       "rank" : "45 ",
       "name" : "Otagi Nenbutsuji Temple"
@@ -4115,10 +4125,11 @@
     {
       "top_quote" : "Silent & beautiful",
       "query_slug" : "Nishi+Honganji+Kyoto",
-      "description" : "Nishi Hongan-ji Western Temple of the Original Vow\" is one of two temple complexes of JÅçdo ShinshÅ« in Kyoto",
+      "description" : "Nishi Hongan-ji: 'Western Temple of the Original Vow' is one of two temple complexes of Jodo Shinshu in Kyoto, Japan, the other being Higashi Honganji, or 'Eastern Temple of the Original Vow'. Jodo Shinshu is a school of Pure Land Buddhism, and today Nishi Hongan-ji serves as the head temple of the Jōdo Shinshū organization. As with many sites in Kyoto, they have more casual names, and are known affectionately in Kyoto as Onissan (Dear Mr. West) and Ohigashisan (Dear Mr. East)",
       "city" : "Kyoto",
       "rank" : "46 ",
-      "name" : "Nishi Honganji"
+      "name" : "Nishi Honganji",
+      "photo_url" : "http://travelneu.com/o/Nishi-Honganji-o41.png"
     },
     {
       "top_quote" : null,
@@ -4131,15 +4142,16 @@
     {
       "top_quote" : null,
       "query_slug" : "Kitano+Tenman-gu+Shrine+Kyoto",
-      "description" : "Kitano TenmangÅ« is a Shinto shrine in KamigyÅç-ku, Kyoto, Japan.",
+      "description" : "Kitano Tenman-gu is a Shinto shrine in Kamigyo-ku, Kyoto, Japan. The shrine was first built in 947 to appease the angry spirit of bureaucrat, scholar and poet Sugawara no Michizane, who had been exiled as a result of political maneuvers of his enemies in the Fujiwara clan.",
       "city" : "Kyoto",
       "rank" : "49 ",
-      "name" : "Kitano Tenman-gu Shrine"
+      "name" : "Kitano Tenman-gu Shrine",
+      "photo_url" : "http://kitanotenmangu.or.jp/img/tenmangu_en.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Kyoto+Botanical+Garden+Kyoto",
-      "description" : "The Kyoto Botanical Garden, also known as the Kyoto Prefectural Botanical Garden, is a major botanical garden with conservatory located next to the Kamo River, Hangi-cho Simogamo, SakyÅç-ku, Kyoto, Japan.",
+      "description" : "The Kyoto Botanical Garden, also known as the Kyoto Prefectural Botanical Garden, is a major botanical garden with conservatory located next to the Kamo River, Hangi-cho Simogamo, Sakyo-ku, Kyoto, Japan.",
       "city" : "Kyoto",
       "rank" : "50 ",
       "name" : "Kyoto Botanical Garden"
@@ -4158,7 +4170,8 @@
       "description" : "Winding, lush venue showcasing a host of monkeys plus a scenic bamboo forest & water vistas.",
       "city" : "Kyoto",
       "rank" : "51 ",
-      "name" : "Sagano"
+      "name" : "Sagano",
+      "photo_url" : "http://www.gotojapan.net/index.php?plugin=ref&page=Kyoto%2FSagano&src=114.jpg"
     },
     {
       "top_quote" : null,
@@ -4179,7 +4192,7 @@
     {
       "top_quote" : "Beautiful Japanese Garden, Must se...",
       "query_slug" : "Heian+Shrine+Kyoto",
-      "description" : "The Heian Shrine is a Shinto shrine located in SakyÅç-ku, Kyoto, Japan. The Shrine is ranked as a Beppyou Jinja by the Association of Shinto Shrines. It is listed as an important cultural property of Japan.",
+      "description" : "The Heian Shrine (Heian Jingu) is a Shinto shrine located in Sakyo-ku, Kyoto, Japan. The Shrine is ranked as a Beppyou Jinja (the top rank for shrines) by the Association of Shinto Shrines. It is listed as an important cultural property of Japan.",
       "city" : "Kyoto",
       "rank" : "54 ",
       "name" : "Heian Shrine"
@@ -4195,7 +4208,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Kifune+Shrine+Kyoto",
-      "description" : "Kifune Shrine, is a Shinto shrine located at SakyÅç-ku in Kyoto, Japan. Although the area is called Kibune, the shrine's name is pronounced Kifune.",
+      "description" : "Kifune Shrine, is a Shinto shrine located at Sakyo-ku in Kyoto, Japan. Although the area is called Kibune, the shrine's name is pronounced Kifune.The shrine is also associated with the Ushi no toki mairi, the ritual of wearing candles on one's head and laying a curse at a shrine during the 'hour of the ox', since it is from the resident deity that Hashihime (Princess of the Uji Bridge) learns the prescribed ritual to turn herself into an oni demon to exact vengeance, the story of which is immortalized in the Noh play Kanawa ('The Iron Crown')",
       "city" : "Kyoto",
       "rank" : "57 ",
       "name" : "Kifune Shrine"
@@ -4203,10 +4216,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Pontocho+Kyoto",
-      "description" : "Ponto-chÅç is a Hanamachi district in Kyoto, Japan, known for geisha and home to many geisha houses and traditional tea houses. Like Gion, PontochÅç is famous for the preservation of forms of traditional architecture and entertainment.",
+      "description" : "Pontocho is a Hanamachi district in Kyoto, Japan, known for geisha and home to many geisha houses and traditional tea houses. Like Gion, Pontochacho is famous for the preservation of forms of traditional architecture and entertainment.",
       "city" : "Kyoto",
       "rank" : "58 ",
-      "name" : "Pontocho"
+      "name" : "Pontocho",
+      "photo_url" : "http://www.japan-guide.com/g9/3921_01.jpg"
     },
     {
       "top_quote" : null,
@@ -4227,7 +4241,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Kurama+Temple+Kyoto",
-      "description" : "Kurama-dera is a temple in the far north of Kyoto, Japan which houses some National Treasures of Japan. It was a member of the Tendai sect and subordinate to ShÅçren-in from the 12th century until 1949 when it founded its own religious body.",
+      "description" : "Kurama-dera is a temple in the far north of Kyoto, Japan which houses some National Treasures of Japan. It was a member of the Tendai sect and subordinate to Shoren-in from the 12th century until 1949 when it founded its own religious body.The object of worship is esoteric and unique to the temple.",
       "city" : "Kyoto",
       "rank" : "62 ",
       "name" : "Kurama Temple"
@@ -4259,10 +4273,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Myoshinji+Temple+Kyoto",
-      "description" : "MyÅçshin-ji is a temple complex in Kyoto, Japan, and head temple of the associated branch of Rinzai Zen Buddhism.",
+      "description" : "Myoshin-ji is a temple complex in Kyoto, Japan, and head temple of the associated branch of Rinzai Zen Buddhism. The Myoshin-ji school is by far the largest school in Rinzai Zen, approximately as big as the other thirteen branches combined.",
       "city" : "Kyoto",
       "rank" : "66 ",
-      "name" : "Myoshinji Temple"
+      "name" : "Myoshinji Temple", 
+      "photo_url": "http://travelneu.com/o/Myoshin-ji-o41.jpg"
     },
     {
       "top_quote" : null,
@@ -4283,7 +4298,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Shinnyodo+Kyoto",
-      "description" : "ShinshÅçgokuraku-ji or Shinnyo-dÅç is a Buddhist Tendai temple in Kyoto. It was established in 984 AD by Kaisan Shonin.",
+      "description" : "Shinshogokuraku-ji or Shinnyo-do is a Buddhist Tendai temple in Kyoto. It was established in 984 AD by Kaisan Shonin.",
       "city" : "Kyoto",
       "rank" : "69 ",
       "name" : "Shinnyodo"
@@ -4307,7 +4322,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Kotoin+Kyoto",
-      "description" : "KÅçtÅç-in is a sub-temple of Daitoku-ji, Kyoto, Japan. It was founded by Hosokawa Tadaoki. There is a teahouse, the ShÅçkÅç-ken, and the gardens are celebrated for their momiji.",
+      "description" : "Koto-in is a sub-temple of Daitoku-ji, Kyoto, Japan. It was founded by Hosokawa Tadaoki. There is a teahouse, the Shoko-ken, and the gardens are celebrated for their momiji.",
       "city" : "Kyoto",
       "rank" : "72 ",
       "name" : "Kotoin"
@@ -4315,7 +4330,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Chion-in+Kyoto",
-      "description" : "Chion-in in Higashiyama-ku, Kyoto, Japan is the headquarters of the JÅçdo-shÅ« founded by HÅçnen, who proclaimed that sentient beings are reborn in Amida Buddha's Western Paradise by reciting the nembutsu, Amida Buddha's name.",
+      "description" : "Chion-in in Higashiyama-ku, Kyoto, Japan is the headquarters of the Jodo-shu founded by Honen, who proclaimed that sentient beings are reborn in Amida Buddha's Western Paradise by reciting the nembutsu, Amida Buddha's name.",
       "city" : "Kyoto",
       "rank" : "73 ",
       "name" : "Chion-in"
@@ -4323,7 +4338,7 @@
     {
       "top_quote" : "A beautiful shrine and park",
       "query_slug" : "Yasaka+Shrine+Kyoto",
-      "description" : "Yasaka Shrine, once called Gion Shrine, is a Shinto shrine in the Gion District of Kyoto, Japan. Situated at the east end of ShijÅç-dÅçri, the shrine includes several buildings, including gates, a main hall and a stage.",
+      "description" : "Yasaka Shrine, once called Gion Shrine, is a Shinto shrine in the Gion District of Kyoto, Japan. Situated at the east end of Shijo-dori, the shrine includes several buildings, including gates, a main hall and a stage.",
       "city" : "Kyoto",
       "rank" : "74 ",
       "name" : "Yasaka Shrine"
@@ -4339,10 +4354,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Unryuin+Kyoto",
-      "description" : "UnryÅ«-in is a sub-temple of SennyÅ«-ji in Kyoto, Japan. Founded in 1372, it was rebuilt after destruction in the ÅŒnin War. The HondÅç of 1646 is an Important Cultural Property. The HÅçjÅç or abbot's quarters also date from the Edo period.",
+      "description" : "Unryu-in is a sub-temple of Sennyu-ji in Kyoto, Japan. Founded in 1372, it was rebuilt after destruction in the Onin War. The Hondo of 1646 is an Important Cultural Property. The Hojo or abbot's quarters also date from the Edo period.",
       "city" : "Kyoto",
       "rank" : "76 ",
-      "name" : "Unryuin"
+      "name" : "Unryuin",
+      "photo_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Unryuin_Kyoto17s4290.jpg/1280px-Unryuin_Kyoto17s4290.jpg"
     },
     {
       "top_quote" : null,
@@ -4371,10 +4387,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Saihoji+Temple+Kyoto",
-      "description" : "SaihÅç-ji is a Rinzai Zen Buddhist temple located in Matsuo, NishikyÅç Ward, Kyoto, Japan. The temple, which is famed for its moss garden, is commonly referred to as \"Koke-dera\", meaning \"moss temple\", while the formal name is \"KÅçinzan SaihÅç-ji\".",
+      "description" : "Saiho-ji is a Rinzai Zen Buddhist temple located in Matsuo, Nishikyo Ward, Kyoto, Japan. The temple, which is famed for its moss garden, is commonly referred to as 'Koke-dera', meaning 'moss temple', while the formal name is 'Koinzan Saiho-ji'.",
       "city" : "Kyoto",
       "rank" : "81 ",
-      "name" : "Saihoji Temple"
+      "name" : "Saihoji Temple",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/03/1a/b8/2c/saihoji-temple.jpg"
     },
     {
       "top_quote" : null,
@@ -4446,7 +4463,8 @@
       "description" : "The Kamo River is located in Kyoto Prefecture, Japan. The riverbanks are popular walking spots for residents and tourists. In summer, restaurants open balconies looking out to the river.",
       "city" : "Kyoto",
       "rank" : "89 ",
-      "name" : "Kamogawa River"
+      "name" : "Kamogawa River",
+      "photo_url": "http://www.kyotofoodie.com/media/Tumblr/kyoto-kamo-river-late-summer-sky-rainy-season-1.jpg"
     },
     {
       "top_quote" : "Favorite of Paris",
