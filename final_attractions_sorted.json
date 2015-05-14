@@ -4464,7 +4464,7 @@
       "city" : "Kyoto",
       "rank" : "89 ",
       "name" : "Kamogawa River",
-      "photo_url": "http://www.kyotofoodie.com/media/Tumblr/kyoto-kamo-river-late-summer-sky-rainy-season-1.jpg"
+      "photo_url": "http://www.kyotofoodie.com/media/Tumblr/<kyoto-kamo-river-late-summer-sky-rainy-season-1 class="jpg"></kyoto-kamo-river-late-summer-sky-rainy-season-1>"
     },
     {
       "top_quote" : "Favorite of Paris",
@@ -6272,9 +6272,9 @@
       "name" : "The Spit Bridge to Manly Walk"
     },
     {
-      "top_quote" : "A trully magnificent building and...",
+      "top_quote" : "A truly magnificent building and...",
       "query_slug" : "Queen+Victoria+Building+(QVB)+Sydney",
-      "description" : "The Queen Victoria Building, is a late nineteenth-century building designed by the architect George McRae in the central business district of Sydney, Australia.",
+      "description" : "Rich in history and architecturally splendid, the Queen Victoria Building (QVB) occupies an entire block on Sydney's George Street, and has over 180 of Sydney's finest fashion boutiques, jewellery shops and homewares, accompanied by delightful cafes and restaurants.",
       "city" : "Sydney",
       "rank" : "29 ",
       "name" : "Queen Victoria Building (QVB)"
@@ -6282,7 +6282,7 @@
     {
       "top_quote" : "Love it!!!",
       "query_slug" : "Circular+Quay+Sydney",
-      "description" : "Circular Quay is a harbour in Sydney, New South Wales, Australia on the northern edge of the Sydney central business district on Sydney Cove, between Bennelong Point and The Rocks. It is part of the local government area of the City of Sydney.",
+      "description" : "As well as being one of the best neighbourhoods for arranging travel around Sydney city, Circular Quay has many of Sydney's best attractions and things to do. Head off on an easy harbour foreshore walk from the Quay to Sydney Opera House and the Royal Botanic Gardens Sydney.",
       "city" : "Sydney",
       "rank" : "30 ",
       "name" : "Circular Quay"
@@ -6322,7 +6322,7 @@
     {
       "top_quote" : "A Peaceful place near Sydney",
       "query_slug" : "Palm+Beach+Sydney",
-      "description" : "Palm Beach is a northern beachside suburb of Sydney, in the state of New South Wales, Australia. Palm Beach is located 41 kilometres north of the Sydney central business district, in the local government ...",
+      "description" : "Palm Beach is Sydney's northernmost stretch of sand, a 50-minute drive from the Sydney city centre. Dramatic Barrenjoey Head is at the northern end of the beach, with historic Barrenjoey Lighthouse and keepers' cottages at the end of an easy 2.3 km walk. This section of the beach is popular with experienced surfers looking for great waves.",
       "city" : "Sydney",
       "rank" : "38 ",
       "name" : "Palm Beach (Barrenjoey Lighthouse)"
@@ -6330,7 +6330,7 @@
     {
       "top_quote" : "Well worth a visit",
       "query_slug" : "Hyde+Park+Barracks+Museum+Sydney",
-      "description" : "The Hyde Park Barracks Museum is a brick building and compound designed by convict architect Francis Greenway between 1818â\u20ac\u201c19; originally built at the head of Macquarie Street to house convict men and boys.",
+      "description" : "The Hyde Park Barracks Museum is a brick building and compound designed by convict architect Francis Greenway between 1818-19; originally built at the head of Macquarie Street to house convict men and boys.",
       "city" : "Sydney",
       "rank" : "39 ",
       "name" : "Hyde Park Barracks Museum"
@@ -6346,7 +6346,7 @@
     {
       "top_quote" : "Beautiful beach",
       "query_slug" : "Bondi+Beach+Pavillion+Sydney",
-      "description" : "Bondi Beach or Bondi Bay is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia.",
+      "description" : "While golden sands, turquoise waters and perfect waves make Bondi Beach an iconic Sydney attraction, there is plenty to do beyond the surf. Fine dining, eclectic shopping markets, gorgeous coastal walks and a buzzing nightlife can all be experienced in Bondi.",
       "city" : "Sydney",
       "rank" : "41 ",
       "name" : "Bondi Beach (Surf Pavillion)"
@@ -6354,7 +6354,7 @@
     {
       "top_quote" :  "I spend most weekends there, but it's not usually on the travellers radar.",
       "query_slug" : "Centennial+Park+Sydney",
-      "description" : "Centennial Park is a large public, urban park that occupies 189 hectares in the Eastern Suburbs of Sydney in the state of New South Wales, Australia.",
+      "description" : "Centennial Park is a grand park in the European tradition. Covering 189 hectares, it features formal gardens, ponds, grand avenues, statues, heritage buildings and sporting fields. It is used by walkers, joggers, roller-bladers and cyclists and it offers horse riding facilities. It has diverse flora and fauna with significant tree plantings including Norfolk Island pines, Port Jackson figs and Holm oaks.",
       "city" : "Sydney",
       "rank" : "45 ",
       "name" : "Centennial Park (Brazillian Fields)"
@@ -6362,7 +6362,7 @@
     {
       "top_quote" : "Never did the walk, but great little beach to visit whilst in Sydney, easily a match for Bondi !",
       "query_slug" : "Coogee+Beach+Sydney",
-      "description" : "Coogee is a beachside suburb of local government area City of Randwick 8 kilometres south-east of the Sydney central business district, in the state of New South Wales, Australia. It is also a part of the Eastern Suburbs of Sydney.",
+      "description" : "With a shimmering beach, magnificent coastal walk and a protected Marine Reserve that attracts snorkellers and scuba divers, Coogee sums up the classic Sydney surf scene. It's a haven for families, couples and travellers alike. When you're not enjoying the water, check out the latest flicks in the Art Deco grandeur of heritage-listed Ritz Cinema or look out for great clothing bargains as you wander along Coogee Bay Road.",
       "city" : "Sydney",
       "rank" : "44 ",
       "name" : "Coogee Beach (Surf Club) "
@@ -6394,7 +6394,7 @@
     {
       "top_quote" : "Stop awhile and just be",
       "query_slug" : "St.+Mary's+Cathedral+Sydney",
-      "description" : "The Metropolitan Cathedral of Saint Mary is the cathedral church of the Roman Catholic Archdiocese of Sydney and the seat of the Archbishop of Sydney, currently Anthony Fisher OP.",
+      "description" : "St Mary’s Cathedral stands in the centre of Sydney as a Christian statement of grace and beauty. Generations of artists have bequeathed to it their magnificent gifts in stone and glass, designing a unique space of solace and prayer within this vibrant city.",
       "city" : "Sydney",
       "rank" : "50 ",
       "name" : "St. Mary's Cathedral"
@@ -6410,7 +6410,7 @@
     {
       "top_quote" : "Good photo opportunity",
       "query_slug" : "Mrs+Macquarie's+Chair+Sydney",
-      "description" : "Mrs Macquarie's Chair is an exposed sandstone rock cut into the shape of a bench, on a peninsula in Sydney Harbour, hand carved by convicts from sandstone in 1810 for Governor Macquarie's wife Elizabeth.",
+      "description" : "Mrs Macquarie's Chair, otherwise known as Lady Macquarie's Chair, provides one of the best vantage points in Sydney. The historic chair was carved out of a rock ledge for Governor Lachlan Macquarie's wife, Elizabeth, as she was known to visit the area and sit enjoying the panoramic views of the harbour.",
       "city" : "Sydney",
       "rank" : "52 ",
       "name" : "Mrs Macquarie's Chair"
@@ -6482,7 +6482,7 @@
     {
       "top_quote" : "Amazing sharks",
       "query_slug" : "Sea+Life+Sydney+Aquarium+Sydney",
-      "description" : "Sea Life Sydney Aquarium is a public aquarium located in the city of Sydney, New South Wales, Australia. It is located on the eastern side of Darling Harbour to the north of the Pyrmont Bridge.",
+      "description" : "Located in the heart of Sydney at Darling Harbour, visitors to the new SEA LIFE Sydney Aquarium are taken on a journey of amazing discovery through 14 newly themed zones, including Tropical Bay of Rays, Discovery Rockpool, Mangrove Swamps, South Coast Shipwreck, Dugong Island, Shark Walk and the stunning new ocean tunnel walk through, Shark Valley.",
       "city" : "Sydney",
       "rank" : "67 ",
       "name" : "Sea Life Sydney Aquarium"
@@ -6514,7 +6514,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Cockatoo+Island+Sydney",
-      "description" : "Cockatoo Island, a UNESCO World Heritage Site, is located at the junction of the Parramatta and Lane Cove rivers, in Sydney Harbour, Sydney, New South Wales, Australia.",
+      "description" : "Cockatoo Island is a UNESCO world-heritage-listed island in the middle of beautiful Sydney Harbour. Hop on a ferry and explore the island for the day or stay overnight in the campground or holiday houses.",
       "city" : "Sydney",
       "rank" : "73 ",
       "name" : "Cockatoo Island"
@@ -6530,7 +6530,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Clovelly+Sydney",
-      "description" : "Clovelly is a small beach-side suburb in Sydney's eastern suburbs, in the state of New South Wales, Australia.",
+      "description" : "It might seem odd, but this concrete-edged ocean channel is a great place to swim, sunbathe and snorkel. It’s safe for the kids, and despite the swell surging into the inlet, underwater visibility is great. A beloved friendly grouper fish lived here for many years until he was speared by a tourist. Bring your goggles, but don’t go killing anything…",
       "city" : "Sydney",
       "rank" : "77 ",
       "name" : "Clovelly Beach (surf club)"
@@ -6538,7 +6538,7 @@
     {
       "top_quote" : "Great escape",
       "query_slug" : "Hyde+Park+Sydney",
-      "description" : "Hyde Park, the oldest public parkland in Australia, is a 16.2-hectare park in the central business district of Sydney, New South Wales. Hyde Park is on the eastern side of the Sydney city centre.",
+      "description" : "Hyde Park is Australia’s oldest park. It’s also one of the most well-known. With just over 16 hectares of wide open space in the heart of central Sydney, there is no shortage of lush grass if you want to claim a small piece of land for an impromptu picnic, or simply have a seat and take a breather. You’ll always be able to spot sunbathers clustered around in twos and threes, lazily soaking up the sun’s rays. There are also plenty of benches in the park if you want to put your feet up without ruining your Sunday best!",
       "city" : "Sydney",
       "rank" : "74 ",
       "name" : "Hyde Park"
@@ -6570,7 +6570,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Barrenjoey+Lighthouse+Sydney",
-      "description" : "Barrenjoey is a locality in the suburb of Palm Beach, at the most northern tip of Pittwater. The headland is mostly made up of Hawkesbury sandstone which overlays Narrabeen shale.",
+      "description" : "Positioned 91m above sea level, the lighthouse can be reached by a couple of walks.  Take the picturesque 1km walking track to the top, which is an easy walk offering outstanding views along the track.  Or for those who are keen for a challenging short hike, take the Smugglers track to the top. Getting its name from the customs officers who built the track around 1850 to monitor any smugglers bringing contraband into Broken Bay, it now offers a steeper and shorter trek to the lighthouse. Don’t worry though, the walk isn’t as hard as it looks and is well worth the effort.",
       "city" : "Sydney",
       "rank" : "83 ",
       "name" : "Barrenjoey Lighthouse"
@@ -6642,7 +6642,7 @@
     {
       "top_quote" : "nice but to much people",
       "query_slug" : "Schoenbrunn+Palace+Vienna",
-      "description" : "SchÃ¶nbrunn Palace is a former imperial summer residence located in Vienna, Austria. The 1,441-room Baroque palace is one of the most important architectural, cultural and historical monuments in the country.",
+      "description" : "Schoenbrunn Palace is a former imperial summer residence located in Vienna, Austria. The 1,441-room Baroque palace is one of the most important architectural, cultural and historical monuments in the country.",
       "city" : "Vienna",
       "rank" : "3 ",
       "name" : "Schoenbrunn Palace"
