@@ -33,10 +33,11 @@
   <div class="se-pre-con"></div>
 
   <%= form_tag("/mycities/#{@city.id}/selected_map", method: "get") do %>
-  <div class="t-center">
-    <%= submit_tag("MAP MY SELECTED ATTRACTIONS", class: "f-oswald m-b-m center sm-rect-button-map") %>
-  </div>
+
   <div class='attra-wrapper'>
+    <div class="t-center">
+      <%= submit_tag("MAP MY SELECTED ATTRACTIONS", class: "f-oswald m-b-m center sm-rect-button-map") %>
+    </div>
   <% @attractions.each do |attraction| %>
     <div class="my-attractions t-center p-sm">
       <div class="c-white t-center f-oldstd">
@@ -54,7 +55,10 @@
         <button class='fz-xxs f-oswald unlike sm-rect-button-np' href='/users/<%= @user.id%>/cities/<%=@city.id%>/attractions/<%=attraction.id%>'>UNLIKE</button>
       </div>
     </div>
-  <% end %>
+    <% end %>
+    <div class="t-center">
+      <%= submit_tag("MAP MY SELECTED ATTRACTIONS", class: "f-oswald m-b-m center sm-rect-button-map") %>
+    </div>
   </div>
 <% end %>
 </div>

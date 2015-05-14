@@ -19,6 +19,7 @@
 .w-90 {width: 90%;}
 .w-full {width: 100%;}
 .w-60 {width: 68px;}
+.w-220 {width: 220px;}
 
 
 .h-68 {height: 60px;}
@@ -89,6 +90,7 @@
 .m-sm {margin: .75em;}
 .m-t-m {margin-top: .5em;}
 .m-t-l {margin-top: 1em;}
+.m-l-sm {margin-left: 0.4em;}
 .m-l-l {margin-left: 2.2em;}
 .m-t-neg {margin-top: -1.25em;}
 .m-b-m {margin-bottom: .5em;}
@@ -104,6 +106,7 @@
 .p-l-sm {padding: 0.6em;}
 .p-l-xs {padding-left: 0.5em;}
 .p-t-sm {padding-top: 0.4em;}
+.p-t-m {padding-top: 0.8em;}
 
 /* Normalize */
 
