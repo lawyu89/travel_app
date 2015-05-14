@@ -41,7 +41,8 @@
     </div>
   <% end %>
 
-  <%= link_to "Log in with Facebook", "/auth/Facebook", id: "fb-log-in", :class => 'd-b t-center' %>
+  <%= link_to "#{image_tag('facebook-login-button.png')}".html_safe, "/auth/Facebook", id: "fb-log-in", :class => 'd-b t-center' %>
+
   </div>
 </div>
 </div>
