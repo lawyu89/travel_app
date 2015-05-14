@@ -29,6 +29,9 @@
     <h1 class='t-center f-oldstd'>SIGN UP</h1>
     <%= form_for @user do |f| %>
     <div class="w-90 center">
+      <% if @error %>
+        <%= @error %>
+      <% end %> 
       <div><p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %></div>
 
       <div class="p-t-sm"><%= f.label :username, class: "f-oswald fz-xs f-weight" %></div>
@@ -38,10 +41,15 @@
       <div>
         <%= f.text_field :email, required: true, pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}', title: "E.g john123@gmail.com", :class => 'rounded w-full' %></div>
 
+
       <div class="p-t-sm"><%= f.label :password, class: "f-oswald fz-xs f-weight" %></div>
       <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'rounded w-full' %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :password_confirmation %></h2></div>
+      <div><%= f.password_field :password_confirmation, :class => 'w-full' %></div>
     </div>
-      <div class='p-sm t-center'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
+      <div class='p-sm ta-c'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
+      
     <% end %>
   </div>
 </div>
