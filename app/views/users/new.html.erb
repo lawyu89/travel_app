@@ -43,5 +43,6 @@
     </div>
       <div class='p-sm ta-c'><%= f.submit "Sign Up" %></div>
     <% end %>
+    <%= link_to "#{image_tag('facebook-login-button.png')}".html_safe, "/auth/Facebook", id: "fb-log-in", :class => 'd-b ta-c' %>
   </div>
 </div>
