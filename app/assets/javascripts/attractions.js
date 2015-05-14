@@ -156,8 +156,9 @@ $( document).ready(function() {
       url: url,
       type: 'delete'
     }).done(function(response){
+      console.log('AJAX SUCCEEDED')
       var el = document.getElementById(response.name)
-      var upperDiv = el.parentElement.parentElement.parentElement
+      var upperDiv = el.parentElement.parentElement
       $(upperDiv).addClass('hidden')
     }).fail(function(response){
       console.log('AJAX FAILED')
