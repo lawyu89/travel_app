@@ -185,8 +185,15 @@ input:focus {outline: none; }
 }
 
 img.my-city-image {
-  width: 100%;
+  /*width: 100%;*/
+  max-width: 300px;
+  min-width: 275px;
+  min-height: 275px;
+}
+
+.my-city-pic {
   max-width: 275px;
+  width: 100%;
 }
 /* Unsure why i have to be so specific with my image targeting...*/
 
