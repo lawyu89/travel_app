@@ -29,6 +29,9 @@
     <h1 class='t-center f-oldstd'>SIGN UP</h1>
     <%= form_for @user do |f| %>
     <div class="w-90 center">
+      <% if @error %>
+        <%= @error %>
+      <% end %> 
       <div><p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %></div>
 
       <div><h2 class='fz-xs f-weight'><%= f.label :username %></h2></div>
@@ -40,8 +43,11 @@
 
       <div><h2 class='fz-xs f-weight'><%= f.label :password %></h2></div>
       <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'w-full' %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :password_confirmation %></h2></div>
+      <div><%= f.password_field :password_confirmation, :class => 'w-full' %></div>
     </div>
-      <div class='p-sm ta-c'><%= f.submit "Sign Up" %></div>
+      <div class='p-sm ta-c'><%= f.submit "Sign Up", :class => 'confirm_button' %></div>
     <% end %>
   </div>
 </div>
