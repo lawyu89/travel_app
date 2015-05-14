@@ -118,6 +118,6 @@ $(document).ready(function() {
 
     $(".se-pre-con").fadeOut("slow");
     $('#search-form input').on('keyup', runSearch);
-    $('.total-page-container').on('taphold', '.city-detail', showCityDesc);
+    // $('.total-page-container').on('taphold', '.city-detail', showCityDesc);
 
 });
