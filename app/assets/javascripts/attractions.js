@@ -158,8 +158,11 @@ $( document).ready(function() {
     }).done(function(response){
       console.log('AJAX SUCCEEDED')
       var el = document.getElementById(response.name)
-      var upperDiv = el.parentElement.parentElement
-      $(upperDiv).addClass('hidden')
+      var upperDiv = el.parentElement.parentElement.parentElement
+      $(upperDiv).remove()
+      if ( $('.attra-wrapper').children().length === 0 ) {
+        window.location.replace("http://localhost:3000/");
+      }
     }).fail(function(response){
       console.log('AJAX FAILED')
       console.log(response)
