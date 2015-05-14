@@ -43,9 +43,7 @@
      <a href="/cities/<%= City.where(name: "Budapest").first.id %>/attractions"><%= image_tag('cropped_cities/budapest_crop_img.jpg', :class => "city_pic", :id => "budapest") %><div class="debug city-description"><p><%= City.where(name: "Budapest").first.description %></p>
     </div></a>
     </div>
-    <div class="debug city-detail">
-      <a href="/cities/<%= City.where(name: "Detroit").first.id %>/attractions"><%= image_tag('cropped_cities/detroit_crop_img.jpg', :class => "city_pic", :id => "detroit") %><div class="debug city-description"><p><%= City.where(name: "Detroit").first.description %></p>
-    </div></a>
+  
     </div>
     <div class="debug city-detail">
       <a href="/cities/<%= City.where(name: "Florence").first.id %>/attractions"><%= image_tag('cropped_cities/florence_crop_img.jpg',:class => "city_pic", :id => "florence") %><div class="debug city-description"><p><%= City.where(name: "Florence").first.description %></p>
