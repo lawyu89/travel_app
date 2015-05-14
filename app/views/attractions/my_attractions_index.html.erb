@@ -36,6 +36,7 @@
   <div class="t-center">
     <%= submit_tag("MAP MY SELECTED ATTRACTIONS", class: "f-oswald m-b-m center sm-rect-button-map") %>
   </div>
+  <div class='attra-wrapper'>
   <% @attractions.each do |attraction| %>
     <div class="my-attractions t-center p-sm">
       <div class="c-white t-center f-oldstd">
@@ -54,5 +55,6 @@
       </div>
     </div>
   <% end %>
+  </div>
 <% end %>
 </div>
