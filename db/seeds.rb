@@ -254,7 +254,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Vienna').attractions << a
     a.save
     map_hell(attraction['name'], 'Vienna', a)
-  end
+end
 end
 
 

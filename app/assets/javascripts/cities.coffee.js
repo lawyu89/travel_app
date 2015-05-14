@@ -42,6 +42,7 @@ $(document).ready(function() {
       var icon = { url: icon_img, scaledSize: new google.maps.Size(30, 40) };
 	  var myLat = $('#mylat').text();
 	  var myLong = $('#mylong').text();
+      var myTitle = $('#mapTitle').text();
 	  var myLatlng = new google.maps.LatLng(myLat,myLong);
 	  var mapOptions = {
 	    zoom: 15,
@@ -52,7 +53,8 @@ $(document).ready(function() {
 	  var marker = new google.maps.Marker({
 	      position: myLatlng,
 	      map: map,
-	      icon: icon
+	      icon: icon,
+          title: myTitle
 	  });
 	}
 
@@ -83,7 +85,8 @@ $(document).ready(function() {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map,
-            icon: icon  
+            icon: icon,
+            title: locations[i][0]  
         });
 
         bounds.extend(marker.position);

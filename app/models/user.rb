@@ -3,8 +3,8 @@ class User < ActiveRecord::Base
   has_many :cities, through: :city_users
   has_many :user_attractions
   has_many :attractions, through: :user_attractions
-  validates :email, presence: true
-  validates :email, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i, on: :create }
+  # validates :email, presence: true
+  # validates :email, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i, on: :create }
   validates :email, uniqueness: true
   # validates :password_confirmation, :presence => true, :if => '!password.nil?'
   include BCrypt
