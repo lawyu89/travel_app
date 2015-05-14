@@ -17,7 +17,8 @@ $(document).ready(function() {
         //For myCities:
         $('.my-city').show();
         $('.my-city').filter(function() {
-            searchText = $(this).text().replace(/\s+/g, ' ');
+            console.log($(this).children().attr("id"));
+            searchText = $(this).children().attr("id").replace(/\s+/g, ' ');
             return !reg.test(searchText);
         }).hide();
 
@@ -37,7 +38,8 @@ $(document).ready(function() {
 
 
   function initializeMap() {
-	  var icon = $('#icon').children().attr('src');
+	  var icon_img = $('#icon').children().attr('src');
+      var icon = { url: icon_img, scaledSize: new google.maps.Size(30, 40) };
 	  var myLat = $('#mylat').text();
 	  var myLong = $('#mylong').text();
 	  var myLatlng = new google.maps.LatLng(myLat,myLong);
@@ -61,7 +63,7 @@ $(document).ready(function() {
             return location.split(",");
         });
 
-    var icon = $('#iconsmall').children().attr('src');
+    var icon_img = $('#iconsmall').children().attr('src');
 
     window.map = new google.maps.Map(document.getElementById('multi-map'), {
         mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -70,12 +72,18 @@ $(document).ready(function() {
     var infowindow = new google.maps.InfoWindow();
 
     var bounds = new google.maps.LatLngBounds();
+    
+    var offset = Math.floor(Math.random() * 3) * 16; // pick one of the three icons in the sprite
 
+    // Calculate desired pixel-size of the marker
+    var size = Math.floor(10);
+    var icon = { url: icon_img, scaledSize: new google.maps.Size(30, 40) };
+    
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map,
-            icon: icon
+            icon: icon  
         });
 
         bounds.extend(marker.position);
