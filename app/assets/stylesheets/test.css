@@ -33,12 +33,14 @@
 /* color */
 
 .c-white {color: white;}
+.c-dgrey {color: #bebebe;}
 
 /* Fonts */
 
 .f-oswald {font-family: 'Oswald', sans-serif;}
 .f-oldstd {font-family: 'Old Standard TT', serif;}
 
+.fz-xxs {font-size: 0.9em;}
 .fz-xs {font-size: 1.15em;}
 .fz-sm {font-size: 1.5em;}
 .fz-ms {font-size: 2em;}
@@ -79,6 +81,7 @@
 
 .v-top {vertical-align: top}
 
+.d-in {display: inline;}
 .d-inb {display: inline-block;}
 .d-b {display: block;}
 /* Margin */
@@ -88,15 +91,19 @@
 .m-t-l {margin-top: 1em;}
 .m-l-l {margin-left: 2.2em;}
 .m-t-neg {margin-top: -1.25em;}
+.m-b-m {margin-bottom: .5em;}
 
 /* Padding */
+.p-none {padding: 0;}
 .p-xs {padding: 0.3em;}
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
 .p-l {padding: 2em;}
 .p-r-sm {padding: 0.6em;}
+.p-r-m {padding-right: 1em;}
 .p-l-sm {padding: 0.6em;}
 .p-l-xs {padding-left: 0.5em;}
+.p-t-sm {padding-top: 0.4em;}
 
 /* Normalize */
 
@@ -179,6 +186,11 @@ img.my-city-image {
   max-width: 275px;
 }
 /* Unsure why i have to be so specific with my image targeting...*/
+
+.rounded {
+  border-radius: 10px;
+  padding:5px;
+}
 .round-button {
     display:inline-block;
     margin: 0 1.5em;
@@ -209,6 +221,23 @@ img.my-city-image {
     padding:5px;
 }
 
+.sm-rect-button-map {
+    border-radius: 10px;
+    border: 1px solid #bebebe;
+    box-shadow: 0 0 3px gray;
+    color: #bebebe;
+    background: none;
+    padding:5px;
+}
+
+.sm-rect-button-np {
+  color: #bebebe;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+  box-shadow: 0 0 3px gray;
+  background: #555555;
+}
+
 #leftb:hover {
   border: 1px solid red;
 }
@@ -229,4 +258,3 @@ img.my-city-image {
   background: white url('/imgs/search.png') no-repeat 8px 6px;
   background-size: 1.25em;
 }
-

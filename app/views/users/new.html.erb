@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="t-center m-t-neg">
-      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
+      <a href="/cities"><h1 class="d-inb f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
   </header>
   <div class="se-pre-con"></div>
@@ -29,19 +29,27 @@
     <h1 class='t-center f-oldstd'>SIGN UP</h1>
     <%= form_for @user do |f| %>
     <div class="w-90 center">
+      <% if @error %>
+        <%= @error %>
+      <% end %> 
       <div><p class='taken'><%= @user.errors.full_messages.find{|message| message.include?('taken')} %></div>
 
-      <div><h2 class='fz-xs f-weight'><%= f.label :username %></h2></div>
-      <div><%= f.text_field :username, required: true, title: "Please Enter Your Username", :class => 'w-full' %></div>
+      <div class="p-t-sm"><%= f.label :username, class: "f-oswald fz-xs f-weight" %></div>
+      <div><%= f.text_field :username, required: true, title: "Please Enter Your Username", :class => 'rounded w-full' %></div>
 
-      <div><h2 class='fz-xs f-weight'><%= f.label :email %></h2></div>
+      <div class="p-t-sm"><%= f.label :email, class: "f-oswald fz-xs f-weight" %></div>
       <div>
-        <%= f.text_field :email, required: true, pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}', title: "E.g john123@gmail.com", :class => 'w-full' %></div>
+        <%= f.text_field :email, required: true, pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}', title: "E.g john123@gmail.com", :class => 'rounded w-full' %></div>
 
-      <div><h2 class='fz-xs f-weight'><%= f.label :password %></h2></div>
-      <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'w-full' %></div>
+
+      <div class="p-t-sm"><%= f.label :password, class: "f-oswald fz-xs f-weight" %></div>
+      <div><%= f.password_field :password, required: true, pattern: '.{6,}', title: "6 characters minimum", :class => 'rounded w-full' %></div>
+
+      <div><h2 class='fz-xs f-weight'><%= f.label :password_confirmation %></h2></div>
+      <div><%= f.password_field :password_confirmation, :class => 'w-full' %></div>
     </div>
-      <div class='p-sm ta-c'><%= f.submit "Sign Up" %></div>
+      <div class='p-sm ta-c'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
+      
     <% end %>
   </div>
 </div>
