@@ -94,6 +94,7 @@
 .m-b-m {margin-bottom: .5em;}
 
 /* Padding */
+.p-none {padding: 0;}
 .p-xs {padding: 0.3em;}
 .p-sm {padding: 0.4em;}
 .p-m {padding: 1em;}
@@ -102,6 +103,7 @@
 .p-r-m {padding-right: 1em;}
 .p-l-sm {padding: 0.6em;}
 .p-l-xs {padding-left: 0.5em;}
+.p-t-sm {padding-top: 0.4em;}
 
 /* Normalize */
 
@@ -184,6 +186,11 @@ img.my-city-image {
   max-width: 275px;
 }
 /* Unsure why i have to be so specific with my image targeting...*/
+
+.rounded {
+  border-radius: 10px;
+  padding:5px;
+}
 .round-button {
     display:inline-block;
     margin: 0 1.5em;
