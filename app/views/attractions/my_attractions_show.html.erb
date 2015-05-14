@@ -20,21 +20,21 @@
       </div>
     </div>
     <div class="t-center m-t-neg">
-      <a href="/cities"><h1 class="f-oswald fz-ms c-white">SwipeSee</h1></a>
+      <a href="/cities"><h1 class="d-inb f-oswald fz-ms c-white">SwipeSee</h1></a>
     </div>
   </header>
 
   <div class="se-pre-con"></div>
-  <a href='/mycities/<%= @city.id %>/attractions'><p class="p-l-xs c-white">BACK</p></a>
+  <a href='/mycities/<%= @city.id %>/attractions'><p class="d-inb sm-rect-button-map p-l-xs c-white f-oswald">BACK</p></a>
   <div class="my-attraction-detail">
     <h1 class="f-oldstd t-center debug fz-sm"><%= @attraction.name %></h1>
     <div class="bdr-m-blk square_city debug"><img id="swipe" class="my-city-image" src="<%= @attraction.photo_url %>">
     </div>
     <div class="debug t-center m-t-m">
-      <a href="/mycities/<%=@city.id%>/attractions/<%=@attraction.id%>/maps" class="button-map sm-rect-button" id='map' rel="external">
-      MAP ME!</a>
+      <a href="/mycities/<%=@city.id%>/attractions/<%=@attraction.id%>/maps" class="button-map" id='map' rel="external"><p class="d-inb sm-rect-button-map f-oswald">
+      MAP ME!</p></a>
     </div>
     <p id="swipe_status"></p>
-    <div class="m-sm debug c-white p-sm bdr-sm-blk"><p class="fz-xs t-center"><%= @attraction.description %></p></div>
+    <div class="m-sm debug c-white p-sm"><p class="fz-xs t-center"><%= @attraction.description %></p></div>
   </div>
 </div>

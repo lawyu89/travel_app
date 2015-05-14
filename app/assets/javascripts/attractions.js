@@ -22,11 +22,15 @@ $( document).ready(function() {
         runLike($(this).find('.button-right'))
       });
     }
-    $(".attractions-container").on("tap", '#swipe img,h1',function(event){
+    $(".attractions-container").on("tap", '#swipe img',function(event){
       event.preventDefault()
       $(this).closest('.attraction').toggleClass('flip')
     });
 
+    $(".attractions-container").on("tap", '.back',function(event){
+      event.preventDefault()
+      $(this).closest('.attraction').toggleClass('flip')
+    });
 
     $('.attractions-container').on('tap', '.current-button #leftb', function(e){
       var button = this
