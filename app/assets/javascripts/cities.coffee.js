@@ -17,7 +17,8 @@ $(document).ready(function() {
         //For myCities:
         $('.my-city').show();
         $('.my-city').filter(function() {
-            searchText = $(this).text().replace(/\s+/g, ' ');
+            console.log($(this).children().attr("id"));
+            searchText = $(this).children().attr("id").replace(/\s+/g, ' ');
             return !reg.test(searchText);
         }).hide();
 

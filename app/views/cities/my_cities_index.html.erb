@@ -43,8 +43,8 @@
       </div>
     <% else %>
       <% @cities.each do |city| %>
-        <div class="my-city span-5-t t-center d-inb v-top debug">
-          <div class="center square_city debug">
+        <div class="span-5-t t-center d-inb v-top my-city debug">
+          <div class="center square_city debug" id= '<%=city.name%>'>
             <a href="/mycities/<%= city.id %>/attractions"><%= image_tag(city.photo_url, :class => "my-city-image")%></a>
           </div>
         </div>
