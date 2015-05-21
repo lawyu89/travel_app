@@ -1112,31 +1112,34 @@
     {
       "top_quote" : "a must see on darker times of the...",
       "query_slug" : "Holocaust+Memorial+Center+Budapest",
-      "description" : "The Holocaust Memorial Center is a renovated synagogue that dates back to the 1920s and serves as a memorial and museum for and about Hungarian Jews that were killed in The Holocaust. It is located in Budapest, Hungary.",
+      "description" : "The Holocaust Memorial Center is a renovated synagogue that dates back to the 1920s and serves as a memorial and museum for and about Hungarian Jews that were killed in The Holocaust.",
       "city" : "Budapest",
       "rank" : "31 ",
-      "name" : "Holocaust Memorial Center"
+      "name" : "Holocaust Memorial Center",
+      "photo_url" : "http://i1.trekearth.com/photos/18577/holocaustmemorial.jpg"
     },
     {
       "top_quote" : "Small but fair",
       "query_slug" : "Budapest+Zoo+&+Botanical+Garden+Budapest",
-      "description" : "Budapest Zoo & Botanical Garden is the oldest zoo park in Hungary and one of the oldest in the world.\nIt has 1,072 animal species and is located within VÃ¡rosliget Park.\nThe zoo opened its doors on 9 August 1866.",
+      "description" : "Budapest Zoo & Botanical Garden is the oldest zoo park in Hungary and one of the oldest in the world. It has 1,072 animal species and is located within Varosliget Park. The zoo opened its doors on 9 August 1866.",
       "city" : "Budapest",
       "rank" : "32 ",
-      "name" : "Budapest Zoo & Botanical Garden"
+      "name" : "Budapest Zoo & Botanical Garden",
+      "photo_url" : "http://static.panoramio.com/photos/original/10239231.jpg"
     },
     {
       "top_quote" : "Wow..wish we were weathly!",
       "query_slug" : "Gresham+Palace+Budapest",
-      "description" : "The Gresham Palace is a building in Budapest, Hungary; it is an example of Art Nouveau architecture.",
+      "description" : "The Gresham Palace is a building in Budapest, Hungary; it is an example of Art Nouveau architecture. Completed in 1906 as an office and apartment building, it is today the Four Seasons Hotel Budapest Gresham Palace, a luxury hotel.",
       "city" : "Budapest",
       "rank" : "33 ",
-      "name" : "Gresham Palace"
+      "name" : "Gresham Palace",
+      "photo_url" : "http://attractions.topbudapest.org/wp-content/uploads/2011/07/Picture-53.png"
     },
     {
       "top_quote" : null,
       "query_slug" : "Liberty+Bridge+(Szabadsag+hid)+Budapest",
-      "description" : "The SzabadsÃ¡g hÃ_d in Budapest, Hungary, connects Buda and Pest across the River Danube. It is the third southernmost public road bridge in Budapest, located at the southern end of the City Centre. It was originally named Ferenc JÃ_zsef hÃ_d.",
+      "description" : "The Szabadsag hid (in English: Liberty Bridge) connects Buda and Pest across the River Danube. It is the third southernmost public road bridge in Budapest, located at the southern end of the City Centre.",
       "city" : "Budapest",
       "rank" : "37 ",
       "name" : "Liberty Bridge (Szabadsag hid)"
@@ -1152,7 +1155,7 @@
     {
       "top_quote" : "Panorama of Budapest",
       "query_slug" : "Citadella+Budapest",
-      "description" : "Citadella is the Hungarian word for Citadel, a kind of fortress. The word Citadella is exclusively used by other languages to address the Citadel located upon the top of the strategic GellÃ©rt Hill in Budapest, Hungary.",
+      "description" : "Citadella is the Hungarian word for Citadel, a kind of fortress. The word Citadella is exclusively used by other languages to address the Citadel located upon the top of the strategic Gellert Hill in Budapest, Hungary.",
       "city" : "Budapest",
       "rank" : "38 ",
       "name" : "Citadella"
@@ -1176,10 +1179,11 @@
     {
       "top_quote" : "Very interesting museum..",
       "query_slug" : "House+of+Terror+Budapest",
-      "description" : "House of Terror is a museum located at AndrÃ¡ssy Ãºt 60 in Budapest, Hungary. It contains exhibits related to the fascist and communist dictatorial regimes in 20th-century Hungary and is also a memorial ...",
+      "description" : "House of Terror is a museum that contains exhibits related to the fascist and communist dictatorial regimes in 20th-century Hungary and is also a memorial to the victims of these regimes.",
       "city" : "Budapest",
       "rank" : "45 ",
-      "name" : "House of Terror"
+      "name" : "House of Terror",
+      "photo_url" : "http://www.budapest-hotel.hu/images/sof_the_house_of_terror_b.jpg"
     },
     {
       "top_quote" : "To market, to market",
@@ -1192,7 +1196,7 @@
     {
       "top_quote" : null,
       "query_slug" : "New+York+Palace+Budapest",
-      "description" : "The Boscolo Budapest Hotel, formerly the New York Palace is a luxury hotel on the Grand Boulevard of Budapest's ErzsÃ©bet kÃ¶rÃºt part, under ErzsÃ©bet kÃ¶rÃºt 9-11, in the 7th district of Budapest, Hungary.",
+      "description" : "The Boscolo Budapest Hotel, formerly the New York Palace is a luxury hotel on the Grand Boulevard of Budapest's Erzsebet korut part. Built by the New York Life Insurance Company as a local head office, its Café in the ground floor named New York Café was a longtime center for Hungarian literature and poetry.",
       "city" : "Budapest",
       "rank" : "50 ",
       "name" : "New York Palace"
@@ -1259,7 +1263,8 @@
       "description" : "The Erkel Theatre is a theatre in Budapest, Hungary. Being the largest public building in the city for decades, it was made part of the Hungarian State Opera House in 1951.",
       "city" : "Budapest",
       "rank" : "60 ",
-      "name" : "Erkel Theatre"
+      "name" : "Erkel Theatre",
+      "photo_url" : "https://ppmhungary.files.wordpress.com/2013/05/opera2.jpg?w=500&h=375"
     },
     {
       "top_quote" : "Nice in the fall",
