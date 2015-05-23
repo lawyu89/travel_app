@@ -5227,122 +5227,136 @@
     {
       "top_quote" : "Theatro Municipal - can pass on",
       "query_slug" : "Theatro+Municipal+do+Rio+de+Janeiro+Janeiro",
-      "description" : "",
+      "description" : "The Teatro Municipal (Municipal Theatre) of Rio de Janeiro is located in Cinelândia (Praça Marechal Floriano) in the city center of downtown Rio de Janeiro, Brazil. Built in the beginning of the twentieth century, it is one of the most beautiful and important theatres in the country.",
       "city" : "Rio Janeiro",
       "rank" : "4 ",
-      "name" : "Theatro Municipal do Rio de Janeiro"
+      "name" : "Theatro Municipal do Rio de Janeiro",
+      "photo_url": "http://www.royalrio.net/site/wp-content/uploads/imagesCARCLKTC.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Centro+Cultural+Banco+Do+Brasil+Janeiro",
-      "description" : "",
+      "description" : "The Centro Cultural Banco do Brasil (CCBB, in English: Bank of Brazil Cultural Center) is a cultural organization of the Banco do Brasil based in Brazil with centers in Rio de Janeiro, Brasilia, and São Paulo. The largest of the CCBB institutions is located in Rio de Janeiro, in an art-deco building designed by Francisco Joaquim Bethencourt da Silva.",
       "city" : "Rio Janeiro",
       "rank" : "6 ",
-      "name" : "Centro Cultural Banco Do Brasil"
+      "name" : "Centro Cultural Banco Do Brasil",
+      "photo_url":"http://www.hispanicallyspeakingnews.com/uploads/images/amigo-o-enemigo/rios_Centro_Cultural_Banco_do_Brasil.jpg"
     },
     {
       "top_quote" : "Nice views",
       "query_slug" : "Morro+Da+Urca+Janeiro",
-      "description" : "",
+      "description" : "Sitting in the shadow of big brother and Rio de Janeiro icon, Sugar Loaf Mountain, the Morro da Urca is just as important if only because the cable car trip up to Sugar Loaf includes a stop atop this turtle shell-shaped rock. Not to be outdone by its better-known neighbor, the 720-foot hill, a little more than half Sugar Loaf’s height of 1,300 feet, still offers spectacular panoramic views of Christ the Redeemer and Corcovado, Copacabana and Ipanema beaches, Guanabara Bay, downtown Rio, and Sugar Loaf itself (something you can’t see when you’re actually on it).",
       "city" : "Rio Janeiro",
       "rank" : "5 ",
-      "name" : "Morro Da Urca"
+      "name" : "Morro Da Urca",
+      "photo_url":"http://estilovitae.com.br/wp-content/uploads/2014/04/morrodaurca.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Arpoador+Janeiro",
-      "description" : "",
+      "description" : "Arpoador (literally, the harpoon thrower) is a region located on the southern zone of the city Rio de Janeiro, in a small peninsula between Ipanema and Copacabana. Arpoador is mostly known for being one of the best metropolitan surf spots in Rio de Janeiro. The rock outcropping creates stable left breakers up to 7–10 feet high (wave face measure, as Brazilians do).",
       "city" : "Rio Janeiro",
       "rank" : "10 ",
-      "name" : "Arpoador"
+      "name" : "Arpoador",
+      "photo_url": "http://cdn1.rio.com/wp-content/uploads/Arpoador.jpg"
     },
     {
       "top_quote" : "Botanical Garden - monkeys and bir...",
       "query_slug" : "Botanical+Garden+(Jardim+Botanico)+Janeiro",
-      "description" : "",
+      "description" : "This exotic 137-hectare garden, with over 8000 plant species, was designed by order of the Prince Regent Dom João (later to become Dom João VI) in 1808. The garden is quiet and serene on weekdays and blossoms with families and music on weekends. Highlights of a visit here include the row of palms (planted when the garden first opened), the Amazonas section, the lake containing the huge Vitória Régia water lilies and the enclosed orquidário , home to 600 species of orchids. Also on-site is the Museu do Meio Ambiente , which houses temporary environmentally focused exhibits.",
       "city" : "Rio Janeiro",
       "rank" : "9 ",
-      "name" : "Botanical Garden (Jardim Botanico)"
+      "name" : "Botanical Garden (Jardim Botanico)",
+      "photo_url": "http://cdn1.rio.com/wp-content/uploads/Botanic-Garden.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Pedra+da+Gavea+Janeiro",
-      "description" : "",
+      "description" : "Pedra da Gávea is a mountain in Tijuca Forest, Rio de Janeiro, Brazil. Composed of granite and gneiss, its elevation is 844 metres (2,769 ft), making it one of the highest mountains in the world that ends directly in the ocean. Trails on the mountain were opened up by the local farming population in the early 1800s; today, the site is under the administration of the Tijuca National Park.",
       "city" : "Rio Janeiro",
       "rank" : "11 ",
-      "name" : "Pedra da Gavea"
-    },
+      "name" : "Pedra da Gavea",
+      "photo_url": "https://rioallaccess.com/wp-content/gallery/pedra-da-gavea/pedra-da-gavea-1.jpg"    },
     {
       "top_quote" : "Fun experience!",
       "query_slug" : "Maracana+Estadio+Jornalista+Mario+Filho+Janeiro",
-      "description" : "",
+      "description" : "The Maracanã Stadium, also known as Maracanã, officially Estádio Jornalista Mário Filho, is a football stadium in Rio de Janeiro, Brazil. It was opened in 1950 to host the FIFA World Cup, in which Brazil was beaten 2–1 by Uruguay in the deciding game. Since then, it has mainly been used for football matches between the major football clubs in Rio de Janeiro, including Flamengo, Fluminense, Botafogo and Vasco da Gama. It has also hosted a number of concerts and other sporting events including the final for the 2014 World Cup.",
       "city" : "Rio Janeiro",
       "rank" : "13 ",
-      "name" : "Maracana Estadio Jornalista Mario Filho"
+      "name" : "Maracana Estadio Jornalista Mario Filho",
+      "photo_url": "http://cache.images.core.optasports.com/soccer/venues/600x450/44.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Prainha+Beach+Janeiro",
-      "description" : "",
+      "description" : "Prainha Beach is a smaller isolated surfer beach a short drive southwest from Rio de Janeiro. The half-moon shaped beach is bordered on each side by rocks and high cliffs, causing the waves to come in fast and with multiple breaks.",
       "city" : "Rio Janeiro",
       "rank" : "15 ",
-      "name" : "Prainha Beach"
+      "name" : "Prainha Beach",
+      "photo_url": "http://www.rio-de-janeiro-travel-information.com/images/prainha-rio-de-janeiro-5.jpg"
     },
     {
       "top_quote" : "Royal Land",
       "query_slug" : "Petropolis+Janeiro",
-      "description" : "",
+      "description" : "Petrópolis, also known as The Imperial City of Brazil, is a municipality in the state of Rio de Janeiro, at a distance of 68 km from the state capital. Nestled among the forested hills of the Serra dos Órgãos, in the valley of the Quitandinha and Piabanha rivers, Petrópolis is a popular winter holiday spot. Besides the climate and surroundings, the main attraction is the former Summer Palace of the second Brazilian emperor, which is now the Imperial Museum, specializing in Imperial history and memorabilia.",
       "city" : "Rio Janeiro",
       "rank" : "14 ",
-      "name" : "Petropolis"
+      "name" : "Petropolis",
+      "photo_url": "http://imgms.viajeaqui.abril.com.br/13/foto-galeria-materia-620-8n.jpeg?1326478337"
     },
     {
       "top_quote" : null,
       "query_slug" : "Grumari+Beach+Janeiro",
-      "description" : "",
+      "description" : "Grumari Beach lies at the end of a short coastal drive southwest of Rio de Janeiro. It's located in an environmental protection zone, and is buffered by mountains that seem to spring up from the ocean. Between the ocean and these mountains, lies a 'restinga' or semi arid coastal scrub land full of dense vegetation. ",
       "city" : "Rio Janeiro",
       "rank" : "18 ",
-      "name" : "Grumari Beach"
+      "name" : "Grumari Beach",
+      "photo_url": "http://www.gringo-rio.com/wp-content/uploads/2014/02/grumari.jpg"
     },
     {
       "top_quote" : "Nice beach....",
       "query_slug" : "Ipanema+Beach+Janeiro",
-      "description" : "",
+      "description" : "One long stretch of sand, Ipanema Beach is marked by postos (posts), which demarcates subcultures as diverse as the city itself. Posto 9, right off Rua Vinícius de Moraes, is Garota de Ipanema, which is where Rio’s most lithe and tanned bodies tend to migrate. The area is also known as the Cemetério dos Elefantes because of the handful of old leftists, hippies and artists who sometimes hang out there. In front of Rua Farme de Amoedo the beach is known as Bolsa de Valores or Crystal Palace (this is the gay section), while Posto 8 further up is mostly the domain of favela kids. Arpoador, between Ipanema and Copacabana, is Rio’s most popular surf spot. Leblon attracts a broad mix of single Cariocas, as well as families from the neighborhood. Posto 10 is for sport lovers, with ongoing volleyball, soccer and frescobal (played with wooden racquets and a rubber ball) games.",
       "city" : "Rio Janeiro",
       "rank" : "19 ",
-      "name" : "Ipanema Beach"
+      "name" : "Ipanema Beach",
+      "photo_url": "http://blog.worldcupsoccertravel.com/wp-content/uploads/2012/11/Ipanema.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Claudio+Coutinho+Trail+Janeiro",
-      "description" : "",
+      "description" : "Everyone loves this paved 2km trail winding along the southern contour of Morro do Urca. It's a lush treed area, with the waves crashing on the rocks below. Look out for families of marmosets with their gray fur, striped tails and tiny faces. To get there, walk 100m north along the edge of Praia Vermelha (with your back to the cable-car station) and you'll see the entrance to the path straight ahead, just past the beach.",
       "city" : "Rio Janeiro",
       "rank" : "23 ",
-      "name" : "Claudio Coutinho Trail"
+      "name" : "Claudio Coutinho Trail",
+      "photo_url":"http://media-cdn.tripadvisor.com/media/photo-s/07/9b/d5/ff/claudio-coutinho-trail.jpg"
     },
     {
       "top_quote" : "Lovley area",
       "query_slug" : "Urca+Janeiro",
-      "description" : "",
+      "description" : "Urca is a traditional and wealthy residential neighborhood with nearly 7,000 inhabitants in Rio de Janeiro, Brazil. Although most of the neighborhood dates from the 1920s, parts of it are much older. What is now called the Forte São João, a military base at the foot of the Sugarloaf Mountain, is where the first Portuguese settlement in Rio was founded by Estácio de Sá on March 1, 1565. The street now called Rua São Sebastião, in Urca, which leads from behind the fort to the Urca cassino, was originally a trail from the Portuguese fort skirting the edge of the sea to the mainland along the peninsula that houses the Sugar Loaf and a smaller hill, the Morro da Urca. Rua São Sebastião thus has some claim to be the oldest street in Rio.",
       "city" : "Rio Janeiro",
       "rank" : "20 ",
-      "name" : "Urca"
+      "name" : "Urca",
+      "photo_url": "http://photos.travellerspoint.com/70140/large_rio_urca_2_mig.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Real+Gabinete+Portugues+Da+Leitura+Janeiro",
-      "description" : "",
+      "description" : "The Royal Portuguese Reading Room was founded in 1837 by a group of forty-three Portuguese immigrants , political refugees, to promote culture among the Portuguese community in the then capital of the Empire. It was the first association of this community in the city. Open to the public since 1900 , the Royal Office of the Library has the largest collection of Portuguese works out of Portugal . Among the approximately 350,000 volumes, domestic and foreign, are rare works as a copy edition of 'princeps' of the Lusiads Camões (1572), the King Manuel Ordinances (1521), the Capitolos cuts and Leys what about some Delles made ​​(1539), the True informaçam land of Prester Joam, according vio and escreveo ho Father Francisco Alvarez (1540), a manuscript comedy 'Tu, só tu, puro amor' of Machado de Assis, and many others.",
       "city" : "Rio Janeiro",
       "rank" : "24 ",
-      "name" : "Real Gabinete Portugues Da Leitura"
+      "name" : "Real Gabinete Portugues Da Leitura",
+      "photo_url": "http://www.riofilmcommission.com/locacoes/img/lightbox/gabinete_portuguez_101_1282582888.jpg"
     },
     {
       "top_quote" : "Park area",
       "query_slug" : "Tijuca+National+Park+Janeiro",
-      "description" : "",
+      "description" : "A lush Atlantic rainforest, Tijuca National Park is an absolute wonder it is the world’s largest urban forest which covers 12.4mi² (32km²) and was a result of incredible forward thinking by Emperor Dom Pedro II. In 1861 he saw the deforestation of the land around Rio and ordered that Tijuca be replanted to secure the water supply for future citizens. It was replanted over ten years ago and still plays a key role in making sure Rio has fresh water.",
       "city" : "Rio Janeiro",
       "rank" : "22 ",
-      "name" : "Tijuca National Park"
+      "name" : "Tijuca National Park",
+      "photo_url": "http://www.cities-in-brazil.com/gallery/albums/userpics/10003/Waterfall%20Tijuca%20Forest.jpg"
     },
     {
       "top_quote" : null,
@@ -5355,50 +5369,56 @@
     {
       "top_quote" : "Working out and strolling",
       "query_slug" : "Rodrigo+de+Freitas+Lake+Janeiro",
-      "description" : "",
+      "description" : "Rodrigo de Freitas Lagoon, mostly known as 'Lagoa', is a lagoon and district in the Lagoa, Zona Sul (South Zone) of Rio de Janeiro. The lagoon is connected to the Atlantic Ocean, allowing sea water to enter by a canal along the edge of a park locally known as Jardim de Alá.",
       "city" : "Rio Janeiro",
       "rank" : "27 ",
-      "name" : "Rodrigo de Freitas Lake"
+      "name" : "Rodrigo de Freitas Lake",
+      "photo_url": "http://cdn1.rio.com/wp-content/uploads/Rodrigo-de-Freitas-Lagoon.jpg"
     },
     {
       "top_quote" : "Nice, but under renovation",
       "query_slug" : "Sao+Bento+Monastery+Janeiro",
-      "description" : "",
+      "description" : "The Mosteiro de São Bento (St. Benedict Monastery) is a church location on the Morro de São Bento ('St. Benedict Hill') in downtown Rio de Janeiro, Brazil. It stands as a primary example of Brazilian colonial architecture in the city and the country.",
       "city" : "Rio Janeiro",
       "rank" : "28 ",
-      "name" : "Sao Bento Monastery"
+      "name" : "Sao Bento Monastery",
+      "photo_url": "http://www.worldtoptop.com/wp-content/uploads/2011/05/mosteiro_sao_bento_8.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Arpoador+Beach+Janeiro",
-      "description" : "",
+      "description" : "Arpoador beach is the birthplace of surfing in Brazil as a sport and lifestyle. The beach is a small bit of sand and rock located between the beginning of Ipanema beach and Copacabana. It has incredible views of Ipanema and Leblon. To reach Arpoador beach walk along Ipanema beach on Avenida Vieira Souto and you will eventually get to Arpoador.",
       "city" : "Rio Janeiro",
       "rank" : "31 ",
-      "name" : "Arpoador Beach"
+      "name" : "Arpoador Beach",
+      "photo_url": "http://www.visitriodejaneirobrasil.com/arpoador_beach.jpg"
     },
     {
       "top_quote" : "Dancing!!",
       "query_slug" : "Rio+Scenarium+Janeiro",
-      "description" : "",
+      "description" : "One of the city's most photogenic nightspots, Rio Scenarium has three floors, each lavishly decorated with antiques. Balconies overlook the stage on the 1st floor, with dancers keeping time to the jazz-infused samba, choro or pagode filling the air. Rio Scenarium receives much press outside of Brazil, and attracts at least as many foreigners as locals.",
       "city" : "Rio Janeiro",
       "rank" : "32 ",
-      "name" : "Rio Scenarium"
+      "name" : "Rio Scenarium",
+      "photo_url": "https://girlwithabatteredbackpack.files.wordpress.com/2013/02/p1050281.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Parque+Lage+Janeiro",
-      "description" : "",
+      "description" : "Parque Lage is a public park in the city of Rio de Janeiro, located in the Jardim Botânico neighborhood at the foot of the Corcovado. The land was formerly the residence of industrialist Enrique Lage and his wife, singer Gabriella Besanzoni.",
       "city" : "Rio Janeiro",
       "rank" : "33 ",
-      "name" : "Parque Lage"
+      "name" : "Parque Lage",
+      "photo_url": "http://www.worldtoptop.com/wp-content/uploads/2011/05/parque_lage.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museu+Historico+do+Exercito+e+Forte+de+Copacabana+Janeiro",
-      "description" : "",
+      "description" : "Built in 1914, on the promontory of the former Our Lady of Copacabana chapel, the Forte de Copacabana (Copacabana Fort) was one of Rio’s premier defenses against attack. You can still see its original features, including walls up to 12m thick, defended by Krupp cannons. The several floors of exhibits in the fort’s museum , tracing the early days of the Portuguese colony to the mid-19th century, aren’t the most tastefully presented, but the view alone warrants a visit. There’s a lovely café overlooking Copacabana.",
       "city" : "Rio Janeiro",
       "rank" : "36 ",
-      "name" : "Museu Historico do Exercito e Forte de Copacabana"
+      "name" : "Museu Historico do Exercito e Forte de Copacabana",
+      "photo_url": "http://alugueltemporadariodejaneiro.com/wp-content/uploads/2012/10/forte-copacabana.jpg"
     },
     {
       "top_quote" : null,
@@ -5419,34 +5439,38 @@
     {
       "top_quote" : "Copacabana Beach",
       "query_slug" : "Copacabana+Beach+Janeiro",
-      "description" : "",
+      "description" : "A magnificent confluence of land and sea, the long, scalloped beach of Copacabana and Leme always has a flurry of activity stretching its length: overamped footballers singing their team’s anthem, cariocas and tourists lining up for caipirinhas at kiosks, favela kids showing off their football skills, and beach vendors picking their way through the mass of bronzed bodies.",
       "city" : "Rio Janeiro",
       "rank" : "40 ",
-      "name" : "Copacabana Beach"
+      "name" : "Copacabana Beach",
+      "photo_url": "http://farm4.static.flickr.com/3496/3215103205_64843d71bc.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Instituto+Moreira+Salles+Janeiro",
-      "description" : "",
+      "description" : "The Instituto Moreira Salles is a non-profit organization founded by Walter Moreira Salles (1912–2001) in 1990 and managed by the Moreira Salles family. Its goal is to promote the development of cultural projects mainly in five areas: photography, literature, libraries, visual arts and Brazilian music. It has cultural centers around Brazil (Rio de Janeiro, São Paulo, Poços de Caldas and Belo Horizonte), and four galleries (São Paulo, Rio de Janeiro, Curitiba e Porto Alegre).",
       "city" : "Rio Janeiro",
       "rank" : "41 ",
-      "name" : "Instituto Moreira Salles"
+      "name" : "Instituto Moreira Salles",
+      "photo_url": "http://media.timeout.com.br/contentFiles/image/rj/br/pma/Museus/institutomoreirasalles.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Avenida+Atlantica+Janeiro",
-      "description" : "",
+      "description" : "Avenida Atlântica (Portuguese for Atlantic Avenue) is a major seaside avenue in Rio de Janeiro, Brazil. It is 4 kilometers long, and spans the entire length of the neighbourhoods of Copacabana and Leme.",
       "city" : "Rio Janeiro",
       "rank" : "42 ",
-      "name" : "Avenida Atlantica"
+      "name" : "Avenida Atlantica",
+      "photo_url":"http://farm1.static.flickr.com/114/313540902_cf575bf862.jpg"
     },
     {
       "top_quote" : "Leblon beach...",
       "query_slug" : "Leblon+Beach+Janeiro",
-      "description" : "",
+      "description" : "Sitting just west of Ipanema Beach, Leblon beach is fronted by high-class hotels as well as gourmet restaurants, sophisticated bars, shopping malls and exclusive boutiques. This beach sits in a wealthy district of upper class high rises and is more subdued and sophisticated than its neighbor, Ipanema.",
       "city" : "Rio Janeiro",
       "rank" : "45 ",
-      "name" : "Leblon Beach"
+      "name" : "Leblon Beach",
+      "photo_url": "http://image.123tagged.com/images/l/leblon_beach-20971.jpg"
     },
     {
       "top_quote" : null,
@@ -5459,10 +5483,11 @@
     {
       "top_quote" : "worth seeing",
       "query_slug" : "Vista+Chinesa+Janeiro",
-      "description" : "",
+      "description" : "Vista Chinesa is a monument located in Tijuca National Park in Rio de Janeiro. The monument itself is a bamboo gazebo on the ascent of Alto da Boa Vista. In the movie Rio, after Blu and Jewel managed to escape from the smugglers and Nigel, the two found themselves in the middle of the Park and were searching for shelter. First, Jewel came across a tall tree and suggested they rest in it. Since he was a bird who had never lived in the jungle, Blu refused to sleep in the tall tree they came upon. Suddenly, he spotted the Vista Chinesa in distance and told her he would prefer to spend the night there, as it was 'man-made'.",
       "city" : "Rio Janeiro",
       "rank" : "46 ",
-      "name" : "Vista Chinesa"
+      "name" : "Vista Chinesa",
+      "photo_url": "http://i2.wp.com/essemundoenosso.com.br/wp-content/uploads/2013/11/vista-chinesa-5.jpg"
     },
     {
       "top_quote" : null,
@@ -5475,10 +5500,11 @@
     {
       "top_quote" : "Urban postcard, nice photo op",
       "query_slug" : "Escadaria+Selaron+Janeiro",
-      "description" : "",
+      "description" : "Escadaria Selarón, also known as the 'Selaron Steps', is a set of world-famous steps in Rio de Janeiro, Brazil. They are the work of Chilean-born artist Jorge Selarón who claimed it as 'my tribute to the Brazilian people'",
       "city" : "Rio Janeiro",
       "rank" : "50 ",
-      "name" : "Escadaria Selaron"
+      "name" : "Escadaria Selaron",
+      "photo_url": ""
     },
     {
       "top_quote" : "Tranquil Rio Overlook",
@@ -5491,18 +5517,20 @@
     {
       "top_quote" : null,
       "query_slug" : "Catedral+Metropolitana+de+Sao+Sebastiao+do+Rio+De+Janeiro+Janeiro",
-      "description" : "",
+      "description" : "The Metropolitan Cathedral of Saint Sebastian better known as the Metropolitan Cathedral of Rio de Janeiro or as the Cathedral of St. Sebastian of Rio de Janeiro, is the seat of the Roman Catholic Archdiocese of São Sebastião do Rio de Janeiro.",
       "city" : "Rio Janeiro",
       "rank" : "54 ",
-      "name" : "Catedral Metropolitana de Sao Sebastiao do Rio De Janeiro"
+      "name" : "Catedral Metropolitana de Sao Sebastiao do Rio De Janeiro",
+      "photo_url": "http://farm5.static.flickr.com/4128/4968130828_6b99085a4d.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museu+da+Republica+Janeiro",
-      "description" : "",
+      "description" : "The Museu da República, located in the Palácio do Catete , has been wonderfully restored. Built between 1858 and 1866 and easily distinguished by the bronze condors on the eaves, the palace was home to the president of Brazil from 1896 until 1954, when President Getúlio Vargas committed suicide here.",
       "city" : "Rio Janeiro",
       "rank" : "55 ",
-      "name" : "Museu da Republica"
+      "name" : "Museu da Republica",
+      "photo_url": "http://www.museusdorio.com.br/joomla/media/k2/galleries/88/03_mus_rep_cred_inst.jpg"
     },
     {
       "top_quote" : null,
@@ -5510,15 +5538,17 @@
       "description" : "",
       "city" : "Rio Janeiro",
       "rank" : "56 ",
-      "name" : "Barra Da Tijuca"
+      "name" : "Barra Da Tijuca",
+      "photo_url": "http://www.realnobile.com/grand-hyatt-residences/vista-aerea-1.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sitio+Roberto+Burle+Marx+Janeiro",
-      "description" : "",
+      "description" : "It's a cab ride out of town, but nature lovers and architecture buffs will find it worth the effort to visit this plantation-turned-museum honoring Roberto Burle Marx, Brazil's legendary landscape architect. Marx, the mind behind Rio's swirling mosaic beachfront walkways and the Atêrro do Flamengo, was said to have 'painted with plants', and he was the first designer to use Brazilian flora in his projects. More than 3,500 species—including some discovered by and named for Marx, as well as many on the endangered list—flourish at this 100-acre estate.",
       "city" : "Rio Janeiro",
       "rank" : "58 ",
-      "name" : "Sitio Roberto Burle Marx"
+      "name" : "Sitio Roberto Burle Marx",
+      "photo_url": "http://newsimg.bbc.co.uk/media/images/46315000/jpg/_46315965_sitioburlemarx(4).jpg"
     },
     {
       "top_quote" : null,
@@ -5531,7 +5561,7 @@
     {
       "top_quote" : "Portinari collection",
       "query_slug" : "Museu+Nacional+De+Belas+Artes+Janeiro",
-      "description" : "The National Museum of Fine Arts (MNBA) is an art museum located in the city of Rio de Janeiro , in Brazil . One of the most important museums in the country genre.",
+      "description" : "The National Museum of Fine Arts (MNBA) is an art museum located in the city of Rio de Janeiro , in Brazil. It is one of the most important cultural institutions of the country, as well as the most important museum of Brazilian art, particularly rich in 19th-century paintings and sculptures.",
       "city" : "Rio Janeiro",
       "rank" : "59 ",
       "name" : "Museu Nacional De Belas Artes"
@@ -5539,18 +5569,20 @@
     {
       "top_quote" : "A historic place",
       "query_slug" : "Church+of+Our+Lady+of+the+Candelaria+Janeiro",
-      "description" : "",
+      "description" : "The Candelária Church is an important historical Roman Catholic church in the city of Rio de Janeiro, in southeastern Brazil. It was built and decorated during a long period, from 1775 to the late 19th century. The church combines a Baroque façade with a Neoclassical and Neo-Renaissance interior elements.",
       "city" : "Rio Janeiro",
       "rank" : "63 ",
-      "name" : "Church of Our Lady of the Candelaria"
+      "name" : "Church of Our Lady of the Candelaria",
+      "photo_url": "http://www.worldtoptop.com/wp-content/uploads/2011/05/igreja_candelaria_7.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Forte+Duque+de+Caxias+Janeiro",
-      "description" : "",
+      "description" : "More commonly known as Forte do Leme, this military base is now open to the public, and visitors can walk to the top of Morro de Leme (Leme mountain) along a steep 800m trail that passes through Atlantic rainforest. At the top stands an 18th-century fort affording magnificent views of Pão de Açúcar (Sugarloaf mountain) and the Cagarras Islands.",
       "city" : "Rio Janeiro",
       "rank" : "64 ",
-      "name" : "Forte Duque de Caxias"
+      "name" : "Forte Duque de Caxias",
+      "photo_url":"http://static1.squarespace.com/static/517e9335e4b0847823500845/51df1d38e4b01d6e75fa9ff4/51df20c5e4b06c80c7173276/1373577413899/forte_arypreihs.jpg"
     },
     {
       "top_quote" : null,
@@ -5563,10 +5595,11 @@
     {
       "top_quote" : null,
       "query_slug" : "Museu+de+Arte+do+Rio+-+MAR+Janeiro",
-      "description" : "",
+      "description" : "Rio Art Museum ( MAR ) is a museum of Rio de Janeiro , opened in March 1 of 2013. Located in the center of Rio de Janeiro, near the main avenue of the neighborhood , the museum occupies two buildings in Maua square , between the Centre and the harbor area . One of the buildings is the Palace Dom Built in style eclectic . It was dedicated to the exhibition halls, the 'Exhibition Hall', taking advantage of the ceilings high and the free structure of its halls. The other, adjacent to the palace was used by the bus station Mariano Procopio before being integrated into the museum, the 'School of the Look' in addition to house the administration and other departments.",
       "city" : "Rio Janeiro",
       "rank" : "67 ",
-      "name" : "Museu de Arte do Rio - MAR"
+      "name" : "Museu de Arte do Rio - MAR",
+      "photo_url": "http://www.brasilengenharia.com/portal/images/stories/noticias/construcao/mar_museu.jpg"
     },
     {
       "top_quote" : null,
@@ -5574,7 +5607,8 @@
       "description" : "",
       "city" : "Rio Janeiro",
       "rank" : "68 ",
-      "name" : "Casa Daros"
+      "name" : "Casa Daros",
+      "photo_url": ""
     },
     {
       "top_quote" : null,
@@ -5587,106 +5621,119 @@
     {
       "top_quote" : null,
       "query_slug" : "National+History+Museum+Janeiro",
-      "description" : "",
+      "description" : "The National Historical Museum, created in 1922, is one of the most important museums in Brazil, consisting of over 287 thousand items, among which the largest numismatic collection of Latin America. The architectonic complex that houses the Museum had is beginning with the construction of the Santiago Fort, at the Calaboose Point, one of the strategic places for the defense of the city of Rio de Janeiro.",
       "city" : "Rio Janeiro",
       "rank" : "71 ",
-      "name" : "National History Museum"
+      "name" : "National History Museum",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/02/d2/0e/d0/national-history-museum.jpg"
     },
     {
       "top_quote" : "Very interesting",
       "query_slug" : "National+Library+(Biblioteca+Nacional)+Janeiro",
-      "description" : "",
+      "description" : "The Biblioteca Nacional do Brasil (in English National Library of Brazil) is the depository of the bibliographic and documentary heritage of Brazil. It is located in Rio de Janeiro, at Cinelândia square.The largest library in Latin America and the 7th largest in the world, its collections include about 9 million items. It organized the first library science courses in Latin America and its staff has led the modernization of library services, including the development of online databases",
       "city" : "Rio Janeiro",
       "rank" : "72 ",
-      "name" : "National Library (Biblioteca Nacional)"
+      "name" : "National Library (Biblioteca Nacional)",
+      "photo_url": "http://www.worldtoptop.com/wp-content/uploads/2011/05/biblioteca_nacional_rio_de_janeiro.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Aterro+Do+Flamengo+Janeiro",
-      "description" : "",
+      "description" : "Flamengo Park, also known as Aterro do Flamengo, Eduardo Gomes Park, and Aterro do Brigadeiro Eduardo Gomes, is the largest public park and recreation area within the city of Rio de Janeiro, in eastern Brazil. The park is located along Guanabara Bay, in the Flamengo district of the city, between Downtown Rio and Copacabana.",
       "city" : "Rio Janeiro",
       "rank" : "73 ",
-      "name" : "Aterro Do Flamengo"
+      "name" : "Aterro Do Flamengo",
+      "photo_url": "http://tyba.com.br/fotos/foto/24-20-12-16-02.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Carioca+da+Gema+Janeiro",
-      "description" : "",
+      "description" : "Although it's now surrounded by clubs, Carioca da Gema was one of Lapa's pioneers when it opened in 2000. This small, warmly lit club still attracts some of the city's best samba bands, and you'll find a festive, mixed crowd filling the dance floor most nights.",
       "city" : "Rio Janeiro",
       "rank" : "75 ",
-      "name" : "Carioca da Gema"
+      "name" : "Carioca da Gema",
+      "photo_url": "http://www.acontaporfavor.com/wp-content/uploads/2012/10/sambas-carioca-da-gema.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Praia+do+Leme+Janeiro",
-      "description" : "",
+      "description" : "Leme is an upper-middle-class neighborhood in the South Zone of the City of Rio de Janeiro, Brazil, next to Copacabana, Urca and Botafogo. The neighborhood takes its name from a nearby rock formation whose shape resembles the rudder of a ship.",
       "city" : "Rio Janeiro",
       "rank" : "76 ",
-      "name" : "Praia do Leme"
+      "name" : "Praia do Leme",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/02/e2/0a/d0/praia-do-leme.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Lapa++Graus+Janeiro",
-      "description" : "",
+      "description" : "This impressive multistory music venue and pool hall has tables for lounging on the 1st floor, over a dozen pool tables on the 2nd floor, and a small stage and dancing couples on the top floor. There are usually two shows nightly. Pop, rock, samba and choro kick off around 7pm and 11pm.",
       "city" : "Rio Janeiro",
       "rank" : "77 ",
-      "name" : "Lapa  Graus"
+      "name" : "Lapa 40 Graus",
+      "photo_url": "http://lapa40grausblog.com.br/wp-content/uploads/2013/06/405972_451280361608482_1598232454_n.jpg"
     },
     {
       "top_quote" : "Pay A Visit",
       "query_slug" : "Santa+Teresa+Janeiro",
-      "description" : "",
+      "description" : "Santa Teresa is the name of a neighborhood in the city of Rio de Janeiro, Brazil. It is located on top of the Santa Teresa hill, by the centre of Rio, and is famous for its winding, narrow streets which are a favourite spot for artists and tourists. The neighborhood originated around the Santa Teresa Convent, built in the 1750s on the Desterro hill. At the end of the 19th and early 20th century it was an upper class borough, as testified by its magnificent mansions, many of which are still standing.",
       "city" : "Rio Janeiro",
       "rank" : "78 ",
-      "name" : "Santa Teresa"
+      "name" : "Santa Teresa",
+      "photo_url": "http://www.visitriodejaneirobrasil.com/santa_teresa_rio_de_janeiro_brasil.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Pedra+do+Sal+Janeiro",
-      "description" : "",
+      "description" : "Pedra do Sal (English: 'Rock of Salt') is a historical and religious site in Rio de Janeiro, in the neighborhood of Saúde. The site was originally a quilombo village. An association group still lives there: Community Descendents from the Quilombos of Pedra do Sal ",
       "city" : "Rio Janeiro",
       "rank" : "79 ",
-      "name" : "Pedra do Sal"
+      "name" : "Pedra do Sal",
+      "photo_url": "http://media.timeout.com.br/contentFiles/image/rj/2013-images/01-around-town/venues/pedra-do-sal/pedra-do-sal.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Ilha+Fiscal+Janeiro",
-      "description" : "",
+      "description" : "Ilha Fiscal is an island located within Guanabara Bay, bordering the historic city center of Rio de Janeiro, in Brazil. Originally named by Europeans as Ilha dos Ratos (Rat Island), its current name comes from the fact there have worked since the Guarda Fiscal, serving the port of the then capital of the Empire in the nineteenth century. The island became famous for having housed the famous Baile da Ilha Fiscal, the last big party of the Empire before the proclamation of the Republic in November 1889. It now houses a museum of cultural history that is maintained by the Navy of Brazil.",
       "city" : "Rio Janeiro",
       "rank" : "80 ",
-      "name" : "Ilha Fiscal"
+      "name" : "Ilha Fiscal",
+      "photo_url": "http://i1.trekearth.com/photos/37465/brazil_ilhafiscal2.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sala+Cecilia+Meireles+Janeiro",
-      "description" : "",
+      "description" : "Sala Cecília Meireles is a theatre in Rio de Janeiro, Brazil. It is noted for its chamber music and is considered to be one of the best venues in terms of acoustics in the city.",
       "city" : "Rio Janeiro",
       "rank" : "81 ",
-      "name" : "Sala Cecilia Meireles"
+      "name" : "Sala Cecilia Meireles",
+      "photo_url": "http://www.instalengenharia.com/wp-content/uploads/2010/11/Sala-Cec%C3%ADlia-Meireles.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Imperator+-+Centro+Cultural+Joao+Nogueira+Janeiro",
-      "description" : "",
+      "description" : "Imperator - Cultural Centre João Nogueira is a cultural center public Meier in the North Zone of Rio de Janeiro , named in honor of John Nogueira . Inaugurated on June 12 of 2012 by the Rio City Hall after two years of renovations the former home of Imperator spectacles, which had closed in 1996. Today it houses a theater with capacity for 642 people seated and 1060 people standing three kept cinemas by Severiano Ribeiro Group , exhibition hall, bistro and a green terrace of 1 200 square meters.",
       "city" : "Rio Janeiro",
       "rank" : "82 ",
-      "name" : "Imperator - Centro Cultural Joao Nogueira"
+      "name" : "Imperator - Centro Cultural Joao Nogueira",
+      "photo_url": "http://www.vitruvius.com.br/media/images/magazines/grid_12/dc893293c259_v_imperator_01.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Jazz+In+Champanheria+Janeiro",
-      "description" : "",
+      "description" : "The Jazz In 'Champanheria is located in the heart of the port area of ​​Rio, which since 2012 is undergoing a revitalization to become a great gastronomic and entertainment hub in the city. The atmosphere is inspired by Pop Art and, as flagship of decoration, the house brings in its huge windows mapped projections, which alternate in the most beautiful landscapes in the world. A real trip!",
       "city" : "Rio Janeiro",
       "rank" : "83 ",
-      "name" : "Jazz In Champanheria"
+      "name" : "Jazz In Champanheria",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/06/7c/ac/72/jazz-in-champanheria.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Feira+De+Sao+Cristovao+Janeiro",
-      "description" : "",
+      "description" : "The Luiz Gonzaga Northeastern Traditions Center , also known as Fair St. Kitts , is a pavilion that promotes culture and trade in products Northeast . It is located in the city of Rio de Janeiro , in Brazil . It was created in honor of Luiz Gonzaga , the 'King of Baião'.The building, opened in 1962 , was built in the late 50s and designed to house the International Exhibition of Industry and Commerce under President Juscelino Kubitschek . The work was a project of the entrepreneur Joaquim Rolla .",
       "city" : "Rio Janeiro",
       "rank" : "84 ",
-      "name" : "Feira De Sao Cristovao"
+      "name" : "Feira De Sao Cristovao",
+      "photo_url": "http://www.riosummer.com/wp-content/uploads/2014/08/Feira-de-Sao-Cristovao.jpg"
     },
     {
       "top_quote" : null,
@@ -5731,7 +5778,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Museu+Aeroespacial+Janeiro",
-      "description" : "The Aerospace Museum - MUSAL is the largest and most important museum of aviation Brazil 1 2 3 4 . Located in Field of Afonsos , cradle of Brazilian aviation, the city of Rio de Janeiro , was inaugurated on October 18 , 1976. It is administratively subordinate to theHistorical-Cultural Institute of Aeronautics (INCAER) since 1986 .",
+      "description" : "The Aerospace Museum - MUSAL is the largest and most important museum of aviation in Brazil located 25 km west of Rio de Janeiro.",
       "city" : "Rio Janeiro",
       "rank" : "91 ",
       "name" : "Museu Aeroespacial"
