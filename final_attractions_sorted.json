@@ -2383,7 +2383,8 @@
       "description" : "Piazzale Michelangelo is a famous square with a magnificent panoramic view of Florence, Italy, and is a popular tourist destination in the Oltrarno district of the city.",
       "city" : "Florence",
       "rank" : "1 ",
-      "name" : "Piazzale Michelangelo"
+      "name" : "Piazzale Michelangelo",
+      "photo_url" : "http://www.tripquickly.com/images/upload/Piazzale%20Michelangelo2.jpg"
     },
     {
       "top_quote" : "Beautiful and full of tourists",
@@ -2391,39 +2392,44 @@
       "description" : "Piazza della Signoria is an L-shaped square in front of the Palazzo Vecchio in Florence, Italy. It was named after the Palazzo della Signoria, also called Palazzo Vecchio.",
       "city" : "Florence",
       "rank" : "2 ",
-      "name" : "Piazza della Signoria"
+      "name" : "Piazza della Signoria",
+      "photo_url" : "http://www.insightguides.com/docs/images/thickbox/4106e99b-2976-47d8-8b14-646cc4302752.Florence1.jpg"
     },
     {
       "top_quote" : "Awe Inspiring",
       "query_slug" : "Accademia+Gallery+Florence",
-      "description" : " Art museum in Florence",
+      "description" : "The Galleria dell'Accademia di Firenze, or 'Gallery of the Academy of Florence', is an art museum in Florence, Italy. It is the home of Michelangelo's sculpture David.",
       "city" : "Florence",
       "rank" : "4 ",
-      "name" : "Accademia Gallery"
+      "name" : "Accademia Gallery",
+      "photo_url" : "http://i2.wp.com/timcallisterart.com/wp-content/uploads/2014/11/DSC_0397-copy1.jpg"
     },
     {
       "top_quote" : "Huge, beautiful, in the heart of F...",
       "query_slug" : "Duomo+-+Cathedral+of+Santa+Maria+dei+Fiore+Florence",
-      "description" : "The Cattedrale di Santa Maria del Fiore is the main church of Florence, Italy. Il Duomo di Firenze, as it is ordinarily called, was begun in 1296 in the Gothic style to the design of Arnolfo di Cambio ...",
+      "description" : "The Cattedrale di Santa Maria del Fiore is the main church of Florence, Italy. Il Duomo di Firenze, as it is ordinarily called, was begun in 1296 in the Gothic style to the design of Arnolfo di Cambio",
       "city" : "Florence",
       "rank" : "5 ",
-      "name" : "Duomo - Cathedral of Santa Maria dei Fiore"
+      "name" : "Duomo - Cathedral of Santa Maria dei Fiore",
+      "photo_url" : "http://www.planetware.com/photos-large/I/cathedral-of-santa-maria-del-fiore.jpg"
     },
     {
       "top_quote" : "Amazing",
       "query_slug" : "Cupola+del+Brunelleschi+Florence",
-      "description" : "",
+      "description" : "Landmark 1200s cathedral known for its red-tiled dome, colored marble facade & elegant Giotto tower.",
       "city" : "Florence",
       "rank" : "6 ",
-      "name" : "Cupola del Brunelleschi"
+      "name" : "Cupola del Brunelleschi",
+      "photo_url" : "http://farm9.staticflickr.com/8468/8427028962_d72291e537.jpg"
     },
     {
       "top_quote" : "Not bad",
       "query_slug" : "Piazza+del+Duomo+Florence",
-      "description" : "Piazza del Duomo is located in the heart of the historic center of Florence,. It is one of the most visited places in Europe and the world; here we can find the Florence Cathedral with the Cupola del ...",
+      "description" : "Piazza del Duomo is located in the heart of the historic center of Florence,. It is one of the most visited places in Europe and the world; here we can find the Florence Cathedral with the Cupola del Brunelleschi, the Giotto's Campanile, the Florence Baptistery, the Loggia del Bigallo, the Opera del Duomo Museum, and the Arcivescovile and Canonici's palace.",
       "city" : "Florence",
       "rank" : "9 ",
-      "name" : "Piazza del Duomo"
+      "name" : "Piazza del Duomo",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/02/62/5e/2f/piazza-del-duomo.jpg"
     },
     {
       "top_quote" : "BEST view of Florence!",
@@ -2431,7 +2437,8 @@
       "description" : "San Miniato al Monte is a basilica in Florence, central Italy, standing atop one of the highest points in the city. It has been described as one of the finest Romanesque structures in Tuscany and one of the most scenic churches in Italy.",
       "city" : "Florence",
       "rank" : "10 ",
-      "name" : "The Basilica of San Miniato al Monte"
+      "name" : "The Basilica of San Miniato al Monte",
+      "photo_url" : "http://www.eplumphoto.com/photo/florence_basilica_of_san_miniato_al_monte_2878.jpg"
     },
     {
       "top_quote" : "A church famous for its tombs",
@@ -2439,7 +2446,8 @@
       "description" : "The Basilica di Santa Croce is the principal Franciscan church in Florence, Italy, and a minor basilica of the Roman Catholic Church. It is situated on the Piazza di Santa Croce, about 800 metres south-east of the Duomo.",
       "city" : "Florence",
       "rank" : "11 ",
-      "name" : "Basilica di Santa Croce"
+      "name" : "Basilica di Santa Croce",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/7/7a/Santa_Croce_(Florence)_-_Facade.jpg"
     },
     {
       "top_quote" : null,
@@ -2447,15 +2455,17 @@
       "description" : "The historic centre of Florence is part of quartiere 1 of the Italian city of Florence. This quarter was named a World Heritage Site by UNESCO in 1982.",
       "city" : "Florence",
       "rank" : "14 ",
-      "name" : "Centro Storico"
+      "name" : "Centro Storico",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Domodossola_centro_storico.jpg/737px-Domodossola_centro_storico.jpg"
     },
     {
       "top_quote" : "Over 400 steps !!!",
       "query_slug" : "Giotto's+Bell+Tower+Florence",
-      "description" : "Giottoâ\u20ac™s Campanile is a free-standing campanile that is part of the complex of buildings that make up Florence Cathedral on the Piazza del Duomo in Florence, Italy.",
+      "description" : "Giotto's Campanile is a free-standing campanile that is part of the complex of buildings that make up Florence Cathedral on the Piazza del Duomo in Florence, Italy.",
       "city" : "Florence",
       "rank" : "13 ",
-      "name" : "Giotto's Bell Tower"
+      "name" : "Giotto's Bell Tower",
+      "photo_url" : "http://www.holiday-weather.com/uploads/resort_guides/image/Florence/may-giottos-bell-tower-florence-italy.jpg"
     },
     {
       "top_quote" : "Informative tour too short",
@@ -2463,7 +2473,8 @@
       "description" : "The Uffizi Gallery is an art museum in Italy. It is located in Florence, and among the oldest and most famous art museums of Europe and the world.",
       "city" : "Florence",
       "rank" : "15 ",
-      "name" : "Uffizi Gallery"
+      "name" : "Uffizi Gallery",
+      "photo_url" : "http://www.uguest.com/magazine/wp-content/uploads/2013/10/The-Uffizi-Gallery.jpg"
     },
     {
       "top_quote" : null,
@@ -2471,7 +2482,8 @@
       "description" : "San Marco is the name of a religious complex in Florence, Italy. It comprises a church and a convent. The convent, which is now a museum, has three claims to fame.",
       "city" : "Florence",
       "rank" : "20 ",
-      "name" : "Museo di San Marco"
+      "name" : "Museo di San Marco",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ghirlandaio%2C_ultima_cena_di_san_marco.jpg/1024px-Ghirlandaio%2C_ultima_cena_di_san_marco.jpg"
     },
     {
       "top_quote" : "Near Ponte Vecchio",
@@ -2479,31 +2491,26 @@
       "description" : "The Palazzo Vecchio is the town hall of Florence, Italy. This massive, Romanesque, crenellated fortress-palace is among the most impressive town halls of Tuscany.",
       "city" : "Florence",
       "rank" : "18 ",
-      "name" : "Palazzo Vecchio"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "L'antico+Vinaio+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "22 ",
-      "name" : "L'antico Vinaio"
+      "name" : "Palazzo Vecchio",
+      "photo_url" : "http://www.florenceartmuseums.com/wp-content/uploads/2013/06/Palazzo-Vecchio-night.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Perseus+Statue+Florence",
-      "description" : "",
+      "description" : "Perseus with the Head of Medusa is a bronze sculpture made by Benvenuto Cellini in 1545. The sculpture stands upon on a square base with bronze relief panels depicting the story of Perseus and Andromeda.",
       "city" : "Florence",
       "rank" : "23 ",
-      "name" : "Perseus Statue"
+      "name" : "Perseus Statue",
+      "photo_url" : "http://florenceitaly.ca/images/perseus.jpg"
     },
     {
       "top_quote" : "The best of the early Renaissance",
       "query_slug" : "Museo+Nazionale+del+Bargello+(Bargello+Museum)+Florence",
-      "description" : "",
+      "description" : "The Bargello, also known as the Palazzo del Bargello, Museo Nazionale del Bargello, or Palazzo del Popolo is a former barracks and prison, now an art museum, in Florence, Italy.",
       "city" : "Florence",
       "rank" : "19 ",
-      "name" : "Museo Nazionale del Bargello (Bargello Museum)"
+      "name" : "Museo Nazionale del Bargello (Bargello Museum)",
+      "photo_url" : "http://farm3.static.flickr.com/2062/2425251912_95f18c6115.jpg"
     },
     {
       "top_quote" : null,
@@ -2511,7 +2518,8 @@
       "description" : "The Loggia dei Lanzi, also called the Loggia della Signoria, is a building on a corner of the Piazza della Signoria in Florence, Italy, adjoining the Uffizi Gallery. It consists of wide arches open to the street.",
       "city" : "Florence",
       "rank" : "27 ",
-      "name" : "Loggia dei Lanzi"
+      "name" : "Loggia dei Lanzi",
+      "photo_url" : "http://classconnection.s3.amazonaws.com/985/flashcards/54985/jpg/loggia_dei_lanzi1316586510030.jpg"
     },
     {
       "top_quote" : "interesting but nothing too specia...",
@@ -2519,23 +2527,26 @@
       "description" : "The Florence Baptistery, also known as the Baptistry of Saint John, is a religious building in Florence, Italy, and has the status of a minor basilica.",
       "city" : "Florence",
       "rank" : "24 ",
-      "name" : "Baptistery of San Giovanni (Battistero)"
+      "name" : "Baptistery of San Giovanni (Battistero)",
+      "photo_url" : "http://www.operaduomo.siena.it/images/galleria/battistero.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museo+di+Palazzo+Vecchio+Florence",
-      "description" : "",
+      "description" : "Fortified, 13th-century palace housing lavishly decorated chambers & ornate courtyards.",
       "city" : "Florence",
       "rank" : "29 ",
-      "name" : "Museo di Palazzo Vecchio"
+      "name" : "Museo di Palazzo Vecchio",
+      "photo_url" : "http://www.ilsitodifirenze.it/sites/default/files/immagini_articoli/Cooperativa%20Archeologia_salone%20per%20visita%20inferno.jpg"
     },
     {
       "top_quote" : "Fantastic collections and fine gar...",
       "query_slug" : "Galleria+Palatina+in+Palazzo+Pitti+Florence",
-      "description" : "",
+      "description" : "Gallery complex in Renaissance royal palace housing vast Italian & European masters art collection.",
       "city" : "Florence",
       "rank" : "28 ",
-      "name" : "Galleria Palatina in Palazzo Pitti"
+      "name" : "Galleria Palatina in Palazzo Pitti",
+      "photo_url" : "http://salidelabaldosa.com/wp-content/uploads/2012/09/pitti-palazzo-21-1024x798.jpg"
     },
     {
       "top_quote" : "Visit at night!",
@@ -2543,7 +2554,8 @@
       "description" : "The Ponte Vecchio is a Medieval stone closed-spandrel segmental arch bridge over the Arno River, in Florence, Italy, noted for still having shops built along it, as was once common.",
       "city" : "Florence",
       "rank" : "31 ",
-      "name" : "Ponte Vecchio"
+      "name" : "Ponte Vecchio",
+      "photo_url" : "https://inzumi.com/images/destinations/IT_Florenz_Ponte_Vecchio_1.jpg"
     },
     {
       "top_quote" : "A nice Renaissance painting galler...",
@@ -2551,7 +2563,8 @@
       "description" : "The Palazzo Pitti, in English sometimes called the Pitti Palace, is a vast, mainly Renaissance, palace in Florence, Italy. It is situated on the south side of the River Arno, a short distance from the Ponte Vecchio.",
       "city" : "Florence",
       "rank" : "32 ",
-      "name" : "Pitti Palace"
+      "name" : "Pitti Palace",
+      "photo_url" : "http://famouswonders.com/wp-content/uploads/2009/11/Pitti-Palace.jpg"
     },
     {
       "top_quote" : null,
@@ -2559,7 +2572,8 @@
       "description" : "Santa Maria Novella is a church in Florence, Italy, situated just across from the main railway station which shares its name. Chronologically, it is the first great basilica in Florence, and is the city's principal Dominican church.",
       "city" : "Florence",
       "rank" : "33 ",
-      "name" : "Church of Santa Maria Novella"
+      "name" : "Church of Santa Maria Novella",
+      "photo_url" : "http://www.florence-on-line.com/images/santa-maria-novella-facade.JPG"
     },
     {
       "top_quote" : "Boboli Gardens with Vasari Corrido...",
@@ -2567,47 +2581,44 @@
       "description" : "The Vasari Corridor is an elevated enclosed passageway in Florence, central Italy, which connects the Palazzo Vecchio with the Palazzo Pitti.",
       "city" : "Florence",
       "rank" : "36 ",
-      "name" : "Vasari Corridor"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Art+Gallery+Studio+Iguarnieri+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "38 ",
-      "name" : "Art Gallery Studio Iguarnieri"
+      "name" : "Vasari Corridor",
+      "photo_url" : "http://www.turismo.intoscana.it/allthingstuscany/tuscanyarts/files/2013/10/corridoi3.jpg"
     },
     {
       "top_quote" : "Do not miss it",
       "query_slug" : "Mercato+Centrale+Florence",
-      "description" : "",
+      "description" : "Open-air market that has a cast-iron structure dating back to 1874, which offers a variety of food shops catering to local residents and restaurants.",
       "city" : "Florence",
       "rank" : "37 ",
-      "name" : "Mercato Centrale"
+      "name" : "Mercato Centrale",
+      "photo_url" : "http://www.lisanchoong.com/wp-content/uploads/2013/04/florence-mercato-centrale.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sinagoga+di+Firenze+e+Museo+ebraico+Florence",
-      "description" : "",
+      "description" : "1882 Moorish-style synagogue with a copper cupola, plus a mosaic-lined interior & small museum.",
       "city" : "Florence",
       "rank" : "40 ",
-      "name" : "Sinagoga di Firenze e Museo ebraico"
+      "name" : "Sinagoga di Firenze e Museo ebraico",
+      "photo_url" : "http://www.mdisk.it/img/w_300/h_225/bg_/m_res2_center_center/br_5_33557b_60/f_www.mdisk.it/linkfirenze.it/file/news/47.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Church+of+Orsanmichele+Florence",
-      "description" : "Via dell'Arte della Lana, 50123 Firenze, Italy",
+      "description" : "Orsanmichele is a church in the Italian city of Florence. The building was constructed on the site of the kitchen garden of the monastery of San Michele, which is now gone.",
       "city" : "Florence",
       "rank" : "42 ",
-      "name" : "Church of Orsanmichele"
+      "name" : "Church of Orsanmichele",
+      "photo_url" : "http://www.museumsinflorence.com/foto/orsanmichele/image/3.jpg"
     },
     {
       "top_quote" : "Audio guide is worth it",
       "query_slug" : "Medici+Chapels+(Cappelle+Medicee)+Florence",
-      "description" : "",
+      "description" : "The Medici Chapels are two structures at the Basilica of San Lorenzo, Florence, Italy, dating from the 16th and 17th centuries, and built as extensions to Brunelleschi's 15th-century church.",
       "city" : "Florence",
       "rank" : "41 ",
-      "name" : "Medici Chapels (Cappelle Medicee)"
+      "name" : "Medici Chapels (Cappelle Medicee)",
+      "photo_url" : "http://www.museumsinflorence.com/foto/cappelle%20medicee/image/principi1.jpg"
     },
     {
       "top_quote" : null,
@@ -2615,7 +2626,8 @@
       "description" : "Palazzo Davanzati is a palace in Florence, Italy. It houses the Museum of the Old Florentine House.",
       "city" : "Florence",
       "rank" : "45 ",
-      "name" : "Museo di Palazzo Davanzati"
+      "name" : "Museo di Palazzo Davanzati",
+      "photo_url" : "http://www.osservatoriomestieridarte.it/musei/museo-di-palazzo-davanzati-la-casa-fiorentina-antica/image/image_view_fullscreen"
     },
     {
       "top_quote" : null,
@@ -2623,7 +2635,8 @@
       "description" : "The Stibbert Museum is located on via Frederick Stibbert on the hill of Montughi in Florence, Italy. The museum contains over 36,000 artifacts, including a vast collection of armour from Eastern and Western civilizations.",
       "city" : "Florence",
       "rank" : "46 ",
-      "name" : "Stibbert Museum"
+      "name" : "Stibbert Museum",
+      "photo_url" : "http://www.flemingyouth.it/img/Stibbert.jpg"
     },
     {
       "top_quote" : null,
@@ -2631,7 +2644,8 @@
       "description" : "The Laurentian Library is a historical library in Florence, Italy, containing a repository of more than 11,000 manuscripts and 4,500 early printed books.",
       "city" : "Florence",
       "rank" : "47 ",
-      "name" : "Laurentian Library"
+      "name" : "Laurentian Library",
+      "photo_url" : "http://www.arttrav.com/wp-content/uploads/2009/05/laurentian_lib_entrancehall-724x1023.jpg"
     },
     {
       "top_quote" : null,
@@ -2639,23 +2653,8 @@
       "description" : "The Giardino Bardini is an Italian Renaissance garden in Florence, Italy. Opened only recently to the public, it is relatively little-known.",
       "city" : "Florence",
       "rank" : "49 ",
-      "name" : "Giardino Bardini"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Trip+per+Tre+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "50 ",
-      "name" : "Trip per Tre"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Il+Vinile+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "51 ",
-      "name" : "Il Vinile"
+      "name" : "Giardino Bardini",
+      "photo_url" : "http://www.teladoiofirenze.it/wp-content/themes/glam/tt.php?src=http://www.teladoiofirenze.it/wp-content/uploads/2012/10/giardino-bardini-firenze.jpg&w=500&q=100&zc=0"
     },
     {
       "top_quote" : null,
@@ -2663,7 +2662,8 @@
       "description" : "Palazzo Strozzi is a palace in Florence, Italy.",
       "city" : "Florence",
       "rank" : "54 ",
-      "name" : "Palazzo Strozzi"
+      "name" : "Palazzo Strozzi",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/originals/ae/88/6f/ae886f5a419bf77048cdad4822bfaa2e.jpg"
     },
     {
       "top_quote" : null,
@@ -2671,47 +2671,44 @@
       "description" : "The Opificio delle pietre dure, literally meaning Workshop of semi-precious stones, is a public institute of the Italian Ministry for Cultural Heritage based in Florence.",
       "city" : "Florence",
       "rank" : "56 ",
-      "name" : "Museo Opificio delle Pietre Dure"
+      "name" : "Museo Opificio delle Pietre Dure",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Opificio_03.JPG/440px-Opificio_03.JPG"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museo+Galileo+-+Institute+and+Museum+of+the+History+of+Science+Florence",
-      "description" : "",
+      "description" : "Museo Galileo, the former Istituto e Museo di Storia della Scienza is located in Florence, Italy, in Piazza dei Giudici, along the River Arno and close to the Uffizi Gallery.",
       "city" : "Florence",
       "rank" : "58 ",
-      "name" : "Museo Galileo - Institute and Museum of the History of Science"
+      "name" : "Museo Galileo - Institute and Museum of the History of Science",
+      "photo_url" : "http://www.turismo.intoscana.it/allthingstuscany/tuscanyarts/files/2010/06/SalaXI_scienzesperimentalidelXVIIIsecolo1_1.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Archea+Brewery+Florence",
-      "description" : "",
+      "description" : "Two steps from Santo Spirito square there's a new brew pub where You can taste a large selection of the best artisan/craft beers in the world. Enjoy Your beer with food or just with good music. Experience the characteristics and atmosphere of non-touristic side of the river!",
       "city" : "Florence",
       "rank" : "59 ",
-      "name" : "Archea Brewery"
+      "name" : "Archea Brewery",
+      "photo_url" : "http://3.bp.blogspot.com/-HB4mZECACFk/UTnhEDUdyFI/AAAAAAAABMs/q4ZOrPHBgZo/s1600/Archea03.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Brancacci+Chapel+in+Santa+Maria+del+Carmine+Florence",
-      "description" : "",
+      "description" : "The Brancacci Chapel is a chapel in the Church of Santa Maria del Carmine in Florence, central Italy. It is sometimes called the 'Sistine Chapel of the early Renaissance' for its painting cycle, among the most famous and influential of the period.",
       "city" : "Florence",
       "rank" : "60 ",
-      "name" : "Brancacci Chapel in Santa Maria del Carmine"
+      "name" : "Brancacci Chapel in Santa Maria del Carmine",
+      "photo_url" : "http://www.wga.hu/art/m/masaccio/brancacc/0view.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Accademia+di+Belle+Arti+Florence",
-      "description" : "The Accademia di Belle Arti di Firenze is an art academy in Florence, in Tuscany, in central Italy.\nLike other state art academies in Italy, it became an autonomous degree-awarding institution under law no.",
+      "description" : "The Accademia di Belle Arti di Firenze is an art academy in Florence, in Tuscany, in central Italy. Like other state art academies in Italy, it became an autonomous degree-awarding institution under law.",
       "city" : "Florence",
       "rank" : "63 ",
-      "name" : "Accademia di Belle Arti"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Firenzeart+Gallery+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "64 ",
-      "name" : "Firenzeart Gallery"
+      "name" : "Accademia di Belle Arti",
+      "photo_url" : "http://www.ilrestodelcarlino.it/cultura/2012/03/21/684837/images/1157111-sdomenico_bologna.jpg"
     },
     {
       "top_quote" : null,
@@ -2719,23 +2716,26 @@
       "description" : "The Chiesa di San Salvatore di Ognissanti or more simply chiesa di Ognissanti, is a Franciscan church in Florence, Italy. Founded by the lay order of the Umiliati, the church was dedicated to all the saints and martyrs, known and unknown.",
       "city" : "Florence",
       "rank" : "65 ",
-      "name" : "Chiesa di Ognissanti"
+      "name" : "Chiesa di Ognissanti",
+      "photo_url" : "http://4.bp.blogspot.com/-Rkjrqja-ysI/UiCOIFCk4BI/AAAAAAAAHQ0/FCulRZ3XZm8/s1600/ognissanti.png"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museo+Zoologico+La+Specola+Florence",
-      "description" : "",
+      "description" : "Anatomical specimens, fossilized skeletons & botanic garden in 18th-century natural history museum.",
       "city" : "Florence",
       "rank" : "67 ",
-      "name" : "Museo Zoologico La Specola"
+      "name" : "Museo Zoologico La Specola",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Zoologia_La_Specola_-_wax_anatomical_models.JPG/1024px-Zoologia_La_Specola_-_wax_anatomical_models.JPG"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museo+Bardini+Florence",
-      "description" : "",
+      "description" : "The museum is named after its creator, Stefano Bardini (1854-1922), the most authoritative Italian antiquarian, who, after years of intense business activity, decided to transform his collection into a museum and donate it to the Municipality of Florence.",
       "city" : "Florence",
       "rank" : "68 ",
-      "name" : "Museo Bardini"
+      "name" : "Museo Bardini",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/a1/00/0f/a1000fade6aa653c8946c695fa4eee5c.jpg"
     },
     {
       "top_quote" : null,
@@ -2743,23 +2743,26 @@
       "description" : "The Fountain of Neptune is a fountain in Florence, Italy, situated on the Piazza della Signoria, in front of the Palazzo Vecchio. The fountain was commissioned in 1565 and is the work of the sculptor Bartolomeo Ammannati.",
       "city" : "Florence",
       "rank" : "69 ",
-      "name" : "Fountain of Neptune"
+      "name" : "Fountain of Neptune",
+      "photo_url" : "http://www.italiannotebook.com/new/wp-content/uploads/neptunefountain1.jpg"
     },
     {
       "top_quote" : "Incredible",
       "query_slug" : "Duomo+Museum+(Museo+dell'Opera+del+Duomo)+Florence",
-      "description" : "",
+      "description" : "Landmark 1200s cathedral known for its red-tiled dome, colored marble facade & elegant Giotto tower.",
       "city" : "Florence",
       "rank" : "72 ",
-      "name" : "Duomo Museum (Museo dell'Opera del Duomo)"
+      "name" : "Duomo Museum (Museo dell'Opera del Duomo)",
+      "photo_url" : "https://thisoneisnottaken.files.wordpress.com/2010/07/duomo_florence.jpg?w=720&h=540"
     },
     {
       "top_quote" : null,
       "query_slug" : "Museum+of+the+Cenacolo+of+Andrea+del+Sarto+Florence",
-      "description" : "",
+      "description" : "Since 1981 some of the restored rooms of the former Vallombrosan convent of S. Salvi are the seat of the Museum of the Cenacolo of Andrea del Sarto, named after the famous fresco painted by this artist (1486-1530) on one of the walls of the refectory.",
       "city" : "Florence",
       "rank" : "73 ",
-      "name" : "Museum of the Cenacolo of Andrea del Sarto"
+      "name" : "Museum of the Cenacolo of Andrea del Sarto",
+      "photo_url" : "http://www.firenzemadeintuscany.com/media/cenacolo-di-san-salvi-EDQQH98H.jpg?width=540&height=300&croponresize=1"
     },
     {
       "top_quote" : "The plaza of sales schlock",
@@ -2767,39 +2770,26 @@
       "description" : "Piazza Santa Croce is one of the main squares of the historic centre of Florence, Italy. It is located near piazza della Signoria and the National Central Library, and takes its name from the Basilica of Santa Croce that overlooks the square.",
       "city" : "Florence",
       "rank" : "74 ",
-      "name" : "Piazza Santa Croce"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "I+Mosaici+Di+Lastrucci+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "75 ",
-      "name" : "I Mosaici Di Lastrucci"
+      "name" : "Piazza Santa Croce",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Santa_croce%2C_facciata_piazza.jpg/800px-Santa_croce%2C_facciata_piazza.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Convent+of+Santa+Apollonia+(Cenacolo+di+Sant'Apollonia)+Florence",
-      "description" : "",
+      "description" : "Former convent holding Andrea del Castagno's vast, vibrant Last Supper, painted around 1450.",
       "city" : "Florence",
       "rank" : "77 ",
-      "name" : "Convent of Santa Apollonia (Cenacolo di Sant'Apollonia)"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Biblioteca+delle+Oblate+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "78 ",
-      "name" : "Biblioteca delle Oblate"
+      "name" : "Convent of Santa Apollonia (Cenacolo di Sant'Apollonia)",
+      "photo_url" : "http://1.bp.blogspot.com/-pb7XAhL9OA4/UmJtw18CpjI/AAAAAAAABPA/5m3kX-nzuCI/s1600/Andrea_del_castagno,_sant'apollonia_03.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Piazza+Santo+Spirito+Florence",
-      "description" : "",
+      "description" : "The Basilica of Santa Maria del Santo Spirito ('St. Mary of the Holy Spirit') is a church in Florence, Italy. Usually referred to simply as Santo Spirito, it is located in the Oltrarno quarter, facing the square with the same name. Interior of the building is one of the preeminent examples of Renaissance architecture.",
       "city" : "Florence",
       "rank" : "79 ",
-      "name" : "Piazza Santo Spirito"
+      "name" : "Piazza Santo Spirito",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/02/60/0a/d2/piazza-santo-spirito.jpg"
     },
     {
       "top_quote" : null,
@@ -2807,7 +2797,8 @@
       "description" : "",
       "city" : "Florence",
       "rank" : "80 ",
-      "name" : "Ratto della Sabina"
+      "name" : "Ratto della Sabina",
+      "photo_url" : "https://firenzeturistica.files.wordpress.com/2010/05/dscn5250.jpg"
     },
     {
       "top_quote" : null,
@@ -2815,47 +2806,44 @@
       "description" : "San Gaetano, also known as Santi Michele e Gaetano is a Baroque church in Florence, Italy, located on the Piazza Antinori.",
       "city" : "Florence",
       "rank" : "83 ",
-      "name" : "Santi Michele e Gaetano"
+      "name" : "Santi Michele e Gaetano",
+      "photo_url" : "https://matt.files.wordpress.com/2014/08/img_2506.jpg?w=768"
     },
     {
       "top_quote" : null,
       "query_slug" : "Folon+e+il+Giardino+delle+Rose+Florence",
-      "description" : "",
+      "description" : "Green space known for its rose terraces, plus a Japanese garden & sculptures by the artist Folon.",
       "city" : "Florence",
       "rank" : "84 ",
-      "name" : "Folon e il Giardino delle Rose"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Pitti+Gola+E+Cantina+Florence",
-      "description" : "",
-      "city" : "Florence",
-      "rank" : "85 ",
-      "name" : "Pitti Gola E Cantina"
+      "name" : "Folon e il Giardino delle Rose",
+      "photo_url" : "http://tiportoafirenze.com/wp-content/uploads/2014/05/firenze-giardino-delle-rose.jpg"
     },
     {
       "top_quote" : "Astonishing!",
       "query_slug" : "Basilica+della+Santissima+Annunziata+-+Chiesa+di+Santa+Maria+della+Scala+Florence",
-      "description" : "",
+      "description" : "The Basilica della Santissima Annunziata is a Roman Catholic minor basilica in Florence, Italy, the mother church of the Servite order.",
       "city" : "Florence",
       "rank" : "86 ",
-      "name" : "Basilica della Santissima Annunziata - Chiesa di Santa Maria della Scala"
+      "name" : "Basilica della Santissima Annunziata - Chiesa di Santa Maria della Scala",
+      "photo_url" : "http://www.artribune.com/wp-content/uploads/2013/08/Linterno-della-Basilica-della-Santissima-Annunziata.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Mayday+Club+Florence",
-      "description" : "",
+      "description" : "Florence's Mayday Club attracts an artistic, creative crowd. It's a quirkily decorated space, full of light installations, model aeroplanes and pop culture wall art. The cocktails on offer are well-made and unusual (their watermelon punch is worth a taste) but the big appeal of the bar lies in its atmosphere, it has an appealing alternative vibe, heightened by their regular poetry and live music nights.",
       "city" : "Florence",
       "rank" : "88 ",
-      "name" : "Mayday Club"
+      "name" : "Mayday Club",
+      "photo_url" : "http://www.maydayclub.it/images/gallery/1.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sabor+Cubano+Florence",
-      "description" : "",
+      "description" : "Original Cuban Bar. You can find traditional and modern cuban cocktails, vegetable and fruits centrifuged, batidos and typical cuban tastes.",
       "city" : "Florence",
       "rank" : "90 ",
-      "name" : "Sabor Cubano"
+      "name" : "Sabor Cubano",
+      "photo_url" : "http://media.zonzofox.com/cities/firenze/geoplaces/movida/800x400/firenze-movida-sabor-cubano.jpg"
     },
     {
       "top_quote" : "San Salvatore al Monte church near...",
@@ -2863,7 +2851,8 @@
       "description" : "The Oltrarno is a quarter of Florence, Italy. The name means beyond the Arno; it is located south of the River Arno.",
       "city" : "Florence",
       "rank" : "89 ",
-      "name" : "Oltrarno"
+      "name" : "Oltrarno",
+      "photo_url" : "https://www.walksofitaly.com/blog/wp-content/uploads/2012/05/Florence-Oltrarno-Italy.jpg"
     },
     {
       "top_quote" : null,
@@ -2871,39 +2860,44 @@
       "description" : "The Basilica of Santa Maria del Santo Spirito is a church in Florence, Italy. Usually referred to simply as Santo Spirito, it is located in the Oltrarno quarter, facing the square with the same name.",
       "city" : "Florence",
       "rank" : "91 ",
-      "name" : "Church of Santo Spirito"
+      "name" : "Church of Santo Spirito",
+      "photo_url" : "http://roadtoitaly.com/blog/wp-content/uploads/2014/05/santo-spirito-randy-connolly.jpg"
     },
     {
       "top_quote" : "Amazing city",
       "query_slug" : "Historic+Areas+of+Istanbul+Istanbul",
-      "description" : "",
+      "description" : "There so much to see even if you don't want to pay to get in anywhere. The Spice Market, the Grand Bazaar, the Blue Mosque can all be walked and cost nothing to enter. ",
       "city" : "Istanbul",
       "rank" : "1 ",
-      "name" : "Historic Areas of Istanbul"
+      "name" : "Historic Areas of Istanbul",
+      "photo_url" : "http://2.bp.blogspot.com/-S7fVIGcZDYs/UEpKYfcTigI/AAAAAAAANgA/T8cOUS3z7ds/s1600/Historic-Areas-of-Istanbul.jpg"
     },
     {
       "top_quote" : "Start your Istanbul tour here",
       "query_slug" : "Hagia+Sophia+Museum+/+Church+(Ayasofya)+Istanbul",
-      "description" : "",
+      "description" : "Hagia Sophia is a former Greek Orthodox patriarchal basilica, later an imperial mosque, and now a museum in Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "2 ",
-      "name" : "Hagia Sophia Museum / Church (Ayasofya)"
+      "name" : "Hagia Sophia Museum / Church (Ayasofya)",
+      "photo_url" : "http://www.webjazba.com/sw-store/images/top-list/webjazba.com-10422762013.jpg"
     },
     {
       "top_quote" : "The centre of the old city",
       "query_slug" : "Sultanahmet+District+Istanbul",
-      "description" : "",
+      "description" : "The old section of Istanbul where you can find many attractions including Topkapi Palace and the Blue Mosque.",
       "city" : "Istanbul",
       "rank" : "4 ",
-      "name" : "Sultanahmet District"
+      "name" : "Sultanahmet District",
+      "photo_url" : "http://sultanapartments.com/images/location-map-5.jpg"
     },
     {
       "top_quote" : "One of the most beautiful",
       "query_slug" : "Suleymaniye+Mosque+Istanbul",
-      "description" : "The SÃ_leymaniye Mosque is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. It is the largest mosque in the city, and one of the best-known sights of Istanbul.",
+      "description" : "The Suleymaniye Mosque is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. It is the largest mosque in the city, and one of the best-known sights of Istanbul.",
       "city" : "Istanbul",
       "rank" : "5 ",
-      "name" : "Suleymaniye Mosque"
+      "name" : "Suleymaniye Mosque",
+      "photo_url" : "http://fc01.deviantart.net/fs70/f/2011/301/e/a/suleymaniye_mosque_by_misterkrababbel-d4e6yp0.jpg"
     },
     {
       "top_quote" : "Mystical and ancient history exper...",
@@ -2911,71 +2905,80 @@
       "description" : "The Basilica Cistern, is the largest of several hundred ancient cisterns that lie beneath the city of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "6 ",
-      "name" : "Basilica Cistern"
+      "name" : "Basilica Cistern",
+      "photo_url" : "http://www.electrummagazine.com/wp-content/uploads/2012/07/Clint_Koehler.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Kariye+Museum+(The+Chora+Church)+Istanbul",
-      "description" : "",
+      "description" : "The Church of the Holy Saviour in Chora is considered to be one of the most beautiful surviving examples of a Byzantine church.",
       "city" : "Istanbul",
       "rank" : "10 ",
-      "name" : "Kariye Museum (The Chora Church)"
+      "name" : "Kariye Museum (The Chora Church)",
+      "photo_url" : "http://l.yimg.com/g/images/spaceout.gif"
     },
     {
       "top_quote" : "The good place to get aquainted to...",
       "query_slug" : "Blue+Mosque+Istanbul",
-      "description" : "The Sultan Ahmed Mosque is a historic mosque in Istanbul. The mosque is popularly known as the Blue Mosque for the blue tiles adorning the walls of its interior.\nIt was built from 1609 to 1616, during the rule of Ahmed I.",
+      "description" : "The Sultan Ahmed Mosque is a historic mosque in Istanbul. The mosque is popularly known as the Blue Mosque for the blue tiles adorning the walls of its interior. It was built from 1609 to 1616, during the rule of Ahmed I.",
       "city" : "Istanbul",
       "rank" : "9 ",
-      "name" : "Blue Mosque"
+      "name" : "Blue Mosque",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Blue_Mosque_at_sunset.jpg/1280px-The_Blue_Mosque_at_sunset.jpg"
     },
     {
       "top_quote" : "Good day trip",
       "query_slug" : "Bosphorus+Strait+Istanbul",
-      "description" : "",
+      "description" : "The Bosphorus or Bosporus is a strait that forms part of the boundary between Europe and Asia. The Bosphorus, the Sea of Marmara, and the Dardanelles strait to the southwest together form the Turkish Straits.",
       "city" : "Istanbul",
       "rank" : "11 ",
-      "name" : "Bosphorus Strait"
+      "name" : "Bosphorus Strait",
+      "photo_url" : "http://a.static.trunity.net/files/229901_230000/229939/istanbulbosphorusfrombridge.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Rahmi+M.+Koc+Museum+Istanbul",
-      "description" : "The Rahmi M. KoÃ§ Museum is a private industrial museum in Istanbul, Turkey dedicated to history of transport, industry and communications.",
+      "description" : "The Rahmi M. Koc Museum is a private industrial museum in Istanbul, Turkey dedicated to history of transport, industry and communications.",
       "city" : "Istanbul",
       "rank" : "15 ",
-      "name" : "Rahmi M. Koc Museum"
+      "name" : "Rahmi M. Koc Museum",
+      "photo_url" : "http://www.farmcollector.com/~/media/Images/FCM/Editorial/Articles/Magazine%20Articles/2013/10-01/Rahmi%20M%20Koc%20Museum%20Displays%20American%20Relics/Rahmi-M-Koc-Museum.jpg"
     },
     {
       "top_quote" : "Mosaic at its best, and brickwork...",
       "query_slug" : "Topkapi+Palace+Istanbul",
-      "description" : "The TopkapÄ± Palace is a large palace in Istanbul, Turkey, that was the primary residence of the Ottoman sultans for approximately 400 years of their 624-year reign.",
+      "description" : "The Topkapi Palace is a large palace in Istanbul, Turkey, that was the primary residence of the Ottoman sultans for approximately 400 years of their 624-year reign.",
       "city" : "Istanbul",
       "rank" : "13 ",
-      "name" : "Topkapi Palace"
+      "name" : "Topkapi Palace",
+      "photo_url" : "http://www.onenationtravel.com/wp-content/uploads/2014/03/Topkapi-Palace-Museum.jpg"
     },
     {
       "top_quote" : "Go for the location",
       "query_slug" : "Rustem+Pasha+Mosque+Istanbul",
-      "description" : "The RÃ_stem Pasha Mosque is a 16th century Ottoman mosque located in HasÄ±rcÄ±lar Ã\u2021arÅŸÄ±sÄ± in the Tahtakale neighborhood, of the Fatih district of Istanbul, Turkey.",
+      "description" : "The Rustem Pasha Mosque is a 16th century Ottoman mosque located in the Tahtakale neighborhood, of the Fatih district of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "14 ",
-      "name" : "Rustem Pasha Mosque"
+      "name" : "Rustem Pasha Mosque",
+      "photo_url" : "http://www.sugraphic.com/images/fotolar/2011/08/02/46_1312263234..jpeg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Gulhane+Park+Istanbul",
-      "description" : "GÃ_lhane Park is a historical urban park in the EminÃ¶nÃ_ district of Istanbul, Turkey; it is located adjacent to and on the grounds of the TopkapÄ± Palace. The south entrance of the park sports one of the larger gates of the palace.",
+      "description" : "A historical urban park of Istanbul, Turkey; it is located adjacent to and on the grounds of the Topkapi Palace. The south entrance of the park sports one of the larger gates of the palace.",
       "city" : "Istanbul",
       "rank" : "18 ",
-      "name" : "Gulhane Park"
+      "name" : "Gulhane Park",
+      "photo_url" : "https://c2.staticflickr.com/6/5500/11235055013_b038d3df25_b.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Kucuk+Ayasofya+Camii+(Church+of+the+Saints+Sergius+and+Bacchus)+Istanbul",
-      "description" : "",
+      "description" : "Little Hagia Sophia, formerly the Church of the Saints Sergius and Bacchus, is a former Eastern Orthodox church dedicated to Saints Sergius and Bacchus in Constantinople, converted into a mosque during the Ottoman Empire.",
       "city" : "Istanbul",
       "rank" : "20 ",
-      "name" : "Kucuk Ayasofya Camii (Church of the Saints Sergius and Bacchus)"
+      "name" : "Kucuk Ayasofya Camii (Church of the Saints Sergius and Bacchus)",
+      "photo_url" : "http://gezipgordum.com/wp-content/uploads/2013/06/K%C3%BC%C3%A7%C3%BCk-Ayasofya-Cami-2.jpg"
     },
     {
       "top_quote" : "genuine moque experience",
@@ -2983,31 +2986,35 @@
       "description" : "",
       "city" : "Istanbul",
       "rank" : "19 ",
-      "name" : "Eyup Sultan Mosque (Eyup Sultan Camii)"
+      "name" : "Eyup Sultan Mosque (Eyup Sultan Camii)",
+      "photo_url" : "http://cmbturkey.com/wp-content/uploads/2015/04/eyup.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Emirgan+Park+Istanbul",
-      "description" : "The Emirgan Park is a historical urban park located at the Emirgan neighbourhood in the SarÄ±yer district of Istanbul, Turkey, on the European coast of the Bosphorus. It is one of the largest public parks in Istanbul.",
+      "description" : "The Emirgan Park is a historical urban park located at the Emirgan neighbourhood in Istanbul, Turkey, on the European coast of the Bosphorus. It is one of the largest public parks in Istanbul.",
       "city" : "Istanbul",
       "rank" : "23 ",
-      "name" : "Emirgan Park"
+      "name" : "Emirgan Park",
+      "photo_url" : "http://media.afar.com/uploads/images/post_images/images/PcEw8c6tZt/post_display_cropped_open-uri20130210-4498-c8ubht?1383804339"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sakip+Sabanci+Museum+Istanbul",
-      "description" : "The SabancÄ± University SakÄ±p SabancÄ± Museum is a private fine arts museum in Istanbul, Turkey, dedicated to calligraphic art, religious and state documents, as well as paintings of the Ottoman era.",
+      "description" : "Sakip Sabanci Museum is a private fine arts museum in Istanbul, Turkey, dedicated to calligraphic art, religious and state documents, as well as paintings of the Ottoman era.",
       "city" : "Istanbul",
       "rank" : "24 ",
-      "name" : "Sakip Sabanci Museum"
+      "name" : "Sakip Sabanci Museum",
+      "photo_url" : "https://www.iiconservation.org/sites/default/files/news/images/3121-sakip-sabanci-museum.jpg"
     },
     {
       "top_quote" : "Good and bad",
       "query_slug" : "Istanbul+Archaeological+Museums+Istanbul",
-      "description" : "The Istanbul Archaeology Museums is a group of three archeological museums located in the EminÃ¶nÃ_ district of Istanbul, Turkey, near GÃ_lhane Park and TopkapÄ± Palace.",
+      "description" : "The Istanbul Archaeology Museums is a group of three archeological museums.",
       "city" : "Istanbul",
       "rank" : "22 ",
-      "name" : "Istanbul Archaeological Museums"
+      "name" : "Istanbul Archaeological Museums",
+      "photo_url" : "http://angelshomehotel.com/wp-content/uploads/2014/07/Arkeoloji-M%C3%BCzesi-1024x682.jpg"
     },
     {
       "top_quote" : null,
@@ -3015,55 +3022,53 @@
       "description" : "The Church of the Holy Saviour in Chora is considered to be one of the most beautiful surviving examples of a Byzantine church.",
       "city" : "Istanbul",
       "rank" : "29 ",
-      "name" : "Church of St Saviour in Chora"
+      "name" : "Church of St Saviour in Chora",
+      "photo_url" : "http://citiesdistances.com/wp-content/uploads/2015/01/istanbul-Church-of-St-Savior-in-Chora.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Heritage+Nomadic+Art+Gallery+Istanbul",
-      "description" : "",
+      "description" : "Discover the magic world of kilims and carpets. Awide range of exceptional village rugs, individually handmade with natural dyes and the finest handspun wool.",
       "city" : "Istanbul",
       "rank" : "31 ",
-      "name" : "Heritage Nomadic Art Gallery"
+      "name" : "Heritage Nomadic Art Gallery",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/05/0e/84/c6/iznik-plates.jpg"
     },
     {
       "top_quote" : "Must See for Art Lovers",
       "query_slug" : "Istanbul+Modern+Museum+Istanbul",
-      "description" : "Ä°stanbul Modern, aka Istanbul Museum of Modern Art, is a museum of contemporary art in the BeyoÄŸlu district of Istanbul, Turkey. Inaugurated on December 11, 2004, the museum prominently features the work of Turkish artists.",
+      "description" : "Istanbul Modern, aka Istanbul Museum of Modern Art, is a museum of contemporary art in Istanbul, Turkey. Inaugurated on December 11, 2004, the museum prominently features the work of Turkish artists.",
       "city" : "Istanbul",
       "rank" : "27 ",
-      "name" : "Istanbul Modern Museum"
+      "name" : "Istanbul Modern Museum",
+      "photo_url" : "http://thisiscolossal.com/wp-content/uploads/2011/09/books-2.jpg"
     },
     {
       "top_quote" : "Amazing",
       "query_slug" : "Dolmabahce+Palace+Istanbul",
-      "description" : "DolmabahÃ§e Palace located in the BeÅŸiktaÅŸ district of Istanbul, Turkey, on the European coastline of the Bosphorus strait, served as the main administrative center of the Ottoman Empire from 1856 ...",
+      "description" : "Dolmabahce Palace located in Istanbul, Turkey, on the European coastline of the Bosphorus strait, served as the main administrative center of the Ottoman Empire from 1856.",
       "city" : "Istanbul",
       "rank" : "28 ",
-      "name" : "Dolmabahce Palace"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "The+Happy+Hole+Istanbul",
-      "description" : "",
-      "city" : "Istanbul",
-      "rank" : "32 ",
-      "name" : "The Happy Hole"
+      "name" : "Dolmabahce Palace",
+      "photo_url" : "http://www.turkey-travel.org/wp-content/uploads/2015/02/dolmabahce_place.jpg"
     },
     {
       "top_quote" : "Amazing",
       "query_slug" : "Miniaturk+Istanbul",
-      "description" : "MiniatÃ_rk is a miniature park situated at the north-eastern shore of Golden Horn in Istanbul, Turkey. It was opened May 2, 2003. MiniatÃ_rk covers a total area of 60,000 square metres.",
+      "description" : "Miniaturk is a miniature park situated at the north-eastern shore of Golden Horn in Istanbul, Turkey. It was opened May 2, 2003. Miniaturk covers a total area of 60,000 square metres.",
       "city" : "Istanbul",
       "rank" : "33 ",
-      "name" : "Miniaturk"
+      "name" : "Miniaturk",
+      "photo_url" : "http://www.letsgoistanbul.com/images/miniaturk/mni5.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "New+Mosque+Istanbul",
-      "description" : "The Yeni Cami, meaning New Mosque; originally named the Valide Sultan Mosque and later New Valide Sultan Mosque after its partial reconstruction and completion between 1660 and 1665; is an Ottoman ...",
+      "description" : "The Yeni Cami, meaning New Mosque; originally named the Valide Sultan Mosque and later New Valide Sultan Mosque after its partial reconstruction and completion between 1660 and 1665; is an Ottoman.",
       "city" : "Istanbul",
       "rank" : "36 ",
-      "name" : "New Mosque"
+      "name" : "New Mosque",
+      "photo_url" : "http://www.yakhwajagaribnawaz.com/masjid/new-mosque-in-kurdistan-iraq.jpg"
     },
     {
       "top_quote" : null,
@@ -3071,15 +3076,17 @@
       "description" : "The Mihrimah Sultan Mosque is an Ottoman mosque located in the EdirnekapÄ± neighborhood near the Byzantine land walls of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "37 ",
-      "name" : "Mihrimah Sultan Mosque"
+      "name" : "Mihrimah Sultan Mosque",
+      "photo_url" : "http://en.wikipedia.org/wiki/Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)#/media/File:Istanbul_-_Mesquita_de_Mihrimah.JPG"
     },
     {
       "top_quote" : "To fall in love!",
       "query_slug" : "Museum+of+Innocence+Istanbul",
-      "description" : "The Museum of Innocence is a museum in the Ã\u2021ukurcuma neighbourhood of the BeyoÄŸlu district in Istanbul, Turkey. Turkish Nobel laureate Orhan Pamuk created the museum in conjunction with his eponymous novel.",
+      "description" : "Turkish Nobel laureate Orhan Pamuk created the museum in conjunction with his eponymous novel.",
       "city" : "Istanbul",
       "rank" : "38 ",
-      "name" : "Museum of Innocence"
+      "name" : "Museum of Innocence",
+      "photo_url" : "http://www.mattluedke.com/wp-content/uploads/2013/01/MuseumofInnocence2.jpg"
     },
     {
       "top_quote" : null,
@@ -3087,47 +3094,53 @@
       "description" : "The Church of St. George is the principal Greek Orthodox cathedral still in use in Istanbul, the largest city in Turkey and, the capital of the Byzantine Empire until 1453.",
       "city" : "Istanbul",
       "rank" : "40 ",
-      "name" : "Greek Othodox Patriarchate"
+      "name" : "Greek Orthodox Patriarchate",
+      "photo_url" : "http://photos1.blogger.com/x/blogger/460/811/1600/390919/Constantinople%20interior.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Caferaga+Medresesi+Istanbul",
-      "description" : "The CaferaÄŸa Medresseh is a former medresseh, located in Istanbul, Turkey, next to the Hagia Sophia. It was built in 1559 by Mimar Sinan by orders of Cafer Agha, a eunuch during the reign of Sultan SÃ_leyman the Magnificent.",
+      "description" : "The Caferaga Medresseh is a former medresseh, located in Istanbul, Turkey, next to the Hagia Sophia. It was built in 1559 by Mimar Sinan by orders of Cafer Agha, a eunuch during the reign of Sultan SÃ_leyman the Magnificent.",
       "city" : "Istanbul",
       "rank" : "41 ",
-      "name" : "Caferaga Medresesi"
+      "name" : "Caferaga Medresesi",
+      "photo_url" : "http://upload.spottedbylocals.com/Istanbul/small/caferaa-medresesi-istanbul-(by-alper-ayden).jpg"
     },
     {
       "top_quote" : "Great energy",
       "query_slug" : "Ortakoy+Istanbul",
-      "description" : "OrtakÃ¶y is a neighbourhood, formerly a small village, within the BeÅŸiktaÅŸ district of Istanbul, Turkey, located in the middle of the European bank of the Bosphorus.",
+      "description" : "Ortakoy is a neighbourhood, formerly a small village, located in the middle of the European bank of the Bosphorus.",
       "city" : "Istanbul",
       "rank" : "42 ",
-      "name" : "Ortakoy"
+      "name" : "Ortakoy",
+      "photo_url" : "http://faculty.gvsu.edu/alayontf/turkiye/marmara/ortakoy.jpg"
     },
     {
       "top_quote" : "Peaceful Istanbul",
       "query_slug" : "Rumeli+Fortress+Istanbul",
-      "description" : "RumelihisarÄ± is a fortress located in the SarÄ±yer district of Istanbul, Turkey, on a hill at the European side of the Bosphorus. It gives the name of the quarter around it.",
+      "description" : "Rumeli is a fortress located on a hill at the European side of the Bosphorus. It gives the name of the quarter around it.",
       "city" : "Istanbul",
       "rank" : "45 ",
-      "name" : "Rumeli Fortress"
+      "name" : "Rumeli Fortress",
+      "photo_url" : "http://www.allaboutturkey.com/highres/photos/Rumeli-fortress.jpg"
     },
     {
       "top_quote" : "Do It For The View",
       "query_slug" : "Galata+Tower+Istanbul",
-      "description" : "The Galata Tower â\u20ac\u201d called Christea Turris by the Genoese â\u20ac\u201d is a medieval stone tower in the Galata/KarakÃ¶y quarter of Istanbul, Turkey, just to the north of the Golden Horn's junction with the Bosphorus.",
+      "description" : "The Galata Tower called Christea Turris by the Genoese is a medieval stone tower, just to the north of the Golden Horn's junction with the Bosphorus.",
       "city" : "Istanbul",
       "rank" : "46 ",
-      "name" : "Galata Tower"
+      "name" : "Galata Tower",
+      "photo_url" : "http://promptguides.com/istanbul/_photos/galata_tower/galata_tower_002.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Fatih+Mosque+and+Complex+(Fatih+Camii+ve+Kulliyesi)+Istanbul",
-      "description" : "",
+      "description" : "Named for the Ottoman conqueror of Istanbul, this mosque was part of a large religious complex atop one of the city's many hills. Among the other original buildings in the complex were a school, library and hospital.",
       "city" : "Istanbul",
       "rank" : "49 ",
-      "name" : "Fatih Mosque and Complex (Fatih Camii ve Kulliyesi)"
+      "name" : "Fatih Mosque and Complex (Fatih Camii ve Kulliyesi)",
+      "photo_url" : "http://www.bayindirhospitals.com/arsiv/gorsel/site/2011/01/msq06.jpg"
     },
     {
       "top_quote" : "Turkish airlines",
@@ -3135,63 +3148,53 @@
       "description" : "Istanbul Aquarium is a public aquarium in Istanbul, Turkey. It opened its doors in April 2011, is an official member of World Association of Zoos and Aquariums.",
       "city" : "Istanbul",
       "rank" : "47 ",
-      "name" : "Istanbul Aquarium"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Corlulu+Ali+Pasa+Medresesi+Istanbul",
-      "description" : "",
-      "city" : "Istanbul",
-      "rank" : "50 ",
-      "name" : "Corlulu Ali Pasa Medresesi"
+      "name" : "Istanbul Aquarium",
+      "photo_url" : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6SuXJUef-pjt_-wnO8_cQix6rbwUf_atxW_F5sIEdysyCJrCEJg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Dogancay+Museum+Istanbul",
-      "description" : "The DoÄŸanÃ§ay Museum, Turkeyâ\u20ac™s first modern art museum, officially opened its doors to the public in 2004.",
+      "description" : "The Dogancay Museum, modern art museum, officially opened its doors to the public in 2004.",
       "city" : "Istanbul",
       "rank" : "54 ",
-      "name" : "Dogancay Museum"
+      "name" : "Dogancay Museum",
+      "photo_url" : "http://www.istanbul.com/Files/Content/dogancay-museum-urban-walls-istanbul.jpg"
     },
     {
       "top_quote" : "pretty to walk by, nice picture",
       "query_slug" : "Maiden's+Tower+Istanbul",
-      "description" : "The Maiden's Tower, also known as Leander's Tower since the medieval Byzantine period, is a tower lying on a small islet located at the southern entrance of the Bosphorus strait 200 m from the coast of ÃœskÃ_dar in Istanbul, Turkey.",
+      "description" : "The Maiden's Tower, also known as Leander's Tower since the medieval Byzantine period, is a tower lying on a small islet located at the southern entrance of the Bosphorus strait.",
       "city" : "Istanbul",
       "rank" : "51 ",
-      "name" : "Maiden's Tower"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Panorama+Istanbul",
-      "description" : "",
-      "city" : "Istanbul",
-      "rank" : "55 ",
-      "name" : "Panorama"
+      "name" : "Maiden's Tower",
+      "photo_url" : "http://fc01.deviantart.net/fs70/f/2012/015/1/1/___maiden__s_tower_2____by_erhansasmaz-d4mfygz.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sehzade+Mehmet+Mosque+Istanbul",
-      "description" : "The Å_ehzade Mosque is a 16th-century Ottoman imperial mosque located in the district of Fatih, on the third hill of Istanbul, Turkey. It was commissioned by SÃ_leyman the Magnificent as a memorial to his son Å_ehzade Mehmed who died in 1543.",
+      "description" : "The Sehzade Mehmet Mosque is a 16th-century Ottoman imperial mosque located in the district of Fatih, on the third hill of Istanbul, Turkey. It was commissioned by SÃ_leyman the Magnificent as a memorial to his son Mehmed who died in 1543.",
       "city" : "Istanbul",
       "rank" : "56 ",
-      "name" : "Sehzade Mehmet Mosque"
+      "name" : "Sehzade Mehmet Mosque",
+      "photo_url" : "http://islamicartsmagazine.com/images/uploads/Bayezid_mosque_2.jpg"
     },
     {
       "top_quote" : "Huge indoor shopping arena with hi...",
       "query_slug" : "Grand+Bazaar+(Kapali+Carsi)+Istanbul",
-      "description" : "",
+      "description" : "The Grand Bazaar in Istanbul is one of the largest and oldest covered markets in the world, with 61 covered streets and over 3,000 shops which attract between 250,000 and 400,000 visitors daily.",
       "city" : "Istanbul",
       "rank" : "58 ",
-      "name" : "Grand Bazaar (Kapali Carsi)"
+      "name" : "Grand Bazaar (Kapali Carsi)",
+      "photo_url" : "http://images.boomsbeat.com/data/images/full/38692/18-jpg.jpg"
     },
     {
       "top_quote" : "Memorable Place to Be Stuck in Tra...",
       "query_slug" : "The+Bosphorus+Bridge+Istanbul",
-      "description" : "The Bosphorus Bridge, also called the First Bosphorus Bridge or simply the First Bridge is one of two suspension bridges spanning the Bosphorus strait in Istanbul, Turkey; thus connecting Europe and ...",
+      "description" : "The Bosphorus Bridge, also called the First Bosphorus Bridge or simply the First Bridge is one of two suspension bridges spanning the Bosphorus strait in Istanbul, Turkey; thus connecting Europe",
       "city" : "Istanbul",
       "rank" : "59 ",
-      "name" : "The Bosphorus Bridge"
+      "name" : "The Bosphorus Bridge",
+      "photo_url" : "http://www.destination360.com/europe/turkey/images/s/bosphorus-bridge.jpg"
     },
     {
       "top_quote" : "A Jewel at the Heart of the City",
@@ -3199,151 +3202,152 @@
       "description" : "St. Anthony of Padua Church, alternatively known as the Sant'Antonio di Padova Church, S. Antonio di Padova, St. Antoine, or locally as Sent Antuan, is a basilica and the largest church of the Roman Catholic Church in Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "60 ",
-      "name" : "St Anthony of Padua"
+      "name" : "St Anthony of Padua",
+      "photo_url" : "http://www.stanthonyofpaduastl.com/_includes/_images/footerChurch.jpg"
     },
     {
       "top_quote" : "Fun and Fascinating",
       "query_slug" : "Istiklal+Street+Istanbul",
-      "description" : "Ä°stiklal Avenue or Istiklal Street is one of the most famous avenues in Istanbul, Turkey, visited by nearly 3 million people in a single day over the course of weekends.",
+      "description" : "Istiklal Avenue or Istiklal Street is one of the most famous avenues in Istanbul, Turkey, visited by nearly 3 million people in a single day over the course of weekends.",
       "city" : "Istanbul",
       "rank" : "63 ",
-      "name" : "Istiklal Street"
+      "name" : "Istiklal Street",
+      "photo_url" : "http://i1.wp.com/www.likeatrippie.com/wp-content/uploads/2012/04/istiklal-street.jpg?resize=720%2C476"
     },
     {
       "top_quote" : null,
       "query_slug" : "U+Istanbul+Irish+Pub+Istanbul",
-      "description" : "",
+      "description" : "Irish Pub",
       "city" : "Istanbul",
       "rank" : "64 ",
-      "name" : "U Istanbul Irish Pub"
+      "name" : "U Istanbul Irish Pub",
+      "photo_url" : "https://irs1.4sqi.net/img/general/600x600/3450642_reU02_zEng0v4Wx3UST5k5TJHeO6txSestFVDavQ5RY.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Istanbul+Toy+Museum+Istanbul",
-      "description" : "The Ä°stanbul Toy Museum is a toy museum located in the GÃ¶ztepe neighbourhood of KadÄ±kÃ¶y district of Ä°stanbul, Turkey.\nThe museum was founded by the Turkish poet and novelist, Sunay AkÄ±n, in 2005.",
+      "description" : "The Istanbul Toy Museum is a toy museum. The museum was founded in 2005.",
       "city" : "Istanbul",
       "rank" : "65 ",
-      "name" : "Istanbul Toy Museum"
-    },
-    {
-      "top_quote" : null,
-      "query_slug" : "Just+Bar+Istanbul",
-      "description" : "",
-      "city" : "Istanbul",
-      "rank" : "67 ",
-      "name" : "Just Bar"
+      "name" : "Istanbul Toy Museum",
+      "photo_url" : "http://www.theguideistanbul.com/media/content_files/images/00/70/63/orig_7063.png"
     },
     {
       "top_quote" : null,
       "query_slug" : "Military+Museum+(Asker+Muzesi)+Istanbul",
-      "description" : "",
+      "description" : "Istanbul Military Museum is dedicated to one thousand years of Turkish military history. It is one of the leading museums of its kind in the world. The museum is open to the public everyday except Mondays and Tuesdays.",
       "city" : "Istanbul",
       "rank" : "68 ",
-      "name" : "Military Museum (Asker Muzesi)"
+      "name" : "Military Museum (Asker Muzesi)",
+      "photo_url" : "https://realhousewifeofbelgrade.files.wordpress.com/2010/11/img_0313.jpg"
     },
     {
       "top_quote" : "The geography and history coe toge...",
       "query_slug" : "Golden+Horn+Istanbul",
-      "description" : "",
+      "description" : "The Golden Horn, also known by its modern Turkish name as Haliç, is a major urban waterway and the primary inlet of the Bosphorus in Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "72 ",
-      "name" : "Golden Horn"
+      "name" : "Golden Horn",
+      "photo_url" : "http://www.turkeytour.net/images/kategori/istanbul-daily-city-tours/bosphorus-cruise-afternoon/bosphorus-cruise-afternoon-4.jpg"
     },
     {
       "top_quote" : "Interesting",
       "query_slug" : "Pera+Museum+Istanbul",
-      "description" : "Pera Museum is an art museum in the TepebaÅŸÄ± quarter of the BeyoÄŸlu district in Istanbul, Turkey, located at MeÅŸrutiyet Avenue No. 65 It has a particular focus on Orientalism in 19th century art.",
+      "description" : "Pera Museum is an art museum. It has a particular focus on Orientalism in 19th century art.",
       "city" : "Istanbul",
       "rank" : "73 ",
-      "name" : "Pera Museum"
+      "name" : "Pera Museum",
+      "photo_url" : "http://artexpresstravel.com/wordpress/wp-content/uploads/2010/03/pera_museum_rembrandt.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Besiktas+Istanbul",
-      "description" : "BeÅŸiktaÅŸ is a municipality of Istanbul, Turkey, located on the European shore of the Bosphorus. It is bordered on the north by SarÄ±yer and Å_iÅŸli, on the west by KaÄŸÄ±thane and Å_iÅŸli, on the south by BeyoÄŸlu, and on the east by the Bosphorus.",
+      "description" : "Besiktas is a municipality of Istanbul, Turkey, located on the European shore of the Bosphorus.",
       "city" : "Istanbul",
       "rank" : "74 ",
-      "name" : "Besiktas"
+      "name" : "Besiktas",
+      "photo_url" : "http://www.turkeytravelresource.com/pub/article_images/Besiktas.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Galata+Bridge+Istanbul",
-      "description" : "",
+      "description" : "The Galata Bridge is a bridge that spans the Golden Horn in Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "76 ",
-      "name" : "Galata Bridge"
+      "name" : "Galata Bridge",
+      "photo_url" : "http://upload.wikimedia.org/wikipedia/commons/f/f7/Galata_Bridge_From_Tower.JPG"
     },
     {
       "top_quote" : null,
       "query_slug" : "Arasta+Bazaar+Istanbul",
-      "description" : "",
+      "description" : "The Arasta Bazaar is just behind the Blue Mosque and is full of nice souvenir shops, from quality Iznik ( Nicaea) tiles to carpets, bags, jewelry and lots of other nice things.",
       "city" : "Istanbul",
       "rank" : "77 ",
-      "name" : "Arasta Bazaar"
+      "name" : "Arasta Bazaar",
+      "photo_url" : "http://istanbulhides.com/wp-content/uploads/2014/05/Istanbul12_Arasta-Bazaar06.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Haydarpasa+Terminal+Istanbul",
-      "description" : "Istanbul HaydarpaÅŸa Terminal or HaydarpaÅŸa Terminus is a railway terminal in Istanbul. Until 2012 the station was a major intercity, regional and commuter rail hub as well as the busiest railway station in Turkey.",
+      "description" : "Istanbul's Haydarpasa Terminal is a railway terminal in Istanbul. Until 2012 the station was a major intercity, regional and commuter rail hub as well as the busiest railway station in Turkey.",
       "city" : "Istanbul",
       "rank" : "78 ",
-      "name" : "Haydarpasa Terminal"
+      "name" : "Haydarpasa Terminal",
+      "photo_url" : "http://fc03.deviantart.net/fs71/i/2010/327/f/5/haydarpasa_terminal_by_khanderek-d33fgub.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Istanbul+Cevahir+Mall+Istanbul",
-      "description" : "Istanbul Cevahir Shopping and Entertainment Centre, also known as Å_iÅŸli KÃ_ltÃ_r ve Ticaret Merkezi is a modern shopping mall located on the BÃ_yÃ_kdere Avenue in the Å_iÅŸli district of Istanbul, Turkey.",
+      "description" : "Istanbul Cevahir Shopping and Entertainment Centre is a modern shopping mall.",
       "city" : "Istanbul",
       "rank" : "79 ",
-      "name" : "Istanbul Cevahir Mall"
+      "name" : "Istanbul Cevahir Mall",
+      "photo_url" : "http://www.novotourism.com/images/320000003/cevahir-%20shopin-mool-istanbul%202.jpg"
     },
     {
       "top_quote" : "A wonderful area close to Galata",
       "query_slug" : "Beyoglu+Istanbul",
-      "description" : "BeyoÄŸlu is a district located on the European side of Ä°stanbul, Turkey, separated from the old city by the Golden Horn.",
+      "description" : "Beyoglu is a district, separated from the old city by the Golden Horn.",
       "city" : "Istanbul",
       "rank" : "81 ",
-      "name" : "Beyoglu"
+      "name" : "Beyoglu",
+      "photo_url" : "http://www.turkey-travel.org/wp-content/uploads/2015/03/Beyoglu-Istanbul.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Bebek+Istanbul",
-      "description" : "Bebek is a historic Istanbul neighbourhood that falls within the boundaries and administration of the BeÅŸiktaÅŸ district.",
+      "description" : "Bebek is a historic Istanbul neighbourhood.",
       "city" : "Istanbul",
       "rank" : "83 ",
-      "name" : "Bebek"
+      "name" : "Bebek",
+      "photo_url" : "http://cosafarea.it/wp-content/uploads/2013/11/Bebek-4.jpg"
     },
     {
       "top_quote" : "A nice low key afternoon with grea...",
       "query_slug" : "Camlica+Hill+Istanbul",
-      "description" : "Ã\u2021amlÄ±ca Hill, aka Big Ã\u2021amlÄ±ca Hill to differentiate from the nearby Little Ã\u2021amlÄ±ca Hill, is a hill in ÃœskÃ_dar district of Istanbul, Turkey.",
+      "description" : "Camlıca Hill, aka Big Camlıca Hill to differentiate from the nearby Little Camlıca Hill, is a hill in Uskudar district of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "82 ",
-      "name" : "Camlica Hill"
+      "name" : "Camlica Hill",
+      "photo_url" : "http://d1bvpoagx8hqbg.cloudfront.net/originals/camlica-hill-553a0edb280e5dc55b5f10c1bed302ee.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Vefa+Bozacisi+Istanbul",
-      "description" : "",
+      "description" : "Coffee & Tea, Specialty Food, Cafes",
       "city" : "Istanbul",
       "rank" : "85 ",
-      "name" : "Vefa Bozacisi"
-    },
-    {
-      "top_quote" : "Get out of the city and enjoy the...",
-      "query_slug" : "Pierre+Loti+Tepesi+Istanbul",
-      "description" : "",
-      "city" : "Istanbul",
-      "rank" : "84 ",
-      "name" : "Pierre Loti Tepesi"
+      "name" : "Vefa Bozacisi",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/05/c4/7e/9a/vefa-bozacisi.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Eyup+Istanbul",
-      "description" : "EyÃ_p is a municipality and district of the city of Istanbul, Turkey. The district extends from the Golden Horn all the way to the shore of the Black Sea.",
+      "description" : "Eyup is a municipality and district of the city of Istanbul, Turkey. The district extends from the Golden Horn all the way to the shore of the Black Sea.",
       "city" : "Istanbul",
       "rank" : "86 ",
-      "name" : "Eyup"
+      "name" : "Eyup",
+      "photo_url" : "http://guidesofistanbul.com/eng/images/eyup_sultan_2/eyup11.jpg"
     },
     {
       "top_quote" : null,
@@ -3351,15 +3355,17 @@
       "description" : "",
       "city" : "Istanbul",
       "rank" : "88 ",
-      "name" : "Kadikoy Istanbul Boga Meydani"
+      "name" : "Kadikoy Istanbul Boga Meydani",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/06/b9/4d/c2/colourful-vegetable-and.jpg"
     },
     {
       "top_quote" : "One of the best museum along Bosph...",
       "query_slug" : "Sadberk+Hanim+Museum+Istanbul",
-      "description" : "The Sadberk HanÄ±m Museum is a private museum located at the Bosporus in BÃ_yÃ_kdere quarter of SarÄ±yer district in Istanbul, Turkey, which was established by the Vehbi KoÃ§ Foundation in memory of Vehbi KoÃ§â\u20ac™s deceased wife Sadberk.",
+      "description" : "The Sadberk Hanim Museum is a private museum located in Istanbul, Turkey, which was established by the Vehbi Koc Foundation in memory of Vehbi Koc's deceased wife Sadberk.",
       "city" : "Istanbul",
       "rank" : "87 ",
-      "name" : "Sadberk Hanim Museum"
+      "name" : "Sadberk Hanim Museum",
+      "photo_url" : "http://imagene.youropi.com/sadberk-hanim-museum-istanbul-activiteit-is(p:activity,5467)(c:0).jpg"
     },
     {
       "top_quote" : null,
@@ -3367,15 +3373,17 @@
       "description" : "",
       "city" : "Istanbul",
       "rank" : "90 ",
-      "name" : "Eminonu Square"
+      "name" : "Eminonu Square",
+      "photo_url" : "http://www.istanbeautiful.com/images/eminonu-square2.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Galata+Mevlevi+Lodge+Istanbul",
-      "description" : "",
+      "description" : "The Galata Mevlevihanesi, is a Mevlevi Whirling Dervish hall on Galipdede Caddesi just south of Tunel Square",
       "city" : "Istanbul",
       "rank" : "91 ",
-      "name" : "Galata Mevlevi Lodge"
+      "name" : "Galata Mevlevi Lodge",
+      "photo_url" : "http://media-cdn.tripadvisor.com/media/photo-s/05/81/3a/50/galata-mevlevi-lodge.jpg"
     },
     {
       "top_quote" : "beautiful to walk around and explo...",
@@ -3383,20 +3391,22 @@
       "description" : "The Beylerbeyi Palace is located in the Beylerbeyi neighbourhood of Istanbul, Turkey at the Asian side of the Bosphorus. An Imperial Ottoman summer residence built in the 1860s, it is now situated immediately north of the 1973 Bosphorus Bridge.",
       "city" : "Istanbul",
       "rank" : "89 ",
-      "name" : "Beylerbeyi Palace"
+      "name" : "Beylerbeyi Palace",
+      "photo_url" : "http://www.sightseeingtoursistanbul.com/wp-content/uploads/Beylerbeyi-Palace.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Eminonu+Pier+Istanbul",
-      "description" : "",
+      "description" : "Eminonu Pier is the main pier which has ferries going to the Asian side and also where you can take long or short cruise. it's accessible by tram or by foot from the main attractions in Istanbul. From here, you can walk to Beyoglu via the Bosphorus Bridge and see people fishing on the bridge or you can take a ferry to the Asian side to see how the local fresh market is like.",
       "city" : "Istanbul",
       "rank" : "92 ",
-      "name" : "Eminonu Pier"
+      "name" : "Eminonu Pier",
+      "photo_url" : "http://www.vitadigitalproductions.com/istanbul/images/l002.jpg"
     },
     {
       "top_quote" : "A magnificent centre piece for the...",
       "query_slug" : "Main+Market+Square+Krakow",
-      "description" : "The main square of the Old Town of KrakÃ_w, Lesser Poland, is the principal urban space located at the center of the city. It dates back to the 13th century, and at roughly 40,000 mÂ_ is one of the largest medieval town squares in Europe.",
+      "description" : "The main square of the Old Town, is the principal urban space located at the center of the city. It dates back to the 13th century, and is one of the largest medieval town squares in Europe.",
       "city" : "Krakow",
       "rank" : "1 ",
       "name" : "Main Market Square"
