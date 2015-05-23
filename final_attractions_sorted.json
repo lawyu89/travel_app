@@ -5786,7 +5786,7 @@
     {
       "top_quote" : "A must see if visiting San Francis...",
       "query_slug" : "Alcatraz+San+Francisco",
-      "description" : "Alcatraz Island is located in the San Francisco Bay, 1.5 miles offshore from San Francisco, California, United States.",
+      "description" : "Alcatraz Island is located in the San Francisco Bay, 1.5 miles offshore from San Francisco, California, United States. It offers a close-up look at the site of the first lighthouse and US built fort on the West Coast, the infamous federal penitentiary long off-limits to the public, and the 18 month occupation by Indians of All Tribes which saved the tribes. Rich in history, there is also a natural side to the Rock—gardens, tide pools, bird colonies, and bay views beyond compare.",
       "city" : "San Francisco",
       "rank" : "1 ",
       "name" : "Alcatraz"
@@ -5794,31 +5794,33 @@
     {
       "top_quote" : "One of World's seven wonders",
       "query_slug" : "Golden+Gate+Bridge+San+Francisco",
-      "description" : "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean.",
+      "description" : "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean. This magnificent span, perhaps San Francisco's most famous landmark, opened in 1937 after a four-year struggle against relentless winds, fog, rock and treacherous tides.",
       "city" : "San Francisco",
       "rank" : "2 ",
-      "name" : "Golden Gate Bridge"
+      "name" : "Golden Gate Bridge",
+      "photo_url": "http://www.history.com/news/wp-content/uploads/2012/05/golden-gate-wide.jpg"
     },
     {
       "top_quote" : "First Giants Game",
       "query_slug" : "AT&T+Park+San+Francisco",
-      "description" : "",
+      "description" : "AT&T Park is a ballpark primarily used for hosting Major League Baseball games. It is located in the South Beach neighborhood of San Francisco, California, at 24 Willie Mays Plaza, at the corner of Third and King Streets.",
       "city" : "San Francisco",
       "rank" : "4 ",
-      "name" : "AT&T Park"
+      "name" : "AT&T Park",
+      "photo_url": "http://cdn.funcheap.com/wp-content/uploads/2013/03/ATT-Park1.jpg"
     },
     {
       "top_quote" : "The city and Golden Gate Bridge to...",
       "query_slug" : "San+Francisco+Bay+San+Francisco",
-      "description" : "San Francisco, in northern California, is a city on the tip of a peninsula surrounded by the Pacific Ocean and San Francisco Bay. It's known for its hilly landscape, year-round fog, iconic Golden Gate Bridge, cable cars and colorful Victorian houses. The Financial District's Transamerica Pyramid is its most distinctive skyscraper. In the bay sits Alcatraz Island, site of the notorious former prison.",
-      "city" : "San Francisco",
+      "description" : "",
       "rank" : "5 ",
-      "name" : "San Francisco Bay"
+      "name" : "San Francisco Bay",
+      "photo_url": "http://i1.trekearth.com/photos/5043/san_francisco_bay.jpg"
     },
     {
       "top_quote" : "Unsure",
       "query_slug" : "Golden+Gate+Park+San+Francisco",
-      "description" : "Golden Gate Park, located in San Francisco, California, United States, is a large urban park consisting of 1,017 acres of public grounds.",
+      "description" : "No simple city park, San Francisco’s Golden Gate Park is larger than New York City's Central Park, filled with lush California green and serves as an expansive, approachable and welcome escape from the traffic and close quarters of urban San Francisco. Golden Gate Park encompasses more than 1,000 acres of land on the west side of San Francisco and contains a number of features that attract visitors and city-dwellers, grandparents and high schoolers, rollerbladers and benchwarmers alike.",
       "city" : "San Francisco",
       "rank" : "6 ",
       "name" : "Golden Gate Park"
@@ -5826,7 +5828,7 @@
     {
       "top_quote" : "Perfect beach day!",
       "query_slug" : "Lands+End+San+Francisco",
-      "description" : "Lands End is a park in San Francisco within the Golden Gate National Recreation Area. It is a rocky and windswept shoreline at the mouth of the Golden Gate, situated between the Sutro District and ...",
+      "description" : "Lands End is a park in San Francisco within the Golden Gate National Recreation Area. At every turn of the trail on this wild and rocky northwestern corner of San Francisco, there is another stunning view. Along the way you’ll see hillsides of cypress and wildflowers, views of old shipwrecks, access to the epic ruins of Sutro Baths, pocket beaches, and a new Lookout Visitor Center.",
       "city" : "San Francisco",
       "rank" : "9 ",
       "name" : "Lands End"
@@ -5869,12 +5871,13 @@
       "description" : "The Exploratorium is a museum in San Francisco whose stated mission is to change the way the world learns.",
       "city" : "San Francisco",
       "rank" : "15 ",
-      "name" : "The Exploratorium"
+      "name" : "The Exploratorium",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/03/d5/08/a5/the-exploratorium.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Cable+Car+Museum+San+Francisco",
-      "description" : "The Cable Car Museum is a free museum in the Nob Hill neighborhood of San Francisco, California. Located at 1201 Mason Street, it contains historical and explanatory exhibits on the San Francisco cable ...",
+      "description" : "The Cable Car Museum is a free museum in the Nob Hill neighborhood of San Francisco, California. Located at 1201 Mason Street, it contains historical and explanatory exhibits on the San Francisco cable cars. ",
       "city" : "San Francisco",
       "rank" : "20 ",
       "name" : "Cable Car Museum"
@@ -5882,7 +5885,7 @@
     {
       "top_quote" : null,
       "query_slug" : "San+Francisco+Symphony+San+Francisco",
-      "description" : "",
+      "description" : "Home to the SF Symphony, this concert hall seats more than 2,700 & has several cafes & bars.",
       "city" : "San Francisco",
       "rank" : "22 ",
       "name" : "San Francisco Symphony"
@@ -5898,7 +5901,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Musee+Mecanique+San+Francisco",
-      "description" : "The MusÃ©e MÃ©canique is a for-profit interactive museum consisting of 20th-century penny arcade games and artifacts located at Fisherman's Wharf in San Francisco, California.",
+      "description" : "The Musee Mecanique is a for-profit interactive museum consisting of 20th-century penny arcade games and artifacts located at Fisherman's Wharf in San Francisco, California.",
       "city" : "San Francisco",
       "rank" : "23 ",
       "name" : "Musee Mecanique"
@@ -5906,8 +5909,7 @@
     {
       "top_quote" : "big kid in san fran",
       "query_slug" : "Cable+Cars+San+Francisco",
-      "description" : "The San Francisco cable car system is the world's last manually operated cable car system. An icon of San Francisco, the cable car system forms part of the intermodal urban transport network operated by the San Francisco Municipal Railway.",
-      "city" : "San Francisco",
+      "description" : "",
       "rank" : "19 ",
       "name" : "Cable Cars"
     },
@@ -5925,12 +5927,13 @@
       "description" : "Crissy Field, a former U.S. Army airfield, is now part of the Golden Gate National Recreation Area in San Francisco, California, United States. Historically part of the Presidio of San Francisco, Crissy Field closed as an airfield after 1974.",
       "city" : "San Francisco",
       "rank" : "27 ",
-      "name" : "Crissy Field"
+      "name" : "Crissy Field",
+      "photo_url": "http://www.presidio.gov/PublishingImages/Crissy%20Field%20Main/crissyfield2_620x390.jpg"
     },
     {
       "top_quote" : "World famous street",
       "query_slug" : "Lombard+Street+San+Francisco",
-      "description" : "Lombard Street is an eastâ\u20ac\u201cwest street in San Francisco, California that is famous for a steep, one-block section with eight hairpin turns. The street was named after Lombard Street in Philadelphia by San Francisco surveyor Jasper O'Farrell.",
+      "description" : "Lombard Street is an east-west street in San Francisco, California that is famous for a steep, one-block section with eight hairpin turns. The street was named after Lombard Street in Philadelphia by San Francisco surveyor Jasper O'Farrell.",
       "city" : "San Francisco",
       "rank" : "28 ",
       "name" : "Lombard Street"
@@ -5938,7 +5941,7 @@
     {
       "top_quote" : "A Must to see the Golden Gate Brid...",
       "query_slug" : "Presidio+of+San+Francisco+San+Francisco",
-      "description" : "The Presidio of San Francisco is a park and former military base on the northern tip of the San Francisco Peninsula in San Francisco, California, and is part of the Golden Gate National Recreation Area.",
+      "description" : "",
       "city" : "San Francisco",
       "rank" : "31 ",
       "name" : "Presidio of San Francisco"
@@ -5946,10 +5949,11 @@
     {
       "top_quote" : "Fun, food and views",
       "query_slug" : "Pier+San+Francisco",
-      "description" : "",
+      "description" : "Pier 39 is a shopping center and popular tourist attraction built on a pier in San Francisco, California.",
       "city" : "San Francisco",
       "rank" : "32 ",
-      "name" : "Pier"
+      "name" : "Pier 39",
+      "photo_url": "http://s3.amazonaws.com/trippy-media/4f0e4b0ee4b02c307878aae3_pm9.jpg?1"
     },
     {
       "top_quote" : "Fine Art",
@@ -5957,7 +5961,7 @@
       "description" : "The de Young, a fine arts museum located in San Francisco's Golden Gate Park, is one of the Fine Arts Museums of San Francisco along with the Legion of Honor. The de Young is named for its founder, early San Francisco newspaperman M. H. de Young.",
       "city" : "San Francisco",
       "rank" : "33 ",
-      "name" : "de Young Museum"
+      "name" : "descriptione Young Museum"
     },
     {
       "top_quote" : null,
@@ -5978,7 +5982,7 @@
     {
       "top_quote" : "Cycling around Angel Island",
       "query_slug" : "Angel+Island+State+Park+San+Francisco",
-      "description" : "Angel Island State Park",
+      "description" : "Large island with campsites featuring hiking & biking trails plus panoramic views of San Francisco.",
       "city" : "San Francisco",
       "rank" : "38 ",
       "name" : "Angel Island State Park"
@@ -6009,11 +6013,12 @@
     },
     {
       "top_quote" : null,
-      "query_slug" : "th+Ave+Tiled+Steps+Project+San+Francisco",
-      "description" : "Tile steps",
+      "query_slug" : "16th+Ave+Tiled+Steps+Project+San+Francisco",
+      "description" : "The 16th Avenue Tiled Steps project has been a neighborhood effort to create a beautiful mosaic running up the risers of the 163 steps located at 16th and Moraga in San Francisco. ",
       "city" : "San Francisco",
       "rank" : "47 ",
-      "name" : "th Ave Tiled Steps Project"
+      "name" : "16th Ave Tiled Steps Project",
+      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/03/4a/78/6c/beautiful.jpg"
     },
     {
       "top_quote" : "Don't miss this beautiful icon.",
@@ -6053,7 +6058,8 @@
       "description" : "The San Francisco Maritime National Historical Park is located in San Francisco, California, USA. The park includes a fleet of historic vessels, a visitor center, a maritime museum, and a library/research facility.",
       "city" : "San Francisco",
       "rank" : "51 ",
-      "name" : "San Francisco Maritime National Historical Park"
+      "name" : "San Francisco Maritime National Historical Park",
+      "photo_url": "http://www.nps.gov/safr/learn/historyculture/images/parkaerialview_1.jpg"
     },
     {
       "top_quote" : null,
@@ -6074,10 +6080,11 @@
     {
       "top_quote" : "1/2 new & 1/2 older",
       "query_slug" : "San+Francisco+Bay+Bridge+San+Francisco",
-      "description" : "The San Franciscoâ\u20ac\u201cOakland Bay Bridge is a complex of bridges spanning San Francisco Bay in California. As part of Interstate 80 and the direct road between San Francisco and Oakland, it carries about 240,000 vehicles a day on its two decks.",
+      "description" : "The San Francisco-Oakland Bay Bridge is a complex of bridges spanning San Francisco Bay in California. As part of Interstate 80 and the direct road between San Francisco and Oakland, it carries about 240,000 vehicles a day on its two decks.",
       "city" : "San Francisco",
       "rank" : "54 ",
-      "name" : "San Francisco Bay Bridge"
+      "name" : "San Francisco Bay Bridge",
+      "photo_url": "http://www.extremetech.com/wp-content/uploads/2013/01/san-francisco-bay-bridge-640x353.jpg"
     },
     {
       "top_quote" : null,
@@ -6090,7 +6097,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Filbert+Steps+San+Francisco",
-      "description" : "Filbert Street in San Francisco, California starts at Lyon Street 37Â°47â\u20ac_48â\u20ac_N 122Â°26â\u20ac_49â\u20ac_Wï»¿ / ï»¿37.7966Â°N 122.447Â°W on the east edge of The Presidio and runs east, crossing Van Ness Avenue and Columbus Avenue.",
+      "description" : "Perhaps one of the most famous of San Francisco's stairways, the Filbert Steps deserve their acclaim.  The stairs rise in three sections from Sansome Street to Coit Tower. The lowest section is concrete and steel snaking up the side of a cliff which gives way to a wide concrete stairway.  Reaching Montgomery Street, the steps cross the median with a short staircase.  The upper section is nearly straight, running through a series of sculpted gardens.",
       "city" : "San Francisco",
       "rank" : "60 ",
       "name" : "Filbert Steps"
@@ -6109,12 +6116,13 @@
       "description" : "Westfield San Francisco Centre is an upscale, urban Shopping mall located in San Francisco, California, managed by the Westfield Group and co-owned by Westfield and Forest City Enterprises.",
       "city" : "San Francisco",
       "rank" : "63 ",
-      "name" : "Westfield San Francisco Centre"
+      "name" : "Westfield San Francisco Centre",
+      "photo_url": "http://www.forestcity.net/properties/shop/regional_enclosed_centers/PublishingImages/Westfield-SFC.jpg"
     },
     {
       "top_quote" : "Incredible nature experience!",
       "query_slug" : "San+Francisco+Botanical+Garden+San+Francisco",
-      "description" : "The San Francisco Botanical Garden is located in San Francisco's Golden Gate Park. Its 55 acres include over 50,000 individual plants, representing over 8,000 taxa from around the world, with particular ...",
+      "description" : "The San Francisco Botanical Garden (formerly Strybing Arboretum) is located in San Francisco's Golden Gate Park. Its 55 acres (22.3 ha) include over 50,000 individual plants, representing over 8,000 taxa from around the world, with particular focus on Magnolia species, high elevation palms, and cloud forest species from Central America, South America and Southeast Asia. San Francisco's County Fair Building is located at the entrance to the garden.",
       "city" : "San Francisco",
       "rank" : "64 ",
       "name" : "San Francisco Botanical Garden"
@@ -6122,15 +6130,15 @@
     {
       "top_quote" : "Cute, short visit",
       "query_slug" : "Alamo+Square+San+Francisco",
-      "description" : "Alamo Square is a residential neighborhood and park in San Francisco, California, in the Western Addition.",
+      "description" : "Alamo Square is a residential neighborhood and park in San Francisco, California, in the Western Addition. A row of Victorian houses facing the park on Steiner Street, known as the 'Painted Ladies', are often shown in the foreground of panoramic pictures of the city's downtown area. A number of movies, television shows and commercials have been filmed in or around Alamo Square. ",
       "city" : "San Francisco",
       "rank" : "65 ",
-      "name" : "Alamo Square"
+      "name" : "Alamo Square (Painted Ladies)"
     },
     {
       "top_quote" : "Dinner service",
       "query_slug" : "Cliff+House+San+Francisco",
-      "description" : "Cliff House",
+      "description" : "Wide windows supply striking ocean views at this casual all-day eatery serving Californian cuisine.",
       "city" : "San Francisco",
       "rank" : "67 ",
       "name" : "Cliff House"
@@ -6146,10 +6154,11 @@
     {
       "top_quote" : "Sutro baths",
       "query_slug" : "Sutro+Baths+San+Francisco",
-      "description" : "The Sutro Baths were a large, privately owned swimming pool complex near Seal Rock in San Francisco, California, built in the late 19th century. The facility was financially unprofitable and is now in ruins.",
+      "description" : "The Sutro Baths were a large, privately owned swimming pool complex near Seal Rock in San Francisco, California, built in the late 19th century. The facility was financially unprofitable and is now in ruins. Tourists can walk among the Sutro Bath ruins, learning the history of the great San Francisco family swimming and amusement center.",
       "city" : "San Francisco",
       "rank" : "68 ",
-      "name" : "Sutro Baths"
+      "name" : "Sutro Baths",
+      "photo_url": "http://static1.squarespace.com/static/5191af87e4b01fcd71ac9fbd/t/51df84d5e4b0c8c25ec8518c/1373603030631/sutro_cliff3.jpg"
     },
     {
       "top_quote" : "Clean, organized but not huge.",
@@ -6205,12 +6214,13 @@
       "description" : "The SHN Orpheum Theatre is a performance venue located at 1192 Market at Hyde Street in the Civic Center district of San Francisco, California.",
       "city" : "San Francisco",
       "rank" : "83 ",
-      "name" : "Orpheum Theatre"
+      "name" : "Orpheum Theatre",
+      "photo_url": "http://www.vipseats.com/images/orpheum%20theater%20tickets.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Mission+Dolores+San+Francisco",
-      "description" : "Mission San Francisco de AsÃ_s, or Mission Dolores, is the oldest surviving structure in San Francisco and the seventh religious settlement established as part of the California chain of missions.",
+      "description" : "Mission San Francisco de Asis, or Mission Dolores, is the oldest surviving structure in San Francisco and the seventh religious settlement established as part of the California chain of missions.",
       "city" : "San Francisco",
       "rank" : "85 ",
       "name" : "Mission Dolores"
@@ -6226,7 +6236,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Wells+Fargo+History+Museum+San+Francisco",
-      "description" : "Wells Fargo History Museum",
+      "description" : "Museum at the Wells Fargo bank's head office showcasing relics like gold dust & a stagecoach.",
       "city" : "San Francisco",
       "rank" : "86 ",
       "name" : "Wells Fargo History Museum"
@@ -6237,7 +6247,7 @@
       "description" : "North Beach is a neighborhood in the northeast of San Francisco adjacent to Chinatown, Fisherman's Wharf and Russian Hill. The neighborhood is San Francisco's Little Italy, and has historically been home to a large Italian American population.",
       "city" : "San Francisco",
       "rank" : "87 ",
-      "name" : "North Beach"
+      "name" : "North Beach (Washington Square)"
     },
     {
       "top_quote" : "Too touristy and a rip off",
@@ -6245,7 +6255,7 @@
       "description" : "The Chinatown centered on Grant Avenue and Stockton Street in San Francisco, California, is the oldest Chinatown in North America and the largest Chinese community outside Asia. It is the oldest of the four notable Chinatowns in the city.",
       "city" : "San Francisco",
       "rank" : "90 ",
-      "name" : "Chinatown"
+      "name" : "Chinatown (Dragon's Gate)"
     },
     {
       "top_quote" : "amazing scenery and walk! ",
