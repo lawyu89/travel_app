@@ -78,7 +78,7 @@
     {
       "top_quote" : "Bangkok at its best",
       "query_slug" : "Chao+Phraya+River+Bangkok",
-      "description" : "The Chao Phraya is a major river in Thailand, with its low alluvial plain forming the centre of the country. It flows through Bangkok and then into the Gulf of Thailand.",
+      "description" : "",
       "city" : "Bangkok",
       "rank" : "15 ",
       "name" : "Chao Phraya River",
@@ -601,7 +601,7 @@
       "description" : "Hamra Street, or Rue Hamra, is one of the main streets of the city of Beirut, Lebanon, and one of the main economic and diplomatic hubs of Beirut.",
       "city" : "Beirut",
       "rank" : "10 ",
-      "name" : "Hamra Street",
+      "name" : "Rue Hamra",
       "photo_url" : "https://qifanabki.files.wordpress.com/2008/11/hamra-empty.jpg"
     },
     {
@@ -643,10 +643,10 @@
     {
       "top_quote" : null,
       "query_slug" : "Music+Hall+Beirut",
-      "description" : "MusicHall is a cabaret-style musichall theatre specializing in live entertainment and cultural showbiz. It is located at Starco Center on Omar Daouk Street between Rue Petro Paoli and Rue Chateaubriand in the city centre of Beirut, Lebanon.",
+      "description" : "Omar Daouk Music Hall is a cabaret-style musichall theatre specializing in live entertainment and cultural showbiz. It is located at Starco Center on Omar Daouk Street between Rue Petro Paoli and Rue Chateaubriand in the city centre of Beirut, Lebanon.",
       "city" : "Beirut",
       "rank" : "16 ",
-      "name" : "Music Hall",
+      "name" : "Omar Daouk Music Hall",
       "photo_url" : "http://hauteliving.com/wp-content/uploads/2013/01/MusicHall1.jpg"
     },
     {
@@ -3112,7 +3112,7 @@
       "description" : "Ortakoy is a neighbourhood, formerly a small village, located in the middle of the European bank of the Bosphorus.",
       "city" : "Istanbul",
       "rank" : "42 ",
-      "name" : "Ortakoy",
+      "name" : "Ortakoy Neighbourhood",
       "photo_url" : "http://faculty.gvsu.edu/alayontf/turkiye/marmara/ortakoy.jpg"
     },
     {
@@ -3193,7 +3193,7 @@
       "description" : "The Bosphorus Bridge, also called the First Bosphorus Bridge or simply the First Bridge is one of two suspension bridges spanning the Bosphorus strait in Istanbul, Turkey; thus connecting Europe",
       "city" : "Istanbul",
       "rank" : "59 ",
-      "name" : "The Bosphorus Bridge",
+      "name" : "First Bosphorus Bridge",
       "photo_url" : "http://www.destination360.com/europe/turkey/images/s/bosphorus-bridge.jpg"
     },
     {
@@ -3211,7 +3211,7 @@
       "description" : "Istiklal Avenue or Istiklal Street is one of the most famous avenues in Istanbul, Turkey, visited by nearly 3 million people in a single day over the course of weekends.",
       "city" : "Istanbul",
       "rank" : "63 ",
-      "name" : "Istiklal Street",
+      "name" : "Istiklal Avenue",
       "photo_url" : "http://i1.wp.com/www.likeatrippie.com/wp-content/uploads/2012/04/istiklal-street.jpg?resize=720%2C476"
     },
     {
@@ -3301,7 +3301,7 @@
       "description" : "Istanbul Cevahir Shopping and Entertainment Centre is a modern shopping mall.",
       "city" : "Istanbul",
       "rank" : "79 ",
-      "name" : "Istanbul Cevahir Mall",
+      "name" : "Istanbul Cevahir Shopping Mall",
       "photo_url" : "http://www.novotourism.com/images/320000003/cevahir-%20shopin-mool-istanbul%202.jpg"
     },
     {
@@ -6889,10 +6889,10 @@
     {
       "top_quote" : null,
       "query_slug" : "St.+Peter's+Church+Vienna",
-      "description" : "Peterskirche is a Baroque Roman Catholic parish church in Vienna, Austria. It was transferred in 1970 by the Archbishop of Vienna Franz Cardinal KÃ¶nig to the priests of the Opus Dei.",
+      "description" : "Peter's kirche is a Baroque Roman Catholic parish church in Vienna, Austria. It was transferred in 1970 by the Archbishop of Vienna Franz Cardinal KÃ¶nig to the priests of the Opus Dei.",
       "city" : "Vienna",
       "rank" : "17 ",
-      "name" : "St. Peter's Church",
+      "name" : "Katholische Kirche St. Peter",
       "photo_url" : "http://flexitreks.com/wp-content/uploads/2013/10/Vienna-St-Peters-Church.jpg"
     },
     {
@@ -7036,7 +7036,7 @@
       "description" : "The Vienna Woods are forested highlands that form the northeastern foothills of the Northern Limestone Alps in the states of Lower Austria and Vienna.",
       "city" : "Vienna",
       "rank" : "34 ",
-      "name" : "Vienna Woods",
+      "name" : "Vienna Woods, VA",
       "photo_url" : "http://www.hanskoechler.com/Vienna_Woods-autumn2013-web.jpg"
     },
     {
