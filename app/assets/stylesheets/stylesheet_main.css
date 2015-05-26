@@ -7,10 +7,12 @@
 .w-full {width: 100%;}
 .w-60 {width: 68px;}
 .w-220 {width: 220px;}
+.w-320 {width: 320px;}
 
 /* Height */
 
 .h-68 {height: 60px;}
+.h-568 {height: 568px;}
 
 /* Background */
 
@@ -261,4 +263,12 @@ img.my-city-image {
   height: 100%;
   z-index: 9999;
   background: url(/imgs/world.gif) center no-repeat #fff;
+}
+
+/* Media Queries */
+@media (min-width: 800px) {
+  .desktop {
+    width: 320px;
+    margin: 0 auto;
+  }
 }
