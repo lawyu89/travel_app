@@ -1,18 +1,5 @@
 /*.debug { border: 1px solid red;}*/
 
-/* Loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(/imgs/world.gif) center no-repeat #fff;
-}
-
 /* Width */
 
 .w-half {width: 50%;}
@@ -21,16 +8,16 @@
 .w-60 {width: 68px;}
 .w-220 {width: 220px;}
 
+/* Height */
 
 .h-68 {height: 60px;}
-
-/* Height */
 
 /* Background */
 
 .bgc-black {background-color: black}
 .bgc-grey {background-color: #555555}
 .bgc-lgrey {background-color: #BEBEBE;}
+
 /* color */
 
 .c-white {color: white;}
@@ -48,14 +35,15 @@
 .fz-m {font-size: 3em;}
 .fz-l {font-size: 4em;}
 
+.f-weight {font-weight: normal;}
+
 /* Borders */
 
 .bdr-blk {border: 1px solid;}
 .bdr-sm-blk {border: 1px solid black;}
+.bdr-m-blk {border: 3px solid black;}
 .bdr-white {border: 2px solid white;}
 .bdr-r-m {border-radius: 16px;}
-.bdr-m-blk {border: 3px solid black;}
-
 /* Positioning */
 
 .clearfix:before,
@@ -78,6 +66,7 @@
 .t-center {text-align: center;}
 .t-right {text-align: right;}
 .t-left {text-align: left;}
+
 .center {margin: 0 auto;}
 
 .v-top {vertical-align: top}
@@ -85,17 +74,19 @@
 .d-in {display: inline;}
 .d-inb {display: inline-block;}
 .d-b {display: block;}
+
 /* Margin */
 
 .m-sm {margin: .75em;}
 .m-t-m {margin-top: .5em;}
 .m-t-l {margin-top: 1em;}
+.m-t-neg {margin-top: -1.25em;}
 .m-l-sm {margin-left: 0.4em;}
 .m-l-l {margin-left: 2.2em;}
-.m-t-neg {margin-top: -1.25em;}
 .m-b-m {margin-bottom: .5em;}
 
 /* Padding */
+
 .p-none {padding: 0;}
 .p-xs {padding: 0.3em;}
 .p-sm {padding: 0.4em;}
@@ -103,8 +94,8 @@
 .p-l {padding: 2em;}
 .p-r-sm {padding: 0.6em;}
 .p-r-m {padding-right: 1em;}
-.p-l-sm {padding: 0.6em;}
 .p-l-xs {padding-left: 0.5em;}
+.p-l-sm {padding: 0.6em;}
 .p-t-sm {padding-top: 0.4em;}
 .p-t-m {padding-top: 0.8em;}
 
@@ -115,23 +106,18 @@ p {margin: 0;}
 
 /* Links */
 
-a:link {
-    color: #222222;
-}
+a:link {color: #222222;}
 
 /* visited link */
-a:visited {
-    color: #222222;
-}
+a:visited {color: #222222;}
 
 /* mouse over link */
-a:hover {
-    color: #222222;
-}
+a:hover {color: #222222;}
 
-a {text-decoration: none}
+a {text-decoration: none;}
 
-input:focus {outline: none; }
+input:focus {outline: none;}
+
 /* Images */
 
 /* SwipeSee */
@@ -195,7 +181,6 @@ img.my-city-image {
   max-width: 275px;
   width: 100%;
 }
-/* Unsure why i have to be so specific with my image targeting...*/
 
 .rounded {
   border-radius: 10px;
@@ -219,9 +204,9 @@ img.my-city-image {
     font-weight:bold;
 }
 
-.ta-c {
+/*.ta-c {
   text-align:center;
-}
+}*/
 
 .sm-rect-button {
     border-radius: 10px;
@@ -260,11 +245,20 @@ img.my-city-image {
   border: 1px solid green;
 }
 
-.f-weight {
-  font-weight: normal;
-}
-
 .search-input {
   background: white url('/imgs/search.png') no-repeat 8px 6px;
   background-size: 1.25em;
+}
+
+/* Loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(/imgs/world.gif) center no-repeat #fff;
 }
