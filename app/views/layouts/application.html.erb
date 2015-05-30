@@ -9,8 +9,11 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="desktop bgc-grey">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<body class="bgc-grey">
+  <div class="outer-desktop">
+    <div class="speaker"></div>
+    <div class="desktop">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
 
 
@@ -19,7 +22,9 @@
   <button onclick="document.getElementById('woof').play()">SightSee Image Here</button>
 </div> -->
 
-<%= yield %>
-
+    <%= yield %>
+    </div>
+    <div class="black-circle"></div>
+  </div>
 </body>
 </html>
