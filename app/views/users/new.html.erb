@@ -48,7 +48,7 @@
       <div class="p-t-sm"><%= f.label :password_confirmation, class: "f-oswald fz-xs f-weight" %></div>
       <div><%= f.password_field :password_confirmation, :class => 'rounded w-full' %></div>
     </div>
-      <div class='p-sm ta-c'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
+      <div class='p-sm t-center'><%= f.submit "Sign Up", class: "f-oswald sm-rect-button-map" %></div>
 
     <% end %>
     <%= link_to "#{image_tag('facebook-login-button.png', class: "w-220")}".html_safe, "/auth/Facebook", id: "fb-log-in", :class => 'p-t-m d-b t-center' %>
