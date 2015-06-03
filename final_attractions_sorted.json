@@ -15,7 +15,7 @@
       "city" : "Bangkok",
       "rank" : "4 ",
       "name" : "Temple of Dawn (Wat Arun)",
-      "photo_url" : "http://gothaibefree.com/wp-content/uploads/2012/04/Temple-of-Dawn_Night_01.jpg"
+      "photo_url" : "https://c4.staticflickr.com/8/7200/6978751191_ae4f4605c8_b.jpg"
     },
     {
       "top_quote" : "Outstanding",
@@ -24,7 +24,7 @@
       "city" : "Bangkok",
       "rank" : "5 ",
       "name" : "The Grand Palace",
-      "photo_url" : "http://www.grandpalacethailand.com/images/grand-palace.jpg"
+      "photo_url" : "https://getsetfly.files.wordpress.com/2015/03/grand-palace.jpg"
     },
     {
       "top_quote" : "Wish they would do timed admission...",
@@ -40,7 +40,8 @@
       "description" : "The Jim Thompson House is now a museum in Bangkok. It is a complex of various old Thai structures that the American businessman Jim Thompson collected from all parts of Thailand in the 1950s and 1960s.",
       "city" : "Bangkok",
       "rank" : "9 ",
-      "name" : "Jim Thompson House"
+      "name" : "Jim Thompson House",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/originals/ab/3c/9a/ab3c9a0d6002b65804f88861a12dc35b.jpg"
     },
     {
       "top_quote" : "Geat statue",
@@ -73,7 +74,7 @@
       "city" : "Bangkok",
       "rank" : "18 ",
       "name" : "Siam Paragon",
-      "photo_url" : "http://www.tripvolunteer.com/wp-content/uploads/2015/02/siam-paragon-shopping-mall-in-bangkok-thailand.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/e5/cf/b4/e5cfb49d8dc4f0a93a64f0bd8f4d33d6.jpg"
     },
     {
       "top_quote" : "Bangkok at its best",
@@ -82,7 +83,7 @@
       "city" : "Bangkok",
       "rank" : "15 ",
       "name" : "Chao Phraya River",
-      "photo_url" : "http://d1vmp8zzttzftq.cloudfront.net/wp-content/uploads/2012/09/sunset-over-chao-phraya-river-in-bangkok-thailand-1600x1092.jpg"
+      "photo_url" : "https://c2.staticflickr.com/6/5487/11336944746_86aa446685_b.jp"
     },
     {
       "top_quote" : null,
@@ -115,7 +116,7 @@
       "city" : "Bangkok",
       "rank" : "23 ",
       "name" : "Central World Plaza",
-      "photo_url" : "http://www.honeymoontravel.co.th/luxuries/category/images/prime_purchases/bangkok/106.CentralWorld.jpg"
+      "photo_url" : "https://c1.staticflickr.com/9/8092/8533568609_3a0c272656_b.jpg"
     },
     {
       "top_quote" : null,
@@ -124,7 +125,7 @@
       "city" : "Bangkok",
       "rank" : "27 ",
       "name" : "Wat Ratchanatdaram Woravihara (Loha Prasat)",
-      "photo_url" : "http://www.makemytrip.com/travel-guide/media/dg_image/bangkok/3_Wat_Ratchanatdaram_Woravihara_(Loha_Prasat).jpg"
+      "photo_url" : "https://c1.staticflickr.com/9/8756/16935379299_5baceca470_b.jpg"
     },
     {
       "top_quote" : "Clean place to exercise",
@@ -133,7 +134,7 @@
       "city" : "Bangkok",
       "rank" : "24 ",
       "name" : "Lumphini Park",
-      "photo_url" : "http://www.learnthaiwithmod.com/wp-content/uploads/2013/03/lumpini-park.jpg"
+      "photo_url" : "https://mojotravel.files.wordpress.com/2011/03/1-18771sala-in-lumpini1.jpg"
     },
     {
       "top_quote" : null,
@@ -150,7 +151,7 @@
       "city" : "Bangkok",
       "rank" : "29 ",
       "name" : "Ananta Samakhom Throne Hall",
-      "photo_url" : "http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/attraction-palace/ananta-samakhom/allParagraphs/0/image/ananta-samakhom-throne-hall.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/93/6a/9d/936a9dcf20de49b8777d1ea63372f3ca.jpg"
     },
     {
       "top_quote" : null,
@@ -167,7 +168,7 @@
       "city" : "Bangkok",
       "rank" : "32 ",
       "name" : "Wat Benchamabophit (The Marble Temple)",
-      "photo_url" : "http://templesinbangkok.com/images/Wat_Benchamabophit.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/bf/ae/24/bfae245dd8b04b5660ec375e18a3831b.jpg"
     },
     {
       "top_quote" : null,
@@ -184,7 +185,7 @@
       "city" : "Bangkok",
       "rank" : "36 ",
       "name" : "Pak Khlong Talat (Flower Market)",
-      "photo_url" : "https://notesfromcamelidcountry.files.wordpress.com/2015/01/img_5748.jpg"
+      "photo_url" : "https://dpauls.com/all-about-holidays/wp-content/uploads/2015/01/fl1.jpg"
     },
     {
       "top_quote" : null,
@@ -201,7 +202,7 @@
       "city" : "Bangkok",
       "rank" : "38 ",
       "name" : "Wat Suthat",
-      "photo" : "http://www.mir.com.my/leofoo/Thai-amulets/Wat-Suthat/Wat_suthat_Viharn.jpg"
+      "photo" : "https://artmundus.files.wordpress.com/2010/05/suthat.jpg"
     },
     {
       "top_quote" : null,
@@ -226,7 +227,7 @@
       "city" : "Bangkok",
       "rank" : "42 ",
       "name" : "Safari World",
-      "photo_url" : "http://www.vegatravelbangkok.com/upload/photo_22.jpg"
+      "photo_url" : "https://dpauls.com/all-about-holidays/wp-content/uploads/2015/02/package_3044_15-safari-world-with-marine-park-bangkok-tour.jpg"
     },
     {
       "top_quote" : null,
@@ -243,7 +244,7 @@
       "city" : "Bangkok",
       "rank" : "46 ",
       "name" : "Platinum Fashion Mall",
-      "photo_url" : "http://www.hotelsawasdee.com/travel-event/wp-content/uploads/2014/10/The-Platinum-fashion-mall-3.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/07/ea/ae/07eaaec9a8d0c1d2fb44e4442c1db0a3.jpg"
     },
     {
       "top_quote" : null,
@@ -340,7 +341,7 @@
       "city" : "Bangkok",
       "rank" : "64 ",
       "name" : "Museum of Siam",
-      "photo_url" : "http://thailand.tourismsee.com/thpic/Museum-of-Siam-TH2.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/e5/73/d3/e573d34238d757b8a860a64957d9c347.jpg"
     },
     {
       "top_quote" : null,
@@ -373,7 +374,7 @@
       "city" : "Bangkok",
       "rank" : "69 ",
       "name" : "Khao San Road",
-      "photo_url" : "http://www.capitalmansion.com/th/images/stories/khao-San-Road3.jpg"
+      "photo_url" : "https://literatureandtravels.files.wordpress.com/2011/11/khao_san_road_day.jpg"
     },
     {
       "top_quote" : "Oh yes, real Chinatown!",
@@ -398,7 +399,7 @@
       "city" : "Bangkok",
       "rank" : "73 ",
       "name" : "Chatuchak Park",
-      "photo_url" : "http://www.bangkoki.com/pictures/Parks/Lake-Chatuchak-Park.jpg"
+      "photo_url" : "https://soysalsa.files.wordpress.com/2012/03/20120309-162446.jpg?w=500"
     },
     {
       "top_quote" : null,
@@ -415,7 +416,7 @@
       "city" : "Bangkok",
       "rank" : "76 ",
       "name" : "Lumpinee Boxing Stadium",
-      "photo_url" : "http://www.tatnews.org/wp-content/uploads/2014/10/Lumpinee-Boxing-Stadium-Ram-Intra-10.jpg"
+      "photo_url" : "https://c3.staticflickr.com/3/2050/2268215518_3b33d5e822_b.jpg"
     },
     {
       "top_quote" : null,
@@ -440,7 +441,7 @@
       "city" : "Bangkok",
       "rank" : "79 ",
       "name" : "Central Department Store Chitlom",
-      "photo_url" : "http://centerpointlangsuan.com/wp-content/uploads/2012/03/mahboonkrong.jpg"
+      "photo_url" : "https://c2.staticflickr.com/6/5207/5246418542_85393e3797_b.jpg"
     },
     {
       "top_quote" : null,
@@ -464,7 +465,8 @@
       "description" : "Wat Bowonniwet Vihara Rajavaravihara is a major Buddhist temple in Phra Nakhon district, Bangkok, Thailand.",
       "city" : "Bangkok",
       "rank" : "82 ",
-      "name" : "Wat Bowonniwet Vihara"
+      "name" : "Wat Bowonniwet Vihara",
+      "photo_url" : "https://c2.staticflickr.com/8/7101/7246571108_af00422004_b.jpg"
     },
     {
       "top_quote" : null,
@@ -497,7 +499,7 @@
       "city" : "Bangkok",
       "rank" : "86 ",
       "name" : "Khlong Toey Market",
-      "photo_url" : "http://www.newzfeed.org/wp-content/uploads/2014/06/kt-1.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/originals/89/62/13/896213afe6a10a82dc4dd59b675410f8.jpg"
     },
     {
       "top_quote" : null,
@@ -530,7 +532,7 @@
       "city" : "Bangkok",
       "rank" : "90 ",
       "name" : "Pratunam Market",
-      "photo_url" : "http://selynchua.weebly.com/uploads/1/4/1/8/14188803/1977889_orig.jpg"
+      "photo_url" : "https://photocory.files.wordpress.com/2013/12/pratunam-market-bangkok.jpg?w=950"
     },
     {
       "top_quote" : null,
