@@ -4787,7 +4787,7 @@
     {
       "top_quote" : "Most beautiful bridge of Paris",
       "query_slug" : "Pont+Alexandre+III+Paris",
-      "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Elysees quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
+      "description" : "",
       "city" : "Paris",
       "rank" : "10 ",
       "name" : "Pont Alexandre III"
@@ -5800,7 +5800,8 @@
       "description" : "Alcatraz Island is located in the San Francisco Bay, 1.5 miles offshore from San Francisco, California, United States. It offers a close-up look at the site of the first lighthouse and US built fort on the West Coast, the infamous federal penitentiary long off-limits to the public, and the 18 month occupation by Indians of All Tribes which saved the tribes. Rich in history, there is also a natural side to the Rock—gardens, tide pools, bird colonies, and bay views beyond compare.",
       "city" : "San Francisco",
       "rank" : "1 ",
-      "name" : "Alcatraz"
+      "name" : "Alcatraz",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Alcatraz11.JPEG"
     },
     {
       "top_quote" : "One of World's seven wonders",
@@ -5809,7 +5810,7 @@
       "city" : "San Francisco",
       "rank" : "2 ",
       "name" : "Golden Gate Bridge",
-      "photo_url": "http://www.history.com/news/wp-content/uploads/2012/05/golden-gate-wide.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/en/2/2b/Golden_gate_bridge_at_dusk.jpg"
     },
     {
       "top_quote" : "First Giants Game",
@@ -5818,7 +5819,7 @@
       "city" : "San Francisco",
       "rank" : "4 ",
       "name" : "AT&T Park",
-      "photo_url": "http://cdn.funcheap.com/wp-content/uploads/2013/03/ATT-Park1.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/AT%26T_Park.jpg/640px-AT%26T_Park.jpg"
     },
     {
       "top_quote" : "The city and Golden Gate Bridge to...",
@@ -5834,7 +5835,8 @@
       "description" : "No simple city park, San Francisco’s Golden Gate Park is larger than New York City's Central Park, filled with lush California green and serves as an expansive, approachable and welcome escape from the traffic and close quarters of urban San Francisco. Golden Gate Park encompasses more than 1,000 acres of land on the west side of San Francisco and contains a number of features that attract visitors and city-dwellers, grandparents and high schoolers, rollerbladers and benchwarmers alike.",
       "city" : "San Francisco",
       "rank" : "6 ",
-      "name" : "Golden Gate Park"
+      "name" : "Golden Gate Park",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Boating_on_Stow_Lake_-_Golden_Gate_Park,_San_Francisco,_CA_-_DSC03676.JPG/1024px-Boating_on_Stow_Lake_-_Golden_Gate_Park,_San_Francisco,_CA_-_DSC03676.JPG"
     },
     {
       "top_quote" : "Perfect beach day!",
@@ -5883,7 +5885,7 @@
       "city" : "San Francisco",
       "rank" : "15 ",
       "name" : "The Exploratorium",
-      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/03/d5/08/a5/the-exploratorium.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Palace-of-Fine-Arts-Exploratorium.jpg"
     },
     {
       "top_quote" : null,
@@ -5939,7 +5941,7 @@
       "city" : "San Francisco",
       "rank" : "27 ",
       "name" : "Crissy Field",
-      "photo_url": "http://www.presidio.gov/PublishingImages/Crissy%20Field%20Main/crissyfield2_620x390.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Crissy_Field_with_Golden_Gate_Bridge_and_Marin_Headlands.jpg/1280px-Crissy_Field_with_Golden_Gate_Bridge_and_Marin_Headlands.jpg"
     },
     {
       "top_quote" : "World famous street",
@@ -5947,7 +5949,8 @@
       "description" : "Lombard Street is an east-west street in San Francisco, California that is famous for a steep, one-block section with eight hairpin turns. The street was named after Lombard Street in Philadelphia by San Francisco surveyor Jasper O'Farrell.",
       "city" : "San Francisco",
       "rank" : "28 ",
-      "name" : "Lombard Street"
+      "name" : "Lombard Street",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Lombard_Street.jpg"
     },
     {
       "top_quote" : "A Must to see the Golden Gate Brid...",
@@ -5964,7 +5967,7 @@
       "city" : "San Francisco",
       "rank" : "32 ",
       "name" : "Pier 39",
-      "photo_url": "http://s3.amazonaws.com/trippy-media/4f0e4b0ee4b02c307878aae3_pm9.jpg?1"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pier39.jpg"
     },
     {
       "top_quote" : "Fine Art",
@@ -6029,7 +6032,7 @@
       "city" : "San Francisco",
       "rank" : "47 ",
       "name" : "16th Ave Tiled Steps Project",
-      "photo_url": "http://media-cdn.tripadvisor.com/media/photo-s/03/4a/78/6c/beautiful.jpg"
+      "photo_url": "https://c4.staticflickr.com/8/7131/7539262692_f492406fb0_b.jpg"
     },
     {
       "top_quote" : "Don't miss this beautiful icon.",
@@ -6070,7 +6073,7 @@
       "city" : "San Francisco",
       "rank" : "51 ",
       "name" : "San Francisco Maritime National Historical Park",
-      "photo_url": "http://www.nps.gov/safr/learn/historyculture/images/parkaerialview_1.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ships_at_SF_Maritime_National_Historic_Park.JPG/640px-Ships_at_SF_Maritime_National_Historic_Park.JPG"
     },
     {
       "top_quote" : null,
@@ -6095,7 +6098,7 @@
       "city" : "San Francisco",
       "rank" : "54 ",
       "name" : "San Francisco Bay Bridge",
-      "photo_url": "http://www.extremetech.com/wp-content/uploads/2013/01/san-francisco-bay-bridge-640x353.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/San_Francisco_Oakland_Bay_Bridge_at_night.jpg"
     },
     {
       "top_quote" : null,
@@ -6128,7 +6131,7 @@
       "city" : "San Francisco",
       "rank" : "63 ",
       "name" : "Westfield San Francisco Centre",
-      "photo_url": "http://www.forestcity.net/properties/shop/regional_enclosed_centers/PublishingImages/Westfield-SFC.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Westfield_San_Francisco_Centre.jpg/576px-Westfield_San_Francisco_Centre.jpg"
     },
     {
       "top_quote" : "Incredible nature experience!",
@@ -6169,7 +6172,7 @@
       "city" : "San Francisco",
       "rank" : "68 ",
       "name" : "Sutro Baths",
-      "photo_url": "http://static1.squarespace.com/static/5191af87e4b01fcd71ac9fbd/t/51df84d5e4b0c8c25ec8518c/1373603030631/sutro_cliff3.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sutro_baths_20020112.jpeg"
     },
     {
       "top_quote" : "Clean, organized but not huge.",
@@ -6226,7 +6229,7 @@
       "city" : "San Francisco",
       "rank" : "83 ",
       "name" : "Orpheum Theatre",
-      "photo_url": "http://www.vipseats.com/images/orpheum%20theater%20tickets.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/San_Francisco_Orpheum_Theatre_box_office.jpg/1024px-San_Francisco_Orpheum_Theatre_box_office.jpg"
     },
     {
       "top_quote" : null,
