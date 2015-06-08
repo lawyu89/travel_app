@@ -6313,7 +6313,8 @@
       "description" : "The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia.",
       "city" : "Sydney",
       "rank" : "6 ",
-      "name" : "Sydney Opera House"
+      "name" : "Sydney Opera House",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sydney_Opera_House_Night.jpg/1024px-Sydney_Opera_House_Night.jpg"
     },
     {
       "top_quote" : null,
@@ -6358,7 +6359,7 @@
     {
       "top_quote" : "Aida in Sydney - the rain came down...",
       "query_slug" : "Opera+Australia+Sydney",
-      "description" : "Opera Australia is the principal opera company in Australia. Based in Sydney, its performance season at the Sydney Opera House accompanied by the Australian Opera and Ballet Orchestra runs for approximately ...",
+      "description" : "",
       "city" : "Sydney",
       "rank" : "14 ",
       "name" : "Opera Australia (Opera House) "
@@ -6449,7 +6450,8 @@
       "description" : "Rich in history and architecturally splendid, the Queen Victoria Building (QVB) occupies an entire block on Sydney's George Street, and has over 180 of Sydney's finest fashion boutiques, jewellery shops and homewares, accompanied by delightful cafes and restaurants.",
       "city" : "Sydney",
       "rank" : "29 ",
-      "name" : "Queen Victoria Building (QVB)"
+      "name" : "Queen Victoria Building (QVB)",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/(1)_Queen_Victoria_Building_2.JPG/360px-(1)_Queen_Victoria_Building_2.JPG"
     },
     {
       "top_quote" : "Love it!!!",
@@ -6470,7 +6472,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Hayden+Orpheum+Picture+Palace+Sydney",
-      "description" : "Old-timey art deco cinema with a piano bar, live Wurlitzer organ concerts and themed movie nights",
+      "description" : "Old-timey art deco cinema with a piano bar, live Wurlitzer organ concerts and themed movie nights.",
       "city" : "Sydney",
       "rank" : "34 ",
       "name" : "Hayden Orpheum Picture Palace"
@@ -6505,7 +6507,8 @@
       "description" : "The Hyde Park Barracks Museum is a brick building and compound designed by convict architect Francis Greenway between 1818-19; originally built at the head of Macquarie Street to house convict men and boys.",
       "city" : "Sydney",
       "rank" : "39 ",
-      "name" : "Hyde Park Barracks Museum"
+      "name" : "Hyde Park Barracks Museum",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/HydeParkBarracks.JPG/640px-HydeParkBarracks.JPG"
     },
     {
       "top_quote" : null,
@@ -6521,7 +6524,8 @@
       "description" : "While golden sands, turquoise waters and perfect waves make Bondi Beach an iconic Sydney attraction, there is plenty to do beyond the surf. Fine dining, eclectic shopping markets, gorgeous coastal walks and a buzzing nightlife can all be experienced in Bondi.",
       "city" : "Sydney",
       "rank" : "41 ",
-      "name" : "Bondi Beach (Surf Pavillion)"
+      "name" : "Bondi Beach (Surf Pavillion)",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bondi_Beach_3.JPG/640px-Bondi_Beach_3.JPG"
     },
     {
       "top_quote" :  "I spend most weekends there, but it's not usually on the travellers radar.",
@@ -6529,7 +6533,8 @@
       "description" : "Centennial Park is a grand park in the European tradition. Covering 189 hectares, it features formal gardens, ponds, grand avenues, statues, heritage buildings and sporting fields. It is used by walkers, joggers, roller-bladers and cyclists and it offers horse riding facilities. It has diverse flora and fauna with significant tree plantings including Norfolk Island pines, Port Jackson figs and Holm oaks.",
       "city" : "Sydney",
       "rank" : "45 ",
-      "name" : "Centennial Park (Brazillian Fields)"
+      "name" : "Centennial Park (Brazillian Fields)",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%281%29sunset_Centennial_Park_Sydney.JPG/640px-%281%29sunset_Centennial_Park_Sydney.JPG"
     },
     {
       "top_quote" : "Never did the walk, but great little beach to visit whilst in Sydney, easily a match for Bondi !",
@@ -6542,7 +6547,7 @@
     {
       "top_quote" : "Hidden gem, with an incredibly raw collection of contemporary Chinese art.",
       "query_slug" : "White+Rabbit+Gallery+Sydney",
-      "description" : "The White Rabbit Gallery is an art museum in Sydney, Australia, which exhibits selections from the White Rabbit Collection of 21st-century Chinese contemporary art.",
+      "description" : "",
       "city" : "Sydney",
       "rank" : "47 ",
       "name" : "White Rabbit Gallery"
@@ -6585,7 +6590,8 @@
       "description" : "Mrs Macquarie's Chair, otherwise known as Lady Macquarie's Chair, provides one of the best vantage points in Sydney. The historic chair was carved out of a rock ledge for Governor Lachlan Macquarie's wife, Elizabeth, as she was known to visit the area and sit enjoying the panoramic views of the harbour.",
       "city" : "Sydney",
       "rank" : "52 ",
-      "name" : "Mrs Macquarie's Chair"
+      "name" : "Mrs Macquarie's Chair",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mrs_Macquarie's_Chair_2013.jpg/640px-Mrs_Macquarie's_Chair_2013.jpg"
     },
     {
       "top_quote" : "The music is always entertaining with a colourful mix of performers.",
@@ -6601,7 +6607,8 @@
       "description" : "Sydney Lyric plays host to large scale musicals, theatre productions, concerts, opera and ballet. Formerly the Lyric Theatre, the venue changed to its current name in late 2011.",
       "city" : "Sydney",
       "rank" : "57 ",
-      "name" : "Sydney Lyric Theatre"
+      "name" : "Sydney Lyric Theatre",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/en/5/58/Sydney_Lyric_Theatre_photo.jpg"
     },
     {
       "top_quote" : "Spectacular View",
@@ -6625,7 +6632,8 @@
       "description" : "The Powerhouse Museum is the major branch of the Museum of Applied Arts & Sciences in Sydney, the other being the historic Sydney Observatory.",
       "city" : "Sydney",
       "rank" : "58 ",
-      "name" : "Powerhouse Museum"
+      "name" : "Powerhouse Museum",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Museum_in_sydney0001.jpg"
     },
     {
       "top_quote" : "Lovely place for a relax and swim",
@@ -6633,7 +6641,8 @@
       "description" : "Nielsen Park (also Shark Beach) is a part of Sydney Harbour National Park at the suburb of Vaucluse in the eastern suburbs of Sydney, Australia. It is a popular recreation area and beach on Port Jackson. The kiosk is dated from 1914.",
       "city" : "Sydney",
       "rank" : "61 ",
-      "name" : "Shark Beach"
+      "name" : "Shark Beach",
+      "photo_url": "http://upload.wikimedia.org/wikipedia/commons/a/a2/Shark_Bay,_Nielsen_Park,_Sydney.jpg"
     },
     {
       "top_quote" : "A lot of fun",
@@ -6649,7 +6658,8 @@
       "description" : "The State Theatre is a heritage-listed theatre, located in Market Street, in the city centre of Sydney, Australia.",
       "city" : "Sydney",
       "rank" : "66 ",
-      "name" : "State Theatre"
+      "name" : "State Theatre",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/State_Theatre_Sydney_Foyer.jpg/640px-State_Theatre_Sydney_Foyer.jpg"
     },
     {
       "top_quote" : "Amazing sharks",
@@ -6657,7 +6667,8 @@
       "description" : "Located in the heart of Sydney at Darling Harbour, visitors to the new SEA LIFE Sydney Aquarium are taken on a journey of amazing discovery through 14 newly themed zones, including Tropical Bay of Rays, Discovery Rockpool, Mangrove Swamps, South Coast Shipwreck, Dugong Island, Shark Walk and the stunning new ocean tunnel walk through, Shark Valley.",
       "city" : "Sydney",
       "rank" : "67 ",
-      "name" : "Sea Life Sydney Aquarium"
+      "name" : "Sea Life Sydney Aquarium",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mad_Hatters_Tea_Party%2C_Martin_Garwood%2C_Amanda_Elzer_%287238124578%29.jpg/640px-Mad_Hatters_Tea_Party%2C_Martin_Garwood%2C_Amanda_Elzer_%287238124578%29.jpg"
     },
     {
       "top_quote" : "Worth going and walking around",
@@ -6705,7 +6716,8 @@
       "description" : "It might seem odd, but this concrete-edged ocean channel is a great place to swim, sunbathe and snorkel. It’s safe for the kids, and despite the swell surging into the inlet, underwater visibility is great. A beloved friendly grouper fish lived here for many years until he was speared by a tourist. Bring your goggles, but don’t go killing anything…",
       "city" : "Sydney",
       "rank" : "77 ",
-      "name" : "Clovelly Beach (surf club)"
+      "name" : "Clovelly Beach (surf club)",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Clovelly_2.JPG/640px-Clovelly_2.JPG"
     },
     {
       "top_quote" : "Great escape",
@@ -6753,7 +6765,8 @@
       "description" : "Government House is located in Sydney alongside the Royal Botanic Gardens, overlooking Sydney Harbour, just south of the Sydney Opera House.",
       "city" : "Sydney",
       "rank" : "80 ",
-      "name" : "Government House"
+      "name" : "Government House",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Government_House,_Bennelong_Point,_Sydney_-_Wiki0054.jpg"
     },
     {
       "top_quote" : null,
