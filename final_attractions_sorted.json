@@ -5828,6 +5828,7 @@
       "top_quote" : "The city and Golden Gate Bridge to...",
       "query_slug" : "San+Francisco+Bay+San+Francisco",
       "description" : "",
+      "city" : "San Francisco",
       "rank" : "5 ",
       "name" : "San Francisco Bay",
       "photo_url": "http://i1.trekearth.com/photos/5043/san_francisco_bay.jpg"
@@ -5926,6 +5927,7 @@
       "top_quote" : "big kid in san fran",
       "query_slug" : "Cable+Cars+San+Francisco",
       "description" : "",
+      "city" : "San Francisco",
       "rank" : "19 ",
       "name" : "Cable Cars"
     },

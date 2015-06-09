@@ -9,7 +9,7 @@ BingSearch.account_key = ENV['API_KEY']
 # Getting geocoding data for d'b:
 def map_hell(attraction_name, city_name, attraction_object)
   maps_url = "https://maps.googleapis.com/maps/api/geocode/json"
-  response = HTTParty.get(maps_url, 
+  response = HTTParty.get(maps_url,
         :query => {key: ENV["MAP_KEY"],
       address: "#{attraction_name}, #{city_name}"})
   location = response.to_json.scan(/\"location":\{"lat":\-?\d+.?\d+,\"lng":\-?\d+\.?\d+\}/)
@@ -18,13 +18,13 @@ def map_hell(attraction_name, city_name, attraction_object)
     lng = location[0].scan(/(\-?\d+\.?\d+)/)[1][0]
     attraction_object.lat = lat
     attraction_object.long =lng
-  else 
+  else
     attraction_object.lat = nil
     attraction_object.long = nil
   end
   attraction_object.save
   sleep 1.2
-end 
+end
 
 
 #Seed City Data
@@ -83,7 +83,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Bangkok').attractions << a
     a.save
     map_hell(attraction['name'], 'Bangkok', a)
-    
+
   elsif index < 136
     if result.nil?
       image= BingSearch.image(attraction['name']+' Beirut', filters: [:square]).first
@@ -137,7 +137,7 @@ attractions.each_with_index do |attraction,index|
     a.save
     map_hell(attraction['name'], 'Detroit', a)
 
-  elsif index <347
+  elsif index <339
     if result.nil?
       image= BingSearch.image(attraction['name']+' Florence', filters:  [:square]).first
       if image.nil?
@@ -150,7 +150,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Florence').attractions << a
     a.save
     map_hell(attraction['name'], 'Florence', a)
-  elsif index <412
+  elsif index <399
     if result.nil?
       image= BingSearch.image(attraction['name']+' Istanbul', filters:  [:square]).first
       if image.nil?
@@ -163,7 +163,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Istanbul').attractions << a
     a.save
     map_hell(attraction['name'], 'Istanbul', a)
-  elsif index <482
+  elsif index <469
     if result.nil?
       image= BingSearch.image(attraction['name']+' Krakow', filters: [:square]).first
       if image.nil?
@@ -176,7 +176,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Krakow').attractions << a
     a.save
     map_hell(attraction['name'], 'Krakow', a)
-  elsif index <556
+  elsif index <543
     if result.nil?
       image= BingSearch.image(attraction['name']+' Kyoto', filters: [:square]).first
       if image.nil?
@@ -189,7 +189,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Kyoto').attractions << a
     a.save
     map_hell(attraction['name'], 'Kyoto', a)
-  elsif index <633
+  elsif index <620
     if result.nil?
       image= BingSearch.image(attraction['name']+' Paris', filters: [:square]).first
       if image.nil?
@@ -202,7 +202,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Paris').attractions << a
     a.save
     map_hell(attraction['name'], 'Paris', a)
-  elsif index <699
+  elsif index <686
     if result.nil?
       image= BingSearch.image(attraction['name']+' Rio de Janeiro', filters:  [:square]).first
       if image.nil?
@@ -215,7 +215,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Rio de Janeiro').attractions << a
     a.save
     map_hell(attraction['name'], 'Rio de Janeiro', a)
-  elsif index <757
+  elsif index <744
     if result.nil?
       image= BingSearch.image(attraction['name']+' San Francisco', filters:  [:square]).first
       if image.nil?
@@ -228,7 +228,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'San Francisco').attractions << a
     a.save
     map_hell(attraction['name'], 'San Francisco', a)
-  elsif index <822
+  elsif index <809
     if result.nil?
       image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
       if image.nil?
@@ -241,7 +241,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Sydney').attractions << a
     a.save
     map_hell(attraction['name'], 'Sydney', a)
-  elsif index <897
+  else
     if result.nil?
       image= BingSearch.image(attraction['name']+' Vienna', filters: [:square]).first
       if image.nil?
@@ -254,7 +254,7 @@ attractions.each_with_index do |attraction,index|
     City.find_by(name: 'Vienna').attractions << a
     a.save
     map_hell(attraction['name'], 'Vienna', a)
-end
+  end
 end
 
 
