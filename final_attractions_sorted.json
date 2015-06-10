@@ -555,7 +555,7 @@
     {
       "top_quote" : null,
       "query_slug" : "American+University+of+Beirut+Beirut",
-      "description" : "The American University of Beirut; Arabic: Ø§Ù\u201eØ¬Ø§Ù\u2026Ø_Ø© Ø§Ù\u201eØ£Ù\u2026Ù_Ø±ÙƒÙ_Ø© ÙÅÙ_ Ø¨Ù_Ø±ÙˆØª is a private, secular, and independent university in Beirut, Lebanon.",
+      "description" : "The American University of Beirut is a private, secular, and independent university in Beirut, Lebanon.",
       "city" : "Beirut",
       "rank" : "4 ",
       "name" : "American University of Beirut",
@@ -690,7 +690,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Sanayeh+Garden+Beirut",
-      "description" : "The RenÃ© Moawad Garden is located in the Sanayeh district of Beirut, Lebanon. The garden is one of the oldest public open-air spaces in the capital.",
+      "description" : "The Rene Moawad Garden is located in the Sanayeh district of Beirut, Lebanon. The garden is one of the oldest public open-air spaces in the capital.",
       "city" : "Beirut",
       "rank" : "22 ",
       "name" : "Sanayeh Garden",
@@ -834,7 +834,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Place+des+Martyrs+Beirut",
-      "description" : "Martyrs' Square is a square in the heart of downtown Beirut, Lebanon. Its central statue commemorates Lebanese nationalists who were hanged during World War I on May 6, 1916 by Jamal Pasha, the Ottoman wÄÅli.",
+      "description" : "Martyrs' Square is a square in the heart of downtown Beirut, Lebanon. Its central statue commemorates Lebanese nationalists who were hanged during World War I on May 6, 1916 by Jamal Pasha, the Ottoman wali.",
       "city" : "Beirut",
       "rank" : "41 ",
       "name" : "Place des Martyrs",
@@ -888,7 +888,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Synagogue+Maghen+Abraham+Beirut",
-      "description" : "The Maghen Abraham Synagogue is one of the main synagogues in Lebanon.\nLocated in the Jewish district of Wadi Abu Jamil in Beirut, the synagogue was destroyed during the Lebanese Civil War. Restoration of the synagogue began in May 2009.",
+      "description" : "The Maghen Abraham Synagogue is one of the main synagogues in Lebanon. Located in the Jewish district of Wadi Abu Jamil in Beirut, the synagogue was destroyed during the Lebanese Civil War. Restoration of the synagogue began in May 2009.",
       "city" : "Beirut",
       "rank" : "48 ",
       "name" : "Synagogue Maghen Abraham",
@@ -1215,7 +1215,8 @@
       "description" : "The Szabadsag hid (in English: Liberty Bridge) connects Buda and Pest across the River Danube. It is the third southernmost public road bridge in Budapest, located at the southern end of the City Centre.",
       "city" : "Budapest",
       "rank" : "37 ",
-      "name" : "Liberty Bridge (Szabadsag hid)"
+      "name" : "Liberty Bridge (Szabadsag hid)",
+      "photo_url" : "https://farm3.staticflickr.com/2622/3950426084_be758d32a7_z.jpg"
     },
     {
       "top_quote" : "Awesome during summer",
@@ -1223,7 +1224,8 @@
       "description" : "Margaret Island is a 2.5 km long island, 500 metres wide, in the middle of the Danube in central Budapest, Hungary. The island is mostly covered by landscape parks, and is a popular recreational area.",
       "city" : "Budapest",
       "rank" : "36 ",
-      "name" : "Margaret Island (Margitsziget)"
+      "name" : "Margaret Island (Margitsziget)",
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Budapest_02%2C_Margaret_Island_%282474014802%29.jpg/640px-Budapest_02%2C_Margaret_Island_%282474014802%29.jpg"
     },
     {
       "top_quote" : "Panorama of Budapest",
@@ -1231,7 +1233,8 @@
       "description" : "Citadella is the Hungarian word for Citadel, a kind of fortress. The word Citadella is exclusively used by other languages to address the Citadel located upon the top of the strategic Gellert Hill in Budapest, Hungary.",
       "city" : "Budapest",
       "rank" : "38 ",
-      "name" : "Citadella"
+      "name" : "Citadella",
+      "photo_url" : "https://farm6.staticflickr.com/5212/5402711304_b337e5b15f_z.jpg"
     },
     {
       "top_quote" : null,
@@ -1272,7 +1275,8 @@
       "description" : "The Boscolo Budapest Hotel, formerly the New York Palace is a luxury hotel on the Grand Boulevard of Budapest's Erzsebet korut part. Built by the New York Life Insurance Company as a local head office, its Café in the ground floor named New York Café was a longtime center for Hungarian literature and poetry.",
       "city" : "Budapest",
       "rank" : "50 ",
-      "name" : "New York Palace"
+      "name" : "New York Palace",
+      "photo_url" : "https://c3.staticflickr.com/3/2771/4350458367_34a542650e_b.jpg"
     },
     {
       "top_quote" : "big park",
@@ -3075,7 +3079,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Mihrimah+Sultan+Mosque+Istanbul",
-      "description" : "The Mihrimah Sultan Mosque is an Ottoman mosque located in the EdirnekapÄ± neighborhood near the Byzantine land walls of Istanbul, Turkey.",
+      "description" : "The Mihrimah Sultan Mosque is an Ottoman mosque located in the Edirnekapi neighborhood near the Byzantine land walls of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "37 ",
       "name" : "Mihrimah Sultan Mosque",
@@ -3102,7 +3106,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Caferaga+Medresesi+Istanbul",
-      "description" : "The Caferaga Medresseh is a former medresseh, located in Istanbul, Turkey, next to the Hagia Sophia. It was built in 1559 by Mimar Sinan by orders of Cafer Agha, a eunuch during the reign of Sultan SÃ_leyman the Magnificent.",
+      "description" : "The Caferaga Medresseh is a former medresseh, located in Istanbul, Turkey, next to the Hagia Sophia. It was built in 1559 by Mimar Sinan by orders of Cafer Agha, a eunuch during the reign of Sultan Suleyman the Magnificent.",
       "city" : "Istanbul",
       "rank" : "41 ",
       "name" : "Caferaga Medresesi",
@@ -3174,7 +3178,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Sehzade+Mehmet+Mosque+Istanbul",
-      "description" : "The Sehzade Mehmet Mosque is a 16th-century Ottoman imperial mosque located in the district of Fatih, on the third hill of Istanbul, Turkey. It was commissioned by SÃ_leyman the Magnificent as a memorial to his son Mehmed who died in 1543.",
+      "description" : "The Sehzade Mehmet Mosque is a 16th-century Ottoman imperial mosque located in the district of Fatih, on the third hill of Istanbul, Turkey. It was commissioned by Suleyman the Magnificent as a memorial to his son Mehmed who died in 1543.",
       "city" : "Istanbul",
       "rank" : "56 ",
       "name" : "Sehzade Mehmet Mosque",
@@ -3246,7 +3250,7 @@
     {
       "top_quote" : "The geography and history coe toge...",
       "query_slug" : "Golden+Horn+Istanbul",
-      "description" : "The Golden Horn, also known by its modern Turkish name as Haliç, is a major urban waterway and the primary inlet of the Bosphorus in Istanbul, Turkey.",
+      "description" : "The Golden Horn, also known by its modern Turkish name as Halic, is a major urban waterway and the primary inlet of the Bosphorus in Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "72 ",
       "name" : "Golden Horn",
@@ -3327,7 +3331,7 @@
     {
       "top_quote" : "A nice low key afternoon with grea...",
       "query_slug" : "Camlica+Hill+Istanbul",
-      "description" : "Camlıca Hill, aka Big Camlıca Hill to differentiate from the nearby Little Camlıca Hill, is a hill in Uskudar district of Istanbul, Turkey.",
+      "description" : "Camlica Hill, aka Big Camlica Hill to differentiate from the nearby Little Camlica Hill, is a hill in Uskudar district of Istanbul, Turkey.",
       "city" : "Istanbul",
       "rank" : "82 ",
       "name" : "Camlica Hill",
@@ -3399,7 +3403,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Eminonu+Pier+Istanbul",
-      "description" : "Eminonu Pier is the main pier which has ferries going to the Asian side and also where you can take long or short cruise. it's accessible by tram or by foot from the main attractions in Istanbul. From here, you can walk to Beyoglu via the Bosphorus Bridge and see people fishing on the bridge or you can take a ferry to the Asian side to see how the local fresh market is like.",
+      "description" : "Eminonu Pier is the main pier which has ferries going to the Asian side and also where you can take long or short cruise. It's accessible by tram or by foot from the main attractions in Istanbul. From here, you can walk to Beyoglu via the Bosphorus Bridge and see people fishing on the bridge or you can take a ferry to the Asian side to see how the local fresh market is like.",
       "city" : "Istanbul",
       "rank" : "92 ",
       "name" : "Eminonu Pier",
@@ -3971,7 +3975,8 @@
       "description" : "Fushimi Inari Taisha is the head shrine of Inari, located in Fushimi-ku, Kyoto, Japan. The shrine sits at the base of a mountain also named Inari which is 233 metres above sea level, and includes trails up the mountain to many smaller shrines which span 4 kilometers and takes approximately 2 hours to walk up",
       "city" : "Kyoto",
       "rank" : "1 ",
-      "name" : "Fushimi Inari Shrine"
+      "name" : "Fushimi Inari Shrine",
+      "photo_url": "https://farm2.staticflickr.com/1096/4610114587_5dc31d6220_z.jpg"
     },
     {
       "top_quote" : "Wonderful place to enjoy.",
@@ -3979,7 +3984,8 @@
       "description" : "Kinkaku-ji ('Temple of the Golden Pavilion', officially named Rokuon-ji, is a Zen Buddhist temple in Kyoto, Japan. The garden complex is an excellent example of Muromachi period garden design. The Muromachi period is considered to be a classical age of Japanese garden design.",
       "city" : "Kyoto",
       "rank" : "2 ",
-      "name" : "Kinkaku-ji Temple"
+      "name" : "Kinkaku-ji Temple",
+      "photo_url": "https://farm1.staticflickr.com/122/297094908_2963b89379_z.jpg?zz=1"
     },
     {
       "top_quote" : "Really interesting sight and statu...",
@@ -4047,7 +4053,8 @@
       "description" : "Gion is a district of Kyoto, Japan, originally developed in the Middle Ages, in front of Yasaka Shrine. The district was built to accommodate the needs of travelers and visitors to the shrine.",
       "city" : "Kyoto",
       "rank" : "13 ",
-      "name" : "Gion"
+      "name" : "Gion",
+      "photo_url": "https://c1.staticflickr.com/1/9/183246524_d424993aa8.jpg"
     },
     {
       "top_quote" : "Beautiful garden with sub-temples...",
@@ -4070,10 +4077,11 @@
     {
       "top_quote" : "Huge",
       "query_slug" : "Ninna-ji+Temple+Kyoto",
-      "description" : "Ninna-ji  is the head temple of the Omuro school of the Shingon Sect of Buddhism.[1] Located in western Kyoto, Japan, it was founded in AD 888 by the retired Emperor Uda. It is part of the 'Historic Monuments of Ancient Kyoto', a UNESCO World Heritage Site.",
+      "description" : "Ninna-ji  is the head temple of the Omuro school of the Shingon Sect of Buddhism. Located in western Kyoto, Japan, it was founded in AD 888 by the retired Emperor Uda. It is part of the 'Historic Monuments of Ancient Kyoto', a UNESCO World Heritage Site.",
       "city" : "Kyoto",
       "rank" : "19 ",
-      "name" : "Ninna-ji Temple"
+      "name" : "Ninna-ji Temple",
+      "photo_url" : "https://c2.staticflickr.com/4/3034/2980270642_def9817a3c_b.jpg"
     },
     {
       "top_quote" : null,
@@ -4081,7 +4089,8 @@
       "description" : "Kodai-ji, formally identified as Jubuzan Kodai-ji, is a temple of the Rinzai school of Zen Buddhism in Higashiyama-ku, Kyoto, Japan - the largest subtemple of the Kennin-ji branch. It was established in 1606 by Nene, the widow of Toyotomi Hideyoshi, to pray for her late husband. The principal image is a statue of Shaka",
       "city" : "Kyoto",
       "rank" : "22 ",
-      "name" : "Kodai-ji Temple"
+      "name" : "Kodai-ji Temple",
+      "photo_url" : "https://c2.staticflickr.com/6/5069/5688414739_d406116532_b.jpg"
     },
     {
       "top_quote" : "feeling of peace.",
@@ -4089,7 +4098,8 @@
       "description" : "Tofuku-ji is a Buddhist temple in Higashiyama-ku in Kyoto, Japan. Tofuku-ji takes its name from two temples in Nara, Todai-ji and Kofuku-ji. It is one of the so-called Kyoto Gozan or 'five great Zen temples of Kyoto'.",
       "city" : "Kyoto",
       "rank" : "20 ",
-      "name" : "Tofukuji Temple"
+      "name" : "Tofukuji Temple",
+      "photo_url" : "https://c1.staticflickr.com/9/8063/8210347091_9c9225ed0d_z.jpg"
     },
     {
       "top_quote" : null,
@@ -4097,7 +4107,8 @@
       "description" : "Shoren-in is a Buddhist temple in Kyoto, Japan. Also known as the Awata Palace, it was built in the late 13th century. Shinran Shonin, the founder of the Jodo Shinshu pure land sect, was ordained a monk at Shoren-in at the age of nine.",
       "city" : "Kyoto",
       "rank" : "24 ",
-      "name" : "Shoren-in Temple"
+      "name" : "Shoren-in Temple",
+      "photo_url" : "https://c2.staticflickr.com/8/7380/14019123774_55b43a7ae1.jpg"
     },
     {
       "top_quote" : "Amazing!!",
@@ -4105,7 +4116,8 @@
       "description" : "Nishiki Market (literally 'brocade market') is a marketplace in downtown Kyoto, located on a road one block north and parallel to Shijo Street and west of Teramachi Street. Rich with history and tradition, the market is renowned as the place to obtain many of Kyoto's famous foods and goods.",
       "city" : "Kyoto",
       "rank" : "23 ",
-      "name" : "Nishiki Market"
+      "name" : "Nishiki Market",
+      "photo_url" : "https://c3.staticflickr.com/3/2370/2356313041_8bf5205262_b.jpg"
     },
     {
       "top_quote" : "Beautiful",
@@ -4113,7 +4125,8 @@
       "description" : "Tenryu-ji - more formally known as Tenryu Shiseizen-ji -is the head temple of the Tenryu branch of Rinzai Zen Buddhism, located in Susukinobaba-chu, Ukyo Ward, Kyoto, Japan. In 1994, it was registered as a UNESCO World Heritage Site, as part of the Historic Monuments of Ancient Kyoto",
       "city" : "Kyoto",
       "rank" : "27 ",
-      "name" : "Tenryuji Temple"
+      "name" : "Tenryuji Temple",
+      "photo_url" : "https://c2.staticflickr.com/8/7080/6895097048_2457435329_b.jpg"
     },
     {
       "top_quote" : "Beautiful Japanese gardens",
@@ -4121,15 +4134,17 @@
       "description" : "Ryoan-ji (The Temple of the Dragon at Peace) is a Zen temple located in northwest Kyoto, Japan. The Ryōan-ji garden is considered one of the (if not the) finest surviving examples of kare-sansui ('dry landscape'), a refined type of Japanese Zen temple garden design generally featuring distinctive larger rock formations arranged amidst a sweep of smooth pebbles raked into linear patterns that facilitate meditation",
       "city" : "Kyoto",
       "rank" : "28 ",
-      "name" : "Ryoanji Temple"
+      "name" : "Ryoanji Temple",
+      "photo_url" : "https://c2.staticflickr.com/4/3475/3314776381_975750e927.jpg"
     },
     {
       "top_quote" : "Tranquillity and beauty in the hea...",
       "query_slug" : "Kenninji+Temple+Kyoto",
-      "description" : "Kennin-ji, is a historic Zen Buddhist temple in Higashiyama, Kyoto, Japan, near Gion, at the end of Hanami Lane. It is considered to be one of the so-called Kyoto Gozan or five most important Zen temples of Kyoto\".\"",
+      "description" : "Kennin-ji, is a historic Zen Buddhist temple in Higashiyama, Kyoto, Japan, near Gion, at the end of Hanami Lane. It is considered to be one of the so-called Kyoto Gozan or five most important Zen temples of Kyoto.",
       "city" : "Kyoto",
       "rank" : "29 ",
-      "name" : "Kenninji Temple"
+      "name" : "Kenninji Temple",
+      "photo_url" : "https://c3.staticflickr.com/3/2696/4025476849_acb11d80e3_b.jpg"
     },
     {
       "top_quote" : "Nice walk, but too touristic",
@@ -4138,7 +4153,7 @@
       "city" : "Kyoto",
       "rank" : "31 ",
       "name" : "Philosopher's Walk",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Art_of_Preserving_One's_Own_Culture_and_Heritage_VII_(KYOTO-JAPAN-TETSUGAKU_NO_MICHI-PHILOSOPHER'S_WALK)_(845278173).jpg/600px-The_Art_of_Preserving_One's_Own_Culture_and_Heritage_VII_(KYOTO-JAPAN-TETSUGAKU_NO_MICHI-PHILOSOPHER'S_WALK)_(845278173).jpg"
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Art_of_Preserving_One's_Own_Culture_and_Heritage_VII_(KYOTO-JAPAN-TETSUGAKU_NO_MICHI-PHILOSOPHER'S_WALK)_(845278173).jpg/600px-The_Art_of_Preserving_One's_Own_Culture_and_Heritage_VII_(KYOTO-JAPAN-TETSUGAKU_NO_MICHI-PHILOSOPHER'S_WALK)_(845278173).jpg"
     },
     {
       "top_quote" : null,
@@ -4146,7 +4161,8 @@
       "description" : "Okochi Sanso 'Okochi Mountain Villa' is the former home and garden of the Japanese jidaigeki or period film actor Denjiro Okochi and is located in Arashiyama, Kyoto.",
       "city" : "Kyoto",
       "rank" : "32 ",
-      "name" : "Okochisanso Garden"
+      "name" : "Okochisanso Garden",
+      "photo_url" : "https://c2.staticflickr.com/4/3678/11463305165_d353d86fa3_b.jpg"
     },
     {
       "top_quote" : "Another World Cultural Heritage in...",
@@ -4164,15 +4180,16 @@
       "city" : "Kyoto",
       "rank" : "36 ",
       "name" : "Haratanien",
-      "photo_url": "https://s-media-cache-ak0.pinimg.com/736x/70/2b/d1/702bd16235ed3979781e2af28677880a.jpg"
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/70/2b/d1/702bd16235ed3979781e2af28677880a.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Sanzen-in+Temple+Kyoto",
-      "description" : "Sanzen-in is a Tendai school monzeki temple in ÅŒhara, Kyoto, Japan. The Heian period triad of Amida Nyorai flanked by attendants is a National Treasure.",
+      "description" : "Sanzen-in is a Tendai school monzeki temple in Ohara, Kyoto, Japan. The Heian period triad of Amida Nyorai flanked by attendants is a National Treasure.",
       "city" : "Kyoto",
       "rank" : "37 ",
-      "name" : "Sanzen-in Temple"
+      "name" : "Sanzen-in Temple",
+      "photo_url" : "https://c3.staticflickr.com/7/6143/6015023770_61f23ceb02_b.jpg"
     },
     {
       "top_quote" : null,
@@ -4181,7 +4198,7 @@
       "city" : "Kyoto",
       "rank" : "38 ",
       "name" : "Daikaku-ji Temple",
-      "photo_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kyoto_Daikakuji_Shoshinden_C0701.jpg/613px-Kyoto_Daikakuji_Shoshinden_C0701.jpg"
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kyoto_Daikakuji_Shoshinden_C0701.jpg/613px-Kyoto_Daikakuji_Shoshinden_C0701.jpg"
     },
     {
       "top_quote" : "Resplendent and Truly Imperial!",
@@ -4189,7 +4206,8 @@
       "description" : "The Kyoto Imperial Palace is the former ruling palace of the Emperor of Japan. The emperors have resided at the Tokyo Imperial Palace since 1869; the preservation of the Kyoto Imperial Palace was ordered in 1877.",
       "city" : "Kyoto",
       "rank" : "40 ",
-      "name" : "Kyoto Imperial Palace"
+      "name" : "Kyoto Imperial Palace",
+      "photo_url" : "https://farm6.staticflickr.com/5267/5627328029_6a907679df_z.jpg"
     },
     {
       "top_quote" : null,
@@ -4197,7 +4215,8 @@
       "description" : "The Katsura Imperial Villa, or Katsura Detached Palace, is a villa with associated gardens and outbuildings in the western suburbs of Kyoto, Japan. It is one of Japan's most important large-scale cultural treasures.",
       "city" : "Kyoto",
       "rank" : "41 ",
-      "name" : "Katsura Imperial Villa"
+      "name" : "Katsura Imperial Villa",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/originals/ac/b1/60/acb160a3dac0c2df799d88bb886ea15b.jpg"
     },
     {
       "top_quote" : null,
@@ -4205,12 +4224,13 @@
       "description" : "Mount Kurama is a mountain to the north-west of the city of Kyoto. It is the birthplace of the Reiki practice, and is said to be the home of Sojobo, King of the Tengu, who taught swordsmanship to Minamoto no Yoshitsune.",
       "city" : "Kyoto",
       "rank" : "42 ",
-      "name" : "Mt. Kurama"
+      "name" : "Mt. Kurama",
+      "photo_url" : "https://farm2.staticflickr.com/1033/661405528_747ce93cf9.jpg"
     },
     {
       "top_quote" : null,
       "query_slug" : "Umekoji+Steam+Locomotive+Museum+Kyoto",
-      "description" : "Umekoji Steam Locomotive Museum is a railway museum located in Shimogyo-ku, Kyoto, Japan. Opened in 1972, the locomotive depot houses 19 steam locomotives.",
+      "description" : "",
       "city" : "Kyoto",
       "rank" : "44 ",
       "name" : "Umekoji Steam Locomotive Museum"
@@ -4221,7 +4241,8 @@
       "description" : "Otagi Nenbutsu-ji is a Buddhist temple in the Arashiyama neighborhood of Kyoto, Japan. Otagi Nenbutsu-ji was founded by Empress Shotoku in the middle of the eighth century.",
       "city" : "Kyoto",
       "rank" : "45 ",
-      "name" : "Otagi Nenbutsuji Temple"
+      "name" : "Otagi Nenbutsuji Temple",
+      "photo_url" : "https://thirdstryker.files.wordpress.com/2013/08/p1010214.jpg?w=920&h=517"
     },
     {
       "top_quote" : null,
@@ -4234,7 +4255,7 @@
     {
       "top_quote" : "Silent & beautiful",
       "query_slug" : "Nishi+Honganji+Kyoto",
-      "description" : "Nishi Hongan-ji: 'Western Temple of the Original Vow' is one of two temple complexes of Jodo Shinshu in Kyoto, Japan, the other being Higashi Honganji, or 'Eastern Temple of the Original Vow'. Jodo Shinshu is a school of Pure Land Buddhism, and today Nishi Hongan-ji serves as the head temple of the Jōdo Shinshū organization. As with many sites in Kyoto, they have more casual names, and are known affectionately in Kyoto as Onissan (Dear Mr. West) and Ohigashisan (Dear Mr. East)",
+      "description" : "Nishi Hongan-ji: 'Western Temple of the Original Vow' is one of two temple complexes of Jodo Shinshu in Kyoto, Japan, the other being Higashi Honganji, or 'Eastern Temple of the Original Vow'. Jodo Shinshu is a school of Pure Land Buddhism, and today Nishi Hongan-ji serves as the head temple of the Jodo Shinshu organization. As with many sites in Kyoto, they have more casual names, and are known affectionately in Kyoto as Onissan (Dear Mr. West) and Ohigashisan (Dear Mr. East)",
       "city" : "Kyoto",
       "rank" : "46 ",
       "name" : "Nishi Honganji",
@@ -4246,7 +4267,8 @@
       "description" : "Kamigamo Shrine is an important Shinto sanctuary on the banks of the Kamo River in north Kyoto, first founded in 678. Its formal name is the Kamo-wakeikazuchi Shrine.",
       "city" : "Kyoto",
       "rank" : "48 ",
-      "name" : "Kamigamo Shrine"
+      "name" : "Kamigamo Shrine",
+      "photo_url" : "https://40.media.tumblr.com/61c1fa7af7dbd59073a4838692a7f42c/tumblr_ng70j1m5WS1rha5koo1_500.jpg"
     },
     {
       "top_quote" : null,
@@ -4263,7 +4285,8 @@
       "description" : "The Kyoto Botanical Garden, also known as the Kyoto Prefectural Botanical Garden, is a major botanical garden with conservatory located next to the Kamo River, Hangi-cho Simogamo, Sakyo-ku, Kyoto, Japan.",
       "city" : "Kyoto",
       "rank" : "50 ",
-      "name" : "Kyoto Botanical Garden"
+      "name" : "Kyoto Botanical Garden",
+      "photo_url" : "https://farm3.staticflickr.com/2428/3959488278_f0137431c9_z.jpg"
     },
     {
       "top_quote" : null,
@@ -4304,7 +4327,8 @@
       "description" : "The Heian Shrine (Heian Jingu) is a Shinto shrine located in Sakyo-ku, Kyoto, Japan. The Shrine is ranked as a Beppyou Jinja (the top rank for shrines) by the Association of Shinto Shrines. It is listed as an important cultural property of Japan.",
       "city" : "Kyoto",
       "rank" : "54 ",
-      "name" : "Heian Shrine"
+      "name" : "Heian Shrine",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/e2/fb/c5/e2fbc571e0b7c3e15454be5b6032c5fc.jpg"
     },
     {
       "top_quote" : null,
@@ -4320,7 +4344,8 @@
       "description" : "Kifune Shrine, is a Shinto shrine located at Sakyo-ku in Kyoto, Japan. Although the area is called Kibune, the shrine's name is pronounced Kifune.The shrine is also associated with the Ushi no toki mairi, the ritual of wearing candles on one's head and laying a curse at a shrine during the 'hour of the ox', since it is from the resident deity that Hashihime (Princess of the Uji Bridge) learns the prescribed ritual to turn herself into an oni demon to exact vengeance, the story of which is immortalized in the Noh play Kanawa ('The Iron Crown')",
       "city" : "Kyoto",
       "rank" : "57 ",
-      "name" : "Kifune Shrine"
+      "name" : "Kifune Shrine",
+      "photo_url" : "https://c1.staticflickr.com/5/4052/4581746752_271d37615d_b.jpg"
     },
     {
       "top_quote" : null,
@@ -4353,7 +4378,8 @@
       "description" : "Kurama-dera is a temple in the far north of Kyoto, Japan which houses some National Treasures of Japan. It was a member of the Tendai sect and subordinate to Shoren-in from the 12th century until 1949 when it founded its own religious body.The object of worship is esoteric and unique to the temple.",
       "city" : "Kyoto",
       "rank" : "62 ",
-      "name" : "Kurama Temple"
+      "name" : "Kurama Temple",
+      "photo_url" : "https://insidekyoto.smugmug.com/Kyoto/Kyoto-Temples/i-6WsKvXc/0/M/kurama-dera-temple-main-gate-M.jpg"
     },
     {
       "top_quote" : null,
@@ -4386,7 +4412,7 @@
       "city" : "Kyoto",
       "rank" : "66 ",
       "name" : "Myoshinji Temple",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Myoshin-ji_2.JPG/640px-Myoshin-ji_2.JPG"
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Myoshin-ji_2.JPG/640px-Myoshin-ji_2.JPG"
     },
     {
       "top_quote" : null,
@@ -4394,7 +4420,8 @@
       "description" : "Maruyama Park is a park in Kyoto, Japan. It is noted as the main center for cherry blossom viewing in Kyoto, and can get extremely crowded at that time of year. The park's star attraction is a weeping cherry tree which becomes lit up at night.",
       "city" : "Kyoto",
       "rank" : "67 ",
-      "name" : "Maruyama Park"
+      "name" : "Maruyama Park",
+      "photo_url" : "https://farm1.staticflickr.com/75/156671223_13ac306fc4_z.jpg?zz=1"
     },
     {
       "top_quote" : null,
@@ -4410,12 +4437,13 @@
       "description" : "Shinshogokuraku-ji or Shinnyo-do is a Buddhist Tendai temple in Kyoto. It was established in 984 AD by Kaisan Shonin.",
       "city" : "Kyoto",
       "rank" : "69 ",
-      "name" : "Shinnyodo"
+      "name" : "Shinnyodo",
+      "photo_url" : "https://farm9.staticflickr.com/8080/8416112685_6c241cdf4f_z.jpg"
     },
     {
       "top_quote" : "This should have been on my list o...",
       "query_slug" : "Sagano+Romantic+Train+Kyoto",
-      "description" : "The Sagano Scenic Railway or Sagano Sightseeing Railway is a wholly owned subsidiary of West Japan Railway Company that operates the Sagano Scenic Line or Sagano Sight-seeing Line in Kyoto.",
+      "description" : "",
       "city" : "Kyoto",
       "rank" : "70 ",
       "name" : "Sagano Romantic Train"
@@ -4434,7 +4462,8 @@
       "description" : "Koto-in is a sub-temple of Daitoku-ji, Kyoto, Japan. It was founded by Hosokawa Tadaoki. There is a teahouse, the Shoko-ken, and the gardens are celebrated for their momiji.",
       "city" : "Kyoto",
       "rank" : "72 ",
-      "name" : "Kotoin"
+      "name" : "Kotoin",
+      "photo_url" : "https://c4.staticflickr.com/4/3784/11010174573_35122a488d_b.jpg"
     },
     {
       "top_quote" : null,
@@ -4442,7 +4471,8 @@
       "description" : "Chion-in in Higashiyama-ku, Kyoto, Japan is the headquarters of the Jodo-shu founded by Honen, who proclaimed that sentient beings are reborn in Amida Buddha's Western Paradise by reciting the nembutsu, Amida Buddha's name.",
       "city" : "Kyoto",
       "rank" : "73 ",
-      "name" : "Chion-in"
+      "name" : "Chion-in",
+      "photo_url" : "https://farm1.staticflickr.com/44/151065504_452ba52027_z.jpg"
     },
     {
       "top_quote" : "A beautiful shrine and park",
@@ -4450,7 +4480,8 @@
       "description" : "Yasaka Shrine, once called Gion Shrine, is a Shinto shrine in the Gion District of Kyoto, Japan. Situated at the east end of Shijo-dori, the shrine includes several buildings, including gates, a main hall and a stage.",
       "city" : "Kyoto",
       "rank" : "74 ",
-      "name" : "Yasaka Shrine"
+      "name" : "Yasaka Shrine",
+      "photo_url" : "https://c1.staticflickr.com/1/142/378346807_88bd4389ce.jpg"
     },
     {
       "top_quote" : null,
@@ -4557,7 +4588,7 @@
       "city" : "Kyoto",
       "rank" : "88 ",
       "name" : "Higashi Honganji",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Higashi_Honganji_Honden.JPG/640px-Higashi_Honganji_Honden.JPG"
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Higashi_Honganji_Honden.JPG/640px-Higashi_Honganji_Honden.JPG"
     },
     {
       "top_quote" : null,
@@ -4565,7 +4596,8 @@
       "description" : "The Kyoto National Museum is one of the major art museums in Japan. Located in Kyoto's Higashiyama ward, the museum focuses on pre-modern Japanese and Asian art.",
       "city" : "Kyoto",
       "rank" : "90 ",
-      "name" : "Kyoto National Museum"
+      "name" : "Kyoto National Museum",
+      "photo_url" : "https://farm5.staticflickr.com/4082/4848370607_228d2a2dc4_z.jpg"
     },
     {
       "top_quote" : "Great hanami spot",
@@ -4632,7 +4664,8 @@
       "description" : "The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Elysees quarter with those of the Invalides and Eiffel Tower. The bridge is widely regarded as the most ornate, extravagant bridge in the city.",
       "city" : "Paris",
       "rank" : "10 ",
-      "name" : "Pont Alexandre III"
+      "name" : "Pont Alexandre III",
+      "photo_url" : "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pont_Alexandre_III.jpg"
     },
     {
       "top_quote" : "Loved it!",
@@ -4744,7 +4777,8 @@
       "description" : "The Musee d'Orsay is a museum in Paris, France, on the left bank of the Seine. It is housed in the former Gare d'Orsay, a Beaux-Arts railway station built between 1898 and 1900.",
       "city" : "Paris",
       "rank" : "1 ",
-      "name" : "Musee d'Orsay"
+      "name" : "Musee d'Orsay",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/d0/a5/58/d0a558fd39a8a4689b4918579b9a8724.jpg"
     },
     {
       "top_quote" : "Third floor is a must",
@@ -4752,7 +4786,8 @@
       "description" : "The Eiffel Tower is an iron lattice tower located on the Champ de Mars in Paris, France. It was named after the engineer Alexandre Gustave Eiffel, whose company designed and built the tower.",
       "city" : "Paris",
       "rank" : "2 ",
-      "name" : "Eiffel Tower"
+      "name" : "Eiffel Tower",
+      "photo_url" : "https://c1.staticflickr.com/9/8214/8382254597_81cfeba4ff_z.jpg"
     },
     {
       "top_quote" : "amazing",
@@ -4760,7 +4795,8 @@
       "description" : "The Louvre Museum is one of the world's largest museums and a historic monument in Paris, France. Nearly 35,000 objects from prehistory to the 21st century are exhibited over an area of 60,600 square metres. The Louvre is the world's most visited museum.",
       "city" : "Paris",
       "rank" : "4 ",
-      "name" : "Musee du Louvre"
+      "name" : "Musee du Louvre",
+      "photo_url" : "https://28.media.tumblr.com/tumblr_lxjpsu9ynv1qhk226o1_500.jpg"
     },
     {
       "top_quote" : "Beautiful and Historic.",
@@ -4768,7 +4804,8 @@
       "description" : "Notre-Dame de Paris is a historic Catholic cathedral on the eastern half of the Ile de la Cite. The cathedral is widely considered to be one of the finest examples of French Gothic architecture, and it is among the largest and most well-known church buildings in the world. ",
       "city" : "Paris",
       "rank" : "5 ",
-      "name" : "Notre Dame Cathedral"
+      "name" : "Notre Dame Cathedral",
+      "photo_url" : "https://farm1.staticflickr.com/187/369095775_b3211ec6a8_z.jpg?zz=1"
     },
     {
       "top_quote" : "The Chagall Ceiling",
@@ -4776,7 +4813,8 @@
       "description" : "The Palais Garnier is a 1,979-seat opera house, which was built from 1861 to 1875 for the Paris Opera.",
       "city" : "Paris",
       "rank" : "6 ",
-      "name" : "Palais Garnier"
+      "name" : "Palais Garnier",
+      "photo_url" : "https://c1.staticflickr.com/9/8199/8246023377_bdc92c2509.jpg"
     },
     {
       "top_quote" : "A refuge from tourist Paris",
@@ -4784,7 +4822,8 @@
       "description" : "The Jardin du Luxembourg, or the Luxembourg Garden, located in the 6th arrondissement of Paris, was created beginning in 1612 by Marie de' Medici, the widow of King Henry IV of France, for a new residence she constructed, the Luxembourg Palace.",
       "city" : "Paris",
       "rank" : "9 ",
-      "name" : "Luxembourg Gardens"
+      "name" : "Luxembourg Gardens",
+      "photo_url" : "https://c1.staticflickr.com/5/4050/4282030354_8ba3e8c5d5.jpg"
     },
     {
       "top_quote" : "Most beautiful bridge of Paris",
@@ -4800,7 +4839,8 @@
       "description" : "The Musee de l'Orangerie is an art gallery of impressionist and post-impressionist paintings located in the west corner of the Tuileries Gardens next to the Place de la Concorde in Paris.",
       "city" : "Paris",
       "rank" : "11 ",
-      "name" : "Musee de l'Orangerie"
+      "name" : "Musee de l'Orangerie",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/9e/e0/54/9ee05402ba5084cff5db35245be052a6.jpg"
     },
     {
       "top_quote" : "A good way to see the city",
@@ -4826,7 +4866,8 @@
       "description" : "The Arc de Triomphe de l'Etoile is one of the most famous monuments in Paris. It stands in the centre of the Place Charles de Gaulle, at the western end of the Champs-Elysees.",
       "city" : "Paris",
       "rank" : "15 ",
-      "name" : "Arc de Triomphe"
+      "name" : "Arc de Triomphe",
+      "photo_url" : "https://farm4.staticflickr.com/3333/3277192178_040ec11c13_z.jpg"
     },
     {
       "top_quote" : "worth visit day and evening",
@@ -4913,7 +4954,8 @@
       "description" : "Elegant Belle Epoque mansion housing a museum with 18th-century French furniture & decorative arts.",
       "city" : "Paris",
       "rank" : "31 ",
-      "name" : "Musee Nissim de Camondo"
+      "name" : "Musee Nissim de Camondo",
+      "photo_url" : "https://farm5.static.flickr.com/4042/4306452356_6ece7d5e2a.jpg"
     },
     {
       "top_quote" : "Bohemian vibe!",
@@ -4921,7 +4963,8 @@
       "description" : "Montmartre is a large hill in Paris's 18th arrondissement. Montmartre is primarily known for the white-domed Basilica of the Sacré Cœur on its summit and as a nightclub district.",
       "city" : "Paris",
       "rank" : "32 ",
-      "name" : "Montmartre"
+      "name" : "Montmartre",
+      "photo_url" : "https://c1.staticflickr.com/3/2435/3551885423_05b5962ef2_b.jpg"
     },
     {
       "top_quote" : "Beautiful, Old Square",
@@ -4938,7 +4981,8 @@
       "description" : "The Chapel of Our Lady of the Miraculous Medal in Paris, France, is the chapel where the Blessed Virgin Mary appeared to Saint Catherine Laboure in 1830 and requested the creation of the medal which came to be known as the Miraculous Medal.",
       "city" : "Paris",
       "rank" : "37 ",
-      "name" : "Chapel of Our Lady of the Miraculous Medal"
+      "name" : "Chapel of Our Lady of the Miraculous Medal",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/15/1d/2e/151d2e8ffe72c50608d364da90a6fbe7.jpg"
     },
     {
       "top_quote" : "Never thought I would find armor s...",
@@ -4946,7 +4990,8 @@
       "description" : "Collections of weapons and uniforms tracing French military conflicts, plus Napoleon's gilded tomb.",
       "city" : "Paris",
       "rank" : "36 ",
-      "name" : "Army Museum"
+      "name" : "Army Museum",
+      "photo_url" : "https://s-media-cache-ak0.pinimg.com/736x/46/9c/3e/469c3e91dd051b21bfee685cf3627638.jpg"
     },
     {
       "top_quote" : "Paris has better museums",
@@ -5111,7 +5156,8 @@
       "description" : "The Luxembourg Palace was originally built to the designs of the French architect Salomon de Brosse to be the royal residence of regent Marie de Medicis, mother of Louis XIII of France.",
       "city" : "Paris",
       "rank" : "68 ",
-      "name" : "Palais du Luxembourg"
+      "name" : "Palais du Luxembourg",
+      "photo_url" : "https://farm3.static.flickr.com/2247/2077717536_f29526e8fd.jpg"
     },
     {
       "top_quote" : null,
@@ -5119,7 +5165,8 @@
       "description" : "Saint-Etienne-du-Mont is a church in Paris, France, located on the Montagne Sainte-Genevieve in the 5th arrondissement, near the Pantheon. It contains the shrine of St. Genevieve, the patron saint of Paris.",
       "city" : "Paris",
       "rank" : "69 ",
-      "name" : "St. Etienne du Mont"
+      "name" : "St. Etienne du Mont",
+      "photo_url" : "https://c2.staticflickr.com/4/3137/2962875979_86ff6f0246.jpg"
     },
     {
       "top_quote" : null,
@@ -5136,7 +5183,8 @@
       "description" : "L'eglise de la Madeleine is a Roman Catholic church occupying a commanding position in the 8th arrondissement of Paris. The Madeleine Church was designed in its present form as a temple to the glory of Napoleon's army.",
       "city" : "Paris",
       "rank" : "73 ",
-      "name" : "La Madeleine"
+      "name" : "La Madeleine",
+      "photo_url" : "https://c1.staticflickr.com/7/6133/5970205812_a5d723b3ff.jpg"
     },
     {
       "top_quote" : "Magnum exhibition is fantastic - a...",
@@ -5144,7 +5192,8 @@
       "description" : "The Hotel de Ville in Paris, France, is the building housing the city's local administration. Standing on the place de l'Hotel-de-Ville in the 4th arrondissement, it has been the location of the municipality of Paris since 1357.",
       "city" : "Paris",
       "rank" : "74 ",
-      "name" : "Hotel de Ville"
+      "name" : "Hotel de Ville",
+      "photo_url" : "https://36.media.tumblr.com/tumblr_lxwm35MQhF1qb0bzxo1_500.jpg"
     },
     {
       "top_quote" : null,
@@ -5225,10 +5274,11 @@
     {
       "top_quote" : "incredible sunset!",
       "query_slug" : "Sugarloaf+Mountain+(Pao+de+Acucar)+Janeiro",
-      "description" : "Sugarloaf Mountain (Portuguese: Pão de Açúcar) is a peak situated in Rio de Janeiro, Brazil, at the mouth of Guanabara Bay on a peninsula that sticks out into the Atlantic Ocean. Rising 396 meters (1,299 ft) above the harbor, its name is said to refer to its resemblance to the traditional shape of concentrated refined loaf sugar. It is known worldwide for its cableway and panoramic views of the city.",
+      "description" : "Sugarloaf Mountain (Portuguese: Pão de Açúcar) is a peak situated in Rio de Janeiro, Brazil, at the mouth of Guanabara Bay on a peninsula that sticks out into the Atlantic Ocean. Rising 396 meters (1,299 ft) above the harbor, its name is said to refer to its resemblance to the traditional shape of concentrated refined loaf sugar.",
       "city" : "Rio Janeiro",
       "rank" : "1 ",
-      "name" : "Sugarloaf Mountain (Pao de Acucar)"
+      "name" : "Sugarloaf Mountain (Pao de Acucar)",
+      "photo_url" : "https://c2.staticflickr.com/8/7011/6590699221_e1c68c3c1b.jpg"
     },
     {
       "top_quote" : "been there done that",
@@ -5236,7 +5286,8 @@
       "description" : "Giant (98 ft. tall) mountaintop statue of Jesus Christ, accessed by train & offering city views.",
       "city" : "Rio Janeiro",
       "rank" : "2 ",
-      "name" : "Corcovado - Cristo Redentor"
+      "name" : "Corcovado - Cristo Redentor",
+      "photo_url" : "https://c4.staticflickr.com/8/7138/7596606566_b1df174f48_b.jpg"
     },
     {
       "top_quote" : "Theatro Municipal - can pass on",
@@ -5259,7 +5310,7 @@
     {
       "top_quote" : "Nice views",
       "query_slug" : "Morro+Da+Urca+Janeiro",
-      "description" : "Sitting in the shadow of big brother and Rio de Janeiro icon, Sugar Loaf Mountain, the Morro da Urca is just as important if only because the cable car trip up to Sugar Loaf includes a stop atop this turtle shell-shaped rock. Not to be outdone by its better-known neighbor, the 720-foot hill, a little more than half Sugar Loaf’s height of 1,300 feet, still offers spectacular panoramic views of Christ the Redeemer and Corcovado, Copacabana and Ipanema beaches, Guanabara Bay, downtown Rio, and Sugar Loaf itself (something you can’t see when you’re actually on it).",
+      "description" : "Sitting in the shadow of big brother and Rio de Janeiro icon, Sugar Loaf Mountain, the Morro da Urca is just as important if only because the cable car trip up to Sugar Loaf includes a stop atop this turtle shell-shaped rock. Not to be outdone by its better-known neighbor, the 720-foot hill, a little more than half Sugar Loaf’s height of 1,300 feet, still offers spectacular panoramic views.",
       "city" : "Rio Janeiro",
       "rank" : "5 ",
       "name" : "Morro Da Urca",
@@ -5268,7 +5319,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Arpoador+Janeiro",
-      "description" : "Arpoador (literally, the harpoon thrower) is a region located on the southern zone of the city Rio de Janeiro, in a small peninsula between Ipanema and Copacabana. Arpoador is mostly known for being one of the best metropolitan surf spots in Rio de Janeiro. The rock outcropping creates stable left breakers up to 7–10 feet high (wave face measure, as Brazilians do).",
+      "description" : "Arpoador (literally, the harpoon thrower) is a region located on the southern zone of the city Rio de Janeiro, in a small peninsula between Ipanema and Copacabana. Arpoador is mostly known for being one of the best metropolitan surf spots in Rio de Janeiro.",
       "city" : "Rio Janeiro",
       "rank" : "10 ",
       "name" : "Arpoador",
@@ -5277,7 +5328,7 @@
     {
       "top_quote" : "Botanical Garden - monkeys and bir...",
       "query_slug" : "Botanical+Garden+(Jardim+Botanico)+Janeiro",
-      "description" : "This exotic 137-hectare garden, with over 8000 plant species, was designed by order of the Prince Regent Dom João (later to become Dom João VI) in 1808. The garden is quiet and serene on weekdays and blossoms with families and music on weekends. Highlights of a visit here include the row of palms (planted when the garden first opened), the Amazonas section, the lake containing the huge Vitória Régia water lilies and the enclosed orquidário , home to 600 species of orchids.",
+      "description" : "This exotic 137-hectare garden, with over 8000 plant species, was designed by order of the Prince Regent Dom João (later to become Dom João VI) in 1808. The garden is quiet and serene on weekdays and blossoms with families and music on weekends.",
       "city" : "Rio Janeiro",
       "rank" : "9 ",
       "name" : "Botanical Garden (Jardim Botanico)",
@@ -5294,7 +5345,7 @@
     {
       "top_quote" : "Fun experience!",
       "query_slug" : "Maracana+Estadio+Jornalista+Mario+Filho+Janeiro",
-      "description" : "The Maracanã Stadium, also known as Maracanã, officially Estádio Jornalista Mário Filho, is a football stadium in Rio de Janeiro, Brazil. It was opened in 1950 to host the FIFA World Cup, in which Brazil was beaten 2–1 by Uruguay in the deciding game. Since then, it has mainly been used for football matches between the major football clubs in Rio de Janeiro, including Flamengo, Fluminense, Botafogo and Vasco da Gama. It has also hosted a number of concerts and other sporting events including the final for the 2014 World Cup.",
+      "description" : "The Maracanã Stadium, also known as Maracanã, officially Estádio Jornalista Mário Filho, is a football stadium in Rio de Janeiro, Brazil. It was opened in 1950 to host the FIFA World Cup, in which Brazil was beaten 2–1 by Uruguay in the deciding game.",
       "city" : "Rio Janeiro",
       "rank" : "13 ",
       "name" : "Maracana Estadio Jornalista Mario Filho",
@@ -5312,7 +5363,7 @@
     {
       "top_quote" : "Royal Land",
       "query_slug" : "Petropolis+Janeiro",
-      "description" : "Petrópolis, also known as The Imperial City of Brazil, is a municipality in the state of Rio de Janeiro, at a distance of 68 km from the state capital. Nestled among the forested hills of the Serra dos Órgãos, in the valley of the Quitandinha and Piabanha rivers, Petrópolis is a popular winter holiday spot. Besides the climate and surroundings, the main attraction is the former Summer Palace of the second Brazilian emperor, which is now the Imperial Museum, specializing in Imperial history and memorabilia.",
+      "description" : "Petrópolis, also known as The Imperial City of Brazil, is a municipality in the state of Rio de Janeiro, at a distance of 68 km from the state capital. Nestled among the forested hills of the Serra dos Órgãos, in the valley of the Quitandinha and Piabanha rivers, Petrópolis is a popular winter holiday spot.",
       "city" : "Rio Janeiro",
       "rank" : "14 ",
       "name" : "Petropolis",
@@ -5321,7 +5372,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Grumari+Beach+Janeiro",
-      "description" : "Grumari Beach lies at the end of a short coastal drive southwest of Rio de Janeiro. It's located in an environmental protection zone, and is buffered by mountains that seem to spring up from the ocean. Between the ocean and these mountains, lies a 'restinga' or semi arid coastal scrub land full of dense vegetation. ",
+      "description" : "Grumari Beach lies at the end of a short coastal drive southwest of Rio de Janeiro. It's located in an environmental protection zone, and is buffered by mountains that seem to spring up from the ocean. Between the ocean and these mountains, lies a 'restinga' or semi arid coastal scrub land full of dense vegetation.",
       "city" : "Rio Janeiro",
       "rank" : "18 ",
       "name" : "Grumari Beach",
@@ -5330,7 +5381,7 @@
     {
       "top_quote" : "Nice beach....",
       "query_slug" : "Ipanema+Beach+Janeiro",
-      "description" : "One long stretch of sand, Ipanema Beach is marked by postos (posts), which demarcates subcultures as diverse as the city itself. Posto 9, right off Rua Vinícius de Moraes, is Garota de Ipanema, which is where Rio’s most lithe and tanned bodies tend to migrate. The area is also known as the Cemetério dos Elefantes because of the handful of old leftists, hippies and artists who sometimes hang out there.",
+      "description" : "One long stretch of sand, Ipanema Beach is marked by postos (posts), which demarcates subcultures as diverse as the city itself. Posto 9, right off Rua Vinícius de Moraes, is Garota de Ipanema, which is where Rio’s most lithe and tanned bodies tend to migrate.",
       "city" : "Rio Janeiro",
       "rank" : "19 ",
       "name" : "Ipanema Beach",
@@ -5339,7 +5390,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Claudio+Coutinho+Trail+Janeiro",
-      "description" : "Everyone loves this paved 2km trail winding along the southern contour of Morro do Urca. It's a lush treed area, with the waves crashing on the rocks below. Look out for families of marmosets with their gray fur, striped tails and tiny faces. To get there, walk 100m north along the edge of Praia Vermelha (with your back to the cable-car station) and you'll see the entrance to the path straight ahead, just past the beach.",
+      "description" : "Everyone loves this paved 2km trail winding along the southern contour of Morro do Urca. It's a lush treed area, with the waves crashing on the rocks below. Look out for families of marmosets with their gray fur, striped tails and tiny faces.",
       "city" : "Rio Janeiro",
       "rank" : "23 ",
       "name" : "Claudio Coutinho Trail",
@@ -5357,7 +5408,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Real+Gabinete+Portugues+Da+Leitura+Janeiro",
-      "description" : "The Royal Portuguese Reading Room was founded in 1837 by a group of forty-three Portuguese immigrants , political refugees, to promote culture among the Portuguese community in the then capital of the Empire. It was the first association of this community in the city. Open to the public since 1900 , the Royal Office of the Library has the largest collection of Portuguese works out of Portugal.",
+      "description" : "The Royal Portuguese Reading Room was founded in 1837 by a group of forty-three Portuguese immigrants , political refugees, to promote culture among the Portuguese community in the then capital of the Empire. It was the first association of this community in the city.",
       "city" : "Rio Janeiro",
       "rank" : "24 ",
       "name" : "Real Gabinete Portugues Da Leitura",
@@ -5366,7 +5417,7 @@
     {
       "top_quote" : "Park area",
       "query_slug" : "Tijuca+National+Park+Janeiro",
-      "description" : "A lush Atlantic rainforest, Tijuca National Park is an absolute wonder it is the world’s largest urban forest which covers 12.4mi² (32km²) and was a result of incredible forward thinking by Emperor Dom Pedro II. In 1861 he saw the deforestation of the land around Rio and ordered that Tijuca be replanted to secure the water supply for future citizens. It was replanted over ten years ago and still plays a key role in making sure Rio has fresh water.",
+      "description" : "A lush Atlantic rainforest, Tijuca National Park is an absolute wonder it is the world’s largest urban forest which covers 12.4mi² (32km²) and was a result of incredible forward thinking by Emperor Dom Pedro II. In 1861 he saw the deforestation of the land around Rio and ordered that Tijuca be replanted to secure the water supply for future citizens.",
       "city" : "Rio Janeiro",
       "rank" : "22 ",
       "name" : "Tijuca National Park",
@@ -5401,7 +5452,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Arpoador+Beach+Janeiro",
-      "description" : "Arpoador beach is the birthplace of surfing in Brazil as a sport and lifestyle. The beach is a small bit of sand and rock located between the beginning of Ipanema beach and Copacabana. It has incredible views of Ipanema and Leblon. To reach Arpoador beach walk along Ipanema beach on Avenida Vieira Souto and you will eventually get to Arpoador.",
+      "description" : "Arpoador beach is the birthplace of surfing in Brazil as a sport and lifestyle. The beach is a small bit of sand and rock located between the beginning of Ipanema beach and Copacabana. It has incredible views of Ipanema and Leblon.",
       "city" : "Rio Janeiro",
       "rank" : "31 ",
       "name" : "Arpoador Beach",
@@ -5410,7 +5461,7 @@
     {
       "top_quote" : "Dancing!!",
       "query_slug" : "Rio+Scenarium+Janeiro",
-      "description" : "One of the city's most photogenic nightspots, Rio Scenarium has three floors, each lavishly decorated with antiques. Balconies overlook the stage on the 1st floor, with dancers keeping time to the jazz-infused samba, choro or pagode filling the air. Rio Scenarium receives much press outside of Brazil, and attracts at least as many foreigners as locals.",
+      "description" : "One of the city's most photogenic nightspots, Rio Scenarium has three floors, each lavishly decorated with antiques. Balconies overlook the stage on the 1st floor, with dancers keeping time to the jazz-infused samba, choro or pagode filling the air.",
       "city" : "Rio Janeiro",
       "rank" : "32 ",
       "name" : "Rio Scenarium",
@@ -5428,7 +5479,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Museu+Historico+do+Exercito+e+Forte+de+Copacabana+Janeiro",
-      "description" : "Built in 1914, on the promontory of the former Our Lady of Copacabana chapel, the Forte de Copacabana (Copacabana Fort) was one of Rio’s premier defenses against attack. You can still see its original features, including walls up to 12m thick, defended by Krupp cannons. The several floors of exhibits in the fort’s museum , tracing the early days of the Portuguese colony to the mid-19th century, aren’t the most tastefully presented, but the view alone warrants a visit. There’s a lovely café overlooking Copacabana.",
+      "description" : "Built in 1914, on the promontory of the former Our Lady of Copacabana chapel, the Forte de Copacabana (Copacabana Fort) was one of Rio’s premier defenses against attack. You can still see its original features, including walls up to 12m thick, defended by Krupp cannons.",
       "city" : "Rio Janeiro",
       "rank" : "36 ",
       "name" : "Forte de Copacabana",
@@ -5453,7 +5504,7 @@
     {
       "top_quote" : "Copacabana Beach",
       "query_slug" : "Copacabana+Beach+Janeiro",
-      "description" : "A magnificent confluence of land and sea, the long, scalloped beach of Copacabana and Leme always has a flurry of activity stretching its length: overamped footballers singing their team’s anthem, cariocas and tourists lining up for caipirinhas at kiosks, kids showing off their football skills, and beach vendors picking their way through the mass of bronzed bodies.",
+      "description" : "A magnificent confluence of land and sea, the long, scalloped beach of Copacabana and Leme always has a flurry of activity stretching its length: footballers singing their team’s anthem, cariocas and tourists lining up for caipirinhas at kiosks, kids showing off their football skills, and beach vendors picking their way through the mass of bronzed bodies.",
       "city" : "Rio Janeiro",
       "rank" : "40 ",
       "name" : "Copacabana Beach",
@@ -5462,7 +5513,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Instituto+Moreira+Salles+Janeiro",
-      "description" : "The Instituto Moreira Salles is a non-profit organization founded by Walter Moreira Salles (1912–2001) in 1990 and managed by the Moreira Salles family. Its goal is to promote the development of cultural projects mainly in five areas: photography, literature, libraries, visual arts and Brazilian music. It has cultural centers around Brazil (Rio de Janeiro, São Paulo, Poços de Caldas and Belo Horizonte), and four galleries (São Paulo, Rio de Janeiro, Curitiba e Porto Alegre).",
+      "description" : "The Instituto Moreira Salles is a non-profit organization founded by Walter Moreira Salles (1912–2001) in 1990 and managed by the Moreira Salles family. Its goal is to promote the development of cultural projects mainly in five areas: photography, literature, libraries, visual arts and Brazilian music.",
       "city" : "Rio Janeiro",
       "rank" : "41 ",
       "name" : "Instituto Moreira Salles",
@@ -5480,7 +5531,7 @@
     {
       "top_quote" : "Leblon beach...",
       "query_slug" : "Leblon+Beach+Janeiro",
-      "description" : "Sitting just west of Ipanema Beach, Leblon beach is fronted by high-class hotels as well as gourmet restaurants, sophisticated bars, shopping malls and exclusive boutiques. This beach sits in a wealthy district of upper class high rises and is more subdued and sophisticated than its neighbor, Ipanema.",
+      "description" : "Sitting just west of Ipanema Beach, Leblon beach is fronted by high-class hotels as well as gourmet restaurants, sophisticated bars, shopping malls and exclusive boutiques.",
       "city" : "Rio Janeiro",
       "rank" : "45 ",
       "name" : "Leblon Beach",
@@ -5497,7 +5548,7 @@
     {
       "top_quote" : "worth seeing",
       "query_slug" : "Vista+Chinesa+Janeiro",
-      "description" : "Vista Chinesa is a monument located in Tijuca National Park in Rio de Janeiro. The monument itself is a bamboo gazebo on the ascent of Alto da Boa Vista. In the movie Rio, after Blu and Jewel managed to escape from the smugglers and Nigel, the two found themselves in the middle of the Park and were searching for shelter. First, Jewel came across a tall tree and suggested they rest in it. Since he was a bird who had never lived in the jungle, Blu refused to sleep in the tall tree they came upon. Suddenly, he spotted the Vista Chinesa in distance and told her he would prefer to spend the night there, as it was 'man-made'.",
+      "description" : "Vista Chinesa is a monument located in Tijuca National Park in Rio de Janeiro. The monument itself is a bamboo gazebo on the ascent of Alto da Boa Vista.",
       "city" : "Rio Janeiro",
       "rank" : "46 ",
       "name" : "Vista Chinesa",
@@ -5558,7 +5609,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Sitio+Roberto+Burle+Marx+Janeiro",
-      "description" : "It's a cab ride out of town, but nature lovers and architecture buffs will find it worth the effort to visit this plantation-turned-museum honoring Roberto Burle Marx, Brazil's legendary landscape architect. Marx, the mind behind Rio's swirling mosaic beachfront walkways and the Atêrro do Flamengo, was said to have 'painted with plants', and he was the first designer to use Brazilian flora in his projects. More than 3,500 species—including some discovered by and named for Marx, as well as many on the endangered list—flourish at this 100-acre estate.",
+      "description" : "It's a cab ride out of town, but nature lovers and architecture buffs will find it worth the effort to visit this plantation-turned-museum honoring Roberto Burle Marx, Brazil's legendary landscape architect.",
       "city" : "Rio Janeiro",
       "rank" : "58 ",
       "name" : "Sitio Roberto Burle Marx",
@@ -5578,7 +5629,8 @@
       "description" : "The National Museum of Fine Arts (MNBA) is an art museum located in the city of Rio de Janeiro , in Brazil. It is one of the most important cultural institutions of the country, as well as the most important museum of Brazilian art, particularly rich in 19th-century paintings and sculptures.",
       "city" : "Rio Janeiro",
       "rank" : "59 ",
-      "name" : "Museu Nacional De Belas Artes"
+      "name" : "Museu Nacional De Belas Artes",
+      "photo_url": "https://c4.staticflickr.com/8/7183/6989882263_0b31738b8b_b.jpg"
     },
     {
       "top_quote" : "A historic place",
@@ -5644,7 +5696,7 @@
     {
       "top_quote" : "Very interesting",
       "query_slug" : "National+Library+(Biblioteca+Nacional)+Janeiro",
-      "description" : "The Biblioteca Nacional do Brasil (in English National Library of Brazil) is the depository of the bibliographic and documentary heritage of Brazil. It is located in Rio de Janeiro, at Cinelândia square.The largest library in Latin America and the 7th largest in the world, its collections include about 9 million items. It organized the first library science courses in Latin America and its staff has led the modernization of library services, including the development of online databases",
+      "description" : "The Biblioteca Nacional do Brasil (in English National Library of Brazil) is the depository of the bibliographic and documentary heritage of Brazil. It is located in Rio de Janeiro, at Cinelândia square.The largest library in Latin America and the 7th largest in the world, its collections include about 9 million items.",
       "city" : "Rio Janeiro",
       "rank" : "72 ",
       "name" : "National Library (Biblioteca Nacional)",
@@ -5689,7 +5741,7 @@
     {
       "top_quote" : "Pay A Visit",
       "query_slug" : "Santa+Teresa+Janeiro",
-      "description" : "Santa Teresa is the name of a neighborhood in the city of Rio de Janeiro, Brazil. It is located on top of the Santa Teresa hill, by the centre of Rio, and is famous for its winding, narrow streets which are a favourite spot for artists and tourists. The neighborhood originated around the Santa Teresa Convent, built in the 1750s on the Desterro hill. At the end of the 19th and early 20th century it was an upper class borough, as testified by its magnificent mansions, many of which are still standing.",
+      "description" : "Santa Teresa is the name of a neighborhood in the city of Rio de Janeiro, Brazil. It is located on top of the Santa Teresa hill, by the centre of Rio, and is famous for its winding, narrow streets which are a favourite spot for artists and tourists.",
       "city" : "Rio Janeiro",
       "rank" : "78 ",
       "name" : "Santa Teresa",
@@ -5707,7 +5759,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Ilha+Fiscal+Janeiro",
-      "description" : "Ilha Fiscal is an island located within Guanabara Bay, bordering the historic city center of Rio de Janeiro, in Brazil. Originally named by Europeans as Ilha dos Ratos (Rat Island), its current name comes from the fact there have worked since the Guarda Fiscal, serving the port of the then capital of the Empire in the nineteenth century. The island became famous for having housed the famous Baile da Ilha Fiscal, the last big party of the Empire before the proclamation of the Republic in November 1889. It now houses a museum of cultural history that is maintained by the Navy of Brazil.",
+      "description" : "Ilha Fiscal is an island located within Guanabara Bay, bordering the historic city center of Rio de Janeiro, in Brazil. The island became famous for having housed the famous Baile da Ilha Fiscal, the last big party of the Empire before the proclamation of the Republic in November 1889.",
       "city" : "Rio Janeiro",
       "rank" : "80 ",
       "name" : "Ilha Fiscal",
@@ -5743,7 +5795,7 @@
     {
       "top_quote" : null,
       "query_slug" : "Feira+De+Sao+Cristovao+Janeiro",
-      "description" : "The Luiz Gonzaga Northeastern Traditions Center , also known as Fair St. Kitts , is a pavilion that promotes culture and trade in products Northeast . It is located in the city of Rio de Janeiro , in Brazil . It was created in honor of Luiz Gonzaga , the 'King of Baião'.The building, opened in 1962 , was built in the late 50s and designed to house the International Exhibition of Industry and Commerce under President Juscelino Kubitschek . The work was a project of the entrepreneur Joaquim Rolla .",
+      "description" : "The Luiz Gonzaga Northeastern Traditions Center, also known as Fair St. Kitts, is a pavilion that promotes culture and trade in products Northeast. It is located in the city of Rio de Janeiro, in Brazil. It was created in honor of Luiz Gonzaga, the 'King of Baião'.",
       "city" : "Rio Janeiro",
       "rank" : "84 ",
       "name" : "Feira De Sao Cristovao",
@@ -5795,7 +5847,8 @@
       "description" : "The Aerospace Museum - MUSAL is the largest and most important museum of aviation in Brazil located 25 km west of Rio de Janeiro.",
       "city" : "Rio Janeiro",
       "rank" : "91 ",
-      "name" : "Museu Aeroespacial"
+      "name" : "Museu Aeroespacial",
+      "photo_url": "https://farm2.staticflickr.com/1259/5115383927_924624b97d.jpg"
     },
     {
       "top_quote" : "A must see if visiting San Francis...",
