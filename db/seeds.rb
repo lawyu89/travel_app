@@ -74,7 +74,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Bangkok', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -88,7 +88,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Beirut', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -101,7 +101,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Budapest', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -114,7 +114,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Cape Town', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -127,7 +127,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Detroit', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -141,7 +141,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Florence', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -154,7 +154,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Istanbul', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -167,7 +167,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Krakow', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -180,7 +180,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Kyoto', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -193,7 +193,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Paris', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -206,7 +206,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Rio de Janeiro', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -219,7 +219,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' San Francisco', filters:  [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -232,7 +232,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Sydney', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
@@ -245,7 +245,7 @@ attractions.each_with_index do |attraction,index|
     if result.nil?
       image= BingSearch.image(attraction['name']+' Vienna', filters: [:square]).first
       if image.nil?
-        result = "ADD ME MOFO"
+        result = "ADD ME LATER"
       else
         result = image.media_url
       end
